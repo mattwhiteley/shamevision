@@ -4,7 +4,7 @@
   "totalRounds": 5,
   "currentRound": 3,
   "roundInProgress": true,
-  "updated_at": "2026-03-07T19:57:16",
+  "updated_at": "2026-03-07T20:18:48",
   "players": [
     {
       "id": "fBqy4lgUFARO",
@@ -57,8 +57,8 @@
           "round": 3,
           "opponent": "David Gaylard",
           "opponentFaction": "Space Marines (Astartes)",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 40,
+          "opponentScore": 69
         }
       ]
     },
@@ -85,8 +85,8 @@
           "round": 3,
           "opponent": "Danny Whitelaw",
           "opponentFaction": "Death Guard",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 59,
+          "opponentScore": 66
         }
       ]
     },
@@ -169,8 +169,8 @@
           "round": 3,
           "opponent": "Mat Williams",
           "opponentFaction": "Leagues of Votann",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 74,
+          "opponentScore": 35
         }
       ]
     },
@@ -393,8 +393,8 @@
           "round": 3,
           "opponent": "Alessandro Maceratesi",
           "opponentFaction": "Dark Angels",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 86,
+          "opponentScore": 72
         }
       ]
     },
@@ -477,8 +477,8 @@
           "round": 3,
           "opponent": "Marco Marinari",
           "opponentFaction": "Death Guard",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 75,
+          "opponentScore": 77
         }
       ]
     },
@@ -505,8 +505,8 @@
           "round": 3,
           "opponent": "Tomas Murphy",
           "opponentFaction": "Leagues of Votann",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 64,
+          "opponentScore": 44
         }
       ]
     }
