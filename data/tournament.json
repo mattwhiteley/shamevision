@@ -2,9 +2,9 @@
   "eventName": "UKTC Windsor Super-Major",
   "bcpUrl": "https://www.bestcoastpairings.com/event/AZFDANhFHJS6",
   "totalRounds": 5,
-  "currentRound": 3,
-  "roundInProgress": true,
-  "updated_at": "2026-03-07T20:18:48",
+  "currentRound": 4,
+  "roundInProgress": false,
+  "updated_at": "2026-03-07T21:47:26",
   "players": [
     {
       "id": "fBqy4lgUFARO",
@@ -31,6 +31,13 @@
           "opponentFaction": "Orks",
           "playerScore": 74,
           "opponentScore": 51
+        },
+        {
+          "round": 4,
+          "opponent": "Kian Tan",
+          "opponentFaction": "Adepta Sororitas",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -59,6 +66,13 @@
           "opponentFaction": "Space Marines (Astartes)",
           "playerScore": 40,
           "opponentScore": 69
+        },
+        {
+          "round": 4,
+          "opponent": "Robert Spencer",
+          "opponentFaction": "Orks",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -87,6 +101,13 @@
           "opponentFaction": "Death Guard",
           "playerScore": 59,
           "opponentScore": 66
+        },
+        {
+          "round": 4,
+          "opponent": "Stephen Heron",
+          "opponentFaction": "Necrons",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -115,6 +136,13 @@
           "opponentFaction": "Tyranids",
           "playerScore": 43,
           "opponentScore": 70
+        },
+        {
+          "round": 4,
+          "opponent": "Max Bouche",
+          "opponentFaction": "Adeptus Mechanicus",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -143,6 +171,13 @@
           "opponentFaction": "Aeldari",
           "playerScore": 78,
           "opponentScore": 61
+        },
+        {
+          "round": 4,
+          "opponent": "Tomas Murphy",
+          "opponentFaction": "Leagues of Votann",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -171,6 +206,13 @@
           "opponentFaction": "Leagues of Votann",
           "playerScore": 74,
           "opponentScore": 35
+        },
+        {
+          "round": 4,
+          "opponent": "Andrew Tebboth",
+          "opponentFaction": "Orks",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -199,6 +241,13 @@
           "opponentFaction": "T'au Empire",
           "playerScore": 44,
           "opponentScore": 96
+        },
+        {
+          "round": 4,
+          "opponent": "Mat Williams",
+          "opponentFaction": "Leagues of Votann",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -227,6 +276,13 @@
           "opponentFaction": "Chaos Knights",
           "playerScore": 81,
           "opponentScore": 53
+        },
+        {
+          "round": 4,
+          "opponent": "Shaun Taylor",
+          "opponentFaction": "Dark Angels",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -255,6 +311,13 @@
           "opponentFaction": "Dark Angels",
           "playerScore": 81,
           "opponentScore": 54
+        },
+        {
+          "round": 4,
+          "opponent": "Nora Tinfou",
+          "opponentFaction": "Adepta Sororitas",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -283,6 +346,13 @@
           "opponentFaction": "Aeldari",
           "playerScore": 39,
           "opponentScore": 83
+        },
+        {
+          "round": 4,
+          "opponent": "Simon Warren",
+          "opponentFaction": "Genestealer Cult",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -311,6 +381,13 @@
           "opponentFaction": "Orks",
           "playerScore": 98,
           "opponentScore": 33
+        },
+        {
+          "round": 4,
+          "opponent": "Daniel Ainsworth",
+          "opponentFaction": "Necrons",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -339,6 +416,13 @@
           "opponentFaction": "Emperor's Children",
           "playerScore": 90,
           "opponentScore": 54
+        },
+        {
+          "round": 4,
+          "opponent": "Jack Turner",
+          "opponentFaction": "Thousand Sons",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -367,6 +451,13 @@
           "opponentFaction": "Blood Angels",
           "playerScore": 51,
           "opponentScore": 76
+        },
+        {
+          "round": 4,
+          "opponent": "Phil GC",
+          "opponentFaction": "Drukhari",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -395,6 +486,13 @@
           "opponentFaction": "Dark Angels",
           "playerScore": 86,
           "opponentScore": 72
+        },
+        {
+          "round": 4,
+          "opponent": "Ross McKenzie",
+          "opponentFaction": "Chaos Daemons",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -423,6 +521,13 @@
           "opponentFaction": "Death Guard",
           "playerScore": 70,
           "opponentScore": 50
+        },
+        {
+          "round": 4,
+          "opponent": "Ashley Dunnicliffe",
+          "opponentFaction": "Chaos Daemons",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -451,6 +556,13 @@
           "opponentFaction": "Space Marines (Astartes)",
           "playerScore": 27,
           "opponentScore": 100
+        },
+        {
+          "round": 4,
+          "opponent": "Alexander Duxbury",
+          "opponentFaction": "Dark Angels",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -479,6 +591,13 @@
           "opponentFaction": "Death Guard",
           "playerScore": 75,
           "opponentScore": 77
+        },
+        {
+          "round": 4,
+          "opponent": "Giovanni Malena",
+          "opponentFaction": "Grey Knights",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -507,6 +626,13 @@
           "opponentFaction": "Leagues of Votann",
           "playerScore": 64,
           "opponentScore": 44
+        },
+        {
+          "round": 4,
+          "opponent": "Liam Callebout",
+          "opponentFaction": "Dark Angels",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     }
