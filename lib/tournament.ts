@@ -1,9 +1,4 @@
 import type { Player, PlayerStats, RoundOutcome, TournamentData } from "@/types/tournament";
-import rawData from "@/data/tournament.json";
-
-export function getTournamentData(): TournamentData {
-  return rawData as TournamentData;
-}
 
 export function getOutcome(
   playerScore: number | null,
