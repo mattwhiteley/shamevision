@@ -4,7 +4,7 @@
   "totalRounds": 5,
   "currentRound": 1,
   "roundInProgress": true,
-  "updated_at": "2026-03-07T11:46:09",
+  "updated_at": "2026-03-07T12:15:47",
   "players": [
     {
       "id": "fBqy4lgUFARO",
@@ -15,8 +15,8 @@
           "round": 1,
           "opponent": "Callum Watts",
           "opponentFaction": "Space Marines (Astartes)",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 83,
+          "opponentScore": 71
         }
       ]
     },
@@ -43,8 +43,8 @@
           "round": 1,
           "opponent": "Ali Hodkin",
           "opponentFaction": "World Eaters",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 89,
+          "opponentScore": 90
         }
       ]
     },
@@ -57,8 +57,8 @@
           "round": 1,
           "opponent": "Stephen Carmichael-Wilson",
           "opponentFaction": "Chaos Daemons",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 59,
+          "opponentScore": 88
         }
       ]
     },
@@ -71,8 +71,8 @@
           "round": 1,
           "opponent": "Charles Holland",
           "opponentFaction": "World Eaters",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 49,
+          "opponentScore": 92
         }
       ]
     },
@@ -99,8 +99,8 @@
           "round": 1,
           "opponent": "Phil GC",
           "opponentFaction": "Drukhari",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 91,
+          "opponentScore": 67
         }
       ]
     },
@@ -155,8 +155,8 @@
           "round": 1,
           "opponent": "Daniel Bolton",
           "opponentFaction": "Blood Angels",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 97,
+          "opponentScore": 44
         }
       ]
     },
@@ -183,8 +183,8 @@
           "round": 1,
           "opponent": "Alexander Wall",
           "opponentFaction": "Adeptus Custodes",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 100,
+          "opponentScore": 32
         }
       ]
     },
@@ -239,8 +239,8 @@
           "round": 1,
           "opponent": "Kaashif Hymabaccus",
           "opponentFaction": "Necrons",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 53,
+          "opponentScore": 78
         }
       ]
     },
