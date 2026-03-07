@@ -246,9 +246,11 @@ def build_tournament_json(schedule: dict, all_rounds_data: dict[int, list], roun
             p1 = pairing.get("player1") or {}
             p2 = pairing.get("player2") or {}
 
-            # Scores — BCP uses player1Score/player2Score once entered
-            p1_score = to_score(pairing.get("player1Score"))
-            p2_score = to_score(pairing.get("player2Score"))
+            # Scores — BCP uses player1Game.points / player2Game.points
+            p1_game  = pairing.get("player1Game") or {}
+            p2_game  = pairing.get("player2Game") or {}
+            p1_score = to_score(p1_game.get("points"))
+            p2_score = to_score(p2_game.get("points"))
 
             for my_side, their_side, my_score, their_score in [
                 (p1, p2, p1_score, p2_score),
