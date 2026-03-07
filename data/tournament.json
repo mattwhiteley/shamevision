@@ -4,7 +4,7 @@
   "totalRounds": 5,
   "currentRound": 3,
   "roundInProgress": true,
-  "updated_at": "2026-03-07T19:21:46",
+  "updated_at": "2026-03-07T19:39:36",
   "players": [
     {
       "id": "fBqy4lgUFARO",
@@ -29,8 +29,8 @@
           "round": 3,
           "opponent": "Ryan Wiggam",
           "opponentFaction": "Orks",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 74,
+          "opponentScore": 51
         }
       ]
     },
@@ -197,8 +197,8 @@
           "round": 3,
           "opponent": "Ross Tully",
           "opponentFaction": "T'au Empire",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 44,
+          "opponentScore": 96
         }
       ]
     },
@@ -225,8 +225,8 @@
           "round": 3,
           "opponent": "Ben Raven",
           "opponentFaction": "Chaos Knights",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 81,
+          "opponentScore": 53
         }
       ]
     },
@@ -253,8 +253,8 @@
           "round": 3,
           "opponent": "Charles Dorling",
           "opponentFaction": "Dark Angels",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 81,
+          "opponentScore": 54
         }
       ]
     },
@@ -309,8 +309,8 @@
           "round": 3,
           "opponent": "Richard Gaskell",
           "opponentFaction": "Orks",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 98,
+          "opponentScore": 33
         }
       ]
     },
@@ -337,8 +337,8 @@
           "round": 3,
           "opponent": "Tom Newton",
           "opponentFaction": "Emperor's Children",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 90,
+          "opponentScore": 54
         }
       ]
     },
@@ -421,8 +421,8 @@
           "round": 3,
           "opponent": "Bill Boulton",
           "opponentFaction": "Death Guard",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 70,
+          "opponentScore": 50
         }
       ]
     },
