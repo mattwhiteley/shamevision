@@ -76,7 +76,7 @@ BCP_HEADERS = {
 # Scheduling constants
 # ---------------------------------------------------------------------------
 
-EARLY_OPEN_MINS   = 150   # T+2h30m  start of scraping window
+EARLY_OPEN_MINS   = 120   # T+2h30m  start of scraping window
 LATE_START_MINS   = 170   # T+2h50m  switch to faster cadence
 WINDOW_CLOSE_MINS = 190   # T+3h10m  end of scraping window
 
