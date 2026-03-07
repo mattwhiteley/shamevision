@@ -4,7 +4,7 @@
   "totalRounds": 5,
   "currentRound": 2,
   "roundInProgress": true,
-  "updated_at": "2026-03-07T16:15:05",
+  "updated_at": "2026-03-07T16:44:38",
   "players": [
     {
       "id": "fBqy4lgUFARO",
@@ -43,8 +43,8 @@
           "round": 2,
           "opponent": "Daniel Ainsworth",
           "opponentFaction": "Necrons",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 92,
+          "opponentScore": 81
         }
       ]
     },
@@ -148,8 +148,8 @@
           "round": 2,
           "opponent": "Freddie Robinson",
           "opponentFaction": "Space Marines (Astartes)",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 61,
+          "opponentScore": 100
         }
       ]
     },
@@ -190,8 +190,8 @@
           "round": 2,
           "opponent": "Alex Nicolic",
           "opponentFaction": "Death Guard",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 82,
+          "opponentScore": 94
         }
       ]
     },
@@ -274,8 +274,8 @@
           "round": 2,
           "opponent": "James Hobbs",
           "opponentFaction": "T'au Empire",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 50,
+          "opponentScore": 98
         }
       ]
     },
@@ -358,8 +358,8 @@
           "round": 2,
           "opponent": "Kerry Vear-Smyth",
           "opponentFaction": "Adeptus Custodes",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 95,
+          "opponentScore": 63
         }
       ]
     },
