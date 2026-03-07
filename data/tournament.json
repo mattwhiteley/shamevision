@@ -4,7 +4,7 @@
   "totalRounds": 5,
   "currentRound": 1,
   "roundInProgress": true,
-  "updated_at": "2026-03-07T11:39:18",
+  "updated_at": "2026-03-07T11:46:09",
   "players": [
     {
       "id": "fBqy4lgUFARO",
@@ -113,8 +113,8 @@
           "round": 1,
           "opponent": "Daniel Summons",
           "opponentFaction": "Dark Angels",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 92,
+          "opponentScore": 23
         }
       ]
     },
@@ -225,8 +225,8 @@
           "round": 1,
           "opponent": "Byron 🔥🎲 Sidhu",
           "opponentFaction": "Chaos Daemons",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 58,
+          "opponentScore": 100
         }
       ]
     },
