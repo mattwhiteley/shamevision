@@ -4,7 +4,7 @@
   "totalRounds": 5,
   "currentRound": 1,
   "roundInProgress": true,
-  "updated_at": "2026-03-07T12:15:47",
+  "updated_at": "2026-03-07T12:31:49",
   "players": [
     {
       "id": "fBqy4lgUFARO",
@@ -29,8 +29,8 @@
           "round": 1,
           "opponent": "Mark Main",
           "opponentFaction": "Chaos Space Marines",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 100,
+          "opponentScore": 62
         }
       ]
     },
@@ -127,8 +127,8 @@
           "round": 1,
           "opponent": "Josh Gates",
           "opponentFaction": "T'au Empire",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 93,
+          "opponentScore": 58
         }
       ]
     },
@@ -141,8 +141,8 @@
           "round": 1,
           "opponent": "Nick Hooper",
           "opponentFaction": "Astra Militarum",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 86,
+          "opponentScore": 54
         }
       ]
     },
@@ -197,8 +197,8 @@
           "round": 1,
           "opponent": "Charles Norman",
           "opponentFaction": "T'au Empire",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 33,
+          "opponentScore": 89
         }
       ]
     },
@@ -211,8 +211,8 @@
           "round": 1,
           "opponent": "Jarrad Evans",
           "opponentFaction": "Necrons",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 86,
+          "opponentScore": 90
         }
       ]
     },
