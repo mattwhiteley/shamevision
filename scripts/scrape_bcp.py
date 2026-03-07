@@ -16,14 +16,14 @@ Response shape: { "active": [ ...pairing objects... ] }
 
 Smart scheduling
 ----------------
-GitHub Actions runs this every 2 minutes, but the script checks the current
+GitHub Actions runs this every 5 minutes, but the script checks the current
 time against schedule.json and exits immediately (code 0) if outside an
 active window — so it's a no-op most of the day.
 
 Per-round scraping windows (relative to round start time):
   T+2h30m → T+2h50m   run if ≥5 mins since last scrape
   T+2h50m → T+3h10m   run if ≥2 mins since last scrape
-  Outside these        exit immediately, do nothing
+  Outside these        check for new round, otherwise exit
 
 Usage:
     python scripts/scrape_bcp.py           # normal mode (respects schedule)
@@ -76,9 +76,9 @@ BCP_HEADERS = {
 # Scheduling constants
 # ---------------------------------------------------------------------------
 
-EARLY_OPEN_MINS  = 150   # T+2h30m  start of scraping window
-LATE_START_MINS  = 170   # T+2h50m  switch to faster cadence
-WINDOW_CLOSE_MINS = 190  # T+3h10m  end of scraping window
+EARLY_OPEN_MINS   = 150   # T+2h30m  start of scraping window
+LATE_START_MINS   = 170   # T+2h50m  switch to faster cadence
+WINDOW_CLOSE_MINS = 190   # T+3h10m  end of scraping window
 
 EARLY_CADENCE_MINS = 5
 LATE_CADENCE_MINS  = 2
@@ -111,19 +111,16 @@ def names_match(bcp_first: str, bcp_last: str, tracked_name: str) -> bool:
       - Emojis / decorations in BCP names (e.g. 'Byron 🔥🎲 Sidhu')
     """
     import re
-    # Strip emoji and non-alpha characters from BCP name for comparison
     def clean(s: str) -> str:
         s = re.sub(r"[^\w\s]", "", s, flags=re.UNICODE)
         return normalise_name(s)
 
-    bcp_full  = clean(f"{bcp_first} {bcp_last}")
-    tracked   = clean(tracked_name)
+    bcp_full = clean(f"{bcp_first} {bcp_last}")
+    tracked  = clean(tracked_name)
 
-    # Direct full-name match
     if tracked == bcp_full:
         return True
 
-    # Tracked name is first + just initial of last (e.g. "Harvey R")
     parts = tracked.split()
     if len(parts) == 2 and len(parts[1]) == 1:
         if clean(bcp_first) == parts[0] and clean(bcp_last).startswith(parts[1]):
@@ -133,17 +130,13 @@ def names_match(bcp_first: str, bcp_last: str, tracked_name: str) -> bool:
 
 
 def is_tracked(player_data: dict, tracked_names: list[str]) -> bool:
-    user = player_data.get("user", {})
+    user  = player_data.get("user", {})
     first = user.get("firstName", "")
     last  = user.get("lastName", "")
     return any(names_match(first, last, t) for t in tracked_names)
 
 
 def display_name(player_data: dict, tracked_names: list[str]) -> str:
-    """
-    Returns the name as it appears in tracked_players list (preserving
-    the human-chosen spelling), falling back to BCP's name if not tracked.
-    """
     user  = player_data.get("user", {})
     first = user.get("firstName", "")
     last  = user.get("lastName", "")
@@ -151,6 +144,17 @@ def display_name(player_data: dict, tracked_names: list[str]) -> str:
         if names_match(first, last, t):
             return t
     return f"{first} {last}".strip()
+
+
+def get_current_round_from_file(output_path: Path) -> int | None:
+    """Returns the currentRound from the existing tournament.json, or None if unavailable."""
+    if not output_path.exists():
+        return None
+    try:
+        data = json.loads(output_path.read_text(encoding="utf-8"))
+        return int(data.get("currentRound", 1))
+    except Exception:
+        return None
 
 
 def get_active_window(schedule: dict) -> tuple[bool, int | None, int]:
@@ -227,18 +231,14 @@ def to_score(value) -> int | None:
 def build_tournament_json(schedule: dict, all_rounds_data: dict[int, list], round_in_progress: bool) -> dict:
     """
     Builds the full tournament.json structure from raw BCP pairing data.
-
     Only includes players whose names appear in tracked_players.
-    Non-tracked opponents are shown by name only (for context in the UI).
     """
     tracked_names = schedule["tracked_players"]
     total_rounds  = schedule["total_rounds"]
 
-    # Determine which rounds have been published (have at least one pairing)
     published_rounds = sorted(all_rounds_data.keys())
     current_round    = max(published_rounds) if published_rounds else 1
 
-    # player_id (BCP participant id) → accumulated data
     players: dict[str, dict] = {}
 
     for round_num, pairings in all_rounds_data.items():
@@ -275,7 +275,6 @@ def build_tournament_json(schedule: dict, all_rounds_data: dict[int, list], roun
                 elif not players[pid]["faction"] and fac:
                     players[pid]["faction"] = fac
 
-                # Opponent — may not be tracked, just show their name
                 if their_side:
                     opp_name    = full_name_from_player(their_side)
                     opp_faction = faction_from_player(their_side)
@@ -291,7 +290,6 @@ def build_tournament_json(schedule: dict, all_rounds_data: dict[int, list], roun
                     "opponentScore":   their_score,
                 }
 
-    # Serialise — sort rounds into lists, sort players by name
     player_list = []
     for p in sorted(players.values(), key=lambda x: x["name"]):
         player_list.append({
@@ -324,12 +322,29 @@ def main():
     parser.add_argument("--dry-run", action="store_true", help="Print JSON, don't write")
     args = parser.parse_args()
 
-    schedule = load_schedule()
-    tz       = ZoneInfo(schedule["timezone"])
+    schedule     = load_schedule()
+    tz           = ZoneInfo(schedule["timezone"])
+    event_id     = schedule["event_id"]
+    total_rounds = schedule["total_rounds"]
 
     # ── Time-window check ──────────────────────────────────────────────────
     if not args.force:
         in_window, active_round, cadence = get_active_window(schedule)
+
+        # Check if a new round has been published since our last scrape
+        known_round = get_current_round_from_file(OUTPUT_PATH)
+        if known_round is not None and known_round < total_rounds:
+            print(f"  Quick-checking BCP for new round (currently at round {known_round})...", end=" ", flush=True)
+            try:
+                next_pairings = fetch_round(event_id, known_round + 1)
+                if next_pairings:
+                    print(f"🆕 Round {known_round + 1} published! Running scraper.")
+                    in_window = True
+                    cadence   = 0
+                else:
+                    print("no new round yet.")
+            except Exception as e:
+                print(f"check failed ({e}), falling back to time window.")
 
         if not in_window:
             print("💤 Outside all scraping windows — exiting.")
@@ -337,19 +352,15 @@ def main():
 
         mins_ago = minutes_since_last_update(OUTPUT_PATH, tz)
         if mins_ago is not None and mins_ago < cadence:
-            print(
-                f"⏭  Last scraped {mins_ago:.1f}m ago "
-                f"(cadence: every {cadence}m) — exiting."
-            )
+            print(f"⏭  Last scraped {mins_ago:.1f}m ago (cadence: every {cadence}m) — exiting.")
             sys.exit(0)
 
-        print(f"🔍 Active window: round {active_round}, cadence={cadence}m")
+        if in_window and active_round:
+            print(f"🔍 Active window: round {active_round}, cadence={cadence}m")
     else:
         print("⚡ --force: skipping time-window check")
 
     # ── Fetch all published rounds ─────────────────────────────────────────
-    event_id     = schedule["event_id"]
-    total_rounds = schedule["total_rounds"]
     all_rounds: dict[int, list] = {}
 
     for r in range(1, total_rounds + 1):
@@ -361,7 +372,7 @@ def main():
                 print(f"{len(pairings)} pairings")
             else:
                 print("no data (round not yet published)")
-                break   # rounds are sequential — stop at first unpublished
+                break
         except requests.HTTPError as e:
             print(f"HTTP {e.response.status_code} — stopping")
             break
