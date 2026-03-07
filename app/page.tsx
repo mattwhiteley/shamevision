@@ -77,7 +77,7 @@ export default function Home() {
             </strong>
           </span>
           <span className="status-bar__count">{players.length} players</span>
-          <span className="status-bar__refresh">Checks for scores every 2min</span>
+          <span className="status-bar__refresh">Checks for scores every 5min</span>
         </div>
       </div>
 
