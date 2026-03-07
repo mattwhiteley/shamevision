@@ -59,11 +59,6 @@ jobs:
             echo "No changes to tournament.json — nothing to commit."
           else
             git add data/tournament.json
-            # Stash the staged change, pull latest, then reapply and push
-            git stash
-            git pull --rebase origin main
-            git stash pop
-            git add data/tournament.json
             git commit -m "chore: update tournament data [skip ci]"
-            git push origin main
+            git push --force-with-lease origin main
           fi
