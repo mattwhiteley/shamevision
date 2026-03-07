@@ -4,7 +4,7 @@
   "totalRounds": 5,
   "currentRound": 3,
   "roundInProgress": true,
-  "updated_at": "2026-03-07T19:39:36",
+  "updated_at": "2026-03-07T19:50:08",
   "players": [
     {
       "id": "fBqy4lgUFARO",
@@ -281,8 +281,8 @@
           "round": 3,
           "opponent": "Peter Herbild",
           "opponentFaction": "Aeldari",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 39,
+          "opponentScore": 83
         }
       ]
     },
@@ -365,8 +365,8 @@
           "round": 3,
           "opponent": "Christopher Lugar",
           "opponentFaction": "Blood Angels",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 51,
+          "opponentScore": 76
         }
       ]
     },
