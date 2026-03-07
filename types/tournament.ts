@@ -19,6 +19,8 @@ export type TournamentData = {
   bcpUrl: string;
   totalRounds: number;
   currentRound: number;
+  /** True when the current round is actively being played (within the time window) */
+  roundInProgress: boolean;
   /** ISO 8601 datetime string, e.g. "2026-03-07T14:35:00" */
   updated_at: string;
   players: Player[];
@@ -30,6 +32,7 @@ export type RoundOutcome =
   | "draw"
   | "bye"
   | "in_progress"
+  | "upcoming"
   | "pending";
 
 export type PlayerStats = {

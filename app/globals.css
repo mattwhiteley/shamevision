@@ -374,6 +374,7 @@ body {
 .round-pip--draw   .round-pip__icon { background: var(--draw-bg); border-color: #e0c87a; color: var(--draw); }
 .round-pip--bye    .round-pip__icon { background: var(--bye-bg);  border-color: #b0c8f0; color: var(--bye);  }
 .round-pip--in_progress .round-pip__icon { background: var(--live-bg); border-color: #a0c0e8; color: var(--live); }
+.round-pip--upcoming    .round-pip__icon { background: #fff8f0;       border-color: #ffc080; color: #ff6200;   }
 .round-pip--pending     .round-pip__icon { background: var(--surface-2); border-color: var(--border); color: var(--text-3); }
 
 /* Spinner */

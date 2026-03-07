@@ -9,11 +9,13 @@ export function getOutcome(
   playerScore: number | null,
   opponentScore: number | null,
   opponent: string,
-  isCurrentRound: boolean
+  isCurrentRound: boolean,
+  roundInProgress: boolean = true,
 ): RoundOutcome {
   if (opponent === "BYE") return "bye";
   if (playerScore === null || opponentScore === null) {
-    return isCurrentRound ? "in_progress" : "pending";
+    if (!isCurrentRound) return "pending";
+    return roundInProgress ? "in_progress" : "upcoming";
   }
   if (playerScore > opponentScore) return "win";
   if (playerScore < opponentScore) return "loss";
@@ -22,7 +24,8 @@ export function getOutcome(
 
 export function computePlayerStats(
   player: Player,
-  currentRound: number
+  currentRound: number,
+  roundInProgress: boolean,
 ): PlayerStats {
   let wins = 0;
   let losses = 0;
@@ -34,7 +37,8 @@ export function computePlayerStats(
       round.playerScore,
       round.opponentScore,
       round.opponent,
-      round.round === currentRound
+      round.round === currentRound,
+      roundInProgress,
     );
     outcomes.push(outcome);
     if (outcome === "win" || outcome === "bye") wins++;
@@ -50,7 +54,7 @@ export function computePlayerStats(
 
 export function getSortedPlayers(data: TournamentData): PlayerStats[] {
   return data.players
-    .map((p) => computePlayerStats(p, data.currentRound))
+    .map((p) => computePlayerStats(p, data.currentRound, data.roundInProgress))
     .sort((a, b) => {
       if (b.wins !== a.wins) return b.wins - a.wins;
       if (b.draws !== a.draws) return b.draws - a.draws;

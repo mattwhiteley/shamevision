@@ -8,7 +8,7 @@ type Props = {
   stats: PlayerStats;
   currentRound: number;
   totalRounds: number;
-  rank: number;
+  roundInProgress: boolean;
 };
 
 const OUTCOME_ICONS: Record<RoundOutcome, React.ReactNode> = {
@@ -38,6 +38,12 @@ const OUTCOME_ICONS: Record<RoundOutcome, React.ReactNode> = {
       <circle cx="8" cy="8" r="5.5" stroke="currentColor" strokeWidth="1.75" strokeDasharray="9 6" strokeLinecap="round" />
     </svg>
   ),
+  upcoming: (
+    <svg viewBox="0 0 16 16" fill="none" width="13" height="13">
+      <circle cx="8" cy="8" r="5.5" stroke="currentColor" strokeWidth="1.5" />
+      <path d="M8 5v3.5l2.5 1.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  ),
   pending: (
     <span style={{ fontSize: "10px", lineHeight: 1 }}>·</span>
   ),
@@ -49,6 +55,7 @@ const OUTCOME_LABELS: Record<RoundOutcome, string> = {
   draw: "Draw",
   bye: "Bye",
   in_progress: "Live",
+  upcoming: "Soon",
   pending: "—",
 };
 
@@ -71,7 +78,7 @@ export default function PlayerCard({
   stats,
   currentRound,
   totalRounds,
-  rank,
+  roundInProgress,
 }: Props) {
   const [expanded, setExpanded] = useState(false);
   const { player, wins, losses, draws, currentRoundData } = stats;
@@ -80,7 +87,7 @@ export default function PlayerCard({
 
   return (
     <div
-      className={`card${rank <= 3 ? " card--podium" : ""}${expanded ? " card--expanded" : ""}`}
+      className={`card${wins >= 2 ? " card--podium" : ""}${expanded ? " card--expanded" : ""}`}
       onClick={() => setExpanded((v) => !v)}
       role="button"
       tabIndex={0}
@@ -115,7 +122,7 @@ export default function PlayerCard({
           const rNum = i + 1;
           const rd = player.rounds.find((r) => r.round === rNum);
           const outcome: RoundOutcome = rd
-            ? getOutcome(rd.playerScore, rd.opponentScore, rd.opponent, rNum === currentRound)
+            ? getOutcome(rd.playerScore, rd.opponentScore, rd.opponent, rNum === currentRound, roundInProgress)
             : "pending";
           return <RoundPip key={rNum} roundNum={rNum} outcome={outcome} />;
         })}
@@ -154,7 +161,8 @@ export default function PlayerCard({
                 rd.playerScore,
                 rd.opponentScore,
                 rd.opponent,
-                rd.round === currentRound
+                rd.round === currentRound,
+                roundInProgress,
               );
               const resolved =
                 rd.playerScore !== null && rd.opponentScore !== null;

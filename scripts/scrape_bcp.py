@@ -224,7 +224,7 @@ def to_score(value) -> int | None:
         return None
 
 
-def build_tournament_json(schedule: dict, all_rounds_data: dict[int, list]) -> dict:
+def build_tournament_json(schedule: dict, all_rounds_data: dict[int, list], round_in_progress: bool) -> dict:
     """
     Builds the full tournament.json structure from raw BCP pairing data.
 
@@ -302,12 +302,13 @@ def build_tournament_json(schedule: dict, all_rounds_data: dict[int, list]) -> d
     now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S")
 
     return {
-        "eventName":    schedule["event_name"],
-        "bcpUrl":       schedule["bcp_url"],
-        "totalRounds":  total_rounds,
-        "currentRound": current_round,
-        "updated_at":   now_utc,
-        "players":      player_list,
+        "eventName":       schedule["event_name"],
+        "bcpUrl":          schedule["bcp_url"],
+        "totalRounds":     total_rounds,
+        "currentRound":    current_round,
+        "roundInProgress": round_in_progress,
+        "updated_at":      now_utc,
+        "players":         player_list,
     }
 
 
@@ -370,8 +371,12 @@ def main():
         print("❌ No pairing data retrieved — exiting without changes.")
         sys.exit(1)
 
+    # ── Determine if current round is actively in progress ────────────────
+    in_window, _, _ = get_active_window(schedule)
+    round_in_progress = in_window or args.force
+
     # ── Build JSON ─────────────────────────────────────────────────────────
-    result = build_tournament_json(schedule, all_rounds)
+    result = build_tournament_json(schedule, all_rounds, round_in_progress)
 
     tracked_found = len(result["players"])
     expected      = len(schedule["tracked_players"])

@@ -73,13 +73,13 @@ export default function Home() {
       {/* ── Cards ── */}
       <main className="main">
         <div className="grid">
-          {players.map((stats, i) => (
+          {players.map((stats) => (
             <PlayerCard
               key={stats.player.id}
               stats={stats}
               currentRound={data.currentRound}
               totalRounds={data.totalRounds}
-              rank={i + 1}
+              roundInProgress={data.roundInProgress}
             />
           ))}
         </div>
