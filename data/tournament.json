@@ -4,7 +4,7 @@
   "totalRounds": 5,
   "currentRound": 2,
   "roundInProgress": true,
-  "updated_at": "2026-03-07T13:43:09",
+  "updated_at": "2026-03-07T16:06:29",
   "players": [
     {
       "id": "fBqy4lgUFARO",
@@ -64,8 +64,8 @@
           "round": 2,
           "opponent": "Bill Boulton",
           "opponentFaction": "Death Guard",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 98,
+          "opponentScore": 52
         }
       ]
     },
@@ -85,8 +85,8 @@
           "round": 2,
           "opponent": "Paulie Wallis",
           "opponentFaction": "Drukhari",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 66,
+          "opponentScore": 100
         }
       ]
     },
@@ -127,8 +127,8 @@
           "round": 2,
           "opponent": "James Wilson",
           "opponentFaction": "Death Guard",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 87,
+          "opponentScore": 90
         }
       ]
     },
@@ -169,8 +169,8 @@
           "round": 2,
           "opponent": "Charles Holland",
           "opponentFaction": "World Eaters",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 40,
+          "opponentScore": 98
         }
       ]
     },
@@ -253,8 +253,8 @@
           "round": 2,
           "opponent": "David Tobin",
           "opponentFaction": "Space Wolves",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 99,
+          "opponentScore": 46
         }
       ]
     },
@@ -316,8 +316,8 @@
           "round": 2,
           "opponent": "Dean L",
           "opponentFaction": "Emperor's Children",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 83,
+          "opponentScore": 93
         }
       ]
     },
@@ -337,8 +337,8 @@
           "round": 2,
           "opponent": "Eleonora Marinari",
           "opponentFaction": "Thousand Sons",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 100,
+          "opponentScore": 68
         }
       ]
     },
