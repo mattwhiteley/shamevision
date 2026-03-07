@@ -1,24 +1,35 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { getTournamentData, getSortedPlayers } from "@/lib/tournament";
+import { getSortedPlayers } from "@/lib/tournament";
 import type { PlayerStats, TournamentData } from "@/types/tournament";
 import PlayerCard from "@/components/PlayerCard";
 
 const REFRESH_MS = 60_000;
+const DATA_URL = "https://raw.githubusercontent.com/mattwhiteley/shamevision/main/data/tournament.json";
 
 export default function Home() {
-  const [data] = useState<TournamentData>(getTournamentData);
+  const [data, setData] = useState<TournamentData | null>(null);
   const [players, setPlayers] = useState<PlayerStats[]>([]);
 
-  useEffect(() => {
-    setPlayers(getSortedPlayers(data));
-  }, [data]);
+  async function fetchData() {
+    try {
+      const res = await fetch(DATA_URL + "?t=" + Date.now());
+      const json: TournamentData = await res.json();
+      setData(json);
+      setPlayers(getSortedPlayers(json));
+    } catch (e) {
+      console.error("Failed to fetch tournament data", e);
+    }
+  }
 
   useEffect(() => {
-    const t = setTimeout(() => window.location.reload(), REFRESH_MS);
-    return () => clearTimeout(t);
+    fetchData();
+    const t = setInterval(fetchData, REFRESH_MS);
+    return () => clearInterval(t);
   }, []);
+
+  if (!data) return <div className="page" style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "100vh", color: "var(--text-2)" }}>Loading…</div>;
 
   return (
     <div className="page">
