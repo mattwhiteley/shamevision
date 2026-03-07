@@ -1,538 +1,258 @@
 {
-  "eventName": "ShameVision GT 2026",
-  "bcpUrl": "https://www.bestcoastpairings.com/event/YOUR_EVENT_ID",
+  "eventName": "UKTC Windsor Super-Major",
+  "bcpUrl": "https://www.bestcoastpairings.com/event/AZFDANhFHJS6",
   "totalRounds": 5,
-  "currentRound": 3,
-  "roundInProgress": false,
-  "updated_at": "2026-03-07T14:35:00",
+  "currentRound": 1,
+  "roundInProgress": true,
+  "updated_at": "2026-03-07T02:06:42",
   "players": [
     {
-      "id": "1",
-      "name": "Alice Shephard",
-      "faction": "Space Marines",
-      "rounds": [
-        {
-          "round": 1,
-          "opponent": "Bob Krane",
-          "opponentFaction": "Orks",
-          "playerScore": 87,
-          "opponentScore": 45
-        },
-        {
-          "round": 2,
-          "opponent": "Carol Price",
-          "opponentFaction": "Necrons",
-          "playerScore": 55,
-          "opponentScore": 72
-        },
-        {
-          "round": 3,
-          "opponent": "Dave Okon",
-          "opponentFaction": "Chaos Space Marines",
-          "playerScore": null,
-          "opponentScore": null
-        }
-      ]
-    },
-    {
-      "id": "2",
-      "name": "Bob Krane",
-      "faction": "Orks",
-      "rounds": [
-        {
-          "round": 1,
-          "opponent": "Alice Shephard",
-          "opponentFaction": "Space Marines",
-          "playerScore": 45,
-          "opponentScore": 87
-        },
-        {
-          "round": 2,
-          "opponent": "Dave Okon",
-          "opponentFaction": "Chaos Space Marines",
-          "playerScore": 91,
-          "opponentScore": 60
-        },
-        {
-          "round": 3,
-          "opponent": "Fiona Greer",
-          "opponentFaction": "Aeldari",
-          "playerScore": null,
-          "opponentScore": null
-        }
-      ]
-    },
-    {
-      "id": "3",
-      "name": "Carol Price",
-      "faction": "Necrons",
-      "rounds": [
-        {
-          "round": 1,
-          "opponent": "Eve Marsh",
-          "opponentFaction": "T'au Empire",
-          "playerScore": 78,
-          "opponentScore": 78
-        },
-        {
-          "round": 2,
-          "opponent": "Alice Shephard",
-          "opponentFaction": "Space Marines",
-          "playerScore": 72,
-          "opponentScore": 55
-        },
-        {
-          "round": 3,
-          "opponent": "Hank Lau",
-          "opponentFaction": "Imperial Guard",
-          "playerScore": null,
-          "opponentScore": null
-        }
-      ]
-    },
-    {
-      "id": "4",
-      "name": "Dave Okon",
-      "faction": "Chaos Space Marines",
-      "rounds": [
-        {
-          "round": 1,
-          "opponent": "Fiona Greer",
-          "opponentFaction": "Aeldari",
-          "playerScore": 65,
-          "opponentScore": 82
-        },
-        {
-          "round": 2,
-          "opponent": "Bob Krane",
-          "opponentFaction": "Orks",
-          "playerScore": 60,
-          "opponentScore": 91
-        },
-        {
-          "round": 3,
-          "opponent": "Alice Shephard",
-          "opponentFaction": "Space Marines",
-          "playerScore": null,
-          "opponentScore": null
-        }
-      ]
-    },
-    {
-      "id": "5",
-      "name": "Eve Marsh",
-      "faction": "T'au Empire",
-      "rounds": [
-        {
-          "round": 1,
-          "opponent": "Carol Price",
-          "opponentFaction": "Necrons",
-          "playerScore": 78,
-          "opponentScore": 78
-        },
-        {
-          "round": 2,
-          "opponent": "Hank Lau",
-          "opponentFaction": "Imperial Guard",
-          "playerScore": 88,
-          "opponentScore": 40
-        },
-        {
-          "round": 3,
-          "opponent": "Ivan Rook",
-          "opponentFaction": "Death Guard",
-          "playerScore": null,
-          "opponentScore": null
-        }
-      ]
-    },
-    {
-      "id": "6",
-      "name": "Fiona Greer",
-      "faction": "Aeldari",
-      "rounds": [
-        {
-          "round": 1,
-          "opponent": "Dave Okon",
-          "opponentFaction": "Chaos Space Marines",
-          "playerScore": 82,
-          "opponentScore": 65
-        },
-        {
-          "round": 2,
-          "opponent": "Ivan Rook",
-          "opponentFaction": "Death Guard",
-          "playerScore": 77,
-          "opponentScore": 55
-        },
-        {
-          "round": 3,
-          "opponent": "Bob Krane",
-          "opponentFaction": "Orks",
-          "playerScore": null,
-          "opponentScore": null
-        }
-      ]
-    },
-    {
-      "id": "7",
-      "name": "Hank Lau",
-      "faction": "Imperial Guard",
-      "rounds": [
-        {
-          "round": 1,
-          "opponent": "Ivan Rook",
-          "opponentFaction": "Death Guard",
-          "playerScore": 50,
-          "opponentScore": 90
-        },
-        {
-          "round": 2,
-          "opponent": "Eve Marsh",
-          "opponentFaction": "T'au Empire",
-          "playerScore": 40,
-          "opponentScore": 88
-        },
-        {
-          "round": 3,
-          "opponent": "Carol Price",
-          "opponentFaction": "Necrons",
-          "playerScore": null,
-          "opponentScore": null
-        }
-      ]
-    },
-    {
-      "id": "8",
-      "name": "Ivan Rook",
-      "faction": "Death Guard",
-      "rounds": [
-        {
-          "round": 1,
-          "opponent": "Hank Lau",
-          "opponentFaction": "Imperial Guard",
-          "playerScore": 90,
-          "opponentScore": 50
-        },
-        {
-          "round": 2,
-          "opponent": "Fiona Greer",
-          "opponentFaction": "Aeldari",
-          "playerScore": 55,
-          "opponentScore": 77
-        },
-        {
-          "round": 3,
-          "opponent": "Eve Marsh",
-          "opponentFaction": "T'au Empire",
-          "playerScore": null,
-          "opponentScore": null
-        }
-      ]
-    },
-    {
-      "id": "9",
-      "name": "Julia Frost",
-      "faction": "Tyranids",
-      "rounds": [
-        {
-          "round": 1,
-          "opponent": "Karl Vines",
-          "opponentFaction": "Blood Angels",
-          "playerScore": 95,
-          "opponentScore": 40
-        },
-        {
-          "round": 2,
-          "opponent": "Lena Obi",
-          "opponentFaction": "Dark Angels",
-          "playerScore": 88,
-          "opponentScore": 50
-        },
-        {
-          "round": 3,
-          "opponent": "Marcus Day",
-          "opponentFaction": "World Eaters",
-          "playerScore": null,
-          "opponentScore": null
-        }
-      ]
-    },
-    {
-      "id": "10",
-      "name": "Karl Vines",
-      "faction": "Blood Angels",
-      "rounds": [
-        {
-          "round": 1,
-          "opponent": "Julia Frost",
-          "opponentFaction": "Tyranids",
-          "playerScore": 40,
-          "opponentScore": 95
-        },
-        {
-          "round": 2,
-          "opponent": "Marcus Day",
-          "opponentFaction": "World Eaters",
-          "playerScore": 70,
-          "opponentScore": 70
-        },
-        {
-          "round": 3,
-          "opponent": "Lena Obi",
-          "opponentFaction": "Dark Angels",
-          "playerScore": null,
-          "opponentScore": null
-        }
-      ]
-    },
-    {
-      "id": "11",
-      "name": "Lena Obi",
-      "faction": "Dark Angels",
-      "rounds": [
-        {
-          "round": 1,
-          "opponent": "Marcus Day",
-          "opponentFaction": "World Eaters",
-          "playerScore": 61,
-          "opponentScore": 80
-        },
-        {
-          "round": 2,
-          "opponent": "Julia Frost",
-          "opponentFaction": "Tyranids",
-          "playerScore": 50,
-          "opponentScore": 88
-        },
-        {
-          "round": 3,
-          "opponent": "Karl Vines",
-          "opponentFaction": "Blood Angels",
-          "playerScore": null,
-          "opponentScore": null
-        }
-      ]
-    },
-    {
-      "id": "12",
-      "name": "Marcus Day",
-      "faction": "World Eaters",
-      "rounds": [
-        {
-          "round": 1,
-          "opponent": "Lena Obi",
-          "opponentFaction": "Dark Angels",
-          "playerScore": 80,
-          "opponentScore": 61
-        },
-        {
-          "round": 2,
-          "opponent": "Karl Vines",
-          "opponentFaction": "Blood Angels",
-          "playerScore": 70,
-          "opponentScore": 70
-        },
-        {
-          "round": 3,
-          "opponent": "Julia Frost",
-          "opponentFaction": "Tyranids",
-          "playerScore": null,
-          "opponentScore": null
-        }
-      ]
-    },
-    {
-      "id": "13",
-      "name": "Nina Chase",
-      "faction": "Sisters of Battle",
-      "rounds": [
-        {
-          "round": 1,
-          "opponent": "Omar Bell",
-          "opponentFaction": "Grey Knights",
-          "playerScore": 73,
-          "opponentScore": 65
-        },
-        {
-          "round": 2,
-          "opponent": "Petra Sax",
-          "opponentFaction": "Drukhari",
-          "playerScore": 82,
-          "opponentScore": 55
-        },
-        {
-          "round": 3,
-          "opponent": "Quinn Rhee",
-          "opponentFaction": "Leagues of Votann",
-          "playerScore": null,
-          "opponentScore": null
-        }
-      ]
-    },
-    {
-      "id": "14",
-      "name": "Omar Bell",
-      "faction": "Grey Knights",
-      "rounds": [
-        {
-          "round": 1,
-          "opponent": "Nina Chase",
-          "opponentFaction": "Sisters of Battle",
-          "playerScore": 65,
-          "opponentScore": 73
-        },
-        {
-          "round": 2,
-          "opponent": "Quinn Rhee",
-          "opponentFaction": "Leagues of Votann",
-          "playerScore": 88,
-          "opponentScore": 71
-        },
-        {
-          "round": 3,
-          "opponent": "Petra Sax",
-          "opponentFaction": "Drukhari",
-          "playerScore": null,
-          "opponentScore": null
-        }
-      ]
-    },
-    {
-      "id": "15",
-      "name": "Petra Sax",
+      "id": "fBqy4lgUFARO",
+      "name": "Alex Ford",
       "faction": "Drukhari",
       "rounds": [
         {
           "round": 1,
-          "opponent": "Quinn Rhee",
-          "opponentFaction": "Leagues of Votann",
-          "playerScore": 91,
-          "opponentScore": 44
-        },
-        {
-          "round": 2,
-          "opponent": "Nina Chase",
-          "opponentFaction": "Sisters of Battle",
-          "playerScore": 55,
-          "opponentScore": 82
-        },
-        {
-          "round": 3,
-          "opponent": "Omar Bell",
-          "opponentFaction": "Grey Knights",
+          "opponent": "Callum Watts",
+          "opponentFaction": "Space Marines (Astartes)",
           "playerScore": null,
           "opponentScore": null
         }
       ]
     },
     {
-      "id": "16",
-      "name": "Quinn Rhee",
-      "faction": "Leagues of Votann",
+      "id": "YjgMiUIcM7z4",
+      "name": "Aneurin Brewer",
+      "faction": "Drukhari",
       "rounds": [
         {
           "round": 1,
-          "opponent": "Petra Sax",
-          "opponentFaction": "Drukhari",
-          "playerScore": 44,
-          "opponentScore": 91
-        },
-        {
-          "round": 2,
-          "opponent": "Omar Bell",
-          "opponentFaction": "Grey Knights",
-          "playerScore": 71,
-          "opponentScore": 88
-        },
-        {
-          "round": 3,
-          "opponent": "Nina Chase",
-          "opponentFaction": "Sisters of Battle",
+          "opponent": "Mark Main",
+          "opponentFaction": "Chaos Space Marines",
           "playerScore": null,
           "opponentScore": null
         }
       ]
     },
     {
-      "id": "17",
-      "name": "Rose Tang",
+      "id": "z5c69TPz4xz4",
+      "name": "Anthony Keen",
+      "faction": "Astra Militarum",
+      "rounds": [
+        {
+          "round": 1,
+          "opponent": "Ali Hodkin",
+          "opponentFaction": "World Eaters",
+          "playerScore": null,
+          "opponentScore": null
+        }
+      ]
+    },
+    {
+      "id": "woQXZRznsk3K",
+      "name": "Ben Adams",
+      "faction": "Adeptus Custodes",
+      "rounds": [
+        {
+          "round": 1,
+          "opponent": "Stephen Carmichael-Wilson",
+          "opponentFaction": "Chaos Daemons",
+          "playerScore": null,
+          "opponentScore": null
+        }
+      ]
+    },
+    {
+      "id": "33brY5UrLdsu",
+      "name": "Cayleb Langhals",
+      "faction": "Thousand Sons",
+      "rounds": [
+        {
+          "round": 1,
+          "opponent": "Charles Holland",
+          "opponentFaction": "World Eaters",
+          "playerScore": null,
+          "opponentScore": null
+        }
+      ]
+    },
+    {
+      "id": "FbDq4Lt8E4tg",
+      "name": "Guy Miscampbell",
+      "faction": "Deathwatch",
+      "rounds": [
+        {
+          "round": 1,
+          "opponent": "Andrew Hope",
+          "opponentFaction": "Thousand Sons",
+          "playerScore": null,
+          "opponentScore": null
+        }
+      ]
+    },
+    {
+      "id": "s8lTu9rXoSUi",
+      "name": "Harvey R",
+      "faction": "Emperor's Children",
+      "rounds": [
+        {
+          "round": 1,
+          "opponent": "Phil GC",
+          "opponentFaction": "Drukhari",
+          "playerScore": null,
+          "opponentScore": null
+        }
+      ]
+    },
+    {
+      "id": "58mODOgA6nDN",
+      "name": "Henry Bamford",
+      "faction": "Orks",
+      "rounds": [
+        {
+          "round": 1,
+          "opponent": "Daniel Summons",
+          "opponentFaction": "Dark Angels",
+          "playerScore": null,
+          "opponentScore": null
+        }
+      ]
+    },
+    {
+      "id": "rR2nlLnLJSn5",
+      "name": "Jack Turner",
+      "faction": "Thousand Sons",
+      "rounds": [
+        {
+          "round": 1,
+          "opponent": "Josh Gates",
+          "opponentFaction": "T'au Empire",
+          "playerScore": null,
+          "opponentScore": null
+        }
+      ]
+    },
+    {
+      "id": "VZtgkvqvbJSy",
+      "name": "Joshua Nevins",
       "faction": "Adeptus Mechanicus",
       "rounds": [
         {
           "round": 1,
-          "opponent": "Sam Wolfe",
-          "opponentFaction": "Custodes",
-          "playerScore": 68,
-          "opponentScore": 75
-        },
-        {
-          "round": 2,
-          "opponent": "Tara King",
-          "opponentFaction": "Chaos Daemons",
-          "playerScore": 85,
-          "opponentScore": 60
-        },
-        {
-          "round": 3,
-          "opponent": "Sam Wolfe",
-          "opponentFaction": "Custodes",
+          "opponent": "Nick Hooper",
+          "opponentFaction": "Astra Militarum",
           "playerScore": null,
           "opponentScore": null
         }
       ]
     },
     {
-      "id": "18",
-      "name": "Sam Wolfe",
-      "faction": "Custodes",
+      "id": "XhZ1fyFhfWUX",
+      "name": "Nathan Sears",
+      "faction": "Space Marines (Astartes)",
       "rounds": [
         {
           "round": 1,
-          "opponent": "Rose Tang",
-          "opponentFaction": "Adeptus Mechanicus",
-          "playerScore": 75,
-          "opponentScore": 68
-        },
-        {
-          "round": 2,
-          "opponent": "Tara King",
-          "opponentFaction": "Chaos Daemons",
-          "playerScore": 55,
-          "opponentScore": 88
-        },
-        {
-          "round": 3,
-          "opponent": "Rose Tang",
-          "opponentFaction": "Adeptus Mechanicus",
+          "opponent": "Daniel Bolton",
+          "opponentFaction": "Blood Angels",
           "playerScore": null,
           "opponentScore": null
         }
       ]
     },
     {
-      "id": "19",
-      "name": "Tara King",
+      "id": "CyIARghyVvpf",
+      "name": "Nora Tinfou",
+      "faction": "Adepta Sororitas",
+      "rounds": [
+        {
+          "round": 1,
+          "opponent": "Dave Hillier",
+          "opponentFaction": "Tyranids",
+          "playerScore": null,
+          "opponentScore": null
+        }
+      ]
+    },
+    {
+      "id": "wqhXHJHQlJZL",
+      "name": "Oscar Luckin",
+      "faction": "Emperor's Children",
+      "rounds": [
+        {
+          "round": 1,
+          "opponent": "Alexander Wall",
+          "opponentFaction": "Adeptus Custodes",
+          "playerScore": null,
+          "opponentScore": null
+        }
+      ]
+    },
+    {
+      "id": "LqO4yFo5fdHG",
+      "name": "Paul Looker",
+      "faction": "Drukhari",
+      "rounds": [
+        {
+          "round": 1,
+          "opponent": "Charles Norman",
+          "opponentFaction": "T'au Empire",
+          "playerScore": null,
+          "opponentScore": null
+        }
+      ]
+    },
+    {
+      "id": "t4LODo37Kr16",
+      "name": "Robert Briden",
+      "faction": "Necrons",
+      "rounds": [
+        {
+          "round": 1,
+          "opponent": "Jarrad Evans",
+          "opponentFaction": "Necrons",
+          "playerScore": null,
+          "opponentScore": null
+        }
+      ]
+    },
+    {
+      "id": "ELGIbe6PWCxn",
+      "name": "Samuel Francis",
       "faction": "Chaos Daemons",
       "rounds": [
         {
           "round": 1,
-          "opponent": "Sam Wolfe",
-          "opponentFaction": "Custodes",
-          "playerScore": 62,
-          "opponentScore": 85
-        },
+          "opponent": "Byron 🔥🎲 Sidhu",
+          "opponentFaction": "Chaos Daemons",
+          "playerScore": null,
+          "opponentScore": null
+        }
+      ]
+    },
+    {
+      "id": "uYM5aFnNZIkL",
+      "name": "Spencer James",
+      "faction": "Emperor's Children",
+      "rounds": [
         {
-          "round": 2,
-          "opponent": "Rose Tang",
+          "round": 1,
+          "opponent": "Kaashif Hymabaccus",
+          "opponentFaction": "Necrons",
+          "playerScore": null,
+          "opponentScore": null
+        }
+      ]
+    },
+    {
+      "id": "NHwEcaiFGEpo",
+      "name": "Tim Waters",
+      "faction": "Drukhari",
+      "rounds": [
+        {
+          "round": 1,
+          "opponent": "Max Bouche",
           "opponentFaction": "Adeptus Mechanicus",
-          "playerScore": 88,
-          "opponentScore": 85
-        },
-        {
-          "round": 3,
-          "opponent": "Sam Wolfe",
-          "opponentFaction": "Custodes",
           "playerScore": null,
           "opponentScore": null
         }
