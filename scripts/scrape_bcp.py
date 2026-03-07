@@ -168,7 +168,7 @@ def get_active_window(schedule: dict) -> tuple[bool, int | None, int]:
     for entry in schedule["rounds"]:
         start   = datetime.fromisoformat(entry["start"]).replace(tzinfo=tz)
         elapsed = (now - start).total_seconds() / 60
-
+        print(elapsed)
         if elapsed < EARLY_OPEN_MINS or elapsed > WINDOW_CLOSE_MINS:
             continue
 
