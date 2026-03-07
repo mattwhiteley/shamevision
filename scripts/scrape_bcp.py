@@ -388,9 +388,18 @@ def main():
         sys.exit(1)
 
     # ── Determine if current round is actively in progress ────────────────
-    in_window, _, _ = get_active_window(schedule)
-    round_in_progress = in_window or args.force
-
+    round_in_progress = False
+    if args.force:
+        round_in_progress = True
+    else:
+        current_round_num = max(all_rounds.keys())
+        for entry in schedule["rounds"]:
+            if entry["round"] == current_round_num:
+                tz_local = ZoneInfo(schedule["timezone"])
+                start = datetime.fromisoformat(entry["start"]).replace(tzinfo=tz_local)
+                round_in_progress = datetime.now(tz_local) >= start
+                break
+              
     # ── Build JSON ─────────────────────────────────────────────────────────
     result = build_tournament_json(schedule, all_rounds, round_in_progress)
 
