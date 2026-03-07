@@ -6,11 +6,11 @@
   "timezone": "Europe/London",
   "round_duration_minutes": 180,
   "rounds": [
-    { "round": 1, "start": "2026-03-08T09:30:00" },
-    { "round": 2, "start": "2026-03-08T13:45:00" },
-    { "round": 3, "start": "2026-03-08T17:15:00" },
-    { "round": 4, "start": "2026-03-09T09:30:00" },
-    { "round": 5, "start": "2026-03-09T13:45:00" }
+    { "round": 1, "start": "2026-03-07T09:30:00" },
+    { "round": 2, "start": "2026-03-07T13:45:00" },
+    { "round": 3, "start": "2026-03-07T17:15:00" },
+    { "round": 4, "start": "2026-03-08T09:30:00" },
+    { "round": 5, "start": "2026-03-08T13:45:00" }
   ],
   "tracked_players": [
     "Alex Ford",
