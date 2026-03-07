@@ -2,9 +2,9 @@
   "eventName": "UKTC Windsor Super-Major",
   "bcpUrl": "https://www.bestcoastpairings.com/event/AZFDANhFHJS6",
   "totalRounds": 5,
-  "currentRound": 1,
+  "currentRound": 2,
   "roundInProgress": true,
-  "updated_at": "2026-03-07T13:12:42",
+  "updated_at": "2026-03-07T13:43:09",
   "players": [
     {
       "id": "fBqy4lgUFARO",
@@ -17,6 +17,13 @@
           "opponentFaction": "Space Marines (Astartes)",
           "playerScore": 83,
           "opponentScore": 71
+        },
+        {
+          "round": 2,
+          "opponent": "Steve Hart",
+          "opponentFaction": "Space Marines (Astartes)",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -31,6 +38,13 @@
           "opponentFaction": "Chaos Space Marines",
           "playerScore": 100,
           "opponentScore": 62
+        },
+        {
+          "round": 2,
+          "opponent": "Daniel Ainsworth",
+          "opponentFaction": "Necrons",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -45,6 +59,13 @@
           "opponentFaction": "World Eaters",
           "playerScore": 89,
           "opponentScore": 90
+        },
+        {
+          "round": 2,
+          "opponent": "Bill Boulton",
+          "opponentFaction": "Death Guard",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -59,6 +80,13 @@
           "opponentFaction": "Chaos Daemons",
           "playerScore": 59,
           "opponentScore": 88
+        },
+        {
+          "round": 2,
+          "opponent": "Paulie Wallis",
+          "opponentFaction": "Drukhari",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -73,6 +101,13 @@
           "opponentFaction": "World Eaters",
           "playerScore": 49,
           "opponentScore": 92
+        },
+        {
+          "round": 2,
+          "opponent": "Max Bouche",
+          "opponentFaction": "Adeptus Mechanicus",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -87,6 +122,13 @@
           "opponentFaction": "Thousand Sons",
           "playerScore": 75,
           "opponentScore": 73
+        },
+        {
+          "round": 2,
+          "opponent": "James Wilson",
+          "opponentFaction": "Death Guard",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -101,6 +143,13 @@
           "opponentFaction": "Drukhari",
           "playerScore": 91,
           "opponentScore": 67
+        },
+        {
+          "round": 2,
+          "opponent": "Freddie Robinson",
+          "opponentFaction": "Space Marines (Astartes)",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -115,6 +164,13 @@
           "opponentFaction": "Dark Angels",
           "playerScore": 92,
           "opponentScore": 23
+        },
+        {
+          "round": 2,
+          "opponent": "Charles Holland",
+          "opponentFaction": "World Eaters",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -129,6 +185,13 @@
           "opponentFaction": "T'au Empire",
           "playerScore": 93,
           "opponentScore": 58
+        },
+        {
+          "round": 2,
+          "opponent": "Alex Nicolic",
+          "opponentFaction": "Death Guard",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -143,6 +206,13 @@
           "opponentFaction": "Astra Militarum",
           "playerScore": 86,
           "opponentScore": 54
+        },
+        {
+          "round": 2,
+          "opponent": "Tom Green",
+          "opponentFaction": "Genestealer Cult",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -157,6 +227,13 @@
           "opponentFaction": "Blood Angels",
           "playerScore": 97,
           "opponentScore": 44
+        },
+        {
+          "round": 2,
+          "opponent": "James Rivett",
+          "opponentFaction": "Thousand Sons",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -171,6 +248,13 @@
           "opponentFaction": "Tyranids",
           "playerScore": 66,
           "opponentScore": 80
+        },
+        {
+          "round": 2,
+          "opponent": "David Tobin",
+          "opponentFaction": "Space Wolves",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -185,6 +269,13 @@
           "opponentFaction": "Adeptus Custodes",
           "playerScore": 100,
           "opponentScore": 32
+        },
+        {
+          "round": 2,
+          "opponent": "James Hobbs",
+          "opponentFaction": "T'au Empire",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -199,6 +290,13 @@
           "opponentFaction": "T'au Empire",
           "playerScore": 33,
           "opponentScore": 89
+        },
+        {
+          "round": 2,
+          "opponent": "Alexander Wall",
+          "opponentFaction": "Adeptus Custodes",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -213,6 +311,13 @@
           "opponentFaction": "Necrons",
           "playerScore": 86,
           "opponentScore": 90
+        },
+        {
+          "round": 2,
+          "opponent": "Dean L",
+          "opponentFaction": "Emperor's Children",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -227,6 +332,13 @@
           "opponentFaction": "Chaos Daemons",
           "playerScore": 58,
           "opponentScore": 100
+        },
+        {
+          "round": 2,
+          "opponent": "Eleonora Marinari",
+          "opponentFaction": "Thousand Sons",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -241,6 +353,13 @@
           "opponentFaction": "Necrons",
           "playerScore": 53,
           "opponentScore": 78
+        },
+        {
+          "round": 2,
+          "opponent": "Kerry Vear-Smyth",
+          "opponentFaction": "Adeptus Custodes",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -255,6 +374,13 @@
           "opponentFaction": "Adeptus Mechanicus",
           "playerScore": 90,
           "opponentScore": 49
+        },
+        {
+          "round": 2,
+          "opponent": "Callum Godfrey",
+          "opponentFaction": "Space Marines (Astartes)",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     }
