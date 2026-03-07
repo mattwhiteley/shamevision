@@ -60,5 +60,5 @@ jobs:
           else
             git add data/tournament.json
             git commit -m "chore: update tournament data [skip ci]"
-            git push --force-with-lease origin main
+            git push --force origin main
           fi
