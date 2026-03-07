@@ -1,0 +1,36 @@
+{
+  "event_id": "AZFDANhFHJS6",
+  "event_name": "Pile of Shame GT 2026",
+  "bcp_url": "https://www.bestcoastpairings.com/event/AZFDANhFHJS6",
+  "total_rounds": 5,
+  "timezone": "Europe/London",
+  "round_duration_minutes": 180,
+  "rounds": [
+    { "round": 1, "start": "2026-03-07T09:00:00" },
+    { "round": 2, "start": "2026-03-07T12:30:00" },
+    { "round": 3, "start": "2026-03-07T16:00:00" },
+    { "round": 4, "start": "2026-03-08T09:00:00" },
+    { "round": 5, "start": "2026-03-08T12:30:00" }
+  ],
+  "tracked_players": [
+    "Alex Ford",
+    "Aneurin Brewer",
+    "Anthony Keen",
+    "Ben Adams",
+    "Cayleb Langhals",
+    "Daniel Green",
+    "Guy Miscampbell",
+    "Harvey R",
+    "Henry Bamford",
+    "Jack Turner",
+    "Joshua Nevins",
+    "Nathan Sears",
+    "Nora Tinfou",
+    "Oscar Luckin",
+    "Paul Looker",
+    "Robert Briden",
+    "Samuel Francis",
+    "Spencer James",
+    "Tim Waters"
+  ]
+}

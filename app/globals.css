@@ -12,7 +12,7 @@
   --text-2:      #6b6560;
   --text-3:      #9e9892;
 
-  --accent:      #d63e2f;   /* strong red — single accent */
+  --accent:      #ff6200;   /* hot bold orange */
   --accent-bg:   #fdf1ef;
 
   --win:         #1a6e3c;
@@ -76,7 +76,14 @@ body {
   display: flex;
   align-items: center;
   gap: 20px;
-  flex-wrap: wrap;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex: 1;
+  min-width: 0;
 }
 
 /* ─── Logo ─────────────────────────────────────────────── */
@@ -116,9 +123,9 @@ body {
 }
 
 .meta__event {
-  font-size: 0.78rem;
-  color: var(--text-3);
-  font-weight: 500;
+  font-size: 1rem;
+  color: var(--text);
+  font-weight: 600;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -564,11 +571,27 @@ body {
 /* ─── Responsive ──────────────────────────────────────── */
 @media (max-width: 600px) {
   .header__inner {
-    padding: 12px 14px;
+    padding: 10px 14px;
     gap: 10px;
   }
 
-  .header__meta { display: none; }
+  .header__left {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+  }
+
+  .meta__round { display: none; }
+
+  .meta__event {
+    font-size: 0.72rem;
+  }
+
+  .bcp-btn {
+    font-size: 0.72rem;
+    padding: 6px 10px;
+    flex-shrink: 0;
+  }
 
   .main {
     padding: 14px 12px 32px;

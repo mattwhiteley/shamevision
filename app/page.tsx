@@ -25,16 +25,18 @@ export default function Home() {
       {/* ── Header ── */}
       <header className="header">
         <div className="header__inner">
-          <div className="logo">
-            <span className="logo__shame">SHAME</span>
-            <span className="logo__vision">VISION</span>
-          </div>
+          <div className="header__left">
+            <div className="logo">
+              <span className="logo__shame">SHAME</span>
+              <span className="logo__vision">VISION</span>
+            </div>
 
-          <div className="header__meta">
-            <span className="meta__event">{data.eventName}</span>
-            <span className="meta__round">
-              Round <strong>{data.currentRound}</strong> of {data.totalRounds}
-            </span>
+            <div className="header__meta">
+              <span className="meta__event">{data.eventName}</span>
+              <span className="meta__round">
+                Round <strong>{data.currentRound}</strong> of {data.totalRounds}
+              </span>
+            </div>
           </div>
 
           <a
