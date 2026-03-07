@@ -4,7 +4,7 @@
   "totalRounds": 5,
   "currentRound": 2,
   "roundInProgress": true,
-  "updated_at": "2026-03-07T16:06:29",
+  "updated_at": "2026-03-07T16:15:05",
   "players": [
     {
       "id": "fBqy4lgUFARO",
@@ -22,8 +22,8 @@
           "round": 2,
           "opponent": "Steve Hart",
           "opponentFaction": "Space Marines (Astartes)",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 92,
+          "opponentScore": 89
         }
       ]
     },
@@ -106,8 +106,8 @@
           "round": 2,
           "opponent": "Max Bouche",
           "opponentFaction": "Adeptus Mechanicus",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 97,
+          "opponentScore": 66
         }
       ]
     },
