@@ -2,12 +2,7 @@ name: Scrape BCP
 
 on:
   schedule:
-    # Runs every 2 minutes. The scraper itself decides whether to act
-    # based on the round schedule in scripts/schedule.json.
     - cron: "*/2 * * * *"
-
-  # Allow manual trigger from the Actions tab — useful for testing
-  # or forcing a refresh outside the scheduled windows.
   workflow_dispatch:
     inputs:
       force:
@@ -15,21 +10,26 @@ on:
         type: boolean
         default: false
 
+# Only allow one run at a time — cancels any in-progress run if a new one starts
+concurrency:
+  group: scrape
+  cancel-in-progress: true
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    # Skip if triggered by the bot's own commit (prevents infinite loops)
     if: github.actor != 'github-actions[bot]'
 
     permissions:
-      contents: write   # needed to commit tournament.json back to the repo
+      contents: write
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          # Use a token that can push back to the repo
           token: ${{ secrets.GITHUB_TOKEN }}
+          # Always fetch the latest state of the remote before doing anything
+          ref: main
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -55,11 +55,12 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Only commit if tournament.json actually changed
           if git diff --quiet data/tournament.json; then
             echo "No changes to tournament.json — nothing to commit."
           else
             git add data/tournament.json
             git commit -m "chore: update tournament data [skip ci]"
-            git push
+            # Pull any changes that landed since checkout, then push
+            git pull --rebase origin main
+            git push origin main
           fi
