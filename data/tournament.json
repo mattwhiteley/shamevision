@@ -4,7 +4,7 @@
   "totalRounds": 5,
   "currentRound": 1,
   "roundInProgress": true,
-  "updated_at": "2026-03-07T12:31:49",
+  "updated_at": "2026-03-07T13:12:42",
   "players": [
     {
       "id": "fBqy4lgUFARO",
@@ -85,8 +85,8 @@
           "round": 1,
           "opponent": "Andrew Hope",
           "opponentFaction": "Thousand Sons",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 75,
+          "opponentScore": 73
         }
       ]
     },
@@ -169,8 +169,8 @@
           "round": 1,
           "opponent": "Dave Hillier",
           "opponentFaction": "Tyranids",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 66,
+          "opponentScore": 80
         }
       ]
     },
@@ -253,8 +253,8 @@
           "round": 1,
           "opponent": "Max Bouche",
           "opponentFaction": "Adeptus Mechanicus",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 90,
+          "opponentScore": 49
         }
       ]
     }
