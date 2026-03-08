@@ -4,7 +4,7 @@
   "totalRounds": 5,
   "currentRound": 4,
   "roundInProgress": true,
-  "updated_at": "2026-03-08T11:58:51",
+  "updated_at": "2026-03-08T12:36:15",
   "players": [
     {
       "id": "fBqy4lgUFARO",
@@ -71,8 +71,8 @@
           "round": 4,
           "opponent": "Robert Spencer",
           "opponentFaction": "Orks",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 92,
+          "opponentScore": 46
         }
       ]
     },
@@ -176,8 +176,8 @@
           "round": 4,
           "opponent": "Tomas Murphy",
           "opponentFaction": "Leagues of Votann",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 61,
+          "opponentScore": 69
         }
       ]
     },
@@ -246,8 +246,8 @@
           "round": 4,
           "opponent": "Charlie Thomas",
           "opponentFaction": "Chaos Daemons",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 69,
+          "opponentScore": 61
         }
       ]
     },
@@ -281,8 +281,8 @@
           "round": 4,
           "opponent": "Shaun Taylor",
           "opponentFaction": "Dark Angels",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 91,
+          "opponentScore": 37
         }
       ]
     },
@@ -316,8 +316,8 @@
           "round": 4,
           "opponent": "Nora Tinfou",
           "opponentFaction": "Adepta Sororitas",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 79,
+          "opponentScore": 51
         }
       ]
     },
@@ -379,8 +379,8 @@
           "round": 4,
           "opponent": "Daniel Ainsworth",
           "opponentFaction": "Necrons",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 78,
+          "opponentScore": 75
         }
       ]
     },
@@ -414,8 +414,8 @@
           "round": 4,
           "opponent": "Jack Turner",
           "opponentFaction": "Thousand Sons",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 51,
+          "opponentScore": 79
         }
       ]
     },
@@ -449,8 +449,8 @@
           "round": 4,
           "opponent": "Phil GC",
           "opponentFaction": "Drukhari",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 89,
+          "opponentScore": 40
         }
       ]
     },
@@ -484,8 +484,8 @@
           "round": 4,
           "opponent": "Ross McKenzie",
           "opponentFaction": "Chaos Daemons",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 65,
+          "opponentScore": 84
         }
       ]
     },
@@ -519,8 +519,8 @@
           "round": 4,
           "opponent": "Ashley Dunnicliffe",
           "opponentFaction": "Chaos Daemons",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 79,
+          "opponentScore": 64
         }
       ]
     },
@@ -589,8 +589,8 @@
           "round": 4,
           "opponent": "Giovanni Malena",
           "opponentFaction": "Grey Knights",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 36,
+          "opponentScore": 94
         }
       ]
     },
@@ -624,8 +624,8 @@
           "round": 4,
           "opponent": "Liam Callebout",
           "opponentFaction": "Dark Angels",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 54,
+          "opponentScore": 69
         }
       ]
     }
