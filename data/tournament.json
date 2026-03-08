@@ -4,7 +4,7 @@
   "totalRounds": 5,
   "currentRound": 4,
   "roundInProgress": true,
-  "updated_at": "2026-03-08T11:39:21",
+  "updated_at": "2026-03-08T11:51:18",
   "players": [
     {
       "id": "fBqy4lgUFARO",
@@ -36,8 +36,8 @@
           "round": 4,
           "opponent": "Kian Tan",
           "opponentFaction": "Adepta Sororitas",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 45,
+          "opponentScore": 91
         }
       ]
     },
@@ -211,8 +211,8 @@
           "round": 4,
           "opponent": "Andrew Tebboth",
           "opponentFaction": "Orks",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 96,
+          "opponentScore": 48
         }
       ]
     },
