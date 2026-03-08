@@ -4,7 +4,7 @@
   "totalRounds": 5,
   "currentRound": 5,
   "roundInProgress": true,
-  "updated_at": "2026-03-08T16:13:24",
+  "updated_at": "2026-03-08T16:31:09",
   "players": [
     {
       "id": "fBqy4lgUFARO",
@@ -211,8 +211,8 @@
           "round": 5,
           "opponent": "Andrew Tebboth",
           "opponentFaction": "Orks",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 88,
+          "opponentScore": 34
         }
       ]
     },
@@ -337,8 +337,8 @@
           "round": 5,
           "opponent": "Jamie Connelly",
           "opponentFaction": "Tyranids",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 91,
+          "opponentScore": 70
         }
       ]
     },
@@ -449,8 +449,8 @@
           "round": 5,
           "opponent": "Henrik Davison",
           "opponentFaction": "Thousand Sons",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 52,
+          "opponentScore": 100
         }
       ]
     },
@@ -491,8 +491,8 @@
           "round": 5,
           "opponent": "Ben McCarthy",
           "opponentFaction": "World Eaters",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 94,
+          "opponentScore": 78
         }
       ]
     },
@@ -701,8 +701,8 @@
           "round": 5,
           "opponent": "Charlie Thomas",
           "opponentFaction": "Chaos Daemons",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 85,
+          "opponentScore": 58
         }
       ]
     },
