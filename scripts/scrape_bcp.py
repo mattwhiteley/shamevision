@@ -349,6 +349,22 @@ def main():
             except Exception as e:
                 print(f"check failed ({e}), falling back to time window.")
 
+        # Also run if we're past the current round's start time
+        # (so roundInProgress flips to true promptly at round start)
+        if not in_window:
+            known_round = known_round or get_current_round_from_file(OUTPUT_PATH)
+            if known_round is not None:
+                for entry in schedule["rounds"]:
+                    if entry["round"] == known_round:
+                        round_start = datetime.fromisoformat(entry["start"]).replace(tzinfo=tz)
+                        if datetime.now(tz) >= round_start:
+                            mins_ago = minutes_since_last_update(OUTPUT_PATH, tz)
+                            if mins_ago is None or mins_ago >= 5:
+                                print(f"⏰ Round {known_round} has started — updating roundInProgress.")
+                                in_window = True
+                                cadence = 0
+                        break
+
         if not in_window:
             print("💤 Outside all scraping windows — exiting.")
             sys.exit(0)
