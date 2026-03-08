@@ -4,7 +4,7 @@
   "totalRounds": 5,
   "currentRound": 4,
   "roundInProgress": true,
-  "updated_at": "2026-03-08T11:21:55",
+  "updated_at": "2026-03-08T11:39:21",
   "players": [
     {
       "id": "fBqy4lgUFARO",
@@ -106,8 +106,8 @@
           "round": 4,
           "opponent": "Stephen Heron",
           "opponentFaction": "Necrons",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 39,
+          "opponentScore": 100
         }
       ]
     },
@@ -141,8 +141,8 @@
           "round": 4,
           "opponent": "Max Bouche",
           "opponentFaction": "Adeptus Mechanicus",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 36,
+          "opponentScore": 87
         }
       ]
     },
@@ -554,8 +554,8 @@
           "round": 4,
           "opponent": "Alexander Duxbury",
           "opponentFaction": "Dark Angels",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 91,
+          "opponentScore": 59
         }
       ]
     },
