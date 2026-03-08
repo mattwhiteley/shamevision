@@ -4,7 +4,7 @@
   "totalRounds": 5,
   "currentRound": 5,
   "roundInProgress": true,
-  "updated_at": "2026-03-08T15:41:34",
+  "updated_at": "2026-03-08T15:54:23",
   "players": [
     {
       "id": "fBqy4lgUFARO",
@@ -379,8 +379,8 @@
           "round": 5,
           "opponent": "Arron Virgo",
           "opponentFaction": "Death Guard",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 86,
+          "opponentScore": 71
         }
       ]
     },
@@ -533,8 +533,8 @@
           "round": 5,
           "opponent": "sad thomas noises   Happy thomas noise",
           "opponentFaction": "Adeptus Mechanicus",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 82,
+          "opponentScore": 72
         }
       ]
     },
