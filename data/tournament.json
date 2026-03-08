@@ -4,7 +4,7 @@
   "totalRounds": 5,
   "currentRound": 5,
   "roundInProgress": true,
-  "updated_at": "2026-03-08T15:54:23",
+  "updated_at": "2026-03-08T16:13:24",
   "players": [
     {
       "id": "fBqy4lgUFARO",
@@ -43,8 +43,8 @@
           "round": 5,
           "opponent": "Tomas Murphy",
           "opponentFaction": "Leagues of Votann",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 85,
+          "opponentScore": 56
         }
       ]
     },
@@ -127,8 +127,8 @@
           "round": 5,
           "opponent": "Ryan Edwards",
           "opponentFaction": "Dark Angels",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 95,
+          "opponentScore": 69
         }
       ]
     },
