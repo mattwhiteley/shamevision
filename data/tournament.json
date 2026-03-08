@@ -3,8 +3,8 @@
   "bcpUrl": "https://www.bestcoastpairings.com/event/AZFDANhFHJS6",
   "totalRounds": 5,
   "currentRound": 4,
-  "roundInProgress": false,
-  "updated_at": "2026-03-07T21:47:26",
+  "roundInProgress": true,
+  "updated_at": "2026-03-08T10:05:47",
   "players": [
     {
       "id": "fBqy4lgUFARO",
@@ -244,8 +244,8 @@
         },
         {
           "round": 4,
-          "opponent": "Mat Williams",
-          "opponentFaction": "Leagues of Votann",
+          "opponent": "Charlie Thomas",
+          "opponentFaction": "Chaos Daemons",
           "playerScore": null,
           "opponentScore": null
         }
@@ -346,13 +346,6 @@
           "opponentFaction": "Aeldari",
           "playerScore": 39,
           "opponentScore": 83
-        },
-        {
-          "round": 4,
-          "opponent": "Simon Warren",
-          "opponentFaction": "Genestealer Cult",
-          "playerScore": null,
-          "opponentScore": null
         }
       ]
     },
