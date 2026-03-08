@@ -4,7 +4,7 @@
   "totalRounds": 5,
   "currentRound": 5,
   "roundInProgress": true,
-  "updated_at": "2026-03-08T16:31:09",
+  "updated_at": "2026-03-08T16:45:39",
   "players": [
     {
       "id": "fBqy4lgUFARO",
@@ -85,8 +85,8 @@
           "round": 5,
           "opponent": "Richard Grint",
           "opponentFaction": "Astra Militarum",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 73,
+          "opponentScore": 64
         }
       ]
     },
@@ -253,8 +253,8 @@
           "round": 5,
           "opponent": "Thomas Douch",
           "opponentFaction": "Adepta Sororitas",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 70,
+          "opponentScore": 83
         }
       ]
     },
@@ -295,8 +295,8 @@
           "round": 5,
           "opponent": "Simon Warren",
           "opponentFaction": "Genestealer Cult",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 80,
+          "opponentScore": 73
         }
       ]
     },
@@ -575,8 +575,8 @@
           "round": 5,
           "opponent": "Shaine Smith",
           "opponentFaction": "World Eaters",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 60,
+          "opponentScore": 88
         }
       ]
     },
@@ -617,8 +617,8 @@
           "round": 5,
           "opponent": "John Black",
           "opponentFaction": "Tyranids",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 74,
+          "opponentScore": 90
         }
       ]
     },
@@ -743,8 +743,8 @@
           "round": 5,
           "opponent": "Thomas Aldred-Muzsla",
           "opponentFaction": "Necrons",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 72,
+          "opponentScore": 74
         }
       ]
     }
