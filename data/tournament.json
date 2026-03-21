@@ -4,7 +4,7 @@
   "totalRounds": 5,
   "currentRound": 1,
   "roundInProgress": true,
-  "updated_at": "2026-03-21T11:59:09",
+  "updated_at": "2026-03-21T12:49:06",
   "players": [
     {
       "id": "4krKCGxMX0mt",
@@ -31,8 +31,8 @@
           "round": 1,
           "opponent": "Matthew Norris",
           "opponentFaction": "Dark Angels",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 93,
+          "opponentScore": 49
         }
       ]
     },
@@ -46,8 +46,8 @@
           "round": 1,
           "opponent": "Trent Abraham",
           "opponentFaction": "Necrons",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 82,
+          "opponentScore": 75
         }
       ]
     },
@@ -61,8 +61,8 @@
           "round": 1,
           "opponent": "Chris Ward",
           "opponentFaction": "Astra Militarum",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 91,
+          "opponentScore": 55
         }
       ]
     },
@@ -106,8 +106,8 @@
           "round": 1,
           "opponent": "James Ferrier",
           "opponentFaction": "Necrons",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 88,
+          "opponentScore": 63
         }
       ]
     },
@@ -121,8 +121,8 @@
           "round": 1,
           "opponent": "Paul Whalley",
           "opponentFaction": "Aeldari",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 91,
+          "opponentScore": 49
         }
       ]
     },
@@ -136,8 +136,8 @@
           "round": 1,
           "opponent": "Joey Deng",
           "opponentFaction": "Blood Angels",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 39,
+          "opponentScore": 84
         }
       ]
     },
@@ -151,8 +151,8 @@
           "round": 1,
           "opponent": "Thomas Adams",
           "opponentFaction": "Drukhari",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 85,
+          "opponentScore": 73
         }
       ]
     },
@@ -166,8 +166,8 @@
           "round": 1,
           "opponent": "Thom Norman",
           "opponentFaction": "Dark Angels",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 80,
+          "opponentScore": 80
         }
       ]
     },
@@ -181,8 +181,8 @@
           "round": 1,
           "opponent": "Henry Percival",
           "opponentFaction": "Dark Angels",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 98,
+          "opponentScore": 50
         }
       ]
     }
