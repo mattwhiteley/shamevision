@@ -4,7 +4,7 @@
   "totalRounds": 5,
   "currentRound": 1,
   "roundInProgress": true,
-  "updated_at": "2026-03-21T09:17:34",
+  "updated_at": "2026-03-21T09:47:38",
   "players": [
     {
       "id": "5Mh9czLpb9za",
@@ -41,8 +41,8 @@
       "rounds": [
         {
           "round": 1,
-          "opponent": "Jacob Hayre",
-          "opponentFaction": "Drukhari",
+          "opponent": "Sean McQuaid",
+          "opponentFaction": "Genestealer Cult",
           "playerScore": null,
           "opponentScore": null
         }
