@@ -4,7 +4,7 @@
   "totalRounds": 5,
   "currentRound": 2,
   "roundInProgress": true,
-  "updated_at": "2026-03-21T16:13:28",
+  "updated_at": "2026-03-21T16:30:29",
   "players": [
     {
       "id": "4krKCGxMX0mt",
@@ -67,8 +67,8 @@
           "round": 2,
           "opponent": "Joey Deng",
           "opponentFaction": "Blood Angels",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 74,
+          "opponentScore": 80
         }
       ]
     },
@@ -89,8 +89,8 @@
           "round": 2,
           "opponent": "Ollie Smith",
           "opponentFaction": "Space Marines (Astartes)",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 96,
+          "opponentScore": 60
         }
       ]
     },
@@ -133,8 +133,8 @@
           "round": 2,
           "opponent": "Sean Preston",
           "opponentFaction": "Leagues of Votann",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 99,
+          "opponentScore": 61
         }
       ]
     },
@@ -155,8 +155,8 @@
           "round": 2,
           "opponent": "James Brown",
           "opponentFaction": "Thousand Sons",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 60,
+          "opponentScore": 96
         }
       ]
     },
@@ -199,8 +199,8 @@
           "round": 2,
           "opponent": "Azim Mazumder",
           "opponentFaction": "Thousand Sons",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 87,
+          "opponentScore": 80
         }
       ]
     },
@@ -243,8 +243,8 @@
           "round": 2,
           "opponent": "Tim Lowes",
           "opponentFaction": "Aeldari",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 61,
+          "opponentScore": 100
         }
       ]
     },
@@ -265,8 +265,8 @@
           "round": 2,
           "opponent": "Jordan Penning",
           "opponentFaction": "Space Marines (Astartes)",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 61,
+          "opponentScore": 99
         }
       ]
     }
