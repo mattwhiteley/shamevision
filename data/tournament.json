@@ -4,12 +4,28 @@
   "totalRounds": 5,
   "currentRound": 1,
   "roundInProgress": true,
-  "updated_at": "2026-03-21T11:12:23",
+  "updated_at": "2026-03-21T11:21:42",
   "players": [
+    {
+      "id": "4krKCGxMX0mt",
+      "name": "Aidan Bell",
+      "faction": "Necrons",
+      "group": "pile",
+      "rounds": [
+        {
+          "round": 1,
+          "opponent": "Alex Spall",
+          "opponentFaction": "Dark Angels",
+          "playerScore": null,
+          "opponentScore": null
+        }
+      ]
+    },
     {
       "id": "5Mh9czLpb9za",
       "name": "Anthony Keen",
       "faction": "Astra Militarum",
+      "group": "hall",
       "rounds": [
         {
           "round": 1,
@@ -24,6 +40,7 @@
       "id": "UAzWjuworYgG",
       "name": "Daniel Green",
       "faction": "World Eaters",
+      "group": "hall",
       "rounds": [
         {
           "round": 1,
@@ -35,9 +52,25 @@
       ]
     },
     {
+      "id": "7sCYkNRuLDwq",
+      "name": "James Brown",
+      "faction": "Thousand Sons",
+      "group": "pile",
+      "rounds": [
+        {
+          "round": 1,
+          "opponent": "Chris Ward",
+          "opponentFaction": "Astra Militarum",
+          "playerScore": null,
+          "opponentScore": null
+        }
+      ]
+    },
+    {
       "id": "8P1r3EW3zsuP",
       "name": "Jamie Payton",
       "faction": "Blood Angels",
+      "group": "hall",
       "rounds": [
         {
           "round": 1,
@@ -49,9 +82,25 @@
       ]
     },
     {
+      "id": "loINtFgzsw2L",
+      "name": "Jordan Penning",
+      "faction": "Space Marines (Astartes)",
+      "group": "pile",
+      "rounds": [
+        {
+          "round": 1,
+          "opponent": "Aldo Conti",
+          "opponentFaction": "World Eaters",
+          "playerScore": null,
+          "opponentScore": null
+        }
+      ]
+    },
+    {
       "id": "pKprr6Jbdng2",
       "name": "Ollie Smith",
       "faction": "Space Marines (Astartes)",
+      "group": "hall",
       "rounds": [
         {
           "round": 1,
@@ -66,6 +115,7 @@
       "id": "rAprPjBFUTJR",
       "name": "Oscar Luckin",
       "faction": "Emperor's Children",
+      "group": "hall",
       "rounds": [
         {
           "round": 1,
@@ -80,6 +130,7 @@
       "id": "wYOLAAge84Er",
       "name": "Paul Looker",
       "faction": "Drukhari",
+      "group": "hall",
       "rounds": [
         {
           "round": 1,
@@ -94,6 +145,7 @@
       "id": "YWLBBFc8aOMJ",
       "name": "Samuel Francis",
       "faction": "Chaos Daemons",
+      "group": "hall",
       "rounds": [
         {
           "round": 1,
@@ -108,6 +160,7 @@
       "id": "o1Gjj4j5Tmvy",
       "name": "Samuel Hardisty",
       "faction": "Space Marines (Astartes)",
+      "group": "hall",
       "rounds": [
         {
           "round": 1,
@@ -122,6 +175,7 @@
       "id": "c7EcF1sDS6e7",
       "name": "Sean Preston",
       "faction": "Leagues of Votann",
+      "group": "hall",
       "rounds": [
         {
           "round": 1,
