@@ -4,7 +4,7 @@
   "totalRounds": 5,
   "currentRound": 3,
   "roundInProgress": true,
-  "updated_at": "2026-03-21T19:16:25",
+  "updated_at": "2026-03-21T19:38:09",
   "players": [
     {
       "id": "4krKCGxMX0mt",
@@ -59,8 +59,8 @@
           "round": 3,
           "opponent": "Samuel Martin",
           "opponentFaction": "Adeptus Mechanicus",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 44,
+          "opponentScore": 87
         }
       ]
     },
@@ -168,8 +168,8 @@
           "round": 3,
           "opponent": "Oscar Luckin",
           "opponentFaction": "Emperor's Children",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 81,
+          "opponentScore": 44
         }
       ]
     },
@@ -226,8 +226,8 @@
           "round": 3,
           "opponent": "Jordan Penning",
           "opponentFaction": "Space Marines (Astartes)",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 44,
+          "opponentScore": 81
         }
       ]
     },
@@ -313,8 +313,8 @@
           "round": 3,
           "opponent": "Aldo Conti",
           "opponentFaction": "World Eaters",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 76,
+          "opponentScore": 49
         }
       ]
     },
