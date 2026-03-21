@@ -4,7 +4,7 @@
   "totalRounds": 5,
   "currentRound": 2,
   "roundInProgress": true,
-  "updated_at": "2026-03-21T15:54:23",
+  "updated_at": "2026-03-21T16:13:28",
   "players": [
     {
       "id": "4krKCGxMX0mt",
@@ -45,8 +45,8 @@
           "round": 2,
           "opponent": "Samuel Francis",
           "opponentFaction": "Chaos Daemons",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 91,
+          "opponentScore": 68
         }
       ]
     },
@@ -111,8 +111,8 @@
           "round": 2,
           "opponent": "Finbar Power",
           "opponentFaction": "Adepta Sororitas",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 95,
+          "opponentScore": 43
         }
       ]
     },
@@ -221,8 +221,8 @@
           "round": 2,
           "opponent": "Anthony Keen",
           "opponentFaction": "Astra Militarum",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 68,
+          "opponentScore": 91
         }
       ]
     },
