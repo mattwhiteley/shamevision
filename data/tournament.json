@@ -3,7 +3,7 @@
   "bcpUrl": "https://www.bestcoastpairings.com/event/FsLe5WeId8H4",
   "totalRounds": 5,
   "currentRound": 1,
-  "roundInProgress": true,
+  "roundInProgress": false,
   "updated_at": "2026-03-21T08:51:12",
   "players": [
     {
