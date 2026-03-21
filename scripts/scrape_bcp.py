@@ -236,7 +236,7 @@ def build_tournament_json(schedule: dict, all_rounds_data: dict[int, list], roun
     Builds the full tournament.json structure from raw BCP pairing data.
     Only includes players whose names appear in tracked_players.
     """
-    tracked_names = schedule["tracked_players"]
+    tracked_names = schedule.get("hall_of_shame", []) + schedule.get("friends_of_the_pile", [])
     total_rounds  = schedule["total_rounds"]
 
     published_rounds = sorted(all_rounds_data.keys())
