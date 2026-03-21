@@ -2,9 +2,9 @@
   "eventName": "PSSN Presents: Dark Sphere March GT",
   "bcpUrl": "https://www.bestcoastpairings.com/event/FsLe5WeId8H4",
   "totalRounds": 5,
-  "currentRound": 2,
+  "currentRound": 3,
   "roundInProgress": true,
-  "updated_at": "2026-03-21T16:30:29",
+  "updated_at": "2026-03-21T16:46:46",
   "players": [
     {
       "id": "4krKCGxMX0mt",
@@ -23,6 +23,13 @@
           "round": 2,
           "opponent": "Sean McQuaid",
           "opponentFaction": "Genestealer Cult",
+          "playerScore": 83,
+          "opponentScore": 85
+        },
+        {
+          "round": 3,
+          "opponent": "Dan MK",
+          "opponentFaction": "T'au Empire",
           "playerScore": null,
           "opponentScore": null
         }
@@ -47,6 +54,13 @@
           "opponentFaction": "Chaos Daemons",
           "playerScore": 91,
           "opponentScore": 68
+        },
+        {
+          "round": 3,
+          "opponent": "Samuel Martin",
+          "opponentFaction": "Adeptus Mechanicus",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -69,6 +83,13 @@
           "opponentFaction": "Blood Angels",
           "playerScore": 74,
           "opponentScore": 80
+        },
+        {
+          "round": 3,
+          "opponent": "Wesley Fleure",
+          "opponentFaction": "Necrons",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -91,6 +112,13 @@
           "opponentFaction": "Space Marines (Astartes)",
           "playerScore": 96,
           "opponentScore": 60
+        },
+        {
+          "round": 3,
+          "opponent": "Sean McQuaid",
+          "opponentFaction": "Genestealer Cult",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -135,6 +163,13 @@
           "opponentFaction": "Leagues of Votann",
           "playerScore": 99,
           "opponentScore": 61
+        },
+        {
+          "round": 3,
+          "opponent": "Oscar Luckin",
+          "opponentFaction": "Emperor's Children",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -157,6 +192,13 @@
           "opponentFaction": "Thousand Sons",
           "playerScore": 60,
           "opponentScore": 96
+        },
+        {
+          "round": 3,
+          "opponent": "Steve Parratt",
+          "opponentFaction": "Emperor's Children",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -177,6 +219,13 @@
           "round": 2,
           "opponent": "sean marquis",
           "opponentFaction": "Blood Angels",
+          "playerScore": 91,
+          "opponentScore": 80
+        },
+        {
+          "round": 3,
+          "opponent": "Jordan Penning",
+          "opponentFaction": "Space Marines (Astartes)",
           "playerScore": null,
           "opponentScore": null
         }
@@ -201,6 +250,13 @@
           "opponentFaction": "Thousand Sons",
           "playerScore": 87,
           "opponentScore": 80
+        },
+        {
+          "round": 3,
+          "opponent": "Shaman Coom",
+          "opponentFaction": "Space Marines (Astartes)",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -223,6 +279,13 @@
           "opponentFaction": "Astra Militarum",
           "playerScore": 68,
           "opponentScore": 91
+        },
+        {
+          "round": 3,
+          "opponent": "Alex Spall",
+          "opponentFaction": "Dark Angels",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -245,6 +308,13 @@
           "opponentFaction": "Aeldari",
           "playerScore": 61,
           "opponentScore": 100
+        },
+        {
+          "round": 3,
+          "opponent": "Aldo Conti",
+          "opponentFaction": "World Eaters",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -267,6 +337,13 @@
           "opponentFaction": "Space Marines (Astartes)",
           "playerScore": 61,
           "opponentScore": 99
+        },
+        {
+          "round": 3,
+          "opponent": "Panagiotis Bouzianis",
+          "opponentFaction": "Tyranids",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     }
