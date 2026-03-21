@@ -2,9 +2,9 @@
   "eventName": "PSSN Presents: Dark Sphere March GT",
   "bcpUrl": "https://www.bestcoastpairings.com/event/FsLe5WeId8H4",
   "totalRounds": 5,
-  "currentRound": 3,
+  "currentRound": 4,
   "roundInProgress": true,
-  "updated_at": "2026-03-21T19:59:26",
+  "updated_at": "2026-03-21T20:27:44",
   "players": [
     {
       "id": "4krKCGxMX0mt",
@@ -32,6 +32,13 @@
           "opponentFaction": "T'au Empire",
           "playerScore": 61,
           "opponentScore": 70
+        },
+        {
+          "round": 4,
+          "opponent": "Daniel Green",
+          "opponentFaction": "World Eaters",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -61,6 +68,13 @@
           "opponentFaction": "Adeptus Mechanicus",
           "playerScore": 44,
           "opponentScore": 87
+        },
+        {
+          "round": 4,
+          "opponent": "Panagiotis Bouzianis",
+          "opponentFaction": "Tyranids",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -90,6 +104,13 @@
           "opponentFaction": "Necrons",
           "playerScore": 61,
           "opponentScore": 66
+        },
+        {
+          "round": 4,
+          "opponent": "Aidan Bell",
+          "opponentFaction": "Necrons",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -119,6 +140,13 @@
           "opponentFaction": "Genestealer Cult",
           "playerScore": 66,
           "opponentScore": 59
+        },
+        {
+          "round": 4,
+          "opponent": "Jordan Penning",
+          "opponentFaction": "Space Marines (Astartes)",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -170,6 +198,13 @@
           "opponentFaction": "Emperor's Children",
           "playerScore": 81,
           "opponentScore": 44
+        },
+        {
+          "round": 4,
+          "opponent": "James Brown",
+          "opponentFaction": "Thousand Sons",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -197,6 +232,13 @@
           "round": 3,
           "opponent": "Steve Parratt",
           "opponentFaction": "Emperor's Children",
+          "playerScore": 55,
+          "opponentScore": 78
+        },
+        {
+          "round": 4,
+          "opponent": "Paul Whalley",
+          "opponentFaction": "Aeldari",
           "playerScore": null,
           "opponentScore": null
         }
@@ -228,6 +270,13 @@
           "opponentFaction": "Space Marines (Astartes)",
           "playerScore": 44,
           "opponentScore": 81
+        },
+        {
+          "round": 4,
+          "opponent": "Wesley Fleure",
+          "opponentFaction": "Necrons",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -257,6 +306,13 @@
           "opponentFaction": "Space Marines (Astartes)",
           "playerScore": 53,
           "opponentScore": 70
+        },
+        {
+          "round": 4,
+          "opponent": "Tim Lowes",
+          "opponentFaction": "Aeldari",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -286,6 +342,13 @@
           "opponentFaction": "Dark Angels",
           "playerScore": 89,
           "opponentScore": 49
+        },
+        {
+          "round": 4,
+          "opponent": "Sean McQuaid",
+          "opponentFaction": "Genestealer Cult",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -315,6 +378,13 @@
           "opponentFaction": "World Eaters",
           "playerScore": 76,
           "opponentScore": 49
+        },
+        {
+          "round": 4,
+          "opponent": "Blake Purse",
+          "opponentFaction": "Adeptus Mechanicus",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -344,6 +414,13 @@
           "opponentFaction": "Tyranids",
           "playerScore": 70,
           "opponentScore": 90
+        },
+        {
+          "round": 4,
+          "opponent": "Thom Norman",
+          "opponentFaction": "Dark Angels",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     }
