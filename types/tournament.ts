@@ -11,6 +11,7 @@ export type Player = {
   id: string;
   name: string;
   faction: string;
+  group: "hall" | "pile";
   rounds: RoundResult[];
 };
 
