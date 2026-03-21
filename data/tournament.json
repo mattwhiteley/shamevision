@@ -4,7 +4,7 @@
   "totalRounds": 5,
   "currentRound": 1,
   "roundInProgress": true,
-  "updated_at": "2026-03-21T11:34:50",
+  "updated_at": "2026-03-21T11:49:48",
   "players": [
     {
       "id": "4krKCGxMX0mt",
@@ -16,8 +16,8 @@
           "round": 1,
           "opponent": "Alex Spall",
           "opponentFaction": "Dark Angels",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 93,
+          "opponentScore": 40
         }
       ]
     },
@@ -91,8 +91,8 @@
           "round": 1,
           "opponent": "Aldo Conti",
           "opponentFaction": "World Eaters",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 95,
+          "opponentScore": 40
         }
       ]
     },
