@@ -4,7 +4,7 @@
   "totalRounds": 5,
   "currentRound": 3,
   "roundInProgress": true,
-  "updated_at": "2026-03-21T19:38:09",
+  "updated_at": "2026-03-21T19:51:21",
   "players": [
     {
       "id": "4krKCGxMX0mt",
@@ -30,8 +30,8 @@
           "round": 3,
           "opponent": "Dan MK",
           "opponentFaction": "T'au Empire",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 61,
+          "opponentScore": 70
         }
       ]
     },
@@ -88,8 +88,8 @@
           "round": 3,
           "opponent": "Wesley Fleure",
           "opponentFaction": "Necrons",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 61,
+          "opponentScore": 66
         }
       ]
     },
@@ -117,8 +117,8 @@
           "round": 3,
           "opponent": "Sean McQuaid",
           "opponentFaction": "Genestealer Cult",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 66,
+          "opponentScore": 59
         }
       ]
     },
