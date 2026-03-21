@@ -431,7 +431,8 @@ def main():
 
     if tracked_found < expected:
         found_names = {p["name"] for p in result["players"]}
-        missing     = [n for n in schedule["tracked_players"] if n not in found_names]
+        all_names = schedule.get("hall_of_shame", []) + schedule.get("on_the_pile", [])
+        missing   = [n for n in all_names if n not in found_names]
         print(f"  ⚠ Not yet paired (or name mismatch): {', '.join(missing)}")
 
     # ── Write or print ─────────────────────────────────────────────────────
