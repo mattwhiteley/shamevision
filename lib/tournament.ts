@@ -47,12 +47,18 @@ export function computePlayerStats(
   return { player, wins, losses, draws, outcomes, currentRoundData };
 }
 
-export function getSortedPlayers(data: TournamentData): PlayerStats[] {
-  return data.players
-    .map((p) => computePlayerStats(p, data.currentRound, data.roundInProgress))
-    .sort((a, b) => {
-      if (b.wins !== a.wins) return b.wins - a.wins;
-      if (b.draws !== a.draws) return b.draws - a.draws;
-      return a.player.name.localeCompare(b.player.name);
-    });
+function sortStats(stats: PlayerStats[]): PlayerStats[] {
+  return stats.sort((a, b) => {
+    if (b.wins !== a.wins) return b.wins - a.wins;
+    if (b.draws !== a.draws) return b.draws - a.draws;
+    return a.player.name.localeCompare(b.player.name);
+  });
+}
+
+export function getSortedPlayers(data: TournamentData): { hall: PlayerStats[]; pile: PlayerStats[] } {
+  const all = data.players.map((p) => computePlayerStats(p, data.currentRound, data.roundInProgress));
+  return {
+    hall: sortStats(all.filter((s) => s.player.group === "hall")),
+    pile: sortStats(all.filter((s) => s.player.group === "pile")),
+  };
 }

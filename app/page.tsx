@@ -10,14 +10,17 @@ const DATA_URL = "https://raw.githubusercontent.com/mattwhiteley/shamevision/mai
 
 export default function Home() {
   const [data, setData] = useState<TournamentData | null>(null);
-  const [players, setPlayers] = useState<PlayerStats[]>([]);
+  const [hall, setHall] = useState<PlayerStats[]>([]);
+  const [pile, setPile] = useState<PlayerStats[]>([]);
 
   async function fetchData() {
     try {
       const res = await fetch(DATA_URL + "?t=" + Date.now());
       const json: TournamentData = await res.json();
       setData(json);
-      setPlayers(getSortedPlayers(json));
+      const groups = getSortedPlayers(json);
+      setHall(groups.hall);
+      setPile(groups.pile);
     } catch (e) {
       console.error("Failed to fetch tournament data", e);
     }
@@ -76,15 +79,16 @@ export default function Home() {
               })}
             </strong>
           </span>
-          <span className="status-bar__count">{players.length} players</span>
+          <span className="status-bar__count">{hall.length + pile.length} players</span>
           <span className="status-bar__refresh">Checks for scores every 5min</span>
         </div>
       </div>
 
       {/* ── Cards ── */}
       <main className="main">
+        <div className="group-heading">Hall of Shame</div>
         <div className="grid">
-          {players.map((stats) => (
+          {hall.map((stats) => (
             <PlayerCard
               key={stats.player.id}
               stats={stats}
@@ -94,6 +98,22 @@ export default function Home() {
             />
           ))}
         </div>
+        {pile.length > 0 && (
+          <>
+            <div className="group-heading">On the Pile</div>
+            <div className="grid">
+              {pile.map((stats) => (
+                <PlayerCard
+                  key={stats.player.id}
+                  stats={stats}
+                  currentRound={data.currentRound}
+                  totalRounds={data.totalRounds}
+                  roundInProgress={data.roundInProgress}
+                />
+              ))}
+            </div>
+          </>
+        )}
       </main>
     </div>
   );
