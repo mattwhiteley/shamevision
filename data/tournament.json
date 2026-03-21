@@ -4,7 +4,7 @@
   "totalRounds": 5,
   "currentRound": 3,
   "roundInProgress": true,
-  "updated_at": "2026-03-21T19:51:21",
+  "updated_at": "2026-03-21T19:59:26",
   "players": [
     {
       "id": "4krKCGxMX0mt",
@@ -255,8 +255,8 @@
           "round": 3,
           "opponent": "Shaman Coom",
           "opponentFaction": "Space Marines (Astartes)",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 53,
+          "opponentScore": 70
         }
       ]
     },
@@ -342,8 +342,8 @@
           "round": 3,
           "opponent": "Panagiotis Bouzianis",
           "opponentFaction": "Tyranids",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 70,
+          "opponentScore": 90
         }
       ]
     }
