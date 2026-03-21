@@ -265,14 +265,16 @@ def build_tournament_json(schedule: dict, all_rounds_data: dict[int, list], roun
                     continue
 
                 pid  = my_side["id"]
-                name = display_name(my_side, tracked_names)
-                fac  = faction_from_player(my_side)
+                name  = display_name(my_side, tracked_names)
+                fac   = faction_from_player(my_side)
+                group = "hall" if name in schedule.get("hall_of_shame", []) else "pile"
 
                 if pid not in players:
                     players[pid] = {
                         "id":      pid,
                         "name":    name,
                         "faction": fac,
+                        "group":   group,
                         "rounds":  {},
                     }
                 elif not players[pid]["faction"] and fac:
@@ -299,6 +301,7 @@ def build_tournament_json(schedule: dict, all_rounds_data: dict[int, list], roun
             "id":      p["id"],
             "name":    p["name"],
             "faction": p["faction"],
+            "group":   p["group"],
             "rounds":  [p["rounds"][r] for r in sorted(p["rounds"])],
         })
 
@@ -420,7 +423,7 @@ def main():
     result = build_tournament_json(schedule, all_rounds, round_in_progress)
 
     tracked_found = len(result["players"])
-    expected      = len(schedule["tracked_players"])
+    expected = len(schedule.get("hall_of_shame", [])) + len(schedule.get("on_the_pile", []))
     print(
         f"✅ Built JSON: round {result['currentRound']}/{total_rounds}, "
         f"{tracked_found}/{expected} tracked players found"
