@@ -4,7 +4,7 @@
   "totalRounds": 5,
   "currentRound": 5,
   "roundInProgress": true,
-  "updated_at": "2026-03-22T13:40:52",
+  "updated_at": "2026-03-22T14:03:03",
   "players": [
     {
       "id": "4krKCGxMX0mt",
@@ -281,8 +281,8 @@
           "round": 5,
           "opponent": "Paul Looker",
           "opponentFaction": "Drukhari",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 0,
+          "opponentScore": 100
         }
       ]
     },
@@ -367,8 +367,8 @@
           "round": 5,
           "opponent": "Ollie Smith",
           "opponentFaction": "Space Marines (Astartes)",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 100,
+          "opponentScore": 0
         }
       ]
     },
