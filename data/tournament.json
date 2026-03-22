@@ -3,8 +3,8 @@
   "bcpUrl": "https://www.bestcoastpairings.com/event/FsLe5WeId8H4",
   "totalRounds": 5,
   "currentRound": 4,
-  "roundInProgress": false,
-  "updated_at": "2026-03-22T00:42:06",
+  "roundInProgress": true,
+  "updated_at": "2026-03-22T08:07:05",
   "players": [
     {
       "id": "4krKCGxMX0mt",
@@ -35,8 +35,8 @@
         },
         {
           "round": 4,
-          "opponent": "Daniel Green",
-          "opponentFaction": "World Eaters",
+          "opponent": "Sean Preston",
+          "opponentFaction": "Leagues of Votann",
           "playerScore": null,
           "opponentScore": null
         }
@@ -71,8 +71,8 @@
         },
         {
           "round": 4,
-          "opponent": "Panagiotis Bouzianis",
-          "opponentFaction": "Tyranids",
+          "opponent": "Charles Holland",
+          "opponentFaction": "World Eaters",
           "playerScore": null,
           "opponentScore": null
         }
@@ -107,8 +107,8 @@
         },
         {
           "round": 4,
-          "opponent": "Aidan Bell",
-          "opponentFaction": "Necrons",
+          "opponent": "Blake Purse",
+          "opponentFaction": "Adeptus Mechanicus",
           "playerScore": null,
           "opponentScore": null
         }
@@ -143,8 +143,8 @@
         },
         {
           "round": 4,
-          "opponent": "Jordan Penning",
-          "opponentFaction": "Space Marines (Astartes)",
+          "opponent": "Samuel Martin",
+          "opponentFaction": "Adeptus Mechanicus",
           "playerScore": null,
           "opponentScore": null
         }
@@ -201,8 +201,8 @@
         },
         {
           "round": 4,
-          "opponent": "James Brown",
-          "opponentFaction": "Thousand Sons",
+          "opponent": "Nikhil Talwar",
+          "opponentFaction": "Chaos Space Marines",
           "playerScore": null,
           "opponentScore": null
         }
@@ -237,8 +237,8 @@
         },
         {
           "round": 4,
-          "opponent": "Paul Whalley",
-          "opponentFaction": "Aeldari",
+          "opponent": "Samuel Hardisty",
+          "opponentFaction": "Space Marines (Astartes)",
           "playerScore": null,
           "opponentScore": null
         }
@@ -273,8 +273,8 @@
         },
         {
           "round": 4,
-          "opponent": "Wesley Fleure",
-          "opponentFaction": "Necrons",
+          "opponent": "Mashaad Coomaraswamy",
+          "opponentFaction": "Adeptus Custodes",
           "playerScore": null,
           "opponentScore": null
         }
@@ -309,8 +309,8 @@
         },
         {
           "round": 4,
-          "opponent": "Tim Lowes",
-          "opponentFaction": "Aeldari",
+          "opponent": "Trent Abraham",
+          "opponentFaction": "Necrons",
           "playerScore": null,
           "opponentScore": null
         }
@@ -345,8 +345,8 @@
         },
         {
           "round": 4,
-          "opponent": "Sean McQuaid",
-          "opponentFaction": "Genestealer Cult",
+          "opponent": "Panagiotis Bouzianis",
+          "opponentFaction": "Tyranids",
           "playerScore": null,
           "opponentScore": null
         }
@@ -381,8 +381,8 @@
         },
         {
           "round": 4,
-          "opponent": "Blake Purse",
-          "opponentFaction": "Adeptus Mechanicus",
+          "opponent": "Ollie Smith",
+          "opponentFaction": "Space Marines (Astartes)",
           "playerScore": null,
           "opponentScore": null
         }
@@ -417,8 +417,8 @@
         },
         {
           "round": 4,
-          "opponent": "Thom Norman",
-          "opponentFaction": "Dark Angels",
+          "opponent": "Aidan Bell",
+          "opponentFaction": "Necrons",
           "playerScore": null,
           "opponentScore": null
         }
