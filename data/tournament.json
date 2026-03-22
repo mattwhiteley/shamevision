@@ -2,9 +2,9 @@
   "eventName": "PSSN Presents: Dark Sphere March GT",
   "bcpUrl": "https://www.bestcoastpairings.com/event/FsLe5WeId8H4",
   "totalRounds": 5,
-  "currentRound": 4,
-  "roundInProgress": true,
-  "updated_at": "2026-03-22T12:47:45",
+  "currentRound": 5,
+  "roundInProgress": false,
+  "updated_at": "2026-03-22T12:57:44",
   "players": [
     {
       "id": "4krKCGxMX0mt",
@@ -39,6 +39,13 @@
           "opponentFaction": "Leagues of Votann",
           "playerScore": 73,
           "opponentScore": 62
+        },
+        {
+          "round": 5,
+          "opponent": "Anthony Keen",
+          "opponentFaction": "Astra Militarum",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -75,6 +82,13 @@
           "opponentFaction": "World Eaters",
           "playerScore": 74,
           "opponentScore": 83
+        },
+        {
+          "round": 5,
+          "opponent": "Aidan Bell",
+          "opponentFaction": "Necrons",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -111,6 +125,13 @@
           "opponentFaction": "Adeptus Mechanicus",
           "playerScore": 82,
           "opponentScore": 51
+        },
+        {
+          "round": 5,
+          "opponent": "Samuel Hardisty",
+          "opponentFaction": "Space Marines (Astartes)",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -147,6 +168,13 @@
           "opponentFaction": "Adeptus Mechanicus",
           "playerScore": 42,
           "opponentScore": 91
+        },
+        {
+          "round": 5,
+          "opponent": "Dan MK",
+          "opponentFaction": "T'au Empire",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -205,6 +233,13 @@
           "opponentFaction": "Chaos Space Marines",
           "playerScore": 72,
           "opponentScore": 73
+        },
+        {
+          "round": 5,
+          "opponent": "Sean McQuaid",
+          "opponentFaction": "Genestealer Cult",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -241,6 +276,13 @@
           "opponentFaction": "Space Marines (Astartes)",
           "playerScore": 40,
           "opponentScore": 74
+        },
+        {
+          "round": 5,
+          "opponent": "Paul Looker",
+          "opponentFaction": "Drukhari",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -277,6 +319,13 @@
           "opponentFaction": "Adeptus Custodes",
           "playerScore": 97,
           "opponentScore": 37
+        },
+        {
+          "round": 5,
+          "opponent": "Charles Holland",
+          "opponentFaction": "World Eaters",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -313,6 +362,13 @@
           "opponentFaction": "Necrons",
           "playerScore": 63,
           "opponentScore": 82
+        },
+        {
+          "round": 5,
+          "opponent": "Ollie Smith",
+          "opponentFaction": "Space Marines (Astartes)",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -349,6 +405,13 @@
           "opponentFaction": "Tyranids",
           "playerScore": 84,
           "opponentScore": 42
+        },
+        {
+          "round": 5,
+          "opponent": "Shaman Coom",
+          "opponentFaction": "Space Marines (Astartes)",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -385,6 +448,13 @@
           "opponentFaction": "Space Marines (Astartes)",
           "playerScore": 74,
           "opponentScore": 40
+        },
+        {
+          "round": 5,
+          "opponent": "Daniel Green",
+          "opponentFaction": "World Eaters",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
@@ -421,6 +491,13 @@
           "opponentFaction": "Necrons",
           "playerScore": 62,
           "opponentScore": 73
+        },
+        {
+          "round": 5,
+          "opponent": "sean marquis",
+          "opponentFaction": "Blood Angels",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     }
