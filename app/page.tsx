@@ -100,7 +100,7 @@ export default function Home() {
         </div>
         {pile.length > 0 && (
           <>
-            <div className="group-heading">On the Pile</div>
+            <div className="group-heading">Friends of the Pile</div>
             <div className="grid">
               {pile.map((stats) => (
                 <PlayerCard
