@@ -4,7 +4,7 @@
   "totalRounds": 5,
   "currentRound": 5,
   "roundInProgress": true,
-  "updated_at": "2026-03-22T16:27:21",
+  "updated_at": "2026-03-22T16:53:53",
   "players": [
     {
       "id": "4krKCGxMX0mt",
@@ -130,8 +130,8 @@
           "round": 5,
           "opponent": "Samuel Hardisty",
           "opponentFaction": "Space Marines (Astartes)",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 91,
+          "opponentScore": 76
         }
       ]
     },
@@ -238,8 +238,8 @@
           "round": 5,
           "opponent": "Sean McQuaid",
           "opponentFaction": "Genestealer Cult",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 76,
+          "opponentScore": 71
         }
       ]
     },
@@ -324,8 +324,8 @@
           "round": 5,
           "opponent": "Charles Holland",
           "opponentFaction": "World Eaters",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 79,
+          "opponentScore": 82
         }
       ]
     },
@@ -453,8 +453,8 @@
           "round": 5,
           "opponent": "Daniel Green",
           "opponentFaction": "World Eaters",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 76,
+          "opponentScore": 91
         }
       ]
     },
@@ -496,8 +496,8 @@
           "round": 5,
           "opponent": "sean marquis",
           "opponentFaction": "Blood Angels",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 87,
+          "opponentScore": 53
         }
       ]
     }
