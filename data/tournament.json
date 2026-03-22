@@ -4,7 +4,7 @@
   "totalRounds": 5,
   "currentRound": 5,
   "roundInProgress": true,
-  "updated_at": "2026-03-22T15:44:48",
+  "updated_at": "2026-03-22T15:58:13",
   "players": [
     {
       "id": "4krKCGxMX0mt",
@@ -410,8 +410,8 @@
           "round": 5,
           "opponent": "Shaman Coom",
           "opponentFaction": "Space Marines (Astartes)",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 44,
+          "opponentScore": 100
         }
       ]
     },
