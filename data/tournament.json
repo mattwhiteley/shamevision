@@ -4,7 +4,7 @@
   "totalRounds": 5,
   "currentRound": 5,
   "roundInProgress": true,
-  "updated_at": "2026-03-22T15:58:13",
+  "updated_at": "2026-03-22T16:27:21",
   "players": [
     {
       "id": "4krKCGxMX0mt",
@@ -44,8 +44,8 @@
           "round": 5,
           "opponent": "Anthony Keen",
           "opponentFaction": "Astra Militarum",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 89,
+          "opponentScore": 55
         }
       ]
     },
@@ -87,8 +87,8 @@
           "round": 5,
           "opponent": "Aidan Bell",
           "opponentFaction": "Necrons",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 55,
+          "opponentScore": 89
         }
       ]
     },
@@ -173,8 +173,8 @@
           "round": 5,
           "opponent": "Dan MK",
           "opponentFaction": "T'au Empire",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 85,
+          "opponentScore": 82
         }
       ]
     },
