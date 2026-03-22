@@ -4,7 +4,7 @@
   "totalRounds": 5,
   "currentRound": 4,
   "roundInProgress": true,
-  "updated_at": "2026-03-22T12:00:15",
+  "updated_at": "2026-03-22T12:13:50",
   "players": [
     {
       "id": "4krKCGxMX0mt",
@@ -73,8 +73,8 @@
           "round": 4,
           "opponent": "Charles Holland",
           "opponentFaction": "World Eaters",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 74,
+          "opponentScore": 83
         }
       ]
     },
@@ -347,8 +347,8 @@
           "round": 4,
           "opponent": "Panagiotis Bouzianis",
           "opponentFaction": "Tyranids",
-          "playerScore": null,
-          "opponentScore": null
+          "playerScore": 84,
+          "opponentScore": 42
         }
       ]
     },
