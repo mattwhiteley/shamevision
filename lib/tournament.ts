@@ -45,7 +45,7 @@ function getEventConfigs(): EventConfig[] {
 }
 
 async function fetchLiveStateMap(): Promise<Map<string, EventLiveState>> {
-  const res = await fetch(LIVE_URL, { cache: "no-store" });
+  const res = await fetch(`${LIVE_URL}?t=${Date.now()}`, { cache: "no-store" });
   const data = await res.json();
   const states = (data as { events: EventLiveState[] }).events;
   return new Map(states.map((s) => [s.id, s]));

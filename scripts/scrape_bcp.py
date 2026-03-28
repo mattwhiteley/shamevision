@@ -83,7 +83,7 @@ BCP_HEADERS = {
 
 EARLY_OPEN_MINS   = 150   # T+2h30m  start of scraping window
 LATE_START_MINS   = 170   # T+2h50m  switch to faster cadence
-WINDOW_CLOSE_MINS = 190   # T+3h10m  end of scraping window
+WINDOW_CLOSE_MINS = 240   # T+4h00m  end of scraping window (extra time for late score entry)
 
 EARLY_CADENCE_MINS = 5
 LATE_CADENCE_MINS  = 2
