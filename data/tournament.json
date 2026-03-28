@@ -1,503 +1,53 @@
 {
-  "eventName": "PSSN Presents: Dark Sphere March GT",
-  "bcpUrl": "https://www.bestcoastpairings.com/event/FsLe5WeId8H4",
-  "totalRounds": 5,
-  "currentRound": 5,
+  "eventName": "Incursion Events 40K Singles RTT",
+  "bcpUrl": "https://www.bestcoastpairings.com/event/W9jivYOVo0bn",
+  "totalRounds": 3,
+  "currentRound": 1,
   "roundInProgress": true,
-  "updated_at": "2026-03-28T10:21:40",
+  "updated_at": "2026-03-28T10:33:58",
   "players": [
     {
-      "id": "4krKCGxMX0mt",
-      "name": "Aidan Bell",
-      "faction": "Necrons",
-      "group": "pile",
-      "rounds": [
-        {
-          "round": 1,
-          "opponent": "Alex Spall",
-          "opponentFaction": "Dark Angels",
-          "playerScore": 93,
-          "opponentScore": 40
-        },
-        {
-          "round": 2,
-          "opponent": "Sean McQuaid",
-          "opponentFaction": "Genestealer Cult",
-          "playerScore": 83,
-          "opponentScore": 85
-        },
-        {
-          "round": 3,
-          "opponent": "Dan MK",
-          "opponentFaction": "T'au Empire",
-          "playerScore": 61,
-          "opponentScore": 70
-        },
-        {
-          "round": 4,
-          "opponent": "Sean Preston",
-          "opponentFaction": "Leagues of Votann",
-          "playerScore": 73,
-          "opponentScore": 62
-        },
-        {
-          "round": 5,
-          "opponent": "Anthony Keen",
-          "opponentFaction": "Astra Militarum",
-          "playerScore": 89,
-          "opponentScore": 55
-        }
-      ]
-    },
-    {
-      "id": "5Mh9czLpb9za",
+      "id": "R30n4Hl40mFA",
       "name": "Anthony Keen",
       "faction": "Astra Militarum",
       "group": "hall",
       "rounds": [
         {
           "round": 1,
-          "opponent": "Matthew Norris",
-          "opponentFaction": "Dark Angels",
-          "playerScore": 93,
-          "opponentScore": 49
-        },
-        {
-          "round": 2,
-          "opponent": "Samuel Francis",
-          "opponentFaction": "Chaos Daemons",
-          "playerScore": 91,
-          "opponentScore": 68
-        },
-        {
-          "round": 3,
-          "opponent": "Samuel Martin",
-          "opponentFaction": "Adeptus Mechanicus",
-          "playerScore": 44,
-          "opponentScore": 87
-        },
-        {
-          "round": 4,
-          "opponent": "Charles Holland",
-          "opponentFaction": "World Eaters",
-          "playerScore": 74,
-          "opponentScore": 83
-        },
-        {
-          "round": 5,
-          "opponent": "Aidan Bell",
-          "opponentFaction": "Necrons",
-          "playerScore": 55,
-          "opponentScore": 89
+          "opponent": "Sean Gill-Abbott",
+          "opponentFaction": "Death Guard",
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
     {
-      "id": "UAzWjuworYgG",
-      "name": "Daniel Green",
-      "faction": "World Eaters",
+      "id": "KU33Yow3RKIz",
+      "name": "Ben Adams",
+      "faction": "Adeptus Custodes",
       "group": "hall",
       "rounds": [
         {
           "round": 1,
-          "opponent": "Trent Abraham",
-          "opponentFaction": "Necrons",
-          "playerScore": 82,
-          "opponentScore": 75
-        },
-        {
-          "round": 2,
-          "opponent": "Joey Deng",
-          "opponentFaction": "Blood Angels",
-          "playerScore": 74,
-          "opponentScore": 80
-        },
-        {
-          "round": 3,
-          "opponent": "Wesley Fleure",
-          "opponentFaction": "Necrons",
-          "playerScore": 61,
-          "opponentScore": 66
-        },
-        {
-          "round": 4,
-          "opponent": "Blake Purse",
-          "opponentFaction": "Adeptus Mechanicus",
-          "playerScore": 82,
-          "opponentScore": 51
-        },
-        {
-          "round": 5,
-          "opponent": "Samuel Hardisty",
+          "opponent": "Mark Jarvis",
           "opponentFaction": "Space Marines (Astartes)",
-          "playerScore": 91,
-          "opponentScore": 76
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     },
     {
-      "id": "7sCYkNRuLDwq",
-      "name": "James Brown",
+      "id": "lJZ7WTE23sMX",
+      "name": "Cayleb Langhals",
       "faction": "Thousand Sons",
-      "group": "pile",
-      "rounds": [
-        {
-          "round": 1,
-          "opponent": "Chris Ward",
-          "opponentFaction": "Astra Militarum",
-          "playerScore": 91,
-          "opponentScore": 55
-        },
-        {
-          "round": 2,
-          "opponent": "Ollie Smith",
-          "opponentFaction": "Space Marines (Astartes)",
-          "playerScore": 96,
-          "opponentScore": 60
-        },
-        {
-          "round": 3,
-          "opponent": "Sean McQuaid",
-          "opponentFaction": "Genestealer Cult",
-          "playerScore": 66,
-          "opponentScore": 59
-        },
-        {
-          "round": 4,
-          "opponent": "Samuel Martin",
-          "opponentFaction": "Adeptus Mechanicus",
-          "playerScore": 42,
-          "opponentScore": 91
-        },
-        {
-          "round": 5,
-          "opponent": "Dan MK",
-          "opponentFaction": "T'au Empire",
-          "playerScore": 85,
-          "opponentScore": 82
-        }
-      ]
-    },
-    {
-      "id": "8P1r3EW3zsuP",
-      "name": "Jamie Payton",
-      "faction": "Blood Angels",
       "group": "hall",
       "rounds": [
         {
           "round": 1,
-          "opponent": "Sean McQuaid",
-          "opponentFaction": "Genestealer Cult",
-          "playerScore": 71,
-          "opponentScore": 88
-        },
-        {
-          "round": 2,
-          "opponent": "Finbar Power",
-          "opponentFaction": "Adepta Sororitas",
-          "playerScore": 95,
-          "opponentScore": 43
-        }
-      ]
-    },
-    {
-      "id": "loINtFgzsw2L",
-      "name": "Jordan Penning",
-      "faction": "Space Marines (Astartes)",
-      "group": "pile",
-      "rounds": [
-        {
-          "round": 1,
-          "opponent": "Aldo Conti",
-          "opponentFaction": "World Eaters",
-          "playerScore": 95,
-          "opponentScore": 40
-        },
-        {
-          "round": 2,
-          "opponent": "Sean Preston",
-          "opponentFaction": "Leagues of Votann",
-          "playerScore": 99,
-          "opponentScore": 61
-        },
-        {
-          "round": 3,
-          "opponent": "Oscar Luckin",
-          "opponentFaction": "Emperor's Children",
-          "playerScore": 81,
-          "opponentScore": 44
-        },
-        {
-          "round": 4,
-          "opponent": "Nikhil Talwar",
-          "opponentFaction": "Chaos Space Marines",
-          "playerScore": 72,
-          "opponentScore": 73
-        },
-        {
-          "round": 5,
-          "opponent": "Sean McQuaid",
-          "opponentFaction": "Genestealer Cult",
-          "playerScore": 76,
-          "opponentScore": 71
-        }
-      ]
-    },
-    {
-      "id": "pKprr6Jbdng2",
-      "name": "Ollie Smith",
-      "faction": "Space Marines (Astartes)",
-      "group": "hall",
-      "rounds": [
-        {
-          "round": 1,
-          "opponent": "James Ferrier",
-          "opponentFaction": "Necrons",
-          "playerScore": 88,
-          "opponentScore": 63
-        },
-        {
-          "round": 2,
-          "opponent": "James Brown",
-          "opponentFaction": "Thousand Sons",
-          "playerScore": 60,
-          "opponentScore": 96
-        },
-        {
-          "round": 3,
-          "opponent": "Steve Parratt",
-          "opponentFaction": "Emperor's Children",
-          "playerScore": 55,
-          "opponentScore": 78
-        },
-        {
-          "round": 4,
-          "opponent": "Samuel Hardisty",
-          "opponentFaction": "Space Marines (Astartes)",
-          "playerScore": 40,
-          "opponentScore": 74
-        },
-        {
-          "round": 5,
-          "opponent": "Paul Looker",
-          "opponentFaction": "Drukhari",
-          "playerScore": 0,
-          "opponentScore": 100
-        }
-      ]
-    },
-    {
-      "id": "rAprPjBFUTJR",
-      "name": "Oscar Luckin",
-      "faction": "Emperor's Children",
-      "group": "hall",
-      "rounds": [
-        {
-          "round": 1,
-          "opponent": "Paul Whalley",
-          "opponentFaction": "Aeldari",
-          "playerScore": 91,
-          "opponentScore": 49
-        },
-        {
-          "round": 2,
-          "opponent": "sean marquis",
+          "opponent": "Ben Taylor",
           "opponentFaction": "Blood Angels",
-          "playerScore": 91,
-          "opponentScore": 80
-        },
-        {
-          "round": 3,
-          "opponent": "Jordan Penning",
-          "opponentFaction": "Space Marines (Astartes)",
-          "playerScore": 44,
-          "opponentScore": 81
-        },
-        {
-          "round": 4,
-          "opponent": "Mashaad Coomaraswamy",
-          "opponentFaction": "Adeptus Custodes",
-          "playerScore": 97,
-          "opponentScore": 37
-        },
-        {
-          "round": 5,
-          "opponent": "Charles Holland",
-          "opponentFaction": "World Eaters",
-          "playerScore": 79,
-          "opponentScore": 82
-        }
-      ]
-    },
-    {
-      "id": "wYOLAAge84Er",
-      "name": "Paul Looker",
-      "faction": "Drukhari",
-      "group": "hall",
-      "rounds": [
-        {
-          "round": 1,
-          "opponent": "Joey Deng",
-          "opponentFaction": "Blood Angels",
-          "playerScore": 39,
-          "opponentScore": 84
-        },
-        {
-          "round": 2,
-          "opponent": "Azim Mazumder",
-          "opponentFaction": "Thousand Sons",
-          "playerScore": 87,
-          "opponentScore": 80
-        },
-        {
-          "round": 3,
-          "opponent": "Shaman Coom",
-          "opponentFaction": "Space Marines (Astartes)",
-          "playerScore": 53,
-          "opponentScore": 70
-        },
-        {
-          "round": 4,
-          "opponent": "Trent Abraham",
-          "opponentFaction": "Necrons",
-          "playerScore": 63,
-          "opponentScore": 82
-        },
-        {
-          "round": 5,
-          "opponent": "Ollie Smith",
-          "opponentFaction": "Space Marines (Astartes)",
-          "playerScore": 100,
-          "opponentScore": 0
-        }
-      ]
-    },
-    {
-      "id": "YWLBBFc8aOMJ",
-      "name": "Samuel Francis",
-      "faction": "Chaos Daemons",
-      "group": "hall",
-      "rounds": [
-        {
-          "round": 1,
-          "opponent": "Thomas Adams",
-          "opponentFaction": "Drukhari",
-          "playerScore": 85,
-          "opponentScore": 73
-        },
-        {
-          "round": 2,
-          "opponent": "Anthony Keen",
-          "opponentFaction": "Astra Militarum",
-          "playerScore": 68,
-          "opponentScore": 91
-        },
-        {
-          "round": 3,
-          "opponent": "Alex Spall",
-          "opponentFaction": "Dark Angels",
-          "playerScore": 89,
-          "opponentScore": 49
-        },
-        {
-          "round": 4,
-          "opponent": "Panagiotis Bouzianis",
-          "opponentFaction": "Tyranids",
-          "playerScore": 84,
-          "opponentScore": 42
-        },
-        {
-          "round": 5,
-          "opponent": "Shaman Coom",
-          "opponentFaction": "Space Marines (Astartes)",
-          "playerScore": 44,
-          "opponentScore": 100
-        }
-      ]
-    },
-    {
-      "id": "o1Gjj4j5Tmvy",
-      "name": "Samuel Hardisty",
-      "faction": "Space Marines (Astartes)",
-      "group": "hall",
-      "rounds": [
-        {
-          "round": 1,
-          "opponent": "Thom Norman",
-          "opponentFaction": "Dark Angels",
-          "playerScore": 80,
-          "opponentScore": 80
-        },
-        {
-          "round": 2,
-          "opponent": "Tim Lowes",
-          "opponentFaction": "Aeldari",
-          "playerScore": 61,
-          "opponentScore": 100
-        },
-        {
-          "round": 3,
-          "opponent": "Aldo Conti",
-          "opponentFaction": "World Eaters",
-          "playerScore": 76,
-          "opponentScore": 49
-        },
-        {
-          "round": 4,
-          "opponent": "Ollie Smith",
-          "opponentFaction": "Space Marines (Astartes)",
-          "playerScore": 74,
-          "opponentScore": 40
-        },
-        {
-          "round": 5,
-          "opponent": "Daniel Green",
-          "opponentFaction": "World Eaters",
-          "playerScore": 76,
-          "opponentScore": 91
-        }
-      ]
-    },
-    {
-      "id": "c7EcF1sDS6e7",
-      "name": "Sean Preston",
-      "faction": "Leagues of Votann",
-      "group": "hall",
-      "rounds": [
-        {
-          "round": 1,
-          "opponent": "Henry Percival",
-          "opponentFaction": "Dark Angels",
-          "playerScore": 98,
-          "opponentScore": 50
-        },
-        {
-          "round": 2,
-          "opponent": "Jordan Penning",
-          "opponentFaction": "Space Marines (Astartes)",
-          "playerScore": 61,
-          "opponentScore": 99
-        },
-        {
-          "round": 3,
-          "opponent": "Panagiotis Bouzianis",
-          "opponentFaction": "Tyranids",
-          "playerScore": 70,
-          "opponentScore": 90
-        },
-        {
-          "round": 4,
-          "opponent": "Aidan Bell",
-          "opponentFaction": "Necrons",
-          "playerScore": 62,
-          "opponentScore": 73
-        },
-        {
-          "round": 5,
-          "opponent": "sean marquis",
-          "opponentFaction": "Blood Angels",
-          "playerScore": 87,
-          "opponentScore": 53
+          "playerScore": null,
+          "opponentScore": null
         }
       ]
     }
