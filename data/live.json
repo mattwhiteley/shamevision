@@ -4,7 +4,7 @@
       "id": "W9jivYOVo0bn",
       "currentRound": 3,
       "roundInProgress": true,
-      "updated_at": "2026-03-28T17:17:54",
+      "updated_at": "2026-03-28T18:58:28",
       "players": [
         {
           "id": "R30n4Hl40mFA",
@@ -85,8 +85,8 @@
               "round": 3,
               "opponent": "Rob Lebeau",
               "opponentFaction": "Deathwatch",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 25,
+              "opponentScore": 90
             }
           ]
         }
@@ -95,8 +95,8 @@
     {
       "id": "iPv19bg7n3Vr",
       "currentRound": 1,
-      "roundInProgress": false,
-      "updated_at": "2026-03-28T15:56:51",
+      "roundInProgress": true,
+      "updated_at": "2026-03-28T18:58:29",
       "players": [
         {
           "id": "hd6FoQY1mCnF",
