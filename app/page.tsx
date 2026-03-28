@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 import { getResolvedEvents } from "@/lib/tournament";
 import type { ResolvedEvent } from "@/lib/tournament";
 import FilterPillBar from "@/components/FilterPillBar";
@@ -9,13 +9,19 @@ import EventContainer from "@/components/EventContainer";
 const REFRESH_MS = 60_000;
 
 export default function Home() {
-  const [resolvedEvents] = useState<ResolvedEvent[]>(getResolvedEvents);
+  const [resolvedEvents, setResolvedEvents] = useState<ResolvedEvent[]>([]);
   const [activeEventId, setActiveEventId] = useState<string | null>(null);
 
-  useEffect(() => {
-    const t = setTimeout(() => window.location.reload(), REFRESH_MS);
-    return () => clearTimeout(t);
+  const loadData = useCallback(async () => {
+    const events = await getResolvedEvents();
+    setResolvedEvents(events);
   }, []);
+
+  useEffect(() => {
+    loadData();
+    const t = setInterval(loadData, REFRESH_MS);
+    return () => clearInterval(t);
+  }, [loadData]);
 
   const visibleEvents = activeEventId
     ? resolvedEvents.filter((e) => e.event.id === activeEventId)

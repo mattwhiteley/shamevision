@@ -8,10 +8,12 @@ import type {
 } from "@/types/tournament";
 import rawMembersData from "@/data/members.json";
 import rawEventsData from "@/data/events.json";
-import rawLiveData from "@/data/live.json";
+
+const LIVE_URL =
+  "https://raw.githubusercontent.com/mattwhiteley/shamevision/main/data/live.json";
 
 // ---------------------------------------------------------------------------
-// Internal shapes — not exported, not used by UI components
+// Internal shapes
 // ---------------------------------------------------------------------------
 
 type EventConfig = {
@@ -42,30 +44,11 @@ function getEventConfigs(): EventConfig[] {
   return (rawEventsData as { events: EventConfig[] }).events;
 }
 
-function getLiveStateMap(): Map<string, EventLiveState> {
-  const states = (rawLiveData as { events: EventLiveState[] }).events;
+async function fetchLiveStateMap(): Promise<Map<string, EventLiveState>> {
+  const res = await fetch(LIVE_URL, { cache: "no-store" });
+  const data = await res.json();
+  const states = (data as { events: EventLiveState[] }).events;
   return new Map(states.map((s) => [s.id, s]));
-}
-
-export function getEvents(): TournamentEvent[] {
-  const configs = getEventConfigs();
-  const liveMap = getLiveStateMap();
-
-  return configs.map((config) => {
-    const live = liveMap.get(config.id) ?? {
-      currentRound: 1,
-      roundInProgress: false,
-      updated_at: new Date().toISOString(),
-      players: [],
-    };
-    return {
-      ...config,
-      currentRound: live.currentRound,
-      roundInProgress: live.roundInProgress,
-      updated_at: live.updated_at,
-      players: live.players,
-    } as TournamentEvent;
-  });
 }
 
 // ---------------------------------------------------------------------------
@@ -152,10 +135,25 @@ export type ResolvedEvent = {
   players: PlayerStats[];
 };
 
-export function getResolvedEvents(): ResolvedEvent[] {
+export async function getResolvedEvents(): Promise<ResolvedEvent[]> {
   const memberMap = buildMemberMap(getMembers());
-  return getEvents().map((event) => ({
-    event,
-    players: getSortedPlayers(event, memberMap),
-  }));
+  const configs = getEventConfigs();
+  const liveMap = await fetchLiveStateMap();
+
+  return configs.map((config) => {
+    const live = liveMap.get(config.id) ?? {
+      currentRound: 1,
+      roundInProgress: false,
+      updated_at: new Date().toISOString(),
+      players: [],
+    };
+    const event = {
+      ...config,
+      currentRound: live.currentRound,
+      roundInProgress: live.roundInProgress,
+      updated_at: live.updated_at,
+      players: live.players,
+    } as TournamentEvent;
+    return { event, players: getSortedPlayers(event, memberMap) };
+  });
 }
