@@ -4,7 +4,7 @@
       "id": "W9jivYOVo0bn",
       "currentRound": 1,
       "roundInProgress": true,
-      "updated_at": "2026-03-28T11:10:45",
+      "updated_at": "2026-03-28T11:25:52",
       "players": [
         {
           "id": "R30n4Hl40mFA",
@@ -43,6 +43,28 @@
               "round": 1,
               "opponent": "Ben Taylor",
               "opponentFaction": "Blood Angels",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iPv19bg7n3Vr",
+      "currentRound": 1,
+      "roundInProgress": true,
+      "updated_at": "2026-03-28T11:25:53",
+      "players": [
+        {
+          "id": "hd6FoQY1mCnF",
+          "memberId": "member-paul-looker",
+          "faction": "Drukhari",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Mark Jarvis",
+              "opponentFaction": "Space Marines (Astartes)",
               "playerScore": null,
               "opponentScore": null
             }
