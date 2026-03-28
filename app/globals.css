@@ -60,13 +60,17 @@ body {
   min-height: 100vh;
 }
 
+/* ─── Sticky band (header + pill bar scroll together) ─── */
+.sticky-band {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+}
+
 /* ─── Header ──────────────────────────────────────────── */
 .header {
   background: var(--surface);
   border-bottom: 1.5px solid var(--border);
-  position: sticky;
-  top: 0;
-  z-index: 40;
 }
 
 .header__inner {
@@ -166,36 +170,137 @@ body {
   color: #fff;
 }
 
-/* ─── Status bar ──────────────────────────────────────── */
-.status-bar {
-  background: var(--surface-2);
+/* ─── Filter pill bar ─────────────────────────────────── */
+.pill-bar {
+  background: var(--surface);
   border-bottom: 1px solid var(--border);
 }
 
-.status-bar__inner {
+.pill-bar__inner {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 7px 20px;
+  padding: 8px 20px;
   display: flex;
   align-items: center;
+  gap: 6px;
+  overflow-x: auto;
+  /* prevent wrapping — scrolls horizontally instead */
+  flex-wrap: nowrap;
+  /* hide the scrollbar visually */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.pill-bar__inner::-webkit-scrollbar {
+  display: none;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--text-2);
+  background: var(--surface-2);
+  border: 1.5px solid var(--border);
+  border-radius: 999px;
+  padding: 5px 12px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  cursor: pointer;
+  transition: background 0.12s, color 0.12s, border-color 0.12s;
+}
+
+.pill:hover {
+  background: var(--border);
+  color: var(--text);
+}
+
+.pill--active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.pill--active:hover {
+  background: var(--accent);
+  color: #fff;
+}
+
+.pill__badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 4px;
+  border-radius: 999px;
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 500;
+  background: rgba(0, 0, 0, 0.12);
+  color: inherit;
+}
+
+.pill--active .pill__badge {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+/* ─── Event container ─────────────────────────────────── */
+.event-container {
+  margin-bottom: 40px;
+}
+
+.event-container:last-child {
+  margin-bottom: 0;
+}
+
+.event-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
   gap: 16px;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1.5px solid var(--border);
+}
+
+.event-header__left {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.event-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: var(--text);
+  line-height: 1.2;
+}
+
+.event-meta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
   font-family: var(--font-mono);
   font-size: 0.7rem;
   color: var(--text-3);
+  flex-wrap: wrap;
 }
 
-.status-bar__updated {
+.event-round strong,
+.event-updated strong {
   color: var(--text-2);
-  font-weight: 400;
-}
-
-.status-bar__updated strong {
-  color: var(--text);
   font-weight: 500;
 }
 
-.status-bar__count { color: var(--text-2); }
-.status-bar__refresh { margin-left: auto; }
+.event-sep {
+  color: var(--border-strong);
+}
 
 /* ─── Main grid ───────────────────────────────────────── */
 .main {
@@ -585,22 +690,19 @@ body {
     gap: 10px;
   }
 
-  .header__left {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 2px;
-  }
-
-  .meta__round { display: none; }
-
-  .meta__event {
-    font-size: 0.72rem;
-  }
-
   .bcp-btn {
     font-size: 0.72rem;
     padding: 6px 10px;
     flex-shrink: 0;
+  }
+
+  .event-header {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .event-title {
+    font-size: 1rem;
   }
 
   .main {

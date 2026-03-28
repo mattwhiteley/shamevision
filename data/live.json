@@ -1,0 +1,106 @@
+{
+  "events": [
+    {
+      "id": "AZFDANhFHJS6",
+      "currentRound": 3,
+      "roundInProgress": true,
+      "updated_at": "2026-03-08T17:45:00",
+      "players": [
+        {
+          "id": "bcp-001",
+          "memberId": "member-alex-ford",
+          "faction": "Space Marines",
+          "rounds": [
+            { "round": 1, "opponent": "Byron Sidhu",    "opponentFaction": "Aeldari",             "playerScore": 87, "opponentScore": 45 },
+            { "round": 2, "opponent": "Craig Whitmore", "opponentFaction": "Necrons",              "playerScore": 72, "opponentScore": 61 },
+            { "round": 3, "opponent": "Dan Fletcher",   "opponentFaction": "Chaos Space Marines",  "playerScore": null, "opponentScore": null }
+          ]
+        },
+        {
+          "id": "bcp-002",
+          "memberId": "member-ben-adams",
+          "faction": "Orks",
+          "rounds": [
+            { "round": 1, "opponent": "Sam Okafor",     "opponentFaction": "T'au Empire",          "playerScore": 91, "opponentScore": 40 },
+            { "round": 2, "opponent": "Byron Sidhu",    "opponentFaction": "Aeldari",              "playerScore": 55, "opponentScore": 78 },
+            { "round": 3, "opponent": "Craig Whitmore", "opponentFaction": "Necrons",              "playerScore": null, "opponentScore": null }
+          ]
+        },
+        {
+          "id": "bcp-003",
+          "memberId": "member-daniel-green",
+          "faction": "Death Guard",
+          "rounds": [
+            { "round": 1, "opponent": "Craig Whitmore", "opponentFaction": "Necrons",              "playerScore": 44, "opponentScore": 83 },
+            { "round": 2, "opponent": "Sam Okafor",     "opponentFaction": "T'au Empire",          "playerScore": 80, "opponentScore": 55 },
+            { "round": 3, "opponent": "Byron Sidhu",    "opponentFaction": "Aeldari",              "playerScore": null, "opponentScore": null }
+          ]
+        },
+        {
+          "id": "bcp-004",
+          "memberId": "member-guy-miscampbell",
+          "faction": "Custodes",
+          "rounds": [
+            { "round": 1, "opponent": "Dan Fletcher",   "opponentFaction": "Chaos Space Marines",  "playerScore": 76, "opponentScore": 76 },
+            { "round": 2, "opponent": "Pete Marsh",     "opponentFaction": "Imperial Guard",       "playerScore": 88, "opponentScore": 50 },
+            { "round": 3, "opponent": "Sam Okafor",     "opponentFaction": "T'au Empire",          "playerScore": null, "opponentScore": null }
+          ]
+        },
+        {
+          "id": "bcp-005",
+          "memberId": "member-harvey-r",
+          "faction": "Tyranids",
+          "rounds": [
+            { "round": 1, "opponent": "Pete Marsh",     "opponentFaction": "Imperial Guard",       "playerScore": 60, "opponentScore": 88 },
+            { "round": 2, "opponent": "Dan Fletcher",   "opponentFaction": "Chaos Space Marines",  "playerScore": 45, "opponentScore": 90 },
+            { "round": 3, "opponent": "Pete Marsh",     "opponentFaction": "Imperial Guard",       "playerScore": null, "opponentScore": null }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "W9jivYOVo0bn",
+      "currentRound": 2,
+      "roundInProgress": false,
+      "updated_at": "2026-03-28T13:25:00",
+      "players": [
+        {
+          "id": "bcp-101",
+          "memberId": "member-jamie-payton",
+          "faction": "World Eaters",
+          "rounds": [
+            { "round": 1, "opponent": "Tom Reeves",     "opponentFaction": "Blood Angels",         "playerScore": 82, "opponentScore": 55 },
+            { "round": 2, "opponent": "Laura Singh",    "opponentFaction": "Drukhari",             "playerScore": null, "opponentScore": null }
+          ]
+        },
+        {
+          "id": "bcp-102",
+          "memberId": "member-ollie-smith",
+          "faction": "Grey Knights",
+          "rounds": [
+            { "round": 1, "opponent": "Laura Singh",    "opponentFaction": "Drukhari",             "playerScore": 48, "opponentScore": 77 },
+            { "round": 2, "opponent": "Tom Reeves",     "opponentFaction": "Blood Angels",         "playerScore": null, "opponentScore": null }
+          ]
+        },
+        {
+          "id": "bcp-103",
+          "memberId": "member-samuel-hardisty",
+          "faction": "Adeptus Mechanicus",
+          "rounds": [
+            { "round": 1, "opponent": "Chris Yuen",     "opponentFaction": "Leagues of Votann",    "playerScore": 70, "opponentScore": 70 },
+            { "round": 2, "opponent": "Chris Yuen",     "opponentFaction": "Leagues of Votann",    "playerScore": null, "opponentScore": null }
+          ]
+        },
+        {
+          "id": "bcp-104",
+          "memberId": "member-sean-preston",
+          "faction": "Sisters of Battle",
+          "rounds": [
+            { "round": 1, "opponent": "BYE",            "opponentFaction": "",                     "playerScore": null, "opponentScore": null },
+            { "round": 2, "opponent": "Chris Yuen",     "opponentFaction": "Leagues of Votann",    "playerScore": null, "opponentScore": null }
+          ]
+        }
+      ]
+    }
+  ]
+}

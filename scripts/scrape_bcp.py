@@ -2,7 +2,11 @@
 """
 BCP Scraper for ShameVision
 ============================
-Fetches pairings and scores from the BCP REST API and writes tournament.json.
+Fetches pairings and scores from the BCP REST API and writes data/live.json.
+
+Reads:  data/events.json  — event config (BCP ID, schedule, timezone)
+        data/members.json — tracked player registry
+Writes: data/live.json    — runtime state (currentRound, players, scores)
 
 API endpoint:
   GET https://newprod-api.bestcoastpairings.com/v1/events/{eventId}/pairings
@@ -16,19 +20,20 @@ Response shape: { "active": [ ...pairing objects... ] }
 
 Smart scheduling
 ----------------
-GitHub Actions runs this every 5 minutes, but the script checks the current
-time against schedule.json and exits immediately (code 0) if outside an
-active window — so it's a no-op most of the day.
+GitHub Actions runs this every 2 minutes, but the script checks the current
+time against each event's schedule and only scrapes events currently within
+an active window — so it's a no-op most of the day.
 
 Per-round scraping windows (relative to round start time):
   T+2h30m → T+2h50m   run if ≥5 mins since last scrape
   T+2h50m → T+3h10m   run if ≥2 mins since last scrape
-  Outside these        check for new round, otherwise exit
+  Outside these        skip this event
 
 Usage:
-    python scripts/scrape_bcp.py           # normal mode (respects schedule)
-    python scripts/scrape_bcp.py --force   # skip time-window check (for testing)
-    python scripts/scrape_bcp.py --dry-run # print JSON without writing file
+    python scripts/scrape_bcp.py                          # scrape all active events
+    python scripts/scrape_bcp.py --force                  # skip time-window check
+    python scripts/scrape_bcp.py --dry-run                # print JSON without writing
+    python scripts/scrape_bcp.py --event-id AZFDANhFHJS6 # target a specific event
 """
 
 import argparse
@@ -44,10 +49,10 @@ import requests
 # Paths
 # ---------------------------------------------------------------------------
 
-SCRIPTS_DIR   = Path(__file__).parent
-REPO_ROOT     = SCRIPTS_DIR.parent
-SCHEDULE_PATH = SCRIPTS_DIR / "schedule.json"
-OUTPUT_PATH   = REPO_ROOT / "data" / "tournament.json"
+REPO_ROOT    = Path(__file__).parent.parent
+MEMBERS_PATH = REPO_ROOT / "data" / "members.json"
+EVENTS_PATH  = REPO_ROOT / "data" / "events.json"
+LIVE_PATH    = REPO_ROOT / "data" / "live.json"
 
 # ---------------------------------------------------------------------------
 # BCP API
@@ -59,13 +64,13 @@ BCP_API_URL = (
 )
 
 BCP_HEADERS = {
-    "client-id":      "web-app",
-    "env":            "bcp",
-    "accept":         "application/json",
-    "content-type":   "application/json",
-    "origin":         "https://www.bestcoastpairings.com",
-    "referer":        "https://www.bestcoastpairings.com/",
-    "user-agent":     (
+    "client-id":    "web-app",
+    "env":          "bcp",
+    "accept":       "application/json",
+    "content-type": "application/json",
+    "origin":       "https://www.bestcoastpairings.com",
+    "referer":      "https://www.bestcoastpairings.com/",
+    "user-agent":   (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
         "AppleWebKit/537.36 (KHTML, like Gecko) "
         "Chrome/145.0.0.0 Safari/537.36"
@@ -76,7 +81,7 @@ BCP_HEADERS = {
 # Scheduling constants
 # ---------------------------------------------------------------------------
 
-EARLY_OPEN_MINS   = 120   # T+2h30m  start of scraping window
+EARLY_OPEN_MINS   = 150   # T+2h30m  start of scraping window
 LATE_START_MINS   = 170   # T+2h50m  switch to faster cadence
 WINDOW_CLOSE_MINS = 190   # T+3h10m  end of scraping window
 
@@ -84,16 +89,31 @@ EARLY_CADENCE_MINS = 5
 LATE_CADENCE_MINS  = 2
 
 # ---------------------------------------------------------------------------
-# Schedule helpers
+# Data loading
 # ---------------------------------------------------------------------------
 
-def load_schedule() -> dict:
-    with open(SCHEDULE_PATH, encoding="utf-8") as f:
+def load_members() -> list[dict]:
+    with open(MEMBERS_PATH, encoding="utf-8") as f:
+        return json.load(f)["members"]
+
+
+def load_events() -> list[dict]:
+    with open(EVENTS_PATH, encoding="utf-8") as f:
+        return json.load(f)["events"]
+
+
+def load_live() -> dict:
+    if not LIVE_PATH.exists():
+        return {"events": []}
+    with open(LIVE_PATH, encoding="utf-8") as f:
         return json.load(f)
 
 
+# ---------------------------------------------------------------------------
+# Name matching
+# ---------------------------------------------------------------------------
+
 def normalise_name(name: str) -> str:
-    """Lowercase, strip accents and extra whitespace for fuzzy matching."""
     name = name.strip().lower()
     name = "".join(
         c for c in __import__("unicodedata").normalize("NFD", name)
@@ -102,21 +122,14 @@ def normalise_name(name: str) -> str:
     return name
 
 
-def names_match(bcp_first: str, bcp_last: str, tracked_name: str) -> bool:
-    """
-    Flexible match between BCP 'firstName lastName' and our tracked name list.
-    Handles:
-      - Simple full-name match: 'Alex Ford'
-      - Single-word last name only: 'Harvey R'
-      - Emojis / decorations in BCP names (e.g. 'Byron 🔥🎲 Sidhu')
-    """
+def names_match(bcp_first: str, bcp_last: str, member_name: str) -> bool:
     import re
     def clean(s: str) -> str:
         s = re.sub(r"[^\w\s]", "", s, flags=re.UNICODE)
         return normalise_name(s)
 
     bcp_full = clean(f"{bcp_first} {bcp_last}")
-    tracked  = clean(tracked_name)
+    tracked  = clean(member_name)
 
     if tracked == bcp_full:
         return True
@@ -129,48 +142,28 @@ def names_match(bcp_first: str, bcp_last: str, tracked_name: str) -> bool:
     return False
 
 
-def is_tracked(player_data: dict, tracked_names: list[str]) -> bool:
-    user  = player_data.get("user", {})
-    first = user.get("firstName", "")
-    last  = user.get("lastName", "")
-    return any(names_match(first, last, t) for t in tracked_names)
+def find_member(bcp_first: str, bcp_last: str, members: list[dict]) -> dict | None:
+    for member in members:
+        if names_match(bcp_first, bcp_last, member["name"]):
+            return member
+    return None
 
 
-def display_name(player_data: dict, tracked_names: list[str]) -> str:
-    user  = player_data.get("user", {})
-    first = user.get("firstName", "")
-    last  = user.get("lastName", "")
-    for t in tracked_names:
-        if names_match(first, last, t):
-            return t
-    return f"{first} {last}".strip()
+# ---------------------------------------------------------------------------
+# Schedule helpers
+# ---------------------------------------------------------------------------
 
-
-def get_current_round_from_file(output_path: Path) -> int | None:
-    """Returns the currentRound from the existing tournament.json, or None if unavailable."""
-    if not output_path.exists():
-        return None
-    try:
-        data = json.loads(output_path.read_text(encoding="utf-8"))
-        return int(data.get("currentRound", 1))
-    except Exception:
-        return None
-
-
-def get_active_window(schedule: dict) -> tuple[bool, int | None, int]:
+def get_active_window(event_config: dict) -> tuple[bool, int | None, int]:
     """
     Returns (should_run, active_round_number, cadence_minutes).
-    Checks if now falls within any round's scraping window.
+    Uses the event's own timezone and schedule.
     """
-    tz  = ZoneInfo(schedule["timezone"])
+    tz  = ZoneInfo(event_config["timezone"])
     now = datetime.now(tz)
 
-    for entry in schedule["rounds"]:
+    for entry in event_config["schedule"]:
         start   = datetime.fromisoformat(entry["start"]).replace(tzinfo=tz)
         elapsed = (now - start).total_seconds() / 60
-        print (now)
-        print (start)
-        print(elapsed)
 
         if elapsed < EARLY_OPEN_MINS or elapsed > WINDOW_CLOSE_MINS:
             continue
@@ -181,15 +174,14 @@ def get_active_window(schedule: dict) -> tuple[bool, int | None, int]:
     return False, None, 0
 
 
-def minutes_since_last_update(output_path: Path, tz: ZoneInfo) -> float | None:
-    """Returns minutes since the last successful scrape, or None if unknown."""
-    if not output_path.exists():
+def minutes_since_last_update(live: dict, event_id: str, tz: ZoneInfo) -> float | None:
+    event = next((e for e in live.get("events", []) if e["id"] == event_id), None)
+    if not event:
+        return None
+    ts = event.get("updated_at")
+    if not ts:
         return None
     try:
-        data = json.loads(output_path.read_text(encoding="utf-8"))
-        ts   = data.get("updated_at")
-        if not ts:
-            return None
         last = datetime.fromisoformat(ts).replace(tzinfo=timezone.utc).astimezone(tz)
         return (datetime.now(tz) - last).total_seconds() / 60
     except Exception:
@@ -201,12 +193,10 @@ def minutes_since_last_update(output_path: Path, tz: ZoneInfo) -> float | None:
 # ---------------------------------------------------------------------------
 
 def fetch_round(event_id: str, round_num: int) -> list[dict]:
-    """Fetch all pairings for a single round. Returns list of pairing objects."""
-    url = BCP_API_URL.format(event_id=event_id, round=round_num)
+    url  = BCP_API_URL.format(event_id=event_id, round=round_num)
     resp = requests.get(url, headers=BCP_HEADERS, timeout=15)
     resp.raise_for_status()
-    data = resp.json()
-    return data.get("active", [])
+    return resp.json().get("active", [])
 
 
 # ---------------------------------------------------------------------------
@@ -223,7 +213,6 @@ def faction_from_player(p: dict) -> str:
 
 
 def to_score(value) -> int | None:
-    """Convert a score value to int, or None if absent/zero-sentinel."""
     try:
         v = int(value)
         return v if v >= 0 else None
@@ -231,14 +220,13 @@ def to_score(value) -> int | None:
         return None
 
 
-def build_tournament_json(schedule: dict, all_rounds_data: dict[int, list], round_in_progress: bool) -> dict:
-    """
-    Builds the full tournament.json structure from raw BCP pairing data.
-    Only includes players whose names appear in tracked_players.
-    """
-    tracked_names = schedule.get("hall_of_shame", []) + schedule.get("friends_of_the_pile", [])
-    total_rounds  = schedule["total_rounds"]
-
+def build_live_state(
+    event_config: dict,
+    members: list[dict],
+    all_rounds_data: dict[int, list],
+    round_in_progress: bool,
+) -> dict:
+    """Builds the live state dict for a single event."""
     published_rounds = sorted(all_rounds_data.keys())
     current_round    = max(published_rounds) if published_rounds else 1
 
@@ -249,11 +237,8 @@ def build_tournament_json(schedule: dict, all_rounds_data: dict[int, list], roun
             p1 = pairing.get("player1") or {}
             p2 = pairing.get("player2") or {}
 
-            # Scores — BCP uses player1Game.points / player2Game.points
-            p1_game  = pairing.get("player1Game") or {}
-            p2_game  = pairing.get("player2Game") or {}
-            p1_score = to_score(p1_game.get("points"))
-            p2_score = to_score(p2_game.get("points"))
+            p1_score = to_score(pairing.get("player1Score"))
+            p2_score = to_score(pairing.get("player2Score"))
 
             for my_side, their_side, my_score, their_score in [
                 (p1, p2, p1_score, p2_score),
@@ -261,31 +246,29 @@ def build_tournament_json(schedule: dict, all_rounds_data: dict[int, list], roun
             ]:
                 if not my_side:
                     continue
-                if not is_tracked(my_side, tracked_names):
+
+                user   = my_side.get("user", {})
+                first  = user.get("firstName", "")
+                last   = user.get("lastName", "")
+                member = find_member(first, last, members)
+                if not member:
                     continue
 
-                pid  = my_side["id"]
-                name  = display_name(my_side, tracked_names)
-                fac   = faction_from_player(my_side)
-                group = "hall" if name in schedule.get("hall_of_shame", []) else "pile"
+                pid     = my_side["id"]
+                faction = faction_from_player(my_side)
 
                 if pid not in players:
                     players[pid] = {
-                        "id":      pid,
-                        "name":    name,
-                        "faction": fac,
-                        "group":   group,
-                        "rounds":  {},
+                        "id":       pid,
+                        "memberId": member["id"],
+                        "faction":  faction,
+                        "rounds":   {},
                     }
-                elif not players[pid]["faction"] and fac:
-                    players[pid]["faction"] = fac
+                elif not players[pid]["faction"] and faction:
+                    players[pid]["faction"] = faction
 
-                if their_side:
-                    opp_name    = full_name_from_player(their_side)
-                    opp_faction = faction_from_player(their_side)
-                else:
-                    opp_name    = "BYE"
-                    opp_faction = ""
+                opp_name    = full_name_from_player(their_side) if their_side else "BYE"
+                opp_faction = faction_from_player(their_side) if their_side else ""
 
                 players[pid]["rounds"][round_num] = {
                     "round":           round_num,
@@ -295,98 +278,64 @@ def build_tournament_json(schedule: dict, all_rounds_data: dict[int, list], roun
                     "opponentScore":   their_score,
                 }
 
-    player_list = []
-    for p in sorted(players.values(), key=lambda x: x["name"]):
-        player_list.append({
-            "id":      p["id"],
-            "name":    p["name"],
-            "faction": p["faction"],
-            "group":   p["group"],
-            "rounds":  [p["rounds"][r] for r in sorted(p["rounds"])],
-        })
-
-    now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S")
+    player_list = [
+        {
+            "id":       p["id"],
+            "memberId": p["memberId"],
+            "faction":  p["faction"],
+            "rounds":   [p["rounds"][r] for r in sorted(p["rounds"])],
+        }
+        for p in sorted(players.values(), key=lambda x: x["memberId"])
+    ]
 
     return {
-        "eventName":       schedule["event_name"],
-        "bcpUrl":          schedule["bcp_url"],
-        "totalRounds":     total_rounds,
+        "id":              event_config["id"],
         "currentRound":    current_round,
         "roundInProgress": round_in_progress,
-        "updated_at":      now_utc,
+        "updated_at":      datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S"),
         "players":         player_list,
     }
 
 
 # ---------------------------------------------------------------------------
-# Entry point
+# Scrape one event
 # ---------------------------------------------------------------------------
 
-def main():
-    parser = argparse.ArgumentParser(description="Scrape BCP event into tournament.json")
-    parser.add_argument("--force",   action="store_true", help="Skip time-window check")
-    parser.add_argument("--dry-run", action="store_true", help="Print JSON, don't write")
-    args = parser.parse_args()
+def scrape_event(
+    event_config: dict,
+    members: list[dict],
+    live: dict,
+    force: bool,
+) -> dict | None:
+    """
+    Attempts to scrape a single event. Returns the new live state dict for
+    that event, or None if scraping was skipped.
+    """
+    event_id = event_config["id"]
+    tz       = ZoneInfo(event_config["timezone"])
 
-    schedule     = load_schedule()
-    tz           = ZoneInfo(schedule["timezone"])
-    event_id     = schedule["event_id"]
-    total_rounds = schedule["total_rounds"]
-
-    # ── Time-window check ──────────────────────────────────────────────────
-    if not args.force:
-        in_window, active_round, cadence = get_active_window(schedule)
-
-        # Check if a new round has been published since our last scrape
-        known_round = get_current_round_from_file(OUTPUT_PATH)
-        if known_round is not None and known_round < total_rounds:
-            print(f"  Quick-checking BCP for new round (currently at round {known_round})...", end=" ", flush=True)
-            try:
-                next_pairings = fetch_round(event_id, known_round + 1)
-                if next_pairings:
-                    print(f"🆕 Round {known_round + 1} published! Running scraper.")
-                    in_window = True
-                    cadence   = 0
-                else:
-                    print("no new round yet.")
-            except Exception as e:
-                print(f"check failed ({e}), falling back to time window.")
-
-        # Also run if we're past the current round's start time
-        # (so roundInProgress flips to true promptly at round start)
-        if not in_window:
-            known_round = known_round or get_current_round_from_file(OUTPUT_PATH)
-            if known_round is not None:
-                for entry in schedule["rounds"]:
-                    if entry["round"] == known_round:
-                        round_start = datetime.fromisoformat(entry["start"]).replace(tzinfo=tz)
-                        if datetime.now(tz) >= round_start:
-                            mins_ago = minutes_since_last_update(OUTPUT_PATH, tz)
-                            if mins_ago is None or mins_ago >= 5:
-                                print(f"⏰ Round {known_round} has started — updating roundInProgress.")
-                                in_window = True
-                                cadence = 0
-                        break
+    if not force:
+        in_window, active_round, cadence = get_active_window(event_config)
 
         if not in_window:
-            print("💤 Outside all scraping windows — exiting.")
-            sys.exit(0)
+            print(f"  💤 {event_id}: outside scraping window — skipping.")
+            return None
 
-        mins_ago = minutes_since_last_update(OUTPUT_PATH, tz)
+        mins_ago = minutes_since_last_update(live, event_id, tz)
         if mins_ago is not None and mins_ago < cadence:
-            print(f"⏭  Last scraped {mins_ago:.1f}m ago (cadence: every {cadence}m) — exiting.")
-            sys.exit(0)
+            print(f"  ⏭  {event_id}: scraped {mins_ago:.1f}m ago (cadence {cadence}m) — skipping.")
+            return None
 
-        if in_window and active_round:
-            print(f"🔍 Active window: round {active_round}, cadence={cadence}m")
+        print(f"  🔍 {event_id}: active window, round {active_round}, cadence={cadence}m")
     else:
-        print("⚡ --force: skipping time-window check")
+        print(f"  ⚡ {event_id}: --force")
 
-    # ── Fetch all published rounds ─────────────────────────────────────────
+    # Fetch all published rounds
+    total_rounds = event_config["totalRounds"]
     all_rounds: dict[int, list] = {}
 
     for r in range(1, total_rounds + 1):
-        print(f"  Fetching round {r}...", end=" ", flush=True)
+        print(f"    Fetching round {r}...", end=" ", flush=True)
         try:
             pairings = fetch_round(event_id, r)
             if pairings:
@@ -403,47 +352,80 @@ def main():
             break
 
     if not all_rounds:
-        print("❌ No pairing data retrieved — exiting without changes.")
-        sys.exit(1)
+        print(f"  ❌ {event_id}: no pairing data — skipping.")
+        return None
 
-    # ── Determine if current round is actively in progress ────────────────
-    round_in_progress = False
-    if args.force:
-        round_in_progress = True
+    in_window, _, _ = get_active_window(event_config)
+    round_in_progress = in_window or force
+
+    live_state   = build_live_state(event_config, members, all_rounds, round_in_progress)
+    found        = len(live_state["players"])
+    total_members = len(members)
+    print(f"  ✅ {event_id}: round {live_state['currentRound']}/{total_rounds}, {found}/{total_members} members found")
+
+    if found < total_members:
+        found_ids = {p["memberId"] for p in live_state["players"]}
+        missing   = [m["name"] for m in members if m["id"] not in found_ids]
+        print(f"     ⚠ Not yet paired: {', '.join(missing)}")
+
+    return live_state
+
+
+# ---------------------------------------------------------------------------
+# Entry point
+# ---------------------------------------------------------------------------
+
+def main():
+    parser = argparse.ArgumentParser(description="Scrape BCP events into data/live.json")
+    parser.add_argument("--force",    action="store_true", help="Skip time-window check")
+    parser.add_argument("--dry-run",  action="store_true", help="Print JSON, don't write")
+    parser.add_argument("--event-id", default=None,        help="Scrape only this BCP event ID")
+    args = parser.parse_args()
+
+    all_event_configs = load_events()
+    members           = load_members()
+    live              = load_live()
+
+    # Filter to target event if specified
+    if args.event_id:
+        targets = [e for e in all_event_configs if e["id"] == args.event_id]
+        if not targets:
+            print(f"❌ Event '{args.event_id}' not found in events.json.")
+            sys.exit(1)
     else:
-        current_round_num = max(all_rounds.keys())
-        for entry in schedule["rounds"]:
-            if entry["round"] == current_round_num:
-                tz_local = ZoneInfo(schedule["timezone"])
-                start = datetime.fromisoformat(entry["start"]).replace(tzinfo=tz_local)
-                round_in_progress = datetime.now(tz_local) >= start
-                break
-              
-    # ── Build JSON ─────────────────────────────────────────────────────────
-    result = build_tournament_json(schedule, all_rounds, round_in_progress)
+        targets = all_event_configs
 
-    tracked_found = len(result["players"])
-    expected = len(schedule.get("hall_of_shame", [])) + len(schedule.get("on_the_pile", []))
-    print(
-        f"✅ Built JSON: round {result['currentRound']}/{total_rounds}, "
-        f"{tracked_found}/{expected} tracked players found"
-    )
+    print(f"Checking {len(targets)} event(s)...")
 
-    if tracked_found < expected:
-        found_names = {p["name"] for p in result["players"]}
-        all_names = schedule.get("hall_of_shame", []) + schedule.get("on_the_pile", [])
-        missing   = [n for n in all_names if n not in found_names]
-        print(f"  ⚠ Not yet paired (or name mismatch): {', '.join(missing)}")
+    # Build a map of current live states so we can update in place
+    live_map: dict[str, dict] = {e["id"]: e for e in live.get("events", [])}
+    any_updated = False
 
-    # ── Write or print ─────────────────────────────────────────────────────
-    output = json.dumps(result, indent=2, ensure_ascii=False)
+    for event_config in targets:
+        new_state = scrape_event(event_config, members, live, args.force)
+        if new_state:
+            live_map[event_config["id"]] = new_state
+            any_updated = True
+
+    if not any_updated:
+        print("Nothing updated.")
+        return
+
+    # Preserve order from events.json
+    live["events"] = [
+        live_map[e["id"]]
+        for e in all_event_configs
+        if e["id"] in live_map
+    ]
+
+    output = json.dumps(live, indent=2, ensure_ascii=False)
 
     if args.dry_run:
-        print("\n── DRY RUN — tournament.json would be: ──")
+        print("\n── DRY RUN — live.json would be: ──")
         print(output)
     else:
-        OUTPUT_PATH.write_text(output + "\n", encoding="utf-8")
-        print(f"📝 Written to {OUTPUT_PATH}")
+        LIVE_PATH.write_text(output + "\n", encoding="utf-8")
+        print(f"📝 Written to {LIVE_PATH}")
 
 
 if __name__ == "__main__":

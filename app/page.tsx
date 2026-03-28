@@ -1,119 +1,58 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { getSortedPlayers } from "@/lib/tournament";
-import type { PlayerStats, TournamentData } from "@/types/tournament";
-import PlayerCard from "@/components/PlayerCard";
+import { getResolvedEvents } from "@/lib/tournament";
+import type { ResolvedEvent } from "@/lib/tournament";
+import FilterPillBar from "@/components/FilterPillBar";
+import EventContainer from "@/components/EventContainer";
 
 const REFRESH_MS = 60_000;
-const DATA_URL = "https://raw.githubusercontent.com/mattwhiteley/shamevision/main/data/tournament.json";
 
 export default function Home() {
-  const [data, setData] = useState<TournamentData | null>(null);
-  const [hall, setHall] = useState<PlayerStats[]>([]);
-  const [pile, setPile] = useState<PlayerStats[]>([]);
-
-  async function fetchData() {
-    try {
-      const res = await fetch(DATA_URL + "?t=" + Date.now());
-      const json: TournamentData = await res.json();
-      setData(json);
-      const groups = getSortedPlayers(json);
-      setHall(groups.hall);
-      setPile(groups.pile);
-    } catch (e) {
-      console.error("Failed to fetch tournament data", e);
-    }
-  }
+  const [resolvedEvents] = useState<ResolvedEvent[]>(getResolvedEvents);
+  const [activeEventId, setActiveEventId] = useState<string | null>(null);
 
   useEffect(() => {
-    fetchData();
-    const t = setInterval(fetchData, REFRESH_MS);
-    return () => clearInterval(t);
+    const t = setTimeout(() => window.location.reload(), REFRESH_MS);
+    return () => clearTimeout(t);
   }, []);
 
-  if (!data) return <div className="page" style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "100vh", color: "var(--text-2)" }}>Loading…</div>;
+  const visibleEvents = activeEventId
+    ? resolvedEvents.filter((e) => e.event.id === activeEventId)
+    : resolvedEvents;
+
+  const pillData = resolvedEvents.map((e) => ({
+    id: e.event.id,
+    shortName: e.event.shortName,
+    playerCount: e.players.length,
+  }));
 
   return (
     <div className="page">
-      {/* ── Header ── */}
-      <header className="header">
-        <div className="header__inner">
-          <div className="header__left">
+      <div className="sticky-band">
+        {/* ── Header ── */}
+        <header className="header">
+          <div className="header__inner">
             <div className="logo">
               <span className="logo__shame">SHAME</span>
               <span className="logo__vision">VISION</span>
             </div>
-
-            <div className="header__meta">
-              <span className="meta__event">{data.eventName}</span>
-              <span className="meta__round">
-                Round <strong>{data.currentRound}</strong> of {data.totalRounds}
-              </span>
-            </div>
           </div>
+        </header>
 
-          <a
-            href={data.bcpUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bcp-btn"
-          >
-            See Event on BCP
-            <svg viewBox="0 0 12 12" fill="none" width="11" height="11" aria-hidden="true">
-              <path d="M2 2h8v8M2 10L10 2" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" />
-            </svg>
-          </a>
-        </div>
-      </header>
-
-      {/* ── Status bar ── */}
-      <div className="status-bar">
-        <div className="status-bar__inner">
-          <span className="status-bar__updated">
-            Last updated:{" "}
-            <strong>
-              {new Date(data.updated_at).toLocaleTimeString([], {
-                hour: "2-digit",
-                minute: "2-digit",
-              })}
-            </strong>
-          </span>
-          <span className="status-bar__count">{hall.length + pile.length} players</span>
-          <span className="status-bar__refresh">Checks for scores every 5min</span>
-        </div>
+        {/* ── Filter pills ── */}
+        <FilterPillBar
+          events={pillData}
+          activeEventId={activeEventId}
+          onSelect={setActiveEventId}
+        />
       </div>
 
-      {/* ── Cards ── */}
+      {/* ── Event containers ── */}
       <main className="main">
-        <div className="group-heading">Hall of Shame</div>
-        <div className="grid">
-          {hall.map((stats) => (
-            <PlayerCard
-              key={stats.player.id}
-              stats={stats}
-              currentRound={data.currentRound}
-              totalRounds={data.totalRounds}
-              roundInProgress={data.roundInProgress}
-            />
-          ))}
-        </div>
-        {pile.length > 0 && (
-          <>
-            <div className="group-heading">Friends of the Pile</div>
-            <div className="grid">
-              {pile.map((stats) => (
-                <PlayerCard
-                  key={stats.player.id}
-                  stats={stats}
-                  currentRound={data.currentRound}
-                  totalRounds={data.totalRounds}
-                  roundInProgress={data.roundInProgress}
-                />
-              ))}
-            </div>
-          </>
-        )}
+        {visibleEvents.map(({ event, players }) => (
+          <EventContainer key={event.id} event={event} players={players} />
+        ))}
       </main>
     </div>
   );

@@ -1,3 +1,10 @@
+export type Member = {
+  id: string;
+  name: string;
+  shortName: string;
+  tier: "hall-of-shame" | "friends";
+};
+
 export type RoundResult = {
   round: number;
   opponent: string;
@@ -7,15 +14,17 @@ export type RoundResult = {
   opponentScore: number | null;
 };
 
-export type Player = {
+export type EventPlayer = {
   id: string;
-  name: string;
+  memberId: string;
   faction: string;
   group: "hall" | "pile";
   rounds: RoundResult[];
 };
 
-export type TournamentData = {
+export type TournamentEvent = {
+  id: string;
+  shortName: string;
   eventName: string;
   bcpUrl: string;
   totalRounds: number;
@@ -24,7 +33,12 @@ export type TournamentData = {
   roundInProgress: boolean;
   /** ISO 8601 datetime string, e.g. "2026-03-07T14:35:00" */
   updated_at: string;
-  players: Player[];
+  players: EventPlayer[];
+};
+
+/** EventPlayer with name resolved from the members registry — used in UI components */
+export type ResolvedPlayer = EventPlayer & {
+  name: string;
 };
 
 export type RoundOutcome =
@@ -37,7 +51,7 @@ export type RoundOutcome =
   | "pending";
 
 export type PlayerStats = {
-  player: Player;
+  player: ResolvedPlayer;
   wins: number;
   losses: number;
   draws: number;
