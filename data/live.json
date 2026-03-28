@@ -2,9 +2,9 @@
   "events": [
     {
       "id": "W9jivYOVo0bn",
-      "currentRound": 2,
+      "currentRound": 3,
       "roundInProgress": true,
-      "updated_at": "2026-03-28T16:03:38",
+      "updated_at": "2026-03-28T16:47:15",
       "players": [
         {
           "id": "R30n4Hl40mFA",
@@ -22,6 +22,13 @@
               "round": 2,
               "opponent": "Chris Shaw",
               "opponentFaction": "Orks",
+              "playerScore": 95,
+              "opponentScore": 74
+            },
+            {
+              "round": 3,
+              "opponent": "Ben Adams",
+              "opponentFaction": "Adeptus Custodes",
               "playerScore": null,
               "opponentScore": null
             }
@@ -45,6 +52,13 @@
               "opponentFaction": "World Eaters",
               "playerScore": 99,
               "opponentScore": 43
+            },
+            {
+              "round": 3,
+              "opponent": "Anthony Keen",
+              "opponentFaction": "Astra Militarum",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -64,6 +78,13 @@
               "round": 2,
               "opponent": "Tim Anderson",
               "opponentFaction": "Death Guard",
+              "playerScore": 92,
+              "opponentScore": 72
+            },
+            {
+              "round": 3,
+              "opponent": "Rob Lebeau",
+              "opponentFaction": "Deathwatch",
               "playerScore": null,
               "opponentScore": null
             }
