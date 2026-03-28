@@ -2,9 +2,9 @@
   "events": [
     {
       "id": "W9jivYOVo0bn",
-      "currentRound": 1,
+      "currentRound": 2,
       "roundInProgress": true,
-      "updated_at": "2026-03-28T13:09:52",
+      "updated_at": "2026-03-28T13:41:35",
       "players": [
         {
           "id": "R30n4Hl40mFA",
@@ -15,6 +15,13 @@
               "round": 1,
               "opponent": "Sean Gill-Abbott",
               "opponentFaction": "Death Guard",
+              "playerScore": 100,
+              "opponentScore": 41
+            },
+            {
+              "round": 2,
+              "opponent": "Chris Shaw",
+              "opponentFaction": "Orks",
               "playerScore": null,
               "opponentScore": null
             }
@@ -29,6 +36,13 @@
               "round": 1,
               "opponent": "Mark Jarvis",
               "opponentFaction": "Space Marines (Astartes)",
+              "playerScore": 96,
+              "opponentScore": 49
+            },
+            {
+              "round": 2,
+              "opponent": "Matt Bush",
+              "opponentFaction": "World Eaters",
               "playerScore": null,
               "opponentScore": null
             }
@@ -43,6 +57,13 @@
               "round": 1,
               "opponent": "Ben Taylor",
               "opponentFaction": "Blood Angels",
+              "playerScore": 89,
+              "opponentScore": 35
+            },
+            {
+              "round": 2,
+              "opponent": "Tim Anderson",
+              "opponentFaction": "Death Guard",
               "playerScore": null,
               "opponentScore": null
             }
