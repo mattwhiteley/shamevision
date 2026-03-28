@@ -237,8 +237,8 @@ def build_live_state(
             p1 = pairing.get("player1") or {}
             p2 = pairing.get("player2") or {}
 
-            p1_score = to_score(pairing.get("player1Score"))
-            p2_score = to_score(pairing.get("player2Score"))
+            p1_score = to_score((pairing.get("player1Game") or {}).get("points"))
+            p2_score = to_score((pairing.get("player2Game") or {}).get("points"))
 
             for my_side, their_side, my_score, their_score in [
                 (p1, p2, p1_score, p2_score),
