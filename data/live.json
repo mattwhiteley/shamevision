@@ -4,7 +4,7 @@
       "id": "W9jivYOVo0bn",
       "currentRound": 2,
       "roundInProgress": true,
-      "updated_at": "2026-03-28T13:57:27",
+      "updated_at": "2026-03-28T15:56:51",
       "players": [
         {
           "id": "R30n4Hl40mFA",
@@ -43,8 +43,8 @@
               "round": 2,
               "opponent": "Matt Bush",
               "opponentFaction": "World Eaters",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 99,
+              "opponentScore": 43
             }
           ]
         },
@@ -74,8 +74,8 @@
     {
       "id": "iPv19bg7n3Vr",
       "currentRound": 1,
-      "roundInProgress": false,
-      "updated_at": "2026-03-28T11:25:53",
+      "roundInProgress": true,
+      "updated_at": "2026-03-28T15:56:51",
       "players": [
         {
           "id": "hd6FoQY1mCnF",
