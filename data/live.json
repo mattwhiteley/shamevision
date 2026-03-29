@@ -96,7 +96,7 @@
       "id": "iPv19bg7n3Vr",
       "currentRound": 3,
       "roundInProgress": true,
-      "updated_at": "2026-03-29T15:17:32",
+      "updated_at": "2026-03-29T17:39:26",
       "players": [
         {
           "id": "hd6FoQY1mCnF",
@@ -121,8 +121,8 @@
               "round": 3,
               "opponent": "Liam Macindoe",
               "opponentFaction": "Thousand Sons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 39
             }
           ]
         }
