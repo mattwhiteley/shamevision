@@ -262,6 +262,7 @@ def build_live_state(
                         "id":       pid,
                         "memberId": member["id"],
                         "faction":  faction,
+                        "group":    "pile" if member.get("tier") == "friends" else "hall",
                         "rounds":   {},
                     }
                 elif not players[pid]["faction"] and faction:
@@ -283,6 +284,7 @@ def build_live_state(
             "id":       p["id"],
             "memberId": p["memberId"],
             "faction":  p["faction"],
+            "group":    p["group"],
             "rounds":   [p["rounds"][r] for r in sorted(p["rounds"])],
         }
         for p in sorted(players.values(), key=lambda x: x["memberId"])

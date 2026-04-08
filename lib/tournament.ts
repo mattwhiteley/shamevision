@@ -136,7 +136,9 @@ export type ResolvedEvent = {
 };
 
 export async function getResolvedEvents(): Promise<ResolvedEvent[]> {
-  const memberMap = buildMemberMap(getMembers());
+  const members = getMembers();
+  const memberMap = buildMemberMap(members);
+  const tierMap = new Map(members.map((m) => [m.id, m.tier]));
   const configs = getEventConfigs();
   const liveMap = await fetchLiveStateMap();
 
@@ -147,12 +149,16 @@ export async function getResolvedEvents(): Promise<ResolvedEvent[]> {
       updated_at: new Date().toISOString(),
       players: [],
     };
+    const players = live.players.map((p) => ({
+      ...p,
+      group: p.group ?? (tierMap.get(p.memberId) === "friends" ? "pile" : "hall") as EventPlayer["group"],
+    }));
     const event = {
       ...config,
       currentRound: live.currentRound,
       roundInProgress: live.roundInProgress,
       updated_at: live.updated_at,
-      players: live.players,
+      players,
     } as TournamentEvent;
     return { event, players: getSortedPlayers(event, memberMap) };
   });

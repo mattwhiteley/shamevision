@@ -49,17 +49,38 @@ export default function EventContainer({ event, players }: Props) {
           </svg>
         </a>
       </div>
+      <div className="group-heading">Hall of Shame</div>
       <div className="grid">
-        {players.map((stats) => (
-          <PlayerCard
-            key={stats.player.id}
-            stats={stats}
-            currentRound={event.currentRound}
-            totalRounds={event.totalRounds}
-            roundInProgress={event.roundInProgress}
-          />
-        ))}
+        {players
+          .filter((s) => s.player.group !== "pile")
+          .map((stats) => (
+            <PlayerCard
+              key={stats.player.id}
+              stats={stats}
+              currentRound={event.currentRound}
+              totalRounds={event.totalRounds}
+              roundInProgress={event.roundInProgress}
+            />
+          ))}
       </div>
+      {players.some((s) => s.player.group === "pile") && (
+        <>
+          <div className="group-heading">Friends of the Pile</div>
+          <div className="grid">
+            {players
+              .filter((s) => s.player.group === "pile")
+              .map((stats) => (
+                <PlayerCard
+                  key={stats.player.id}
+                  stats={stats}
+                  currentRound={event.currentRound}
+                  totalRounds={event.totalRounds}
+                  roundInProgress={event.roundInProgress}
+                />
+              ))}
+          </div>
+        </>
+      )}
     </div>
   );
 }
