@@ -43,7 +43,6 @@
     { "id": "member-tim-waters",       "name": "Tim Waters",       "shortName": "Tim",       "tier": "hall-of-shame" },
     { "id": "member-ollie-smith",      "name": "Ollie Smith",      "shortName": "Ollie",     "tier": "hall-of-shame" },
     { "id": "member-samuel-hardisty",  "name": "Samuel Hardisty",  "shortName": "Sam H",     "tier": "hall-of-shame" },
-    { "id": "member-sean-preston",     "name": "Sean Preston",     "shortName": "Sean",      "tier": "hall-of-shame" },
     { "id": "member-james-brown",      "name": "James Brown",      "shortName": "James",     "tier": "friends" },
     { "id": "member-jordan-penning",   "name": "Jordan Penning",   "shortName": "Jordan",    "tier": "friends" },
     { "id": "member-callum-watts",     "name": "Callum Watts",     "shortName": "CallumW",   "tier": "friends" }
