@@ -356,7 +356,7 @@ def scrape_event(
         return None
 
     in_window, _, _ = get_active_window(event_config)
-    round_in_progress = in_window or force
+    round_in_progress = in_window
 
     live_state   = build_live_state(event_config, members, all_rounds, round_in_progress)
     found        = len(live_state["players"])
