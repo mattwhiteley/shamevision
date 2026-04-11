@@ -4,7 +4,7 @@
       "id": "9E2v6HDKuTiu",
       "currentRound": 1,
       "roundInProgress": true,
-      "updated_at": "2026-04-11T10:17:47",
+      "updated_at": "2026-04-11T10:35:44",
       "players": [
         {
           "id": "JJYWdR7XZqTX",
@@ -76,8 +76,8 @@
               "round": 1,
               "opponent": "Kane Phillips",
               "opponentFaction": "Black Templars",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 97,
+              "opponentScore": 38
             }
           ]
         },
@@ -211,8 +211,8 @@
               "round": 1,
               "opponent": "Andrew Parr",
               "opponentFaction": "World Eaters",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 95,
+              "opponentScore": 28
             }
           ]
         },
