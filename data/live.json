@@ -4,7 +4,7 @@
       "id": "9E2v6HDKuTiu",
       "currentRound": 1,
       "roundInProgress": true,
-      "updated_at": "2026-04-11T11:28:34",
+      "updated_at": "2026-04-11T11:35:49",
       "players": [
         {
           "id": "JJYWdR7XZqTX",
@@ -106,8 +106,8 @@
               "round": 1,
               "opponent": "Josh Gates",
               "opponentFaction": "T'au Empire",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 95,
+              "opponentScore": 69
             }
           ]
         },
@@ -241,8 +241,8 @@
               "round": 1,
               "opponent": "Mark Fletcher",
               "opponentFaction": "Chaos Space Marines",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 63,
+              "opponentScore": 79
             }
           ]
         },
