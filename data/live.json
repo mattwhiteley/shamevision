@@ -4,7 +4,7 @@
       "id": "9E2v6HDKuTiu",
       "currentRound": 3,
       "roundInProgress": true,
-      "updated_at": "2026-04-11T19:21:43",
+      "updated_at": "2026-04-11T20:00:30",
       "players": [
         {
           "id": "JJYWdR7XZqTX",
@@ -30,8 +30,8 @@
               "round": 3,
               "opponent": "Connor Baker",
               "opponentFaction": "Leagues of Votann",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 86,
+              "opponentScore": 36
             }
           ]
         },
@@ -59,8 +59,8 @@
               "round": 3,
               "opponent": "Edward Hearn",
               "opponentFaction": "Black Templars",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 42,
+              "opponentScore": 81
             }
           ]
         },
@@ -146,8 +146,8 @@
               "round": 3,
               "opponent": "Reece Knight",
               "opponentFaction": "Aeldari",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 36,
+              "opponentScore": 73
             }
           ]
         },
@@ -204,8 +204,8 @@
               "round": 3,
               "opponent": "Kevin Weaver",
               "opponentFaction": "Genestealer Cult",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 73,
+              "opponentScore": 55
             }
           ]
         },
@@ -262,8 +262,8 @@
               "round": 3,
               "opponent": "Phil Lovegrove",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 65,
+              "opponentScore": 65
             }
           ]
         },
@@ -378,8 +378,8 @@
               "round": 3,
               "opponent": "Karsten Allers",
               "opponentFaction": "World Eaters",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 45,
+              "opponentScore": 91
             }
           ]
         },
@@ -436,8 +436,8 @@
               "round": 3,
               "opponent": "Alan Morgan",
               "opponentFaction": "T'au Empire",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 91,
+              "opponentScore": 52
             }
           ]
         },
