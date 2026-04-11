@@ -4,12 +4,13 @@
       "id": "9E2v6HDKuTiu",
       "currentRound": 1,
       "roundInProgress": false,
-      "updated_at": "2026-04-08T22:39:41",
+      "updated_at": "2026-04-11T08:41:07",
       "players": [
         {
           "id": "JJYWdR7XZqTX",
           "memberId": "member-aidan-bell",
           "faction": "Necrons",
+          "group": "hall",
           "rounds": [
             {
               "round": 1,
@@ -24,6 +25,7 @@
           "id": "IQNx6o43d9Hc",
           "memberId": "member-alex-ford",
           "faction": "Drukhari",
+          "group": "hall",
           "rounds": [
             {
               "round": 1,
@@ -38,6 +40,7 @@
           "id": "4UHkZpgqdid8",
           "memberId": "member-aneurin-brewer",
           "faction": "Drukhari",
+          "group": "hall",
           "rounds": [
             {
               "round": 1,
@@ -52,6 +55,7 @@
           "id": "mN6f2mzrORqN",
           "memberId": "member-anthony-keen",
           "faction": "Astra Militarum",
+          "group": "hall",
           "rounds": [
             {
               "round": 1,
@@ -66,6 +70,7 @@
           "id": "8sTSaK9Jpg0t",
           "memberId": "member-ben-adams",
           "faction": "Adeptus Custodes",
+          "group": "hall",
           "rounds": [
             {
               "round": 1,
@@ -80,6 +85,7 @@
           "id": "J4PVzLf3GkEZ",
           "memberId": "member-callum-watts",
           "faction": "Space Marines (Astartes)",
+          "group": "pile",
           "rounds": [
             {
               "round": 1,
@@ -94,6 +100,7 @@
           "id": "Vu4kC9PqG54u",
           "memberId": "member-cayleb-langhals",
           "faction": "Thousand Sons",
+          "group": "hall",
           "rounds": [
             {
               "round": 1,
@@ -108,6 +115,7 @@
           "id": "rov4uzZB19rE",
           "memberId": "member-chris-enderby",
           "faction": "Necrons",
+          "group": "hall",
           "rounds": [
             {
               "round": 1,
@@ -122,6 +130,7 @@
           "id": "CTBF3DzbPTim",
           "memberId": "member-daniel-green",
           "faction": "World Eaters",
+          "group": "hall",
           "rounds": [
             {
               "round": 1,
@@ -136,6 +145,7 @@
           "id": "AVPOAK6zxh9x",
           "memberId": "member-guy-miscampbell",
           "faction": "Deathwatch",
+          "group": "hall",
           "rounds": [
             {
               "round": 1,
@@ -150,6 +160,7 @@
           "id": "IpxpFdU0nNWK",
           "memberId": "member-harvey-r",
           "faction": "Emperor's Children",
+          "group": "hall",
           "rounds": [
             {
               "round": 1,
@@ -164,6 +175,7 @@
           "id": "JaW6zMoCMA4M",
           "memberId": "member-james-brown",
           "faction": "Thousand Sons",
+          "group": "pile",
           "rounds": [
             {
               "round": 1,
@@ -178,6 +190,7 @@
           "id": "oV5CHA5dlYyu",
           "memberId": "member-jordan-penning",
           "faction": "Space Marines (Astartes)",
+          "group": "pile",
           "rounds": [
             {
               "round": 1,
@@ -192,6 +205,7 @@
           "id": "z2HOvaGZOSXE",
           "memberId": "member-matthew-yeoh",
           "faction": "Imperial Knights",
+          "group": "hall",
           "rounds": [
             {
               "round": 1,
@@ -206,6 +220,7 @@
           "id": "O5p2eynrEiVh",
           "memberId": "member-oscar-luckin",
           "faction": "Emperor's Children",
+          "group": "hall",
           "rounds": [
             {
               "round": 1,
@@ -220,6 +235,7 @@
           "id": "Pqn9CcS5t7zI",
           "memberId": "member-spencer-james",
           "faction": "Emperor's Children",
+          "group": "hall",
           "rounds": [
             {
               "round": 1,
@@ -234,6 +250,7 @@
           "id": "FzCmaElQ3l6R",
           "memberId": "member-tim-waters",
           "faction": "Drukhari",
+          "group": "hall",
           "rounds": [
             {
               "round": 1,
