@@ -4,7 +4,7 @@
       "id": "9E2v6HDKuTiu",
       "currentRound": 2,
       "roundInProgress": true,
-      "updated_at": "2026-04-11T12:20:57",
+      "updated_at": "2026-04-11T14:25:07",
       "players": [
         {
           "id": "JJYWdR7XZqTX",
@@ -309,8 +309,8 @@
               "round": 2,
               "opponent": "Steve Randall",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 95,
+              "opponentScore": 32
             }
           ]
         },
