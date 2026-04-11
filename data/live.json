@@ -4,7 +4,7 @@
       "id": "9E2v6HDKuTiu",
       "currentRound": 3,
       "roundInProgress": true,
-      "updated_at": "2026-04-11T20:04:09",
+      "updated_at": "2026-04-11T20:19:19",
       "players": [
         {
           "id": "JJYWdR7XZqTX",
@@ -88,8 +88,8 @@
               "round": 3,
               "opponent": "Tim Waters",
               "opponentFaction": "Drukhari",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 56,
+              "opponentScore": 54
             }
           ]
         },
@@ -117,8 +117,8 @@
               "round": 3,
               "opponent": "Alexander Mason",
               "opponentFaction": "Death Guard",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 82,
+              "opponentScore": 34
             }
           ]
         },
@@ -320,8 +320,8 @@
               "round": 3,
               "opponent": "Ashley Dray",
               "opponentFaction": "Dark Angels",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 94,
+              "opponentScore": 67
             }
           ]
         },
@@ -349,8 +349,8 @@
               "round": 3,
               "opponent": "Stuart Cheshire",
               "opponentFaction": "Necrons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 54,
+              "opponentScore": 74
             }
           ]
         },
@@ -494,8 +494,8 @@
               "round": 3,
               "opponent": "Aneurin Brewer",
               "opponentFaction": "Drukhari",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 54,
+              "opponentScore": 56
             }
           ]
         }
