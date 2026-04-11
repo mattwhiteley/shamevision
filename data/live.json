@@ -4,7 +4,7 @@
       "id": "9E2v6HDKuTiu",
       "currentRound": 1,
       "roundInProgress": true,
-      "updated_at": "2026-04-11T11:02:00",
+      "updated_at": "2026-04-11T11:23:30",
       "players": [
         {
           "id": "JJYWdR7XZqTX",
@@ -16,8 +16,8 @@
               "round": 1,
               "opponent": "Isabel Harrison",
               "opponentFaction": "Adepta Sororitas",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 52
             }
           ]
         },
@@ -31,8 +31,8 @@
               "round": 1,
               "opponent": "Callum Watts",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 72,
+              "opponentScore": 66
             }
           ]
         },
@@ -46,8 +46,8 @@
               "round": 1,
               "opponent": "Zhun Zhou",
               "opponentFaction": "Leagues of Votann",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 86,
+              "opponentScore": 41
             }
           ]
         },
@@ -91,8 +91,8 @@
               "round": 1,
               "opponent": "Alex Ford",
               "opponentFaction": "Drukhari",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 66,
+              "opponentScore": 72
             }
           ]
         },
@@ -121,8 +121,8 @@
               "round": 1,
               "opponent": "James Sexton",
               "opponentFaction": "Adeptus Custodes",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 80,
+              "opponentScore": 91
             }
           ]
         },
@@ -151,8 +151,8 @@
               "round": 1,
               "opponent": "Andrew Simmons",
               "opponentFaction": "Chaos Space Marines",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 91,
+              "opponentScore": 77
             }
           ]
         },
@@ -166,8 +166,8 @@
               "round": 1,
               "opponent": "George Duggins",
               "opponentFaction": "Dark Angels",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 67,
+              "opponentScore": 88
             }
           ]
         },
@@ -226,8 +226,8 @@
               "round": 1,
               "opponent": "Markus Welbourne",
               "opponentFaction": "Tyranids",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 78,
+              "opponentScore": 66
             }
           ]
         },
