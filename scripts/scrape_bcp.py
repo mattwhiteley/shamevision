@@ -81,7 +81,7 @@ BCP_HEADERS = {
 # Scheduling constants
 # ---------------------------------------------------------------------------
 
-EARLY_OPEN_MINS   = 150   # T+2h30m  start of scraping window
+EARLY_OPEN_MINS   = 100   # T+2h30m  start of scraping window
 LATE_START_MINS   = 170   # T+2h50m  switch to faster cadence
 WINDOW_CLOSE_MINS = 240   # T+4h00m  end of scraping window (extra time for late score entry)
 
@@ -171,6 +171,7 @@ def get_active_window(event_config: dict) -> tuple[bool, int | None, int]:
         cadence = LATE_CADENCE_MINS if elapsed >= LATE_START_MINS else EARLY_CADENCE_MINS
         return True, entry["round"], cadence
 
+        
     return False, None, 0
 
 
