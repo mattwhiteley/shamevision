@@ -2,9 +2,9 @@
   "events": [
     {
       "id": "9E2v6HDKuTiu",
-      "currentRound": 2,
+      "currentRound": 3,
       "roundInProgress": true,
-      "updated_at": "2026-04-11T15:56:32",
+      "updated_at": "2026-04-11T16:57:37",
       "players": [
         {
           "id": "JJYWdR7XZqTX",
@@ -25,6 +25,13 @@
               "opponentFaction": "Genestealer Cult",
               "playerScore": 69,
               "opponentScore": 82
+            },
+            {
+              "round": 3,
+              "opponent": "Connor Baker",
+              "opponentFaction": "Leagues of Votann",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -47,6 +54,13 @@
               "opponentFaction": "Dark Angels",
               "playerScore": 76,
               "opponentScore": 75
+            },
+            {
+              "round": 3,
+              "opponent": "Edward Hearn",
+              "opponentFaction": "Black Templars",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -69,6 +83,13 @@
               "opponentFaction": "Black Templars",
               "playerScore": 94,
               "opponentScore": 48
+            },
+            {
+              "round": 3,
+              "opponent": "Tim Waters",
+              "opponentFaction": "Drukhari",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -91,6 +112,13 @@
               "opponentFaction": "Imperial Knights",
               "playerScore": 58,
               "opponentScore": 97
+            },
+            {
+              "round": 3,
+              "opponent": "Alexander Mason",
+              "opponentFaction": "Death Guard",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -113,6 +141,13 @@
               "opponentFaction": "Space Marines (Astartes)",
               "playerScore": 83,
               "opponentScore": 74
+            },
+            {
+              "round": 3,
+              "opponent": "Reece Knight",
+              "opponentFaction": "Aeldari",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -135,6 +170,13 @@
               "opponentFaction": "Necrons",
               "playerScore": 73,
               "opponentScore": 83
+            },
+            {
+              "round": 3,
+              "opponent": "Adam Evans",
+              "opponentFaction": "Blood Angels",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -157,6 +199,13 @@
               "opponentFaction": "T'au Empire",
               "playerScore": 92,
               "opponentScore": 85
+            },
+            {
+              "round": 3,
+              "opponent": "Kevin Weaver",
+              "opponentFaction": "Genestealer Cult",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -179,6 +228,13 @@
               "opponentFaction": "Space Marines (Astartes)",
               "playerScore": 83,
               "opponentScore": 73
+            },
+            {
+              "round": 3,
+              "opponent": "Matthew Stredwick",
+              "opponentFaction": "Death Guard",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -201,6 +257,13 @@
               "opponentFaction": "T'au Empire",
               "playerScore": 48,
               "opponentScore": 99
+            },
+            {
+              "round": 3,
+              "opponent": "Phil Lovegrove",
+              "opponentFaction": "Space Marines (Astartes)",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -223,6 +286,13 @@
               "opponentFaction": "Deathwatch",
               "playerScore": 81,
               "opponentScore": 77
+            },
+            {
+              "round": 3,
+              "opponent": "Jeffrey Hanan",
+              "opponentFaction": "Astra Militarum",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -245,6 +315,13 @@
               "opponentFaction": "Emperor's Children",
               "playerScore": 66,
               "opponentScore": 91
+            },
+            {
+              "round": 3,
+              "opponent": "Ashley Dray",
+              "opponentFaction": "Dark Angels",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -267,6 +344,13 @@
               "opponentFaction": "T'au Empire",
               "playerScore": 97,
               "opponentScore": 75
+            },
+            {
+              "round": 3,
+              "opponent": "Stuart Cheshire",
+              "opponentFaction": "Necrons",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -289,6 +373,13 @@
               "opponentFaction": "Emperor's Children",
               "playerScore": 100,
               "opponentScore": 57
+            },
+            {
+              "round": 3,
+              "opponent": "Karsten Allers",
+              "opponentFaction": "World Eaters",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -311,6 +402,13 @@
               "opponentFaction": "Space Marines (Astartes)",
               "playerScore": 95,
               "opponentScore": 32
+            },
+            {
+              "round": 3,
+              "opponent": "Daniel Kohorn-Hill",
+              "opponentFaction": "Chaos Daemons",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -333,6 +431,13 @@
               "opponentFaction": "Aeldari",
               "playerScore": 59,
               "opponentScore": 97
+            },
+            {
+              "round": 3,
+              "opponent": "Alan Morgan",
+              "opponentFaction": "T'au Empire",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -355,6 +460,13 @@
               "opponentFaction": "Chaos Space Marines",
               "playerScore": 98,
               "opponentScore": 45
+            },
+            {
+              "round": 3,
+              "opponent": "Callum Slater",
+              "opponentFaction": "Imperial Knights",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -377,6 +489,13 @@
               "opponentFaction": "Imperial Knights",
               "playerScore": 90,
               "opponentScore": 80
+            },
+            {
+              "round": 3,
+              "opponent": "Aneurin Brewer",
+              "opponentFaction": "Drukhari",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         }
