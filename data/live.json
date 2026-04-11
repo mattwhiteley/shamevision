@@ -4,7 +4,7 @@
       "id": "9E2v6HDKuTiu",
       "currentRound": 2,
       "roundInProgress": true,
-      "updated_at": "2026-04-11T15:44:59",
+      "updated_at": "2026-04-11T15:54:21",
       "players": [
         {
           "id": "JJYWdR7XZqTX",
@@ -155,8 +155,8 @@
               "round": 2,
               "opponent": "Mark Anderson",
               "opponentFaction": "T'au Empire",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 92,
+              "opponentScore": 85
             }
           ]
         },
@@ -221,8 +221,8 @@
               "round": 2,
               "opponent": "Alexander England",
               "opponentFaction": "Deathwatch",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 81,
+              "opponentScore": 77
             }
           ]
         },
