@@ -4,7 +4,7 @@
       "id": "9E2v6HDKuTiu",
       "currentRound": 1,
       "roundInProgress": true,
-      "updated_at": "2026-04-11T10:35:44",
+      "updated_at": "2026-04-11T11:02:00",
       "players": [
         {
           "id": "JJYWdR7XZqTX",
@@ -136,8 +136,8 @@
               "round": 1,
               "opponent": "Josh Dolman",
               "opponentFaction": "Chaos Daemons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 96,
+              "opponentScore": 64
             }
           ]
         },
@@ -181,8 +181,8 @@
               "round": 1,
               "opponent": "Dave Footer",
               "opponentFaction": "Leagues of Votann",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 96,
+              "opponentScore": 53
             }
           ]
         },
@@ -196,8 +196,8 @@
               "round": 1,
               "opponent": "Chuck Bailey",
               "opponentFaction": "Death Guard",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 91,
+              "opponentScore": 63
             }
           ]
         },
@@ -256,8 +256,8 @@
               "round": 1,
               "opponent": "Lazarus Crick",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 92,
+              "opponentScore": 35
             }
           ]
         }
