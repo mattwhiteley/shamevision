@@ -4,7 +4,7 @@
       "id": "9E2v6HDKuTiu",
       "currentRound": 2,
       "roundInProgress": true,
-      "updated_at": "2026-04-11T14:52:04",
+      "updated_at": "2026-04-11T15:06:22",
       "players": [
         {
           "id": "JJYWdR7XZqTX",
@@ -23,8 +23,8 @@
               "round": 2,
               "opponent": "Kevin Weaver",
               "opponentFaction": "Genestealer Cult",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 69,
+              "opponentScore": 82
             }
           ]
         },
@@ -89,8 +89,8 @@
               "round": 2,
               "opponent": "Ryan Drury",
               "opponentFaction": "Imperial Knights",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 58,
+              "opponentScore": 97
             }
           ]
         },
@@ -111,8 +111,8 @@
               "round": 2,
               "opponent": "Beef Burke",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 83,
+              "opponentScore": 74
             }
           ]
         },
@@ -199,8 +199,8 @@
               "round": 2,
               "opponent": "Ross Tully",
               "opponentFaction": "T'au Empire",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 48,
+              "opponentScore": 99
             }
           ]
         },
