@@ -4,7 +4,7 @@
       "id": "9E2v6HDKuTiu",
       "currentRound": 3,
       "roundInProgress": true,
-      "updated_at": "2026-04-11T20:00:30",
+      "updated_at": "2026-04-11T20:04:09",
       "players": [
         {
           "id": "JJYWdR7XZqTX",
@@ -233,8 +233,8 @@
               "round": 3,
               "opponent": "Matthew Stredwick",
               "opponentFaction": "Death Guard",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 50,
+              "opponentScore": 75
             }
           ]
         },
@@ -291,8 +291,8 @@
               "round": 3,
               "opponent": "Jeffrey Hanan",
               "opponentFaction": "Astra Militarum",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 79,
+              "opponentScore": 66
             }
           ]
         },
