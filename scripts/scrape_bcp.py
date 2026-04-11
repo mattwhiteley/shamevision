@@ -315,7 +315,8 @@ def scrape_event(
     """
     event_id = event_config["id"]
     tz       = ZoneInfo(event_config["timezone"])
-
+    print (f"System time:{datetime.now(tz)}")
+           
     if not force:
         in_window, active_round, cadence = get_active_window(event_config)
 
