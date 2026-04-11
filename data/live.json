@@ -4,7 +4,7 @@
       "id": "9E2v6HDKuTiu",
       "currentRound": 2,
       "roundInProgress": true,
-      "updated_at": "2026-04-11T15:25:24",
+      "updated_at": "2026-04-11T15:44:59",
       "players": [
         {
           "id": "JJYWdR7XZqTX",
@@ -133,8 +133,8 @@
               "round": 2,
               "opponent": "Chris Enderby",
               "opponentFaction": "Necrons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 73,
+              "opponentScore": 83
             }
           ]
         },
@@ -177,8 +177,8 @@
               "round": 2,
               "opponent": "Callum Watts",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 83,
+              "opponentScore": 73
             }
           ]
         },
@@ -375,8 +375,8 @@
               "round": 2,
               "opponent": "Philip Sutton",
               "opponentFaction": "Imperial Knights",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 90,
+              "opponentScore": 80
             }
           ]
         }
