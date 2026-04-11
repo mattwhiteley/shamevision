@@ -291,11 +291,13 @@ def build_live_state(
         for p in sorted(players.values(), key=lambda x: x["memberId"])
     ]
 
+    tz  = ZoneInfo(event_config["timezone"])
+
     return {
         "id":              event_config["id"],
         "currentRound":    current_round,
         "roundInProgress": round_in_progress,
-        "updated_at":      datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S"),
+        "updated_at":      datetime.now(tz).strftime("%Y-%m-%dT%H:%M:%S"),
         "players":         player_list,
     }
 
