@@ -4,7 +4,7 @@
       "id": "9E2v6HDKuTiu",
       "currentRound": 3,
       "roundInProgress": true,
-      "updated_at": "2026-04-11T16:57:37",
+      "updated_at": "2026-04-11T19:21:43",
       "players": [
         {
           "id": "JJYWdR7XZqTX",
@@ -175,8 +175,8 @@
               "round": 3,
               "opponent": "Adam Evans",
               "opponentFaction": "Blood Angels",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 72,
+              "opponentScore": 42
             }
           ]
         },
@@ -407,8 +407,8 @@
               "round": 3,
               "opponent": "Daniel Kohorn-Hill",
               "opponentFaction": "Chaos Daemons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 55,
+              "opponentScore": 65
             }
           ]
         },
@@ -465,8 +465,8 @@
               "round": 3,
               "opponent": "Callum Slater",
               "opponentFaction": "Imperial Knights",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 53,
+              "opponentScore": 47
             }
           ]
         },
