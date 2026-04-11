@@ -183,7 +183,8 @@ def minutes_since_last_update(live: dict, event_id: str, tz: ZoneInfo) -> float 
     if not ts:
         return None
     try:
-        last = datetime.fromisoformat(ts).replace(tzinfo=timezone.utc).astimezone(tz)
+        last = datetime.fromisoformat(ts).replace(tzinfo=tz).astimezone(tz)
+            print(last, datetime.now(tz))
         return (datetime.now(tz) - last).total_seconds() / 60
     except Exception:
         return None
