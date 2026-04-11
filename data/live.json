@@ -4,7 +4,7 @@
       "id": "9E2v6HDKuTiu",
       "currentRound": 2,
       "roundInProgress": true,
-      "updated_at": "2026-04-11T14:25:07",
+      "updated_at": "2026-04-11T14:52:04",
       "players": [
         {
           "id": "JJYWdR7XZqTX",
@@ -243,8 +243,8 @@
               "round": 2,
               "opponent": "Owen King",
               "opponentFaction": "Emperor's Children",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 66,
+              "opponentScore": 91
             }
           ]
         },
@@ -287,8 +287,8 @@
               "round": 2,
               "opponent": "Peekay (NOT Garry) Stevens",
               "opponentFaction": "Emperor's Children",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 57
             }
           ]
         },
