@@ -4,7 +4,7 @@
       "id": "9E2v6HDKuTiu",
       "currentRound": 5,
       "roundInProgress": true,
-      "updated_at": "2026-04-12T15:45:48",
+      "updated_at": "2026-04-12T15:52:10",
       "players": [
         {
           "id": "JJYWdR7XZqTX",
@@ -265,7 +265,7 @@
             },
             {
               "round": 4,
-              "opponent": "Joseph Wilkins",
+              "opponent": "Joseph \"Del\" Wilkins",
               "opponentFaction": "Adeptus Custodes",
               "playerScore": 34,
               "opponentScore": 94
