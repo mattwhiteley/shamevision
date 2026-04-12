@@ -4,7 +4,7 @@
       "id": "9E2v6HDKuTiu",
       "currentRound": 5,
       "roundInProgress": true,
-      "updated_at": "2026-04-12T16:28:40",
+      "updated_at": "2026-04-12T16:40:48",
       "players": [
         {
           "id": "JJYWdR7XZqTX",
@@ -44,8 +44,8 @@
               "round": 5,
               "opponent": "Neil Gourlay",
               "opponentFaction": "Adeptus Custodes",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 85,
+              "opponentScore": 58
             }
           ]
         },
@@ -159,8 +159,8 @@
               "round": 5,
               "opponent": "Adam Parks-Dare (NO LONGER GARY)",
               "opponentFaction": "Leagues of Votann",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 77,
+              "opponentScore": 70
             }
           ]
         },
@@ -274,8 +274,8 @@
               "round": 5,
               "opponent": "Matt Puffett",
               "opponentFaction": "Adepta Sororitas",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 80,
+              "opponentScore": 62
             }
           ]
         },
@@ -403,8 +403,8 @@
               "round": 5,
               "opponent": "Paulie Wallis",
               "opponentFaction": "Drukhari",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 67,
+              "opponentScore": 83
             }
           ]
         },
