@@ -4,7 +4,7 @@
       "id": "9E2v6HDKuTiu",
       "currentRound": 5,
       "roundInProgress": true,
-      "updated_at": "2026-04-12T16:08:11",
+      "updated_at": "2026-04-12T16:21:36",
       "players": [
         {
           "id": "JJYWdR7XZqTX",
@@ -116,8 +116,8 @@
               "round": 5,
               "opponent": "Nathan Rogers",
               "opponentFaction": "Orks",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 94,
+              "opponentScore": 42
             }
           ]
         },
@@ -618,8 +618,8 @@
               "round": 5,
               "opponent": "Callum Templeman",
               "opponentFaction": "Death Guard",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 75,
+              "opponentScore": 80
             }
           ]
         },
