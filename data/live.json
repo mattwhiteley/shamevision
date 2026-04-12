@@ -4,7 +4,7 @@
       "id": "9E2v6HDKuTiu",
       "currentRound": 4,
       "roundInProgress": false,
-      "updated_at": "2026-04-11T22:09:25",
+      "updated_at": "2026-04-12T10:12:28",
       "players": [
         {
           "id": "JJYWdR7XZqTX",
@@ -68,13 +68,6 @@
               "opponentFaction": "Black Templars",
               "playerScore": 42,
               "opponentScore": 81
-            },
-            {
-              "round": 4,
-              "opponent": "Chris Irvine",
-              "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
             }
           ]
         },
@@ -601,13 +594,6 @@
               "opponentFaction": "Drukhari",
               "playerScore": 54,
               "opponentScore": 56
-            },
-            {
-              "round": 4,
-              "opponent": "Veevek Doolabh",
-              "opponentFaction": "Necrons",
-              "playerScore": null,
-              "opponentScore": null
             }
           ]
         }
