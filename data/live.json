@@ -4,7 +4,7 @@
       "id": "9E2v6HDKuTiu",
       "currentRound": 4,
       "roundInProgress": true,
-      "updated_at": "2026-04-12T11:54:16",
+      "updated_at": "2026-04-12T12:22:08",
       "players": [
         {
           "id": "JJYWdR7XZqTX",
@@ -138,8 +138,8 @@
               "round": 4,
               "opponent": "Beef Burke",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 69,
+              "opponentScore": 68
             }
           ]
         },
@@ -174,8 +174,8 @@
               "round": 4,
               "opponent": "Simon Evans",
               "opponentFaction": "Astra Militarum",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 58,
+              "opponentScore": 78
             }
           ]
         },
@@ -239,8 +239,8 @@
               "round": 4,
               "opponent": "Joseph Wilkins",
               "opponentFaction": "Adeptus Custodes",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 34,
+              "opponentScore": 94
             }
           ]
         },
@@ -347,8 +347,8 @@
               "round": 4,
               "opponent": "Edward Hearn",
               "opponentFaction": "Black Templars",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 65,
+              "opponentScore": 58
             }
           ]
         },
@@ -383,8 +383,8 @@
               "round": 4,
               "opponent": "Henry Deans",
               "opponentFaction": "World Eaters",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 68,
+              "opponentScore": 66
             }
           ]
         },
@@ -455,8 +455,8 @@
               "round": 4,
               "opponent": "Aidan Sutherley-Gilmour",
               "opponentFaction": "World Eaters",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 65,
+              "opponentScore": 79
             }
           ]
         },
@@ -563,8 +563,8 @@
               "round": 4,
               "opponent": "Sir Chargealot",
               "opponentFaction": "Blood Angels",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 88,
+              "opponentScore": 88
             }
           ]
         },
