@@ -4,7 +4,7 @@
       "id": "9E2v6HDKuTiu",
       "currentRound": 4,
       "roundInProgress": true,
-      "updated_at": "2026-04-12T12:30:02",
+      "updated_at": "2026-04-12T12:42:31",
       "players": [
         {
           "id": "JJYWdR7XZqTX",
@@ -102,8 +102,8 @@
               "round": 4,
               "opponent": "Luke Harris",
               "opponentFaction": "Necrons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 67,
+              "opponentScore": 68
             }
           ]
         },
@@ -275,8 +275,8 @@
               "round": 4,
               "opponent": "Ryan Garrett",
               "opponentFaction": "T'au Empire",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 48,
+              "opponentScore": 76
             }
           ]
         },
@@ -565,35 +565,6 @@
               "opponentFaction": "Blood Angels",
               "playerScore": 88,
               "opponentScore": 88
-            }
-          ]
-        },
-        {
-          "id": "FzCmaElQ3l6R",
-          "memberId": "member-tim-waters",
-          "faction": "Drukhari",
-          "group": "hall",
-          "rounds": [
-            {
-              "round": 1,
-              "opponent": "Lazarus Crick",
-              "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": 92,
-              "opponentScore": 35
-            },
-            {
-              "round": 2,
-              "opponent": "Philip Sutton",
-              "opponentFaction": "Imperial Knights",
-              "playerScore": 90,
-              "opponentScore": 80
-            },
-            {
-              "round": 3,
-              "opponent": "Aneurin Brewer",
-              "opponentFaction": "Drukhari",
-              "playerScore": 54,
-              "opponentScore": 56
             }
           ]
         }
