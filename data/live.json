@@ -4,7 +4,7 @@
       "id": "9E2v6HDKuTiu",
       "currentRound": 5,
       "roundInProgress": true,
-      "updated_at": "2026-04-12T16:24:40",
+      "updated_at": "2026-04-12T16:28:40",
       "players": [
         {
           "id": "JJYWdR7XZqTX",
@@ -360,8 +360,8 @@
               "round": 5,
               "opponent": "Spencer James",
               "opponentFaction": "Emperor's Children",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 53,
+              "opponentScore": 96
             }
           ]
         },
@@ -661,8 +661,8 @@
               "round": 5,
               "opponent": "Daniel Green",
               "opponentFaction": "World Eaters",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 96,
+              "opponentScore": 53
             }
           ]
         }
