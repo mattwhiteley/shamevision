@@ -4,7 +4,7 @@
       "id": "9E2v6HDKuTiu",
       "currentRound": 4,
       "roundInProgress": true,
-      "updated_at": "2026-04-12T10:12:28",
+      "updated_at": "2026-04-12T11:45:22",
       "players": [
         {
           "id": "JJYWdR7XZqTX",
@@ -37,8 +37,8 @@
               "round": 4,
               "opponent": "Dan M.K",
               "opponentFaction": "T'au Empire",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 65,
+              "opponentScore": 77
             }
           ]
         },
@@ -311,8 +311,8 @@
               "round": 4,
               "opponent": "Owen King",
               "opponentFaction": "Emperor's Children",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 91,
+              "opponentScore": 42
             }
           ]
         },
@@ -419,8 +419,8 @@
               "round": 4,
               "opponent": "Tom Keen",
               "opponentFaction": "Blood Angels",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 60,
+              "opponentScore": 89
             }
           ]
         },
@@ -491,8 +491,8 @@
               "round": 4,
               "opponent": "Jake Dinner",
               "opponentFaction": "Necrons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 96,
+              "opponentScore": 43
             }
           ]
         },
