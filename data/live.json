@@ -4,7 +4,7 @@
       "id": "9E2v6HDKuTiu",
       "currentRound": 5,
       "roundInProgress": true,
-      "updated_at": "2026-04-12T15:52:10",
+      "updated_at": "2026-04-12T16:08:11",
       "players": [
         {
           "id": "JJYWdR7XZqTX",
@@ -202,8 +202,8 @@
               "round": 5,
               "opponent": "Matthew Porter",
               "opponentFaction": "Blood Angels",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 97,
+              "opponentScore": 64
             }
           ]
         },
@@ -317,8 +317,8 @@
               "round": 5,
               "opponent": "Neil Donnison",
               "opponentFaction": "Grey Knights",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 92,
+              "opponentScore": 69
             }
           ]
         },
@@ -446,8 +446,8 @@
               "round": 5,
               "opponent": "Kieran Burton",
               "opponentFaction": "Leagues of Votann",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 92,
+              "opponentScore": 56
             }
           ]
         },
@@ -489,8 +489,8 @@
               "round": 5,
               "opponent": "Owen Holland",
               "opponentFaction": "World Eaters",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 75,
+              "opponentScore": 51
             }
           ]
         },
