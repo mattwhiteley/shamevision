@@ -4,7 +4,7 @@
       "id": "9E2v6HDKuTiu",
       "currentRound": 4,
       "roundInProgress": true,
-      "updated_at": "2026-04-12T12:22:08",
+      "updated_at": "2026-04-12T12:30:02",
       "players": [
         {
           "id": "JJYWdR7XZqTX",
@@ -527,8 +527,8 @@
               "round": 4,
               "opponent": "Curt Baker",
               "opponentFaction": "Astra Militarum",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 99,
+              "opponentScore": 49
             }
           ]
         },
