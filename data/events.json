@@ -1,19 +1,17 @@
 {
   "events": [
     {
-      "id": "9E2v6HDKuTiu",
-      "shortName": "SCSM",
-      "eventName": "THE SOUTH-COAST 40k SUPER-MAJOR",
-      "bcpUrl": "https://www.bestcoastpairings.com/event/9E2v6HDKuTiu",
-      "totalRounds": 5,
+      "id": "yKnN5CVxRRTO",
+      "shortName": "ShameRTT",
+      "eventName": "Pile of Shame Presents: Post-Easter Shame RTT",
+      "bcpUrl": "https://www.bestcoastpairings.com/event/yKnN5CVxRRTO",
+      "totalRounds": 3,
       "timezone": "Europe/London",
       "roundDurationMinutes": 180,
       "schedule": [
-        { "round": 1, "start": "2026-04-11T09:30:00" },
-        { "round": 2, "start": "2026-04-11T13:45:00" },
-        { "round": 3, "start": "2026-04-11T17:15:00" },
-        { "round": 4, "start": "2026-04-12T09:30:00" },
-        { "round": 5, "start": "2026-04-12T13:45:00" }
+        { "round": 1, "start": "2026-04-25T10:15:00" },
+        { "round": 2, "start": "2026-04-25T14:00:00" },
+        { "round": 3, "start": "2026-04-25T17:30:00" },
       ]
     }
   ]
