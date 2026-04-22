@@ -48,6 +48,7 @@
     { "id": "member-james-brown",      "name": "James Brown",      "shortName": "James",     "tier": "friends" },
     { "id": "member-jordan-penning",   "name": "Jordan Penning",   "shortName": "Jordan",    "tier": "friends" },
     { "id": "member-callum-watts",     "name": "Callum Watts",     "shortName": "CallumW",   "tier": "friends" },
-    { "id": "member-ollie-watts",       "name": "Ollie Watts",      "shortName": "OllieW",   "tier": "friends" }
+    { "id": "member-ollie-watts",       "name": "Ollie Watts",      "shortName": "OllieW",   "tier": "friends" },
+    { "id": "member-will-gilbert",       "name": "Will Gilbert",      "shortName": "WillG",   "tier": "friends" }
   ]
 }
