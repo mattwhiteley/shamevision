@@ -4,7 +4,7 @@
       "id": "yKnN5CVxRRTO",
       "currentRound": 1,
       "roundInProgress": false,
-      "updated_at": "2026-04-22T23:33:35",
+      "updated_at": "2026-04-22T23:42:46",
       "players": [
         {
           "id": "oKjQOtlgzA82",
@@ -106,6 +106,21 @@
               "round": 1,
               "opponent": "Adam Laws",
               "opponentFaction": "Space Wolves",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
+        },
+        {
+          "id": "6kXpS3EzSQj6",
+          "memberId": "member-ben-mccarthy",
+          "faction": "Death Guard",
+          "group": "hall",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Alex Higgins",
+              "opponentFaction": "Astra Militarum",
               "playerScore": null,
               "opponentScore": null
             }
@@ -316,6 +331,21 @@
               "round": 1,
               "opponent": "Jamie Payton",
               "opponentFaction": "Blood Angels",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
+        },
+        {
+          "id": "fWeCNCc7OAsT",
+          "memberId": "member-will-gilbert",
+          "faction": "Astra Militarum",
+          "group": "pile",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Ben Partington",
+              "opponentFaction": "Tyranids",
               "playerScore": null,
               "opponentScore": null
             }
