@@ -4,8 +4,23 @@
       "id": "yKnN5CVxRRTO",
       "currentRound": 1,
       "roundInProgress": false,
-      "updated_at": "2026-04-22T23:24:58",
+      "updated_at": "2026-04-22T23:33:35",
       "players": [
+        {
+          "id": "oKjQOtlgzA82",
+          "memberId": "member-adam-laws",
+          "faction": "Space Wolves",
+          "group": "hall",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Ben Adams",
+              "opponentFaction": "Adeptus Custodes",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
+        },
         {
           "id": "bA6S78vB0IXp",
           "memberId": "member-alex-carey",
@@ -97,6 +112,21 @@
           ]
         },
         {
+          "id": "oQROkEbUGKdc",
+          "memberId": "member-ben-partington",
+          "faction": "Tyranids",
+          "group": "hall",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Will Gilbert",
+              "opponentFaction": "Astra Militarum",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
+        },
+        {
           "id": "LbeZ3h9nGHIn",
           "memberId": "member-daniel-green",
           "faction": "World Eaters",
@@ -106,6 +136,21 @@
               "round": 1,
               "opponent": "Harvey R",
               "opponentFaction": "Emperor's Children",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
+        },
+        {
+          "id": "7SZaLjci50hj",
+          "memberId": "member-fintan-ryan",
+          "faction": "Orks",
+          "group": "hall",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Matthew Yeoh",
+              "opponentFaction": "Imperial Knights",
               "playerScore": null,
               "opponentScore": null
             }
@@ -181,6 +226,21 @@
               "round": 1,
               "opponent": "Alex Carey",
               "opponentFaction": "World Eaters",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
+        },
+        {
+          "id": "AKD8rd3qdFtZ",
+          "memberId": "member-ollie-watts",
+          "faction": "Leagues of Votann",
+          "group": "pile",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Paul Looker",
+              "opponentFaction": "Drukhari",
               "playerScore": null,
               "opponentScore": null
             }
