@@ -4,7 +4,7 @@
       "id": "yKnN5CVxRRTO",
       "currentRound": 2,
       "roundInProgress": true,
-      "updated_at": "2026-04-25T14:07:24",
+      "updated_at": "2026-04-25T15:59:06",
       "players": [
         {
           "id": "oKjQOtlgzA82",
@@ -67,8 +67,8 @@
               "round": 2,
               "opponent": "Matthew Yeoh",
               "opponentFaction": "Imperial Knights",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 67,
+              "opponentScore": 89
             }
           ]
         },
@@ -331,8 +331,8 @@
               "round": 2,
               "opponent": "Alex Higgins",
               "opponentFaction": "Astra Militarum",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 89,
+              "opponentScore": 67
             }
           ]
         },
