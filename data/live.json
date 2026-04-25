@@ -4,7 +4,7 @@
       "id": "yKnN5CVxRRTO",
       "currentRound": 2,
       "roundInProgress": true,
-      "updated_at": "2026-04-25T16:50:27",
+      "updated_at": "2026-04-25T17:06:46",
       "players": [
         {
           "id": "oKjQOtlgzA82",
@@ -23,8 +23,8 @@
               "round": 2,
               "opponent": "Dan W",
               "opponentFaction": "Genestealer Cult",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 72,
+              "opponentScore": 96
             }
           ]
         },
@@ -45,8 +45,8 @@
               "round": 2,
               "opponent": "Fintan Ryan",
               "opponentFaction": "Orks",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 87,
+              "opponentScore": 63
             }
           ]
         },
@@ -89,8 +89,8 @@
               "round": 2,
               "opponent": "Tim Waters",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 65,
+              "opponentScore": 79
             }
           ]
         },
@@ -111,8 +111,8 @@
               "round": 2,
               "opponent": "Robert Briden",
               "opponentFaction": "Imperial Knights",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 79,
+              "opponentScore": 79
             }
           ]
         },
@@ -221,8 +221,8 @@
               "round": 2,
               "opponent": "Alex Carey",
               "opponentFaction": "World Eaters",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 63,
+              "opponentScore": 87
             }
           ]
         },
@@ -243,8 +243,8 @@
               "round": 2,
               "opponent": "Nathan Sears",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 93,
+              "opponentScore": 63
             }
           ]
         },
@@ -265,8 +265,8 @@
               "round": 2,
               "opponent": "Ollie Watts",
               "opponentFaction": "Leagues of Votann",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 78,
+              "opponentScore": 93
             }
           ]
         },
@@ -287,8 +287,8 @@
               "round": 2,
               "opponent": "Rob Huang",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 80,
+              "opponentScore": 80
             }
           ]
         },
@@ -309,8 +309,8 @@
               "round": 2,
               "opponent": "Aneurin Brewer",
               "opponentFaction": "Drukhari",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 79,
+              "opponentScore": 65
             }
           ]
         },
@@ -353,8 +353,8 @@
               "round": 2,
               "opponent": "Guy Miscampbell",
               "opponentFaction": "Deathwatch",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 63,
+              "opponentScore": 93
             }
           ]
         },
@@ -375,8 +375,8 @@
               "round": 2,
               "opponent": "Harvey R",
               "opponentFaction": "Emperor's Children",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 93,
+              "opponentScore": 78
             }
           ]
         },
@@ -419,8 +419,8 @@
               "round": 2,
               "opponent": "Jamie Payton",
               "opponentFaction": "Blood Angels",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 80,
+              "opponentScore": 80
             }
           ]
         },
@@ -441,8 +441,8 @@
               "round": 2,
               "opponent": "Artur Tokarski",
               "opponentFaction": "Astra Militarum",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 79,
+              "opponentScore": 79
             }
           ]
         },
@@ -463,8 +463,8 @@
               "round": 2,
               "opponent": "Tom McCaughey",
               "opponentFaction": "Death Guard",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 71,
+              "opponentScore": 87
             }
           ]
         },
@@ -485,8 +485,8 @@
               "round": 2,
               "opponent": "Samuel Hardisty",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 87,
+              "opponentScore": 71
             }
           ]
         },
