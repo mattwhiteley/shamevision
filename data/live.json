@@ -4,7 +4,7 @@
       "id": "yKnN5CVxRRTO",
       "currentRound": 3,
       "roundInProgress": true,
-      "updated_at": "2026-04-25T17:27:35",
+      "updated_at": "2026-04-25T20:02:37",
       "players": [
         {
           "id": "oKjQOtlgzA82",
@@ -146,8 +146,8 @@
               "round": 3,
               "opponent": "Samuel Hardisty",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 82,
+              "opponentScore": 59
             }
           ]
         },
@@ -175,8 +175,8 @@
               "round": 3,
               "opponent": "Harvey R",
               "opponentFaction": "Emperor's Children",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 80,
+              "opponentScore": 64
             }
           ]
         },
@@ -320,8 +320,8 @@
               "round": 3,
               "opponent": "Matthew Yeoh",
               "opponentFaction": "Imperial Knights",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 96,
+              "opponentScore": 68
             }
           ]
         },
@@ -349,8 +349,8 @@
               "round": 3,
               "opponent": "Ben Adams",
               "opponentFaction": "Adeptus Custodes",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 64,
+              "opponentScore": 80
             }
           ]
         },
@@ -436,8 +436,8 @@
               "round": 3,
               "opponent": "Guy Miscampbell",
               "opponentFaction": "Deathwatch",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 68,
+              "opponentScore": 96
             }
           ]
         },
@@ -610,8 +610,8 @@
               "round": 3,
               "opponent": "Artur Tokarski",
               "opponentFaction": "Astra Militarum",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 59,
+              "opponentScore": 82
             }
           ]
         },
