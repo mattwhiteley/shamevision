@@ -2,9 +2,9 @@
   "events": [
     {
       "id": "yKnN5CVxRRTO",
-      "currentRound": 2,
+      "currentRound": 3,
       "roundInProgress": true,
-      "updated_at": "2026-04-25T17:06:46",
+      "updated_at": "2026-04-25T17:27:35",
       "players": [
         {
           "id": "oKjQOtlgzA82",
@@ -25,6 +25,13 @@
               "opponentFaction": "Genestealer Cult",
               "playerScore": 72,
               "opponentScore": 96
+            },
+            {
+              "round": 3,
+              "opponent": "Ben McCarthy",
+              "opponentFaction": "Death Guard",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -47,6 +54,13 @@
               "opponentFaction": "Orks",
               "playerScore": 87,
               "opponentScore": 63
+            },
+            {
+              "round": 3,
+              "opponent": "Dan W",
+              "opponentFaction": "Genestealer Cult",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -69,6 +83,13 @@
               "opponentFaction": "Imperial Knights",
               "playerScore": 67,
               "opponentScore": 89
+            },
+            {
+              "round": 3,
+              "opponent": "Jamie Payton",
+              "opponentFaction": "Blood Angels",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -91,6 +112,13 @@
               "opponentFaction": "Space Marines (Astartes)",
               "playerScore": 65,
               "opponentScore": 79
+            },
+            {
+              "round": 3,
+              "opponent": "Nathan Sears",
+              "opponentFaction": "Space Marines (Astartes)",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -113,6 +141,13 @@
               "opponentFaction": "Imperial Knights",
               "playerScore": 79,
               "opponentScore": 79
+            },
+            {
+              "round": 3,
+              "opponent": "Samuel Hardisty",
+              "opponentFaction": "Space Marines (Astartes)",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -135,6 +170,13 @@
               "opponentFaction": "Tyranids",
               "playerScore": 49,
               "opponentScore": 98
+            },
+            {
+              "round": 3,
+              "opponent": "Harvey R",
+              "opponentFaction": "Emperor's Children",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -157,6 +199,13 @@
               "opponentFaction": "Astra Militarum",
               "playerScore": 70,
               "opponentScore": 100
+            },
+            {
+              "round": 3,
+              "opponent": "Adam Laws",
+              "opponentFaction": "Space Wolves",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -179,6 +228,13 @@
               "opponentFaction": "Adeptus Custodes",
               "playerScore": 98,
               "opponentScore": 49
+            },
+            {
+              "round": 3,
+              "opponent": "Ollie Watts",
+              "opponentFaction": "Leagues of Votann",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -201,6 +257,13 @@
               "opponentFaction": "Drukhari",
               "playerScore": 82,
               "opponentScore": 72
+            },
+            {
+              "round": 3,
+              "opponent": "Robert Briden",
+              "opponentFaction": "Imperial Knights",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -223,6 +286,13 @@
               "opponentFaction": "World Eaters",
               "playerScore": 63,
               "opponentScore": 87
+            },
+            {
+              "round": 3,
+              "opponent": "Paul Looker",
+              "opponentFaction": "Drukhari",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -245,6 +315,13 @@
               "opponentFaction": "Space Marines (Astartes)",
               "playerScore": 93,
               "opponentScore": 63
+            },
+            {
+              "round": 3,
+              "opponent": "Matthew Yeoh",
+              "opponentFaction": "Imperial Knights",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -267,6 +344,13 @@
               "opponentFaction": "Leagues of Votann",
               "playerScore": 78,
               "opponentScore": 93
+            },
+            {
+              "round": 3,
+              "opponent": "Ben Adams",
+              "opponentFaction": "Adeptus Custodes",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -289,6 +373,13 @@
               "opponentFaction": "Space Marines (Astartes)",
               "playerScore": 80,
               "opponentScore": 80
+            },
+            {
+              "round": 3,
+              "opponent": "Alex Higgins",
+              "opponentFaction": "Astra Militarum",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -311,6 +402,13 @@
               "opponentFaction": "Drukhari",
               "playerScore": 79,
               "opponentScore": 65
+            },
+            {
+              "round": 3,
+              "opponent": "Rob Huang",
+              "opponentFaction": "Space Marines (Astartes)",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -333,6 +431,13 @@
               "opponentFaction": "Astra Militarum",
               "playerScore": 89,
               "opponentScore": 67
+            },
+            {
+              "round": 3,
+              "opponent": "Guy Miscampbell",
+              "opponentFaction": "Deathwatch",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -355,6 +460,13 @@
               "opponentFaction": "Deathwatch",
               "playerScore": 63,
               "opponentScore": 93
+            },
+            {
+              "round": 3,
+              "opponent": "Aneurin Brewer",
+              "opponentFaction": "Drukhari",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -377,6 +489,13 @@
               "opponentFaction": "Emperor's Children",
               "playerScore": 93,
               "opponentScore": 78
+            },
+            {
+              "round": 3,
+              "opponent": "Ben Partington",
+              "opponentFaction": "Tyranids",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -399,6 +518,13 @@
               "opponentFaction": "Necrons",
               "playerScore": 72,
               "opponentScore": 82
+            },
+            {
+              "round": 3,
+              "opponent": "Fintan Ryan",
+              "opponentFaction": "Orks",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -421,6 +547,13 @@
               "opponentFaction": "Blood Angels",
               "playerScore": 80,
               "opponentScore": 80
+            },
+            {
+              "round": 3,
+              "opponent": "Tim Waters",
+              "opponentFaction": "Space Marines (Astartes)",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -443,6 +576,13 @@
               "opponentFaction": "Astra Militarum",
               "playerScore": 79,
               "opponentScore": 79
+            },
+            {
+              "round": 3,
+              "opponent": "Chris Enderby",
+              "opponentFaction": "Necrons",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -465,6 +605,13 @@
               "opponentFaction": "Death Guard",
               "playerScore": 71,
               "opponentScore": 87
+            },
+            {
+              "round": 3,
+              "opponent": "Artur Tokarski",
+              "opponentFaction": "Astra Militarum",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -487,6 +634,13 @@
               "opponentFaction": "Space Marines (Astartes)",
               "playerScore": 87,
               "opponentScore": 71
+            },
+            {
+              "round": 3,
+              "opponent": "Will Gilbert",
+              "opponentFaction": "Astra Militarum",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -509,6 +663,13 @@
               "opponentFaction": "Death Guard",
               "playerScore": 100,
               "opponentScore": 70
+            },
+            {
+              "round": 3,
+              "opponent": "Tom McCaughey",
+              "opponentFaction": "Death Guard",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         }
