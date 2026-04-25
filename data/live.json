@@ -3,8 +3,8 @@
     {
       "id": "yKnN5CVxRRTO",
       "currentRound": 1,
-      "roundInProgress": true,
-      "updated_at": "2026-04-25T10:52:06",
+      "roundInProgress": false,
+      "updated_at": "2026-04-25T11:10:17",
       "players": [
         {
           "id": "oKjQOtlgzA82",
@@ -196,6 +196,21 @@
               "round": 1,
               "opponent": "Tom McCaughey",
               "opponentFaction": "Death Guard",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
+        },
+        {
+          "id": "uaQOeQW0KNkI",
+          "memberId": "member-matt-whiteley",
+          "faction": "Space Marines (Astartes)",
+          "group": "hall",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Robert Briden",
+              "opponentFaction": "Imperial Knights",
               "playerScore": null,
               "opponentScore": null
             }
