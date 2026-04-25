@@ -4,7 +4,7 @@
       "id": "yKnN5CVxRRTO",
       "currentRound": 1,
       "roundInProgress": true,
-      "updated_at": "2026-04-25T12:11:50",
+      "updated_at": "2026-04-25T12:55:33",
       "players": [
         {
           "id": "oKjQOtlgzA82",
@@ -16,8 +16,8 @@
               "round": 1,
               "opponent": "Ben Adams",
               "opponentFaction": "Adeptus Custodes",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 57,
+              "opponentScore": 88
             }
           ]
         },
@@ -91,8 +91,8 @@
               "round": 1,
               "opponent": "Adam Laws",
               "opponentFaction": "Space Wolves",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 88,
+              "opponentScore": 57
             }
           ]
         },
@@ -151,8 +151,8 @@
               "round": 1,
               "opponent": "Matthew Yeoh",
               "opponentFaction": "Imperial Knights",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 28,
+              "opponentScore": 100
             }
           ]
         },
@@ -226,8 +226,8 @@
               "round": 1,
               "opponent": "Fintan Ryan",
               "opponentFaction": "Orks",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 28
             }
           ]
         },
