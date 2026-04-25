@@ -4,7 +4,7 @@
       "id": "yKnN5CVxRRTO",
       "currentRound": 3,
       "roundInProgress": true,
-      "updated_at": "2026-04-25T20:02:37",
+      "updated_at": "2026-04-25T20:29:30",
       "players": [
         {
           "id": "oKjQOtlgzA82",
@@ -30,8 +30,8 @@
               "round": 3,
               "opponent": "Ben McCarthy",
               "opponentFaction": "Death Guard",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 83,
+              "opponentScore": 87
             }
           ]
         },
@@ -59,8 +59,8 @@
               "round": 3,
               "opponent": "Dan W",
               "opponentFaction": "Genestealer Cult",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 62,
+              "opponentScore": 98
             }
           ]
         },
@@ -204,8 +204,8 @@
               "round": 3,
               "opponent": "Adam Laws",
               "opponentFaction": "Space Wolves",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 87,
+              "opponentScore": 83
             }
           ]
         },
@@ -233,8 +233,8 @@
               "round": 3,
               "opponent": "Ollie Watts",
               "opponentFaction": "Leagues of Votann",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 68,
+              "opponentScore": 93
             }
           ]
         },
@@ -262,8 +262,8 @@
               "round": 3,
               "opponent": "Robert Briden",
               "opponentFaction": "Imperial Knights",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 76,
+              "opponentScore": 97
             }
           ]
         },
@@ -494,8 +494,8 @@
               "round": 3,
               "opponent": "Ben Partington",
               "opponentFaction": "Tyranids",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 93,
+              "opponentScore": 68
             }
           ]
         },
@@ -581,8 +581,8 @@
               "round": 3,
               "opponent": "Chris Enderby",
               "opponentFaction": "Necrons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 97,
+              "opponentScore": 76
             }
           ]
         },
