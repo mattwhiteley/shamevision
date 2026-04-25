@@ -4,7 +4,7 @@
       "id": "yKnN5CVxRRTO",
       "currentRound": 1,
       "roundInProgress": false,
-      "updated_at": "2026-04-22T23:42:46",
+      "updated_at": "2026-04-25T10:52:06",
       "players": [
         {
           "id": "oKjQOtlgzA82",
@@ -31,21 +31,6 @@
               "round": 1,
               "opponent": "Nathan Sears",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
-            }
-          ]
-        },
-        {
-          "id": "BlTfTzr3sRTR",
-          "memberId": "member-alex-ford",
-          "faction": "Drukhari",
-          "group": "hall",
-          "rounds": [
-            {
-              "round": 1,
-              "opponent": "Guy Miscampbell",
-              "opponentFaction": "Deathwatch",
               "playerScore": null,
               "opponentScore": null
             }
@@ -142,15 +127,15 @@
           ]
         },
         {
-          "id": "LbeZ3h9nGHIn",
-          "memberId": "member-daniel-green",
-          "faction": "World Eaters",
+          "id": "XGSMgUA8noDY",
+          "memberId": "member-chris-enderby",
+          "faction": "Necrons",
           "group": "hall",
           "rounds": [
             {
               "round": 1,
-              "opponent": "Harvey R",
-              "opponentFaction": "Emperor's Children",
+              "opponent": "Guy Miscampbell",
+              "opponentFaction": "Deathwatch",
               "playerScore": null,
               "opponentScore": null
             }
@@ -179,8 +164,8 @@
           "rounds": [
             {
               "round": 1,
-              "opponent": "Alex Ford",
-              "opponentFaction": "Drukhari",
+              "opponent": "Chris Enderby",
+              "opponentFaction": "Necrons",
               "playerScore": null,
               "opponentScore": null
             }
@@ -194,8 +179,8 @@
           "rounds": [
             {
               "round": 1,
-              "opponent": "Daniel Green",
-              "opponentFaction": "World Eaters",
+              "opponent": "Dan W",
+              "opponentFaction": "Genestealer Cult",
               "playerScore": null,
               "opponentScore": null
             }
