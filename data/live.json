@@ -4,7 +4,7 @@
       "id": "yKnN5CVxRRTO",
       "currentRound": 2,
       "roundInProgress": true,
-      "updated_at": "2026-04-25T16:37:49",
+      "updated_at": "2026-04-25T16:50:27",
       "players": [
         {
           "id": "oKjQOtlgzA82",
@@ -155,8 +155,8 @@
               "round": 2,
               "opponent": "Will Gilbert",
               "opponentFaction": "Astra Militarum",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 70,
+              "opponentScore": 100
             }
           ]
         },
@@ -507,8 +507,8 @@
               "round": 2,
               "opponent": "Ben McCarthy",
               "opponentFaction": "Death Guard",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 70
             }
           ]
         }
