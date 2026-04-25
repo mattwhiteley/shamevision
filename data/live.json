@@ -4,7 +4,7 @@
       "id": "yKnN5CVxRRTO",
       "currentRound": 2,
       "roundInProgress": true,
-      "updated_at": "2026-04-25T15:59:06",
+      "updated_at": "2026-04-25T16:37:49",
       "players": [
         {
           "id": "oKjQOtlgzA82",
@@ -133,8 +133,8 @@
               "round": 2,
               "opponent": "Ben Partington",
               "opponentFaction": "Tyranids",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 49,
+              "opponentScore": 98
             }
           ]
         },
@@ -177,8 +177,8 @@
               "round": 2,
               "opponent": "Ben Adams",
               "opponentFaction": "Adeptus Custodes",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 98,
+              "opponentScore": 49
             }
           ]
         },
@@ -199,8 +199,8 @@
               "round": 2,
               "opponent": "Paul Looker",
               "opponentFaction": "Drukhari",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 82,
+              "opponentScore": 72
             }
           ]
         },
@@ -397,8 +397,8 @@
               "round": 2,
               "opponent": "Chris Enderby",
               "opponentFaction": "Necrons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 72,
+              "opponentScore": 82
             }
           ]
         },
