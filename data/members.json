@@ -27,7 +27,7 @@
     { "id": "member-joe-winter",       "name": "Joe Winter",       "shortName": "Joe",       "tier": "hall-of-shame" },
     { "id": "member-joshua-nevins",    "name": "Joshua Nevins",    "shortName": "Joshua",    "tier": "hall-of-shame" },
     { "id": "member-kareem-hussain",   "name": "Kareem Hussain",   "shortName": "Kareem",    "tier": "hall-of-shame" },
-    { "id": "member-matt-whiteley",    "name": "Tim Waters",    "shortName": "MattW",     "tier": "hall-of-shame" },
+    { "id": "member-matt-whiteley",    "name": "Matt Whiteley",    "shortName": "MattW",     "tier": "hall-of-shame" },
     { "id": "member-matthew-yeoh",     "name": "Matthew Yeoh",    "shortName": "MatthewY",   "tier": "hall-of-shame" },
     { "id": "member-michael-maris",    "name": "Michael Maris",    "shortName": "Michael",   "tier": "hall-of-shame" },
     { "id": "member-oliver-jawara",    "name": "Oliver Jawara",    "shortName": "OliverJ",   "tier": "hall-of-shame" },
