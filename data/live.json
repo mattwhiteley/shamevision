@@ -1,246 +1,675 @@
 {
   "events": [
     {
-      "id": "9E2v6HDKuTiu",
-      "currentRound": 1,
-      "roundInProgress": false,
-      "updated_at": "2026-04-08T22:39:41",
+      "id": "yKnN5CVxRRTO",
+      "currentRound": 3,
+      "roundInProgress": true,
+      "updated_at": "2026-04-25T21:26:07",
       "players": [
         {
-          "id": "JJYWdR7XZqTX",
-          "memberId": "member-aidan-bell",
-          "faction": "Necrons",
+          "id": "oKjQOtlgzA82",
+          "memberId": "member-adam-laws",
+          "faction": "Space Wolves",
+          "group": "hall",
           "rounds": [
             {
               "round": 1,
-              "opponent": "Isabel Harrison",
-              "opponentFaction": "Adepta Sororitas",
-              "playerScore": null,
-              "opponentScore": null
+              "opponent": "Ben Adams",
+              "opponentFaction": "Adeptus Custodes",
+              "playerScore": 57,
+              "opponentScore": 88
+            },
+            {
+              "round": 2,
+              "opponent": "Dan W",
+              "opponentFaction": "Genestealer Cult",
+              "playerScore": 72,
+              "opponentScore": 96
+            },
+            {
+              "round": 3,
+              "opponent": "Ben McCarthy",
+              "opponentFaction": "Death Guard",
+              "playerScore": 83,
+              "opponentScore": 87
             }
           ]
         },
         {
-          "id": "IQNx6o43d9Hc",
-          "memberId": "member-alex-ford",
-          "faction": "Drukhari",
+          "id": "bA6S78vB0IXp",
+          "memberId": "member-alex-carey",
+          "faction": "World Eaters",
+          "group": "hall",
           "rounds": [
             {
               "round": 1,
-              "opponent": "Callum Watts",
+              "opponent": "Nathan Sears",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 54,
+              "opponentScore": 93
+            },
+            {
+              "round": 2,
+              "opponent": "Fintan Ryan",
+              "opponentFaction": "Orks",
+              "playerScore": 87,
+              "opponentScore": 63
+            },
+            {
+              "round": 3,
+              "opponent": "Dan W",
+              "opponentFaction": "Genestealer Cult",
+              "playerScore": 62,
+              "opponentScore": 98
             }
           ]
         },
         {
-          "id": "4UHkZpgqdid8",
+          "id": "Rhvg5pYAM63t",
+          "memberId": "member-alex-higgins",
+          "faction": "Astra Militarum",
+          "group": "hall",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Ben McCarthy",
+              "opponentFaction": "Death Guard",
+              "playerScore": 98,
+              "opponentScore": 58
+            },
+            {
+              "round": 2,
+              "opponent": "Matthew Yeoh",
+              "opponentFaction": "Imperial Knights",
+              "playerScore": 67,
+              "opponentScore": 89
+            },
+            {
+              "round": 3,
+              "opponent": "Jamie Payton",
+              "opponentFaction": "Blood Angels",
+              "playerScore": 82,
+              "opponentScore": 57
+            }
+          ]
+        },
+        {
+          "id": "j7K2Tz7ODP4s",
           "memberId": "member-aneurin-brewer",
           "faction": "Drukhari",
+          "group": "hall",
           "rounds": [
             {
               "round": 1,
-              "opponent": "Zhun Zhou",
-              "opponentFaction": "Leagues of Votann",
-              "playerScore": null,
-              "opponentScore": null
+              "opponent": "Artur Tokarski",
+              "opponentFaction": "Astra Militarum",
+              "playerScore": 89,
+              "opponentScore": 62
+            },
+            {
+              "round": 2,
+              "opponent": "Tim Waters",
+              "opponentFaction": "Space Marines (Astartes)",
+              "playerScore": 65,
+              "opponentScore": 79
+            },
+            {
+              "round": 3,
+              "opponent": "Nathan Sears",
+              "opponentFaction": "Space Marines (Astartes)",
+              "playerScore": 77,
+              "opponentScore": 61
             }
           ]
         },
         {
-          "id": "mN6f2mzrORqN",
-          "memberId": "member-anthony-keen",
+          "id": "1nENXFkFhx7q",
+          "memberId": "member-artur-tokarski",
           "faction": "Astra Militarum",
+          "group": "hall",
           "rounds": [
             {
               "round": 1,
-              "opponent": "Stephen Carmichael-Wilson",
-              "opponentFaction": "Chaos Daemons",
-              "playerScore": null,
-              "opponentScore": null
+              "opponent": "Aneurin Brewer",
+              "opponentFaction": "Drukhari",
+              "playerScore": 62,
+              "opponentScore": 89
+            },
+            {
+              "round": 2,
+              "opponent": "Robert Briden",
+              "opponentFaction": "Imperial Knights",
+              "playerScore": 79,
+              "opponentScore": 79
+            },
+            {
+              "round": 3,
+              "opponent": "Samuel Hardisty",
+              "opponentFaction": "Space Marines (Astartes)",
+              "playerScore": 82,
+              "opponentScore": 59
             }
           ]
         },
         {
-          "id": "8sTSaK9Jpg0t",
+          "id": "3gKnDGey8DZm",
           "memberId": "member-ben-adams",
           "faction": "Adeptus Custodes",
+          "group": "hall",
           "rounds": [
             {
               "round": 1,
-              "opponent": "Kane Phillips",
-              "opponentFaction": "Black Templars",
-              "playerScore": null,
-              "opponentScore": null
+              "opponent": "Adam Laws",
+              "opponentFaction": "Space Wolves",
+              "playerScore": 88,
+              "opponentScore": 57
+            },
+            {
+              "round": 2,
+              "opponent": "Ben Partington",
+              "opponentFaction": "Tyranids",
+              "playerScore": 49,
+              "opponentScore": 98
+            },
+            {
+              "round": 3,
+              "opponent": "Harvey R",
+              "opponentFaction": "Emperor's Children",
+              "playerScore": 80,
+              "opponentScore": 64
             }
           ]
         },
         {
-          "id": "J4PVzLf3GkEZ",
-          "memberId": "member-callum-watts",
-          "faction": "Space Marines (Astartes)",
+          "id": "6kXpS3EzSQj6",
+          "memberId": "member-ben-mccarthy",
+          "faction": "Death Guard",
+          "group": "hall",
           "rounds": [
             {
               "round": 1,
-              "opponent": "Alex Ford",
-              "opponentFaction": "Drukhari",
-              "playerScore": null,
-              "opponentScore": null
+              "opponent": "Alex Higgins",
+              "opponentFaction": "Astra Militarum",
+              "playerScore": 58,
+              "opponentScore": 98
+            },
+            {
+              "round": 2,
+              "opponent": "Will Gilbert",
+              "opponentFaction": "Astra Militarum",
+              "playerScore": 70,
+              "opponentScore": 100
+            },
+            {
+              "round": 3,
+              "opponent": "Adam Laws",
+              "opponentFaction": "Space Wolves",
+              "playerScore": 87,
+              "opponentScore": 83
             }
           ]
         },
         {
-          "id": "Vu4kC9PqG54u",
-          "memberId": "member-cayleb-langhals",
-          "faction": "Thousand Sons",
+          "id": "oQROkEbUGKdc",
+          "memberId": "member-ben-partington",
+          "faction": "Tyranids",
+          "group": "hall",
           "rounds": [
             {
               "round": 1,
-              "opponent": "Josh Gates",
-              "opponentFaction": "T'au Empire",
-              "playerScore": null,
-              "opponentScore": null
+              "opponent": "Will Gilbert",
+              "opponentFaction": "Astra Militarum",
+              "playerScore": 81,
+              "opponentScore": 58
+            },
+            {
+              "round": 2,
+              "opponent": "Ben Adams",
+              "opponentFaction": "Adeptus Custodes",
+              "playerScore": 98,
+              "opponentScore": 49
+            },
+            {
+              "round": 3,
+              "opponent": "Ollie Watts",
+              "opponentFaction": "Leagues of Votann",
+              "playerScore": 68,
+              "opponentScore": 93
             }
           ]
         },
         {
-          "id": "rov4uzZB19rE",
+          "id": "XGSMgUA8noDY",
           "memberId": "member-chris-enderby",
           "faction": "Necrons",
+          "group": "hall",
           "rounds": [
             {
               "round": 1,
-              "opponent": "James Sexton",
-              "opponentFaction": "Adeptus Custodes",
-              "playerScore": null,
-              "opponentScore": null
+              "opponent": "Guy Miscampbell",
+              "opponentFaction": "Deathwatch",
+              "playerScore": 54,
+              "opponentScore": 97
+            },
+            {
+              "round": 2,
+              "opponent": "Paul Looker",
+              "opponentFaction": "Drukhari",
+              "playerScore": 82,
+              "opponentScore": 72
+            },
+            {
+              "round": 3,
+              "opponent": "Robert Briden",
+              "opponentFaction": "Imperial Knights",
+              "playerScore": 76,
+              "opponentScore": 97
             }
           ]
         },
         {
-          "id": "CTBF3DzbPTim",
-          "memberId": "member-daniel-green",
-          "faction": "World Eaters",
+          "id": "7SZaLjci50hj",
+          "memberId": "member-fintan-ryan",
+          "faction": "Orks",
+          "group": "hall",
           "rounds": [
             {
               "round": 1,
-              "opponent": "Josh Dolman",
-              "opponentFaction": "Chaos Daemons",
-              "playerScore": null,
-              "opponentScore": null
+              "opponent": "Matthew Yeoh",
+              "opponentFaction": "Imperial Knights",
+              "playerScore": 28,
+              "opponentScore": 100
+            },
+            {
+              "round": 2,
+              "opponent": "Alex Carey",
+              "opponentFaction": "World Eaters",
+              "playerScore": 63,
+              "opponentScore": 87
+            },
+            {
+              "round": 3,
+              "opponent": "Paul Looker",
+              "opponentFaction": "Drukhari",
+              "playerScore": 87,
+              "opponentScore": 87
             }
           ]
         },
         {
-          "id": "AVPOAK6zxh9x",
+          "id": "bFlhrVFysqZr",
           "memberId": "member-guy-miscampbell",
           "faction": "Deathwatch",
+          "group": "hall",
           "rounds": [
             {
               "round": 1,
-              "opponent": "Andrew Simmons",
-              "opponentFaction": "Chaos Space Marines",
-              "playerScore": null,
-              "opponentScore": null
+              "opponent": "Chris Enderby",
+              "opponentFaction": "Necrons",
+              "playerScore": 97,
+              "opponentScore": 54
+            },
+            {
+              "round": 2,
+              "opponent": "Nathan Sears",
+              "opponentFaction": "Space Marines (Astartes)",
+              "playerScore": 93,
+              "opponentScore": 63
+            },
+            {
+              "round": 3,
+              "opponent": "Matthew Yeoh",
+              "opponentFaction": "Imperial Knights",
+              "playerScore": 96,
+              "opponentScore": 68
             }
           ]
         },
         {
-          "id": "IpxpFdU0nNWK",
+          "id": "66lUt4snfFGu",
           "memberId": "member-harvey-r",
           "faction": "Emperor's Children",
+          "group": "hall",
           "rounds": [
             {
               "round": 1,
-              "opponent": "George Duggins",
-              "opponentFaction": "Dark Angels",
-              "playerScore": null,
-              "opponentScore": null
-            }
-          ]
-        },
-        {
-          "id": "JaW6zMoCMA4M",
-          "memberId": "member-james-brown",
-          "faction": "Thousand Sons",
-          "rounds": [
+              "opponent": "Dan W",
+              "opponentFaction": "Genestealer Cult",
+              "playerScore": 73,
+              "opponentScore": 56
+            },
             {
-              "round": 1,
-              "opponent": "Dave Footer",
+              "round": 2,
+              "opponent": "Ollie Watts",
               "opponentFaction": "Leagues of Votann",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 78,
+              "opponentScore": 93
+            },
+            {
+              "round": 3,
+              "opponent": "Ben Adams",
+              "opponentFaction": "Adeptus Custodes",
+              "playerScore": 64,
+              "opponentScore": 80
             }
           ]
         },
         {
-          "id": "oV5CHA5dlYyu",
-          "memberId": "member-jordan-penning",
-          "faction": "Space Marines (Astartes)",
+          "id": "zNVmJeoKAZyT",
+          "memberId": "member-jamie-payton",
+          "faction": "Blood Angels",
+          "group": "hall",
           "rounds": [
             {
               "round": 1,
-              "opponent": "Chuck Bailey",
+              "opponent": "Tom McCaughey",
               "opponentFaction": "Death Guard",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 90,
+              "opponentScore": 89
+            },
+            {
+              "round": 2,
+              "opponent": "Rob Huang",
+              "opponentFaction": "Space Marines (Astartes)",
+              "playerScore": 80,
+              "opponentScore": 80
+            },
+            {
+              "round": 3,
+              "opponent": "Alex Higgins",
+              "opponentFaction": "Astra Militarum",
+              "playerScore": 57,
+              "opponentScore": 82
             }
           ]
         },
         {
-          "id": "z2HOvaGZOSXE",
+          "id": "uaQOeQW0KNkI",
+          "memberId": "member-matt-whiteley",
+          "faction": "Space Marines (Astartes)",
+          "group": "hall",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Robert Briden",
+              "opponentFaction": "Imperial Knights",
+              "playerScore": 89,
+              "opponentScore": 73
+            },
+            {
+              "round": 2,
+              "opponent": "Aneurin Brewer",
+              "opponentFaction": "Drukhari",
+              "playerScore": 79,
+              "opponentScore": 65
+            },
+            {
+              "round": 3,
+              "opponent": "Rob Huang",
+              "opponentFaction": "Space Marines (Astartes)",
+              "playerScore": 81,
+              "opponentScore": 86
+            }
+          ]
+        },
+        {
+          "id": "GYyuhb9rkoEj",
           "memberId": "member-matthew-yeoh",
           "faction": "Imperial Knights",
+          "group": "hall",
           "rounds": [
             {
               "round": 1,
-              "opponent": "Andrew Parr",
+              "opponent": "Fintan Ryan",
+              "opponentFaction": "Orks",
+              "playerScore": 100,
+              "opponentScore": 28
+            },
+            {
+              "round": 2,
+              "opponent": "Alex Higgins",
+              "opponentFaction": "Astra Militarum",
+              "playerScore": 89,
+              "opponentScore": 67
+            },
+            {
+              "round": 3,
+              "opponent": "Guy Miscampbell",
+              "opponentFaction": "Deathwatch",
+              "playerScore": 68,
+              "opponentScore": 96
+            }
+          ]
+        },
+        {
+          "id": "14rmtugxcJzv",
+          "memberId": "member-nathan-sears",
+          "faction": "Space Marines (Astartes)",
+          "group": "hall",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Alex Carey",
               "opponentFaction": "World Eaters",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 93,
+              "opponentScore": 54
+            },
+            {
+              "round": 2,
+              "opponent": "Guy Miscampbell",
+              "opponentFaction": "Deathwatch",
+              "playerScore": 63,
+              "opponentScore": 93
+            },
+            {
+              "round": 3,
+              "opponent": "Aneurin Brewer",
+              "opponentFaction": "Drukhari",
+              "playerScore": 61,
+              "opponentScore": 77
             }
           ]
         },
         {
-          "id": "O5p2eynrEiVh",
-          "memberId": "member-oscar-luckin",
-          "faction": "Emperor's Children",
+          "id": "AKD8rd3qdFtZ",
+          "memberId": "member-ollie-watts",
+          "faction": "Leagues of Votann",
+          "group": "pile",
           "rounds": [
             {
               "round": 1,
-              "opponent": "Markus Welbourne",
+              "opponent": "Paul Looker",
+              "opponentFaction": "Drukhari",
+              "playerScore": 80,
+              "opponentScore": 55
+            },
+            {
+              "round": 2,
+              "opponent": "Harvey R",
+              "opponentFaction": "Emperor's Children",
+              "playerScore": 93,
+              "opponentScore": 78
+            },
+            {
+              "round": 3,
+              "opponent": "Ben Partington",
               "opponentFaction": "Tyranids",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 93,
+              "opponentScore": 68
             }
           ]
         },
         {
-          "id": "Pqn9CcS5t7zI",
-          "memberId": "member-spencer-james",
-          "faction": "Emperor's Children",
-          "rounds": [
-            {
-              "round": 1,
-              "opponent": "Mark Fletcher",
-              "opponentFaction": "Chaos Space Marines",
-              "playerScore": null,
-              "opponentScore": null
-            }
-          ]
-        },
-        {
-          "id": "FzCmaElQ3l6R",
-          "memberId": "member-tim-waters",
+          "id": "xR4iDDSLw59h",
+          "memberId": "member-paul-looker",
           "faction": "Drukhari",
+          "group": "hall",
           "rounds": [
             {
               "round": 1,
-              "opponent": "Lazarus Crick",
+              "opponent": "Ollie Watts",
+              "opponentFaction": "Leagues of Votann",
+              "playerScore": 55,
+              "opponentScore": 80
+            },
+            {
+              "round": 2,
+              "opponent": "Chris Enderby",
+              "opponentFaction": "Necrons",
+              "playerScore": 72,
+              "opponentScore": 82
+            },
+            {
+              "round": 3,
+              "opponent": "Fintan Ryan",
+              "opponentFaction": "Orks",
+              "playerScore": 87,
+              "opponentScore": 87
+            }
+          ]
+        },
+        {
+          "id": "7zptcCZQ8Ex1",
+          "memberId": "member-rob-huang",
+          "faction": "Space Marines (Astartes)",
+          "group": "hall",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Samuel Hardisty",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 91,
+              "opponentScore": 81
+            },
+            {
+              "round": 2,
+              "opponent": "Jamie Payton",
+              "opponentFaction": "Blood Angels",
+              "playerScore": 80,
+              "opponentScore": 80
+            },
+            {
+              "round": 3,
+              "opponent": "Tim Waters",
+              "opponentFaction": "Space Marines (Astartes)",
+              "playerScore": 86,
+              "opponentScore": 81
+            }
+          ]
+        },
+        {
+          "id": "2xCMczD4iUIU",
+          "memberId": "member-robert-briden",
+          "faction": "Imperial Knights",
+          "group": "hall",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Tim Waters",
+              "opponentFaction": "Space Marines (Astartes)",
+              "playerScore": 73,
+              "opponentScore": 89
+            },
+            {
+              "round": 2,
+              "opponent": "Artur Tokarski",
+              "opponentFaction": "Astra Militarum",
+              "playerScore": 79,
+              "opponentScore": 79
+            },
+            {
+              "round": 3,
+              "opponent": "Chris Enderby",
+              "opponentFaction": "Necrons",
+              "playerScore": 97,
+              "opponentScore": 76
+            }
+          ]
+        },
+        {
+          "id": "8XhJsBHUgXqH",
+          "memberId": "member-samuel-hardisty",
+          "faction": "Space Marines (Astartes)",
+          "group": "hall",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Rob Huang",
+              "opponentFaction": "Space Marines (Astartes)",
+              "playerScore": 81,
+              "opponentScore": 91
+            },
+            {
+              "round": 2,
+              "opponent": "Tom McCaughey",
+              "opponentFaction": "Death Guard",
+              "playerScore": 71,
+              "opponentScore": 87
+            },
+            {
+              "round": 3,
+              "opponent": "Artur Tokarski",
+              "opponentFaction": "Astra Militarum",
+              "playerScore": 59,
+              "opponentScore": 82
+            }
+          ]
+        },
+        {
+          "id": "8HMSZavPNI33",
+          "memberId": "member-tom-mccaughey",
+          "faction": "Death Guard",
+          "group": "hall",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Jamie Payton",
+              "opponentFaction": "Blood Angels",
+              "playerScore": 89,
+              "opponentScore": 90
+            },
+            {
+              "round": 2,
+              "opponent": "Samuel Hardisty",
+              "opponentFaction": "Space Marines (Astartes)",
+              "playerScore": 87,
+              "opponentScore": 71
+            },
+            {
+              "round": 3,
+              "opponent": "Will Gilbert",
+              "opponentFaction": "Astra Militarum",
+              "playerScore": 69,
+              "opponentScore": 90
+            }
+          ]
+        },
+        {
+          "id": "fWeCNCc7OAsT",
+          "memberId": "member-will-gilbert",
+          "faction": "Astra Militarum",
+          "group": "pile",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Ben Partington",
+              "opponentFaction": "Tyranids",
+              "playerScore": 58,
+              "opponentScore": 81
+            },
+            {
+              "round": 2,
+              "opponent": "Ben McCarthy",
+              "opponentFaction": "Death Guard",
+              "playerScore": 100,
+              "opponentScore": 70
+            },
+            {
+              "round": 3,
+              "opponent": "Tom McCaughey",
+              "opponentFaction": "Death Guard",
+              "playerScore": 90,
+              "opponentScore": 69
             }
           ]
         }

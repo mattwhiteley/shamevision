@@ -85,7 +85,7 @@ BCP_HEADERS = {
 # Scheduling constants
 # ---------------------------------------------------------------------------
 
-EARLY_OPEN_MINS   = 150   # T+2h30m  start of scraping window
+EARLY_OPEN_MINS   = 100   # T+2h30m  start of scraping window
 LATE_START_MINS   = 170   # T+2h50m  switch to faster cadence
 WINDOW_CLOSE_MINS = 240   # T+4h00m  end of scraping window (extra time for late score entry)
 
@@ -175,6 +175,7 @@ def get_active_window(event_config: dict) -> tuple[bool, int | None, int]:
         cadence = LATE_CADENCE_MINS if elapsed >= LATE_START_MINS else EARLY_CADENCE_MINS
         return True, entry["round"], cadence
 
+        
     return False, None, 0
 
 
@@ -186,7 +187,8 @@ def minutes_since_last_update(live: dict, event_id: str, tz: ZoneInfo) -> float 
     if not ts:
         return None
     try:
-        last = datetime.fromisoformat(ts).replace(tzinfo=timezone.utc).astimezone(tz)
+        last = datetime.fromisoformat(ts).replace(tzinfo=tz).astimezone(tz)
+        print(last, datetime.now(tz))
         return (datetime.now(tz) - last).total_seconds() / 60
     except Exception:
         return None
@@ -393,7 +395,7 @@ def build_live_state(
         "id":              event_config["id"],
         "currentRound":    current_round,
         "roundInProgress": round_in_progress,
-        "updated_at":      datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S"),
+        "updated_at":      datetime.now(tz).strftime("%Y-%m-%dT%H:%M:%S"),
         "players":         player_list,
     }
 
@@ -420,7 +422,8 @@ def scrape_event(
     """
     event_id = event_config["id"]
     tz       = ZoneInfo(event_config["timezone"])
-
+    print (f"System time:{datetime.now(tz)}")
+           
     if not force:
         in_window, active_round, cadence = get_active_window(event_config)
 
