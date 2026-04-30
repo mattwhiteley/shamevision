@@ -331,6 +331,7 @@ def build_live_state(
     """Builds the live state dict for a single event."""
     is_team      = event_config.get("eventType") == "team"
     teams_config = event_config.get("teams", []) if is_team else []
+    tz           = ZoneInfo(event_config["timezone"])
 
     # Current round: prefer team pairings (available before individual pairings)
     team_rounds_set = sorted(all_team_pairings.keys()) if all_team_pairings else []
