@@ -12,12 +12,16 @@
       "roundDurationMinutes": 180,
       "teams": [
         {
-          "name": "Pile of Shame Support Network",
-          "memberIds": ["member-alex-ford", "member-anthony-keen", "member-cayleb-langhals", "member-guy-miscampbell", "member-harvey-r"]
+          "name": "[C]lap or Be Clapped (PSSN)",
+          "memberIds": ["member-jack-turner", "member-nathan-sears", "member-oliver-jawara", "member-tim-waters", "member-tom-durrands"]
         },
         {
-          "name": "Tuesday Knights",
-          "memberIds": ["member-aneurin-brewer", "member-callum-watts", "member-daniel-green", "member-matt-whiteley", "member-matthew-yeoh"]
+          "name": "Shameful [B]asterds (PSSN)",
+          "memberIds": ["member-harvey-r", "member-kareem-hussain", "member-matthew-yeoh", "member-spencer-james", "member-tom-mccaughey"]
+        },
+        {
+          "name": "The Sh[a]meful Suspects (PSSN)",
+          "memberIds": ["member-alex-ford", "member-anthony-keen", "member-cayleb-langhals", "member-daniel-green", "member-nora-tinfou"]
         }
       ],
       "schedule": [

@@ -20,7 +20,7 @@
     { "id": "member-fintan-ryan",       "name": "Fintan Ryan",     "shortName": "Fintan",    "tier": "hall-of-shame" },
     { "id": "member-gabriel-evans",    "name": "Gabriel Evans",    "shortName": "Gabe",      "tier": "hall-of-shame" },
     { "id": "member-guy-miscampbell",  "name": "Guy Miscampbell",  "shortName": "Guy",       "tier": "hall-of-shame" },
-    { "id": "member-harvey-r",         "name": "Harvey R",         "shortName": "Harvey",    "tier": "hall-of-shame" },
+    { "id": "member-harvey-r",         "name": "Harvey Rudden",    "shortName": "Harvey",    "tier": "hall-of-shame" },
     { "id": "member-henry-bamford",    "name": "Henry Bamford",    "shortName": "Henry",     "tier": "hall-of-shame" },
     { "id": "member-jack-turner",      "name": "Jack Turner",      "shortName": "Jack",      "tier": "hall-of-shame" },
     { "id": "member-jamie-payton",     "name": "Jamie Payton",     "shortName": "Jamie",     "tier": "hall-of-shame" },
@@ -49,6 +49,8 @@
     { "id": "member-jordan-penning",   "name": "Jordan Penning",   "shortName": "Jordan",    "tier": "friends" },
     { "id": "member-callum-watts",     "name": "Callum Watts",     "shortName": "CallumW",   "tier": "friends" },
     { "id": "member-ollie-watts",       "name": "Ollie Watts",      "shortName": "OllieW",   "tier": "friends" },
-    { "id": "member-will-gilbert",       "name": "Will Gilbert",      "shortName": "WillG",   "tier": "friends" }
+    { "id": "member-will-gilbert",       "name": "Will Gilbert",      "shortName": "WillG",   "tier": "friends" },
+    { "id": "member-nora-tinfou",      "name": "Nora Tinfou",      "shortName": "Nora",      "tier": "hall-of-shame" },
+    { "id": "member-tim-waters",       "name": "Tim Waters",       "shortName": "Tim",       "tier": "hall-of-shame" }
   ]
 }
