@@ -67,6 +67,11 @@ BCP_API_URL = (
     "?eventId={event_id}&round={round}&pairingType=Pairing"
 )
 
+BCP_TEAM_PAIRING_URL = (
+    "https://newprod-api.bestcoastpairings.com/v1/events/{event_id}/pairings"
+    "?eventId={event_id}&round={round}&pairingType=TeamPairing"
+)
+
 BCP_HEADERS = {
     "client-id":    "web-app",
     "env":          "bcp",
@@ -205,6 +210,15 @@ def fetch_round(event_id: str, round_num: int) -> list[dict]:
     return resp.json().get("active", [])
 
 
+def fetch_team_pairings_round(event_id: str, round_num: int) -> list[dict]:
+    url  = BCP_TEAM_PAIRING_URL.format(event_id=event_id, round=round_num)
+    resp = requests.get(url, headers=BCP_HEADERS, timeout=15)
+    if resp.status_code == 409:   # event doesn't use team pairings
+        return []
+    resp.raise_for_status()
+    return resp.json().get("active", [])
+
+
 # ---------------------------------------------------------------------------
 # Data builder
 # ---------------------------------------------------------------------------
@@ -236,50 +250,45 @@ def slugify(name: str) -> str:
 
 
 def build_team_rounds(
-    all_rounds_data: dict[int, list],
-    members: list[dict],
+    all_team_pairings: dict[int, list],
+    all_individual_pairings: dict[int, list],
+    teams_config: list[dict],
 ) -> list[dict]:
     """
-    For team events: compute per-team aggregate scores per round.
+    Builds per-team aggregate scores per round for team events.
 
-    For each round, groups individual pairings by teamPairingId. For each
-    team matchup that contains at least one tracked member, sums all 5
-    individual game scores to produce team and opponent aggregates.
+    Uses TeamPairing as the authoritative source for which club team faces
+    which opponent each round. Individual Pairing data provides game scores.
 
-    Returns a list of TeamRoundResult dicts (one per tracked team per round).
+    teams_config: list of { "name": str, "memberIds": [...] } from events.json.
     """
+    club_team_names = {t["name"] for t in teams_config}
+
+    # Index individual pairings by (round, teamPairingId) for fast lookup
+    ind_by_tpid: dict[tuple[int, str], list[dict]] = {}
+    for round_num, pairings in all_individual_pairings.items():
+        for p in pairings:
+            tpid = p.get("teamPairingId")
+            if tpid:
+                ind_by_tpid.setdefault((round_num, tpid), []).append(p)
+
     team_rounds: list[dict] = []
 
-    for round_num, pairings in all_rounds_data.items():
-        # Group pairings by teamPairingId
-        matchups: dict[str, list[dict]] = {}
-        for pairing in pairings:
-            tpid = pairing.get("teamPairingId")
-            if tpid:
-                matchups.setdefault(tpid, []).append(pairing)
+    for round_num, team_pairings in all_team_pairings.items():
+        for tp in team_pairings:
+            t1_name = (tp.get("teamPlayer1") or {}).get("name", "")
+            t2_name = (tp.get("teamPlayer2") or {}).get("name", "")
 
-        for tpid, games in matchups.items():
-            # Determine which team names our tracked members are on
-            tracked_team_names: set[str] = set()
-            for game in games:
-                for side in ("player1", "player2"):
-                    p = game.get(side) or {}
-                    user  = p.get("user", {})
-                    first = user.get("firstName", "")
-                    last  = user.get("lastName", "")
-                    if find_member(first, last, members):
-                        team_name = p.get("team", "")
-                        if team_name:
-                            tracked_team_names.add(team_name)
+            # Identify which side (if any) is a club team
+            for our_name, opp_name in [(t1_name, t2_name), (t2_name, t1_name)]:
+                if our_name not in club_team_names:
+                    continue
 
-            if not tracked_team_names:
-                continue
-
-            for our_team_name in tracked_team_names:
-                team_total = 0
-                opp_total  = 0
-                opp_team_name = ""
-                any_null = False
+                # Sum individual scores for this teamPairingId
+                games       = ind_by_tpid.get((round_num, tp["id"]), [])
+                team_total  = 0
+                opp_total   = 0
+                any_null    = False
 
                 for game in games:
                     p1 = game.get("player1") or {}
@@ -287,30 +296,26 @@ def build_team_rounds(
                     s1 = to_score((game.get("player1Game") or {}).get("points"))
                     s2 = to_score((game.get("player2Game") or {}).get("points"))
 
-                    if p1.get("team") == our_team_name:
+                    if p1.get("team") == our_name:
                         if s1 is None or s2 is None:
                             any_null = True
                         else:
                             team_total += s1
                             opp_total  += s2
-                        if not opp_team_name:
-                            opp_team_name = p2.get("team", "")
-                    elif p2.get("team") == our_team_name:
+                    elif p2.get("team") == our_name:
                         if s1 is None or s2 is None:
                             any_null = True
                         else:
                             team_total += s2
                             opp_total  += s1
-                        if not opp_team_name:
-                            opp_team_name = p1.get("team", "")
 
                 team_rounds.append({
                     "round":             round_num,
-                    "teamId":            slugify(our_team_name),
-                    "teamName":          our_team_name,
-                    "opponentTeamName":  opp_team_name,
-                    "teamScore":         None if any_null else team_total,
-                    "opponentTeamScore": None if any_null else opp_total,
+                    "teamId":            slugify(our_name),
+                    "teamName":          our_name,
+                    "opponentTeamName":  opp_name,
+                    "teamScore":         None if (any_null or not games) else team_total,
+                    "opponentTeamScore": None if (any_null or not games) else opp_total,
                 })
 
     return sorted(team_rounds, key=lambda r: (r["round"], r["teamId"]))
@@ -321,12 +326,24 @@ def build_live_state(
     members: list[dict],
     all_rounds_data: dict[int, list],
     round_in_progress: bool,
+    all_team_pairings: dict[int, list] | None = None,
 ) -> dict:
     """Builds the live state dict for a single event."""
-    is_team   = event_config.get("eventType") == "team"
-    published_rounds = sorted(all_rounds_data.keys())
-    current_round    = max(published_rounds) if published_rounds else 1
+    is_team      = event_config.get("eventType") == "team"
+    teams_config = event_config.get("teams", []) if is_team else []
 
+    # Current round: prefer team pairings (available before individual pairings)
+    team_rounds_set = sorted(all_team_pairings.keys()) if all_team_pairings else []
+    ind_rounds_set  = sorted(all_rounds_data.keys())
+
+    if team_rounds_set:
+        current_round = max(team_rounds_set)
+    elif ind_rounds_set:
+        current_round = max(ind_rounds_set)
+    else:
+        current_round = 1
+
+    # Build player entries from individual pairings
     players: dict[str, dict] = {}
 
     for round_num, pairings in all_rounds_data.items():
@@ -379,6 +396,26 @@ def build_live_state(
                     "opponentScore":   their_score,
                 }
 
+    # For team events with config: add placeholder entries for configured members
+    # who haven't appeared in individual pairings yet.
+    if is_team and teams_config:
+        found_member_ids = {p["memberId"] for p in players.values()}
+        for team in teams_config:
+            for member_id in team.get("memberIds", []):
+                if member_id in found_member_ids:
+                    continue
+                member = next((m for m in members if m["id"] == member_id), None)
+                if not member:
+                    continue
+                players[f"cfg-{member_id}"] = {
+                    "id":       f"cfg-{member_id}",
+                    "memberId": member_id,
+                    "faction":  "",
+                    "group":    "pile" if member.get("tier") == "friends" else "hall",
+                    "teamName": team["name"],
+                    "rounds":   {},
+                }
+
     player_list = [
         {
             "id":       p["id"],
@@ -401,7 +438,11 @@ def build_live_state(
 
     if is_team:
         result["eventType"]  = "team"
-        result["teamRounds"] = build_team_rounds(all_rounds_data, members)
+        result["teamRounds"] = build_team_rounds(
+            all_team_pairings or {},
+            all_rounds_data,
+            teams_config,
+        )
 
     return result
 
@@ -440,19 +481,21 @@ def scrape_event(
     else:
         print(f"  ⚡ {event_id}: --force")
 
-    # Fetch all published rounds
+    is_team      = event_config.get("eventType") == "team"
     total_rounds = event_config["totalRounds"]
+
+    # Fetch all published rounds (individual pairings)
     all_rounds: dict[int, list] = {}
 
     for r in range(1, total_rounds + 1):
-        print(f"    Fetching round {r}...", end=" ", flush=True)
+        print(f"    Fetching round {r} (individual)...", end=" ", flush=True)
         try:
             pairings = fetch_round(event_id, r)
             if pairings:
                 all_rounds[r] = pairings
                 print(f"{len(pairings)} pairings")
             else:
-                print("no data (round not yet published)")
+                print("no data yet")
                 break
         except requests.HTTPError as e:
             print(f"HTTP {e.response.status_code} — stopping")
@@ -461,15 +504,39 @@ def scrape_event(
             print(f"error: {e} — stopping")
             break
 
-    if not all_rounds:
+    # For team events, also fetch TeamPairing data (available before individual pairings)
+    all_team_pairings: dict[int, list] | None = None
+    if is_team:
+        all_team_pairings = {}
+        for r in range(1, total_rounds + 1):
+            print(f"    Fetching round {r} (team)...", end=" ", flush=True)
+            try:
+                team_pairings = fetch_team_pairings_round(event_id, r)
+                if team_pairings:
+                    all_team_pairings[r] = team_pairings
+                    print(f"{len(team_pairings)} team pairings")
+                else:
+                    print("no data yet")
+                    break
+            except requests.HTTPError as e:
+                print(f"HTTP {e.response.status_code} — stopping")
+                break
+            except Exception as e:
+                print(f"error: {e} — stopping")
+                break
+
+        if not all_team_pairings and not all_rounds:
+            print(f"  ❌ {event_id}: no pairing data — skipping.")
+            return None
+    elif not all_rounds:
         print(f"  ❌ {event_id}: no pairing data — skipping.")
         return None
 
     in_window, _, _ = get_active_window(event_config)
     round_in_progress = in_window
 
-    live_state   = build_live_state(event_config, members, all_rounds, round_in_progress)
-    found        = len(live_state["players"])
+    live_state    = build_live_state(event_config, members, all_rounds, round_in_progress, all_team_pairings)
+    found         = len(live_state["players"])
     total_members = len(members)
     print(f"  ✅ {event_id}: round {live_state['currentRound']}/{total_rounds}, {found}/{total_members} members found")
 

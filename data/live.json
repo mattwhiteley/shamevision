@@ -679,7 +679,7 @@
       "id": "oKHbPVIATP8j",
       "currentRound": 5,
       "roundInProgress": false,
-      "updated_at": "2026-04-30T22:26:39",
+      "updated_at": "2026-04-30T23:17:20",
       "players": [
         {
           "id": "gF3MY2o7nVQk",
@@ -1522,38 +1522,6 @@
       "teamRounds": [
         {
           "round": 1,
-          "teamId": "pile-of-shame-support-network",
-          "teamName": "Pile of Shame Support Network",
-          "opponentTeamName": "Try Hard Wargaming",
-          "teamScore": 30,
-          "opponentTeamScore": 70
-        },
-        {
-          "round": 1,
-          "teamId": "pile-of-shame-support-network",
-          "teamName": "Pile of Shame Support Network",
-          "opponentTeamName": "Cawston Gaming Club",
-          "teamScore": 13,
-          "opponentTeamScore": 7
-        },
-        {
-          "round": 1,
-          "teamId": "pile-of-shame-support-network",
-          "teamName": "Pile of Shame Support Network",
-          "opponentTeamName": "Flatcaps and Flakcannons",
-          "teamScore": 70,
-          "opponentTeamScore": 30
-        },
-        {
-          "round": 1,
-          "teamId": "pile-of-shame-support-network",
-          "teamName": "Pile of Shame Support Network",
-          "opponentTeamName": "South London Legion",
-          "teamScore": 55,
-          "opponentTeamScore": 45
-        },
-        {
-          "round": 1,
           "teamId": "tuesday-knights",
           "teamName": "Tuesday Knights",
           "opponentTeamName": "Low Rollers",
@@ -1561,92 +1529,12 @@
           "opponentTeamScore": 31
         },
         {
-          "round": 1,
+          "round": 2,
           "teamId": "tuesday-knights",
           "teamName": "Tuesday Knights",
-          "opponentTeamName": "Glasshammer",
+          "opponentTeamName": "Vanguard Tactics B",
           "teamScore": 30,
           "opponentTeamScore": 50
-        },
-        {
-          "round": 2,
-          "teamId": "pile-of-shame-support-network",
-          "teamName": "Pile of Shame Support Network",
-          "opponentTeamName": "Mind Goblins",
-          "teamScore": 25,
-          "opponentTeamScore": 75
-        },
-        {
-          "round": 2,
-          "teamId": "pile-of-shame-support-network",
-          "teamName": "Pile of Shame Support Network",
-          "opponentTeamName": "Warmasters",
-          "teamScore": 12,
-          "opponentTeamScore": 88
-        },
-        {
-          "round": 2,
-          "teamId": "pile-of-shame-support-network",
-          "teamName": "Pile of Shame Support Network",
-          "opponentTeamName": "The Glennperor Protects",
-          "teamScore": 0,
-          "opponentTeamScore": 20
-        },
-        {
-          "round": 2,
-          "teamId": "pile-of-shame-support-network",
-          "teamName": "Pile of Shame Support Network",
-          "opponentTeamName": "6++",
-          "teamScore": 62,
-          "opponentTeamScore": 38
-        },
-        {
-          "round": 2,
-          "teamId": "tuesday-knights",
-          "teamName": "Tuesday Knights",
-          "opponentTeamName": "Vanguard Tactics",
-          "teamScore": 30,
-          "opponentTeamScore": 50
-        },
-        {
-          "round": 2,
-          "teamId": "tuesday-knights",
-          "teamName": "Tuesday Knights",
-          "opponentTeamName": "Black Crow Gaming",
-          "teamScore": 61,
-          "opponentTeamScore": 19
-        },
-        {
-          "round": 3,
-          "teamId": "pile-of-shame-support-network",
-          "teamName": "Pile of Shame Support Network",
-          "opponentTeamName": "Death Korps of Queens Road",
-          "teamScore": 6,
-          "opponentTeamScore": 14
-        },
-        {
-          "round": 3,
-          "teamId": "pile-of-shame-support-network",
-          "teamName": "Pile of Shame Support Network",
-          "opponentTeamName": "Team Napalm Hobbies",
-          "teamScore": 50,
-          "opponentTeamScore": 50
-        },
-        {
-          "round": 3,
-          "teamId": "pile-of-shame-support-network",
-          "teamName": "Pile of Shame Support Network",
-          "opponentTeamName": "Black Crow Gaming",
-          "teamScore": 61,
-          "opponentTeamScore": 39
-        },
-        {
-          "round": 3,
-          "teamId": "pile-of-shame-support-network",
-          "teamName": "Pile of Shame Support Network",
-          "opponentTeamName": "Staffordshire Tabletop Gaming",
-          "teamScore": 58,
-          "opponentTeamScore": 42
         },
         {
           "round": 3,
@@ -1657,92 +1545,12 @@
           "opponentTeamScore": 43
         },
         {
-          "round": 3,
-          "teamId": "tuesday-knights",
-          "teamName": "Tuesday Knights",
-          "opponentTeamName": "6++",
-          "teamScore": 22,
-          "opponentTeamScore": 58
-        },
-        {
-          "round": 4,
-          "teamId": "pile-of-shame-support-network",
-          "teamName": "Pile of Shame Support Network",
-          "opponentTeamName": "TFG Gaming",
-          "teamScore": 25,
-          "opponentTeamScore": 75
-        },
-        {
-          "round": 4,
-          "teamId": "pile-of-shame-support-network",
-          "teamName": "Pile of Shame Support Network",
-          "opponentTeamName": "Low Rollers",
-          "teamScore": 47,
-          "opponentTeamScore": 53
-        },
-        {
-          "round": 4,
-          "teamId": "pile-of-shame-support-network",
-          "teamName": "Pile of Shame Support Network",
-          "opponentTeamName": "No Sanctuary",
-          "teamScore": 59,
-          "opponentTeamScore": 41
-        },
-        {
-          "round": 4,
-          "teamId": "pile-of-shame-support-network",
-          "teamName": "Pile of Shame Support Network",
-          "opponentTeamName": "Warwickshire Warhawks",
-          "teamScore": 13,
-          "opponentTeamScore": 7
-        },
-        {
           "round": 4,
           "teamId": "tuesday-knights",
           "teamName": "Tuesday Knights",
-          "opponentTeamName": "Caledonian Wildcats",
-          "teamScore": 41,
-          "opponentTeamScore": 39
-        },
-        {
-          "round": 4,
-          "teamId": "tuesday-knights",
-          "teamName": "Tuesday Knights",
-          "opponentTeamName": "Team Stonehammer",
+          "opponentTeamName": "Team Ig(not)e",
           "teamScore": 48,
           "opponentTeamScore": 32
-        },
-        {
-          "round": 5,
-          "teamId": "pile-of-shame-support-network",
-          "teamName": "Pile of Shame Support Network",
-          "opponentTeamName": "Wessex Wyverns",
-          "teamScore": 47,
-          "opponentTeamScore": 53
-        },
-        {
-          "round": 5,
-          "teamId": "pile-of-shame-support-network",
-          "teamName": "Pile of Shame Support Network",
-          "opponentTeamName": "WVLF",
-          "teamScore": 6,
-          "opponentTeamScore": 14
-        },
-        {
-          "round": 5,
-          "teamId": "pile-of-shame-support-network",
-          "teamName": "Pile of Shame Support Network",
-          "opponentTeamName": "6++",
-          "teamScore": 42,
-          "opponentTeamScore": 58
-        },
-        {
-          "round": 5,
-          "teamId": "pile-of-shame-support-network",
-          "teamName": "Pile of Shame Support Network",
-          "opponentTeamName": "Bristol Crusaders",
-          "teamScore": 41,
-          "opponentTeamScore": 59
         },
         {
           "round": 5,
@@ -1751,14 +1559,6 @@
           "opponentTeamName": "Bad Moon Brawlers",
           "teamScore": 35,
           "opponentTeamScore": 45
-        },
-        {
-          "round": 5,
-          "teamId": "tuesday-knights",
-          "teamName": "Tuesday Knights",
-          "opponentTeamName": "Vale Renegades",
-          "teamScore": 51,
-          "opponentTeamScore": 29
         }
       ]
     }
