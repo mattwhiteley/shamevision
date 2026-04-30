@@ -2,6 +2,7 @@
 
 import type { TournamentEvent, PlayerStats } from "@/types/tournament";
 import PlayerCard from "./PlayerCard";
+import TeamEventContainer from "./TeamEventContainer";
 
 type Props = {
   event: TournamentEvent;
@@ -9,6 +10,9 @@ type Props = {
 };
 
 export default function EventContainer({ event, players }: Props) {
+  if (event.eventType === "team") {
+    return <TeamEventContainer event={event} players={players} />;
+  }
   return (
     <div className="event-container">
       <div className="event-header">

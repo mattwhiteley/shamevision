@@ -45,6 +45,10 @@ from zoneinfo import ZoneInfo
 
 import requests
 
+# Ensure emoji in print() works on Windows terminals with narrow encodings
+if sys.platform == "win32" and hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
 # ---------------------------------------------------------------------------
 # Paths
 # ---------------------------------------------------------------------------
@@ -220,6 +224,96 @@ def to_score(value) -> int | None:
         return None
 
 
+def slugify(name: str) -> str:
+    """Convert a team name to a stable lowercase slug for use as teamId."""
+    import re
+    slug = normalise_name(name)
+    slug = re.sub(r"[^\w\s-]", "", slug)
+    slug = re.sub(r"[\s_]+", "-", slug).strip("-")
+    return slug
+
+
+def build_team_rounds(
+    all_rounds_data: dict[int, list],
+    members: list[dict],
+) -> list[dict]:
+    """
+    For team events: compute per-team aggregate scores per round.
+
+    For each round, groups individual pairings by teamPairingId. For each
+    team matchup that contains at least one tracked member, sums all 5
+    individual game scores to produce team and opponent aggregates.
+
+    Returns a list of TeamRoundResult dicts (one per tracked team per round).
+    """
+    team_rounds: list[dict] = []
+
+    for round_num, pairings in all_rounds_data.items():
+        # Group pairings by teamPairingId
+        matchups: dict[str, list[dict]] = {}
+        for pairing in pairings:
+            tpid = pairing.get("teamPairingId")
+            if tpid:
+                matchups.setdefault(tpid, []).append(pairing)
+
+        for tpid, games in matchups.items():
+            # Determine which team names our tracked members are on
+            tracked_team_names: set[str] = set()
+            for game in games:
+                for side in ("player1", "player2"):
+                    p = game.get(side) or {}
+                    user  = p.get("user", {})
+                    first = user.get("firstName", "")
+                    last  = user.get("lastName", "")
+                    if find_member(first, last, members):
+                        team_name = p.get("team", "")
+                        if team_name:
+                            tracked_team_names.add(team_name)
+
+            if not tracked_team_names:
+                continue
+
+            for our_team_name in tracked_team_names:
+                team_total = 0
+                opp_total  = 0
+                opp_team_name = ""
+                any_null = False
+
+                for game in games:
+                    p1 = game.get("player1") or {}
+                    p2 = game.get("player2") or {}
+                    s1 = to_score((game.get("player1Game") or {}).get("points"))
+                    s2 = to_score((game.get("player2Game") or {}).get("points"))
+
+                    if p1.get("team") == our_team_name:
+                        if s1 is None or s2 is None:
+                            any_null = True
+                        else:
+                            team_total += s1
+                            opp_total  += s2
+                        if not opp_team_name:
+                            opp_team_name = p2.get("team", "")
+                    elif p2.get("team") == our_team_name:
+                        if s1 is None or s2 is None:
+                            any_null = True
+                        else:
+                            team_total += s2
+                            opp_total  += s1
+                        if not opp_team_name:
+                            opp_team_name = p1.get("team", "")
+
+                team_rounds.append({
+                    "round":             round_num,
+                    "teamId":            slugify(our_team_name),
+                    "teamName":          our_team_name,
+                    "opponentTeamName":  opp_team_name,
+                    "teamScore":         None if any_null else team_total,
+                    "opponentTeamScore": None if any_null else opp_total,
+                })
+
+    return sorted(team_rounds, key=lambda r: (r["round"], r["teamId"]))
+
+
 def build_live_state(
     event_config: dict,
     members: list[dict],
@@ -227,6 +321,7 @@ def build_live_state(
     round_in_progress: bool,
 ) -> dict:
     """Builds the live state dict for a single event."""
+    is_team   = event_config.get("eventType") == "team"
     published_rounds = sorted(all_rounds_data.keys())
     current_round    = max(published_rounds) if published_rounds else 1
 
@@ -258,13 +353,16 @@ def build_live_state(
                 faction = faction_from_player(my_side)
 
                 if pid not in players:
-                    players[pid] = {
+                    entry = {
                         "id":       pid,
                         "memberId": member["id"],
                         "faction":  faction,
                         "group":    "pile" if member.get("tier") == "friends" else "hall",
                         "rounds":   {},
                     }
+                    if is_team:
+                        entry["teamName"] = my_side.get("team", "")
+                    players[pid] = entry
                 elif not players[pid]["faction"] and faction:
                     players[pid]["faction"] = faction
 
@@ -285,18 +383,25 @@ def build_live_state(
             "memberId": p["memberId"],
             "faction":  p["faction"],
             "group":    p["group"],
+            **({"teamName": p["teamName"]} if is_team else {}),
             "rounds":   [p["rounds"][r] for r in sorted(p["rounds"])],
         }
         for p in sorted(players.values(), key=lambda x: x["memberId"])
     ]
 
-    return {
+    result: dict = {
         "id":              event_config["id"],
         "currentRound":    current_round,
         "roundInProgress": round_in_progress,
         "updated_at":      datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S"),
         "players":         player_list,
     }
+
+    if is_team:
+        result["eventType"]  = "team"
+        result["teamRounds"] = build_team_rounds(all_rounds_data, members)
+
+    return result
 
 
 # ---------------------------------------------------------------------------

@@ -5,11 +5,14 @@ import type {
   ResolvedPlayer,
   PlayerStats,
   RoundOutcome,
+  TeamMatchupView,
+  TeamRoundResult,
 } from "@/types/tournament";
 import rawMembersData from "@/data/members.json";
 import rawEventsData from "@/data/events.json";
 
 const LIVE_URL =
+  process.env.NEXT_PUBLIC_LIVE_URL ??
   "https://raw.githubusercontent.com/mattwhiteley/shamevision/main/data/live.json";
 
 // ---------------------------------------------------------------------------
@@ -30,6 +33,8 @@ type EventLiveState = {
   roundInProgress: boolean;
   updated_at: string;
   players: EventPlayer[];
+  eventType?: "individual" | "team";
+  teamRounds?: TeamRoundResult[];
 };
 
 // ---------------------------------------------------------------------------
@@ -130,6 +135,63 @@ export function getSortedPlayers(
     });
 }
 
+// ---------------------------------------------------------------------------
+// Team event helpers
+// ---------------------------------------------------------------------------
+
+export function isTeamEvent(event: TournamentEvent): boolean {
+  return event.eventType === "team";
+}
+
+export function getTeamMatchupsForRound(
+  event: TournamentEvent,
+  memberMap: Map<string, string>,
+  round: number,
+): TeamMatchupView[] {
+  if (!event.teamRounds) return [];
+
+  // Unique teams visible in this round (club teams only)
+  const roundTeamRows = event.teamRounds.filter((tr) => tr.round === round);
+  const teamIds = [...new Set(roundTeamRows.map((tr) => tr.teamId))];
+
+  return teamIds.map((teamId) => {
+    const teamRow = roundTeamRows.find((tr) => tr.teamId === teamId)!;
+
+    const teamScore = teamRow.teamScore;
+    const oppScore = teamRow.opponentTeamScore;
+    let outcome: TeamMatchupView["outcome"];
+    if (teamScore === null || oppScore === null) {
+      outcome = event.roundInProgress ? "in_progress" : "upcoming";
+    } else if (teamScore > oppScore) {
+      outcome = "win";
+    } else if (teamScore < oppScore) {
+      outcome = "loss";
+    } else {
+      outcome = "draw";
+    }
+
+    const isCurrentRound = round === event.currentRound;
+    const teamPlayers = event.players
+      .filter((p) => p.teamName === teamRow.teamName)
+      .map((p) => resolvePlayer(p, memberMap))
+      .map((p) => computePlayerStats(p, round, isCurrentRound && event.roundInProgress));
+
+    return {
+      teamId,
+      teamName: teamRow.teamName,
+      opponentTeamName: teamRow.opponentTeamName,
+      teamScore,
+      opponentTeamScore: oppScore,
+      outcome,
+      players: teamPlayers,
+    };
+  });
+}
+
+// ---------------------------------------------------------------------------
+// Resolved events
+// ---------------------------------------------------------------------------
+
 export type ResolvedEvent = {
   event: TournamentEvent;
   players: PlayerStats[];
@@ -142,13 +204,16 @@ export async function getResolvedEvents(): Promise<ResolvedEvent[]> {
   const configs = getEventConfigs();
   const liveMap = await fetchLiveStateMap();
 
+  const emptyLive: EventLiveState = {
+    id: "",
+    currentRound: 1,
+    roundInProgress: false,
+    updated_at: new Date().toISOString(),
+    players: [],
+  };
+
   return configs.map((config) => {
-    const live = liveMap.get(config.id) ?? {
-      currentRound: 1,
-      roundInProgress: false,
-      updated_at: new Date().toISOString(),
-      players: [],
-    };
+    const live = liveMap.get(config.id) ?? emptyLive;
     const players = live.players.map((p) => ({
       ...p,
       group: p.group ?? (tierMap.get(p.memberId) === "friends" ? "pile" : "hall") as EventPlayer["group"],
@@ -159,6 +224,8 @@ export async function getResolvedEvents(): Promise<ResolvedEvent[]> {
       roundInProgress: live.roundInProgress,
       updated_at: live.updated_at,
       players,
+      ...(live.eventType ? { eventType: live.eventType } : {}),
+      ...(live.teamRounds ? { teamRounds: live.teamRounds } : {}),
     } as TournamentEvent;
     return { event, players: getSortedPlayers(event, memberMap) };
   });

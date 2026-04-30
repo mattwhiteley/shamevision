@@ -245,6 +245,1093 @@
           ]
         }
       ]
+    },
+    {
+      "id": "oKHbPVIATP8j",
+      "currentRound": 5,
+      "roundInProgress": false,
+      "updated_at": "2026-04-30T22:26:39",
+      "players": [
+        {
+          "id": "gF3MY2o7nVQk",
+          "memberId": "member-alex-ford",
+          "faction": "Drukhari",
+          "group": "hall",
+          "teamName": "Pile of Shame Support Network",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Josie Cartwright",
+              "opponentFaction": "Necrons",
+              "playerScore": 5,
+              "opponentScore": 15
+            },
+            {
+              "round": 2,
+              "opponent": "Steve Tiencken",
+              "opponentFaction": "Chaos Space Marines",
+              "playerScore": 15,
+              "opponentScore": 5
+            },
+            {
+              "round": 3,
+              "opponent": "Paul Willstead",
+              "opponentFaction": "Leagues of Votann",
+              "playerScore": 15,
+              "opponentScore": 5
+            },
+            {
+              "round": 4,
+              "opponent": "Tom McPherson",
+              "opponentFaction": "Chaos Daemons",
+              "playerScore": 6,
+              "opponentScore": 14
+            },
+            {
+              "round": 5,
+              "opponent": "David Bannister",
+              "opponentFaction": "T'au Empire",
+              "playerScore": 10,
+              "opponentScore": 10
+            }
+          ]
+        },
+        {
+          "id": "FZoiKzG02CBN",
+          "memberId": "member-aneurin-brewer",
+          "faction": "Drukhari",
+          "group": "hall",
+          "teamName": "Tuesday Knights",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Richard Kilpatrick",
+              "opponentFaction": "World Eaters",
+              "playerScore": 19,
+              "opponentScore": 1
+            },
+            {
+              "round": 2,
+              "opponent": "Paul Reed",
+              "opponentFaction": "World Eaters",
+              "playerScore": 15,
+              "opponentScore": 5
+            },
+            {
+              "round": 3,
+              "opponent": "Adam Gourlay",
+              "opponentFaction": "Blood Angels",
+              "playerScore": 2,
+              "opponentScore": 18
+            },
+            {
+              "round": 4,
+              "opponent": "Derek Douglas",
+              "opponentFaction": "Adeptus Custodes",
+              "playerScore": 8,
+              "opponentScore": 12
+            },
+            {
+              "round": 5,
+              "opponent": "George Cocks",
+              "opponentFaction": "Drukhari",
+              "playerScore": 20,
+              "opponentScore": 0
+            }
+          ]
+        },
+        {
+          "id": "gZUxp0kAspGX",
+          "memberId": "member-anthony-keen",
+          "faction": "Astra Militarum",
+          "group": "hall",
+          "teamName": "Pile of Shame Support Network",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Rhys Edwards",
+              "opponentFaction": "Orks",
+              "playerScore": 4,
+              "opponentScore": 16
+            },
+            {
+              "round": 2,
+              "opponent": "Tom Redgate",
+              "opponentFaction": "Adepta Sororitas",
+              "playerScore": 17,
+              "opponentScore": 3
+            },
+            {
+              "round": 3,
+              "opponent": "Matthew Matt Williams",
+              "opponentFaction": "Thousand Sons",
+              "playerScore": 9,
+              "opponentScore": 11
+            },
+            {
+              "round": 4,
+              "opponent": "Benjamin Crowther",
+              "opponentFaction": "Adepta Sororitas",
+              "playerScore": 20,
+              "opponentScore": 0
+            },
+            {
+              "round": 5,
+              "opponent": "Nicholas Bannister",
+              "opponentFaction": "Necrons",
+              "playerScore": 10,
+              "opponentScore": 10
+            }
+          ]
+        },
+        {
+          "id": "5DllB1ayLJER",
+          "memberId": "member-artur-tokarski",
+          "faction": "Death Guard",
+          "group": "hall",
+          "teamName": "Pile of Shame Support Network",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Ben Raven",
+              "opponentFaction": "Chaos Knights",
+              "playerScore": 3,
+              "opponentScore": 17
+            },
+            {
+              "round": 2,
+              "opponent": "Aidan Brocklehurst",
+              "opponentFaction": "Adepta Sororitas",
+              "playerScore": 8,
+              "opponentScore": 12
+            },
+            {
+              "round": 3,
+              "opponent": "Kieron Hayman",
+              "opponentFaction": "Astra Militarum",
+              "playerScore": 9,
+              "opponentScore": 11
+            },
+            {
+              "round": 4,
+              "opponent": "Tony Chew",
+              "opponentFaction": "Orks",
+              "playerScore": 3,
+              "opponentScore": 17
+            },
+            {
+              "round": 5,
+              "opponent": "Oscar van Huizen",
+              "opponentFaction": "Chaos Daemons",
+              "playerScore": 4,
+              "opponentScore": 16
+            }
+          ]
+        },
+        {
+          "id": "tDmqsgTfxEgj",
+          "memberId": "member-callum-watts",
+          "faction": "Space Marines (Astartes)",
+          "group": "pile",
+          "teamName": "Tuesday Knights",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Gareth Jones",
+              "opponentFaction": "Chaos Knights",
+              "playerScore": 10,
+              "opponentScore": 10
+            },
+            {
+              "round": 2,
+              "opponent": "Dash Blunnie",
+              "opponentFaction": "Thousand Sons",
+              "playerScore": 17,
+              "opponentScore": 3
+            },
+            {
+              "round": 3,
+              "opponent": "Connor Nicholls",
+              "opponentFaction": "Necrons",
+              "playerScore": 6,
+              "opponentScore": 14
+            },
+            {
+              "round": 4,
+              "opponent": "Nick Duncan",
+              "opponentFaction": "Astra Militarum",
+              "playerScore": 20,
+              "opponentScore": 0
+            },
+            {
+              "round": 5,
+              "opponent": "Gareth Lane",
+              "opponentFaction": "Adeptus Custodes",
+              "playerScore": 11,
+              "opponentScore": 9
+            }
+          ]
+        },
+        {
+          "id": "rCOQk8p3Gysd",
+          "memberId": "member-cayleb-langhals",
+          "faction": "Death Guard",
+          "group": "hall",
+          "teamName": "Pile of Shame Support Network",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Rares Platon",
+              "opponentFaction": "Thousand Sons",
+              "playerScore": 14,
+              "opponentScore": 6
+            },
+            {
+              "round": 2,
+              "opponent": "Jack Doddy",
+              "opponentFaction": "Leagues of Votann",
+              "playerScore": 13,
+              "opponentScore": 7
+            },
+            {
+              "round": 3,
+              "opponent": "Ian Poulton",
+              "opponentFaction": "Chaos Daemons",
+              "playerScore": 13,
+              "opponentScore": 7
+            },
+            {
+              "round": 4,
+              "opponent": "Douglas Fairfield",
+              "opponentFaction": "Necrons",
+              "playerScore": 10,
+              "opponentScore": 10
+            },
+            {
+              "round": 5,
+              "opponent": "Dicken Watson",
+              "opponentFaction": "Chaos Daemons",
+              "playerScore": 7,
+              "opponentScore": 13
+            }
+          ]
+        },
+        {
+          "id": "dBmsbqLBxaPq",
+          "memberId": "member-chris-enderby",
+          "faction": "Chaos Space Marines",
+          "group": "hall",
+          "teamName": "Pile of Shame Support Network",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Steve Boothroyd",
+              "opponentFaction": "Adepta Sororitas",
+              "playerScore": 0,
+              "opponentScore": 20
+            },
+            {
+              "round": 2,
+              "opponent": "Rafael Harbinson",
+              "opponentFaction": "Blood Angels",
+              "playerScore": 2,
+              "opponentScore": 18
+            },
+            {
+              "round": 3,
+              "opponent": "Ashley Brown",
+              "opponentFaction": "Chaos Daemons",
+              "playerScore": 0,
+              "opponentScore": 20
+            },
+            {
+              "round": 4,
+              "opponent": "Henry Taylor",
+              "opponentFaction": "Astra Militarum",
+              "playerScore": 8,
+              "opponentScore": 12
+            },
+            {
+              "round": 5,
+              "opponent": "Ben Pritchard",
+              "opponentFaction": "Dark Angels",
+              "playerScore": 0,
+              "opponentScore": 20
+            }
+          ]
+        },
+        {
+          "id": "0SaxuX3njfX1",
+          "memberId": "member-daniel-green",
+          "faction": "World Eaters",
+          "group": "hall",
+          "teamName": "Pile of Shame Support Network",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "James McGlough",
+              "opponentFaction": "Space Marines (Astartes)",
+              "playerScore": 7,
+              "opponentScore": 13
+            },
+            {
+              "round": 2,
+              "opponent": "Jack Asher",
+              "opponentFaction": "Adeptus Custodes",
+              "playerScore": 5,
+              "opponentScore": 15
+            },
+            {
+              "round": 3,
+              "opponent": "Rob Williams",
+              "opponentFaction": "Chaos Space Marines",
+              "playerScore": 16,
+              "opponentScore": 4
+            },
+            {
+              "round": 4,
+              "opponent": "Rob Willars",
+              "opponentFaction": "Leagues of Votann",
+              "playerScore": 11,
+              "opponentScore": 9
+            },
+            {
+              "round": 5,
+              "opponent": "Tom Pang",
+              "opponentFaction": "Astra Militarum",
+              "playerScore": 16,
+              "opponentScore": 4
+            }
+          ]
+        },
+        {
+          "id": "2402YI18Q1gF",
+          "memberId": "member-guy-miscampbell",
+          "faction": "Deathwatch",
+          "group": "hall",
+          "teamName": "Pile of Shame Support Network",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Wes Cockcroft",
+              "opponentFaction": "Necrons",
+              "playerScore": 17,
+              "opponentScore": 3
+            },
+            {
+              "round": 2,
+              "opponent": "Jack Tite",
+              "opponentFaction": "Adepta Sororitas",
+              "playerScore": 1,
+              "opponentScore": 19
+            },
+            {
+              "round": 3,
+              "opponent": "Sam Hill",
+              "opponentFaction": "Adeptus Custodes",
+              "playerScore": 4,
+              "opponentScore": 16
+            },
+            {
+              "round": 4,
+              "opponent": "Andrew Craven",
+              "opponentFaction": "Adeptus Custodes",
+              "playerScore": 10,
+              "opponentScore": 10
+            },
+            {
+              "round": 5,
+              "opponent": "Chris Irvine",
+              "opponentFaction": "Death Guard",
+              "playerScore": 7,
+              "opponentScore": 13
+            }
+          ]
+        },
+        {
+          "id": "vt6Bpczp33s4",
+          "memberId": "member-harvey-r",
+          "faction": "Blood Angels",
+          "group": "hall",
+          "teamName": "Pile of Shame Support Network",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "James Henley",
+              "opponentFaction": "Astra Militarum",
+              "playerScore": 11,
+              "opponentScore": 9
+            },
+            {
+              "round": 2,
+              "opponent": "Struan Robertson",
+              "opponentFaction": "Space Marines (Astartes)",
+              "playerScore": 2,
+              "opponentScore": 18
+            },
+            {
+              "round": 3,
+              "opponent": "Kobe Walters",
+              "opponentFaction": "Aeldari",
+              "playerScore": 2,
+              "opponentScore": 18
+            },
+            {
+              "round": 4,
+              "opponent": "Matt Christoforou",
+              "opponentFaction": "Drukhari",
+              "playerScore": 6,
+              "opponentScore": 14
+            },
+            {
+              "round": 5,
+              "opponent": "Richard Dabrowski",
+              "opponentFaction": "Chaos Space Marines",
+              "playerScore": 9,
+              "opponentScore": 11
+            }
+          ]
+        },
+        {
+          "id": "jBhSum4Vdl1p",
+          "memberId": "member-henry-bamford",
+          "faction": "Orks",
+          "group": "hall",
+          "teamName": "Pile of Shame Support Network",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Matt Pocock",
+              "opponentFaction": "Dark Angels",
+              "playerScore": 15,
+              "opponentScore": 5
+            },
+            {
+              "round": 2,
+              "opponent": "Matt Bell",
+              "opponentFaction": "Adeptus Mechanicus",
+              "playerScore": 4,
+              "opponentScore": 16
+            },
+            {
+              "round": 3,
+              "opponent": "Josh Ellmore",
+              "opponentFaction": "Space Marines (Astartes)",
+              "playerScore": 8,
+              "opponentScore": 12
+            },
+            {
+              "round": 4,
+              "opponent": "Jack Jackson-Savill",
+              "opponentFaction": "Black Templars",
+              "playerScore": 2,
+              "opponentScore": 18
+            },
+            {
+              "round": 5,
+              "opponent": "Tom Lowman",
+              "opponentFaction": "Aeldari",
+              "playerScore": 6,
+              "opponentScore": 14
+            }
+          ]
+        },
+        {
+          "id": "cludIT6l94z0",
+          "memberId": "member-jamie-payton",
+          "faction": "Blood Angels",
+          "group": "hall",
+          "teamName": "Pile of Shame Support Network",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "James Hetherington",
+              "opponentFaction": "Aeldari",
+              "playerScore": 13,
+              "opponentScore": 7
+            },
+            {
+              "round": 2,
+              "opponent": "Emil Söderholm",
+              "opponentFaction": "Deathwatch",
+              "playerScore": 0,
+              "opponentScore": 20
+            },
+            {
+              "round": 3,
+              "opponent": "Philip Higgs",
+              "opponentFaction": "T'au Empire",
+              "playerScore": 6,
+              "opponentScore": 14
+            },
+            {
+              "round": 4,
+              "opponent": "Alex Beaumont-Dark",
+              "opponentFaction": "Thousand Sons",
+              "playerScore": 13,
+              "opponentScore": 7
+            },
+            {
+              "round": 5,
+              "opponent": "Ryan Johnson",
+              "opponentFaction": "Grey Knights",
+              "playerScore": 6,
+              "opponentScore": 14
+            }
+          ]
+        },
+        {
+          "id": "jX7V3NfijfEL",
+          "memberId": "member-jordan-penning",
+          "faction": "Space Marines (Astartes)",
+          "group": "pile",
+          "teamName": "Tuesday Knights",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Douglas Fairfield",
+              "opponentFaction": "Necrons",
+              "playerScore": 18,
+              "opponentScore": 2
+            },
+            {
+              "round": 2,
+              "opponent": "Liam Harvey",
+              "opponentFaction": "Death Guard",
+              "playerScore": 11,
+              "opponentScore": 9
+            },
+            {
+              "round": 3,
+              "opponent": "Daniel Marshall",
+              "opponentFaction": "Adeptus Custodes",
+              "playerScore": 11,
+              "opponentScore": 9
+            },
+            {
+              "round": 4,
+              "opponent": "Paul Withington",
+              "opponentFaction": "Necrons",
+              "playerScore": 10,
+              "opponentScore": 10
+            },
+            {
+              "round": 5,
+              "opponent": "Mark Smith",
+              "opponentFaction": "Imperial Knights",
+              "playerScore": 15,
+              "opponentScore": 5
+            }
+          ]
+        },
+        {
+          "id": "CVKR1yQm8Ppw",
+          "memberId": "member-matt-whiteley",
+          "faction": "Space Marines (Astartes)",
+          "group": "hall",
+          "teamName": "Pile of Shame Support Network",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Mark Krijntjes",
+              "opponentFaction": "Death Guard",
+              "playerScore": 0,
+              "opponentScore": 20
+            },
+            {
+              "round": 2,
+              "opponent": "Joseph Reed",
+              "opponentFaction": "Blood Angels",
+              "playerScore": 12,
+              "opponentScore": 8
+            },
+            {
+              "round": 3,
+              "opponent": "Sam Cartwright",
+              "opponentFaction": "Space Wolves",
+              "playerScore": 5,
+              "opponentScore": 15
+            },
+            {
+              "round": 4,
+              "opponent": "Tymon Jozefowski",
+              "opponentFaction": "Blood Angels",
+              "playerScore": 0,
+              "opponentScore": 20
+            },
+            {
+              "round": 5,
+              "opponent": "William Samms",
+              "opponentFaction": "Blood Angels",
+              "playerScore": 4,
+              "opponentScore": 16
+            }
+          ]
+        },
+        {
+          "id": "qFWaNtHseUWM",
+          "memberId": "member-matthew-yeoh",
+          "faction": "Chaos Knights",
+          "group": "hall",
+          "teamName": "Pile of Shame Support Network",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Ed Benson",
+              "opponentFaction": "Chaos Daemons",
+              "playerScore": 19,
+              "opponentScore": 1
+            },
+            {
+              "round": 2,
+              "opponent": "Christopher Langton",
+              "opponentFaction": "Chaos Daemons",
+              "playerScore": 10,
+              "opponentScore": 10
+            },
+            {
+              "round": 3,
+              "opponent": "Adam Inward",
+              "opponentFaction": "Adeptus Custodes",
+              "playerScore": 20,
+              "opponentScore": 0
+            },
+            {
+              "round": 4,
+              "opponent": "Jonathan Clarke",
+              "opponentFaction": "Space Marines (Astartes)",
+              "playerScore": 10,
+              "opponentScore": 10
+            },
+            {
+              "round": 5,
+              "opponent": "James Reece",
+              "opponentFaction": "Tyranids",
+              "playerScore": 18,
+              "opponentScore": 2
+            }
+          ]
+        },
+        {
+          "id": "PIf3C75yfBFx",
+          "memberId": "member-nora-tinfou",
+          "faction": "Adepta Sororitas",
+          "group": "hall",
+          "teamName": "Pile of Shame Support Network",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Phil GC",
+              "opponentFaction": "Drukhari",
+              "playerScore": 20,
+              "opponentScore": 0
+            },
+            {
+              "round": 2,
+              "opponent": "Louis Ballington",
+              "opponentFaction": "Adeptus Custodes",
+              "playerScore": 4,
+              "opponentScore": 16
+            },
+            {
+              "round": 3,
+              "opponent": "Mark Rodda",
+              "opponentFaction": "Adeptus Mechanicus",
+              "playerScore": 14,
+              "opponentScore": 6
+            },
+            {
+              "round": 4,
+              "opponent": "Ritchie Balan",
+              "opponentFaction": "Adeptus Mechanicus",
+              "playerScore": 6,
+              "opponentScore": 14
+            },
+            {
+              "round": 5,
+              "opponent": "Rob Elver",
+              "opponentFaction": "Adeptus Custodes",
+              "playerScore": 10,
+              "opponentScore": 10
+            }
+          ]
+        },
+        {
+          "id": "cuG4w45FuGAV",
+          "memberId": "member-samuel-francis",
+          "faction": "Chaos Daemons",
+          "group": "hall",
+          "teamName": "Pile of Shame Support Network",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Mark Pocock",
+              "opponentFaction": "World Eaters",
+              "playerScore": 18,
+              "opponentScore": 2
+            },
+            {
+              "round": 2,
+              "opponent": "Andy Quas-Cohen",
+              "opponentFaction": "Necrons",
+              "playerScore": 3,
+              "opponentScore": 17
+            },
+            {
+              "round": 3,
+              "opponent": "Matthew Harrington",
+              "opponentFaction": "Death Guard",
+              "playerScore": 20,
+              "opponentScore": 0
+            },
+            {
+              "round": 4,
+              "opponent": "Elliot Mack",
+              "opponentFaction": "Drukhari",
+              "playerScore": 20,
+              "opponentScore": 0
+            },
+            {
+              "round": 5,
+              "opponent": "Robert Kimpton",
+              "opponentFaction": "Astra Militarum",
+              "playerScore": 9,
+              "opponentScore": 11
+            }
+          ]
+        },
+        {
+          "id": "FeH8JAKPz6jJ",
+          "memberId": "member-spencer-james",
+          "faction": "Emperor's Children",
+          "group": "hall",
+          "teamName": "Pile of Shame Support Network",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Conor McNama",
+              "opponentFaction": "Dark Angels",
+              "playerScore": 2,
+              "opponentScore": 18
+            },
+            {
+              "round": 2,
+              "opponent": "Dom Maidlow",
+              "opponentFaction": "Astra Militarum",
+              "playerScore": 1,
+              "opponentScore": 19
+            },
+            {
+              "round": 3,
+              "opponent": "Paolo Owens",
+              "opponentFaction": "Orks",
+              "playerScore": 16,
+              "opponentScore": 4
+            },
+            {
+              "round": 4,
+              "opponent": "Rich Steele",
+              "opponentFaction": "Necrons",
+              "playerScore": 0,
+              "opponentScore": 20
+            },
+            {
+              "round": 5,
+              "opponent": "Patrick Carroll",
+              "opponentFaction": "Dark Angels",
+              "playerScore": 0,
+              "opponentScore": 20
+            }
+          ]
+        },
+        {
+          "id": "G5qJ6c6GmELQ",
+          "memberId": "member-tim-waters",
+          "faction": "Drukhari",
+          "group": "hall",
+          "teamName": "Pile of Shame Support Network",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "David Allan",
+              "opponentFaction": "Adeptus Custodes",
+              "playerScore": 20,
+              "opponentScore": 0
+            },
+            {
+              "round": 2,
+              "opponent": "Nassim Fouchane",
+              "opponentFaction": "Adeptus Custodes",
+              "playerScore": 2,
+              "opponentScore": 18
+            },
+            {
+              "round": 3,
+              "opponent": "Patrick Dawson",
+              "opponentFaction": "Leagues of Votann",
+              "playerScore": 18,
+              "opponentScore": 2
+            },
+            {
+              "round": 4,
+              "opponent": "Andrew Thornton",
+              "opponentFaction": "Orks",
+              "playerScore": 19,
+              "opponentScore": 1
+            },
+            {
+              "round": 5,
+              "opponent": "Jon Scrivens",
+              "opponentFaction": "Orks",
+              "playerScore": 20,
+              "opponentScore": 0
+            }
+          ]
+        }
+      ],
+      "eventType": "team",
+      "teamRounds": [
+        {
+          "round": 1,
+          "teamId": "pile-of-shame-support-network",
+          "teamName": "Pile of Shame Support Network",
+          "opponentTeamName": "Try Hard Wargaming",
+          "teamScore": 30,
+          "opponentTeamScore": 70
+        },
+        {
+          "round": 1,
+          "teamId": "pile-of-shame-support-network",
+          "teamName": "Pile of Shame Support Network",
+          "opponentTeamName": "Cawston Gaming Club",
+          "teamScore": 13,
+          "opponentTeamScore": 7
+        },
+        {
+          "round": 1,
+          "teamId": "pile-of-shame-support-network",
+          "teamName": "Pile of Shame Support Network",
+          "opponentTeamName": "Flatcaps and Flakcannons",
+          "teamScore": 70,
+          "opponentTeamScore": 30
+        },
+        {
+          "round": 1,
+          "teamId": "pile-of-shame-support-network",
+          "teamName": "Pile of Shame Support Network",
+          "opponentTeamName": "South London Legion",
+          "teamScore": 55,
+          "opponentTeamScore": 45
+        },
+        {
+          "round": 1,
+          "teamId": "tuesday-knights",
+          "teamName": "Tuesday Knights",
+          "opponentTeamName": "Low Rollers",
+          "teamScore": 49,
+          "opponentTeamScore": 31
+        },
+        {
+          "round": 1,
+          "teamId": "tuesday-knights",
+          "teamName": "Tuesday Knights",
+          "opponentTeamName": "Glasshammer",
+          "teamScore": 30,
+          "opponentTeamScore": 50
+        },
+        {
+          "round": 2,
+          "teamId": "pile-of-shame-support-network",
+          "teamName": "Pile of Shame Support Network",
+          "opponentTeamName": "Mind Goblins",
+          "teamScore": 25,
+          "opponentTeamScore": 75
+        },
+        {
+          "round": 2,
+          "teamId": "pile-of-shame-support-network",
+          "teamName": "Pile of Shame Support Network",
+          "opponentTeamName": "Warmasters",
+          "teamScore": 12,
+          "opponentTeamScore": 88
+        },
+        {
+          "round": 2,
+          "teamId": "pile-of-shame-support-network",
+          "teamName": "Pile of Shame Support Network",
+          "opponentTeamName": "The Glennperor Protects",
+          "teamScore": 0,
+          "opponentTeamScore": 20
+        },
+        {
+          "round": 2,
+          "teamId": "pile-of-shame-support-network",
+          "teamName": "Pile of Shame Support Network",
+          "opponentTeamName": "6++",
+          "teamScore": 62,
+          "opponentTeamScore": 38
+        },
+        {
+          "round": 2,
+          "teamId": "tuesday-knights",
+          "teamName": "Tuesday Knights",
+          "opponentTeamName": "Vanguard Tactics",
+          "teamScore": 30,
+          "opponentTeamScore": 50
+        },
+        {
+          "round": 2,
+          "teamId": "tuesday-knights",
+          "teamName": "Tuesday Knights",
+          "opponentTeamName": "Black Crow Gaming",
+          "teamScore": 61,
+          "opponentTeamScore": 19
+        },
+        {
+          "round": 3,
+          "teamId": "pile-of-shame-support-network",
+          "teamName": "Pile of Shame Support Network",
+          "opponentTeamName": "Death Korps of Queens Road",
+          "teamScore": 6,
+          "opponentTeamScore": 14
+        },
+        {
+          "round": 3,
+          "teamId": "pile-of-shame-support-network",
+          "teamName": "Pile of Shame Support Network",
+          "opponentTeamName": "Team Napalm Hobbies",
+          "teamScore": 50,
+          "opponentTeamScore": 50
+        },
+        {
+          "round": 3,
+          "teamId": "pile-of-shame-support-network",
+          "teamName": "Pile of Shame Support Network",
+          "opponentTeamName": "Black Crow Gaming",
+          "teamScore": 61,
+          "opponentTeamScore": 39
+        },
+        {
+          "round": 3,
+          "teamId": "pile-of-shame-support-network",
+          "teamName": "Pile of Shame Support Network",
+          "opponentTeamName": "Staffordshire Tabletop Gaming",
+          "teamScore": 58,
+          "opponentTeamScore": 42
+        },
+        {
+          "round": 3,
+          "teamId": "tuesday-knights",
+          "teamName": "Tuesday Knights",
+          "opponentTeamName": "Objectives Optional",
+          "teamScore": 37,
+          "opponentTeamScore": 43
+        },
+        {
+          "round": 3,
+          "teamId": "tuesday-knights",
+          "teamName": "Tuesday Knights",
+          "opponentTeamName": "6++",
+          "teamScore": 22,
+          "opponentTeamScore": 58
+        },
+        {
+          "round": 4,
+          "teamId": "pile-of-shame-support-network",
+          "teamName": "Pile of Shame Support Network",
+          "opponentTeamName": "TFG Gaming",
+          "teamScore": 25,
+          "opponentTeamScore": 75
+        },
+        {
+          "round": 4,
+          "teamId": "pile-of-shame-support-network",
+          "teamName": "Pile of Shame Support Network",
+          "opponentTeamName": "Low Rollers",
+          "teamScore": 47,
+          "opponentTeamScore": 53
+        },
+        {
+          "round": 4,
+          "teamId": "pile-of-shame-support-network",
+          "teamName": "Pile of Shame Support Network",
+          "opponentTeamName": "No Sanctuary",
+          "teamScore": 59,
+          "opponentTeamScore": 41
+        },
+        {
+          "round": 4,
+          "teamId": "pile-of-shame-support-network",
+          "teamName": "Pile of Shame Support Network",
+          "opponentTeamName": "Warwickshire Warhawks",
+          "teamScore": 13,
+          "opponentTeamScore": 7
+        },
+        {
+          "round": 4,
+          "teamId": "tuesday-knights",
+          "teamName": "Tuesday Knights",
+          "opponentTeamName": "Caledonian Wildcats",
+          "teamScore": 41,
+          "opponentTeamScore": 39
+        },
+        {
+          "round": 4,
+          "teamId": "tuesday-knights",
+          "teamName": "Tuesday Knights",
+          "opponentTeamName": "Team Stonehammer",
+          "teamScore": 48,
+          "opponentTeamScore": 32
+        },
+        {
+          "round": 5,
+          "teamId": "pile-of-shame-support-network",
+          "teamName": "Pile of Shame Support Network",
+          "opponentTeamName": "Wessex Wyverns",
+          "teamScore": 47,
+          "opponentTeamScore": 53
+        },
+        {
+          "round": 5,
+          "teamId": "pile-of-shame-support-network",
+          "teamName": "Pile of Shame Support Network",
+          "opponentTeamName": "WVLF",
+          "teamScore": 6,
+          "opponentTeamScore": 14
+        },
+        {
+          "round": 5,
+          "teamId": "pile-of-shame-support-network",
+          "teamName": "Pile of Shame Support Network",
+          "opponentTeamName": "6++",
+          "teamScore": 42,
+          "opponentTeamScore": 58
+        },
+        {
+          "round": 5,
+          "teamId": "pile-of-shame-support-network",
+          "teamName": "Pile of Shame Support Network",
+          "opponentTeamName": "Bristol Crusaders",
+          "teamScore": 41,
+          "opponentTeamScore": 59
+        },
+        {
+          "round": 5,
+          "teamId": "tuesday-knights",
+          "teamName": "Tuesday Knights",
+          "opponentTeamName": "Bad Moon Brawlers",
+          "teamScore": 35,
+          "opponentTeamScore": 45
+        },
+        {
+          "round": 5,
+          "teamId": "tuesday-knights",
+          "teamName": "Tuesday Knights",
+          "opponentTeamName": "Vale Renegades",
+          "teamScore": 51,
+          "opponentTeamScore": 29
+        }
+      ]
     }
   ]
 }

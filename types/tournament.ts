@@ -5,6 +5,8 @@ export type Member = {
   tier: "hall-of-shame" | "friends";
 };
 
+export type EventType = "individual" | "team";
+
 export type RoundResult = {
   round: number;
   opponent: string;
@@ -20,6 +22,19 @@ export type EventPlayer = {
   faction: string;
   group: "hall" | "pile";
   rounds: RoundResult[];
+  /** Team name from BCP — only set for team events */
+  teamName?: string;
+};
+
+export type TeamRoundResult = {
+  round: number;
+  /** Slugified team name used as a stable ID */
+  teamId: string;
+  teamName: string;
+  opponentTeamName: string;
+  /** Aggregate team score (sum of 5 individual games), 0–100 */
+  teamScore: number | null;
+  opponentTeamScore: number | null;
 };
 
 export type TournamentEvent = {
@@ -34,6 +49,10 @@ export type TournamentEvent = {
   /** ISO 8601 datetime string, e.g. "2026-03-07T14:35:00" */
   updated_at: string;
   players: EventPlayer[];
+  /** Defaults to "individual" when absent */
+  eventType?: EventType;
+  /** Aggregate team scores per round — only present for team events */
+  teamRounds?: TeamRoundResult[];
 };
 
 /** EventPlayer with name resolved from the members registry — used in UI components */
@@ -57,4 +76,15 @@ export type PlayerStats = {
   draws: number;
   outcomes: RoundOutcome[];
   currentRoundData: RoundResult | null;
+};
+
+/** Per-team matchup data for a single round — used by TeamMatchupCard */
+export type TeamMatchupView = {
+  teamId: string;
+  teamName: string;
+  opponentTeamName: string;
+  teamScore: number | null;
+  opponentTeamScore: number | null;
+  outcome: "win" | "loss" | "draw" | "in_progress" | "upcoming";
+  players: PlayerStats[];
 };
