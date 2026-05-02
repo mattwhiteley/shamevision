@@ -4,7 +4,7 @@
       "id": "hKvul4dpN4Xq",
       "currentRound": 3,
       "roundInProgress": false,
-      "updated_at": "2026-05-02T17:25:29",
+      "updated_at": "2026-05-02T19:04:55",
       "players": [
         {
           "id": "FaLIU2ySSU7E",
@@ -26,6 +26,13 @@
               "opponentFaction": "Emperor's Children",
               "playerScore": 12,
               "opponentScore": 8
+            },
+            {
+              "round": 3,
+              "opponent": "Jim Allan",
+              "opponentFaction": "Thousand Sons",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -49,6 +56,13 @@
               "opponentFaction": "Orks",
               "playerScore": 7,
               "opponentScore": 13
+            },
+            {
+              "round": 3,
+              "opponent": "Jonathan Aylett",
+              "opponentFaction": "Orks",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -72,6 +86,13 @@
               "opponentFaction": "Necrons",
               "playerScore": 17,
               "opponentScore": 3
+            },
+            {
+              "round": 3,
+              "opponent": "Thomas Douch",
+              "opponentFaction": "Adepta Sororitas",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -95,6 +116,13 @@
               "opponentFaction": "Astra Militarum",
               "playerScore": 0,
               "opponentScore": 20
+            },
+            {
+              "round": 3,
+              "opponent": "David Bannister",
+              "opponentFaction": "T'au Empire",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -118,6 +146,13 @@
               "opponentFaction": "Astra Militarum",
               "playerScore": 17,
               "opponentScore": 3
+            },
+            {
+              "round": 3,
+              "opponent": "Nicolas Ballesteros",
+              "opponentFaction": "Blood Angels",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -141,6 +176,13 @@
               "opponentFaction": "Imperial Knights",
               "playerScore": 10,
               "opponentScore": 10
+            },
+            {
+              "round": 3,
+              "opponent": "Laurence Elliott",
+              "opponentFaction": "Orks",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -164,6 +206,13 @@
               "opponentFaction": "Adepta Sororitas",
               "playerScore": 18,
               "opponentScore": 2
+            },
+            {
+              "round": 3,
+              "opponent": "Jerome Connolly",
+              "opponentFaction": "Astra Militarum",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -187,6 +236,13 @@
               "opponentFaction": "Adeptus Custodes",
               "playerScore": 8,
               "opponentScore": 12
+            },
+            {
+              "round": 3,
+              "opponent": "Ewan Davies",
+              "opponentFaction": "Chaos Space Marines",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -210,6 +266,13 @@
               "opponentFaction": "Space Marines (Astartes)",
               "playerScore": 12,
               "opponentScore": 8
+            },
+            {
+              "round": 3,
+              "opponent": "Pete Armstrong",
+              "opponentFaction": "Thousand Sons",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -233,6 +296,13 @@
               "opponentFaction": "Orks",
               "playerScore": 5,
               "opponentScore": 15
+            },
+            {
+              "round": 3,
+              "opponent": "Geoff Legg",
+              "opponentFaction": "Adeptus Custodes",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -256,6 +326,13 @@
               "opponentFaction": "Adeptus Custodes",
               "playerScore": 19,
               "opponentScore": 1
+            },
+            {
+              "round": 3,
+              "opponent": "Nick Watkins",
+              "opponentFaction": "Necrons",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -279,6 +356,13 @@
               "opponentFaction": "Tyranids",
               "playerScore": 1,
               "opponentScore": 19
+            },
+            {
+              "round": 3,
+              "opponent": "Matthew Vick",
+              "opponentFaction": "Space Marines (Astartes)",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -302,6 +386,13 @@
               "opponentFaction": "Chaos Knights",
               "playerScore": 11,
               "opponentScore": 9
+            },
+            {
+              "round": 3,
+              "opponent": "Zan Rashid",
+              "opponentFaction": "Death Guard",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -325,6 +416,13 @@
               "opponentFaction": "Chaos Space Marines",
               "playerScore": 9,
               "opponentScore": 11
+            },
+            {
+              "round": 3,
+              "opponent": "Robbie Davies",
+              "opponentFaction": "Adepta Sororitas",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -348,6 +446,13 @@
               "opponentFaction": "Chaos Space Marines",
               "playerScore": 0,
               "opponentScore": 20
+            },
+            {
+              "round": 3,
+              "opponent": "William Samms",
+              "opponentFaction": "Blood Angels",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -371,6 +476,13 @@
               "opponentFaction": "Leagues of Votann",
               "playerScore": 16,
               "opponentScore": 4
+            },
+            {
+              "round": 3,
+              "opponent": "Jai Hill",
+              "opponentFaction": "Leagues of Votann",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -394,6 +506,13 @@
               "opponentFaction": "Emperor's Children",
               "playerScore": 10,
               "opponentScore": 10
+            },
+            {
+              "round": 3,
+              "opponent": "Adam Clarkson",
+              "opponentFaction": "Imperial Knights",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -417,6 +536,13 @@
               "opponentFaction": "T'au Empire",
               "playerScore": 12,
               "opponentScore": 8
+            },
+            {
+              "round": 3,
+              "opponent": "Martin Butler",
+              "opponentFaction": "Chaos Daemons",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -440,6 +566,13 @@
               "opponentFaction": "Space Marines (Astartes)",
               "playerScore": 4,
               "opponentScore": 16
+            },
+            {
+              "round": 3,
+              "opponent": "Andy Moore",
+              "opponentFaction": "Space Marines (Astartes)",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         }
@@ -499,24 +632,24 @@
           "teamId": "clap-or-be-clapped-pssn",
           "teamName": "[C]lap or Be Clapped (PSSN)",
           "opponentTeamName": "Bugle Bat Reps",
-          "teamScore": null,
-          "opponentTeamScore": null
+          "teamScore": 0,
+          "opponentTeamScore": 0
         },
         {
           "round": 3,
           "teamId": "shameful-basterds-pssn",
           "teamName": "Shameful [B]asterds (PSSN)",
           "opponentTeamName": "COMP PLAY Surrey Primarchs",
-          "teamScore": null,
-          "opponentTeamScore": null
+          "teamScore": 0,
+          "opponentTeamScore": 0
         },
         {
           "round": 3,
           "teamId": "the-shameful-suspects-pssn",
           "teamName": "The Sh[a]meful Suspects (PSSN)",
           "opponentTeamName": "Fire and Dice - Tiger's eye",
-          "teamScore": null,
-          "opponentTeamScore": null
+          "teamScore": 0,
+          "opponentTeamScore": 0
         }
       ]
     }
