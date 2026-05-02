@@ -3,8 +3,8 @@
     {
       "id": "hKvul4dpN4Xq",
       "currentRound": 1,
-      "roundInProgress": true,
-      "updated_at": "2026-05-02T11:51:03",
+      "roundInProgress": false,
+      "updated_at": "2026-05-02T12:21:00",
       "players": [
         {
           "id": "FaLIU2ySSU7E",
@@ -17,8 +17,8 @@
               "round": 1,
               "opponent": "Jacob Whitehouse",
               "opponentFaction": "T'au Empire",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 2,
+              "opponentScore": 18
             }
           ]
         },
@@ -81,8 +81,8 @@
               "round": 1,
               "opponent": "Kevin Davies",
               "opponentFaction": "Necrons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 10,
+              "opponentScore": 10
             }
           ]
         },
@@ -97,8 +97,8 @@
               "round": 1,
               "opponent": "Joe Senior",
               "opponentFaction": "Chaos Daemons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 4,
+              "opponentScore": 16
             }
           ]
         },
@@ -113,8 +113,8 @@
               "round": 1,
               "opponent": "Philip Higgs",
               "opponentFaction": "T'au Empire",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 1,
+              "opponentScore": 19
             }
           ]
         },
@@ -129,8 +129,8 @@
               "round": 1,
               "opponent": "Ryan Dewick",
               "opponentFaction": "Grey Knights",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 19,
+              "opponentScore": 1
             }
           ]
         },
@@ -177,8 +177,8 @@
               "round": 1,
               "opponent": "Sam Dearman",
               "opponentFaction": "Chaos Space Marines",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 6,
+              "opponentScore": 14
             }
           ]
         },
@@ -209,8 +209,8 @@
               "round": 1,
               "opponent": "Chris Taylor",
               "opponentFaction": "Blood Angels",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 8,
+              "opponentScore": 12
             }
           ]
         },
@@ -225,8 +225,8 @@
               "round": 1,
               "opponent": "James Climpson",
               "opponentFaction": "Blood Angels",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 18,
+              "opponentScore": 2
             }
           ]
         },
@@ -241,8 +241,8 @@
               "round": 1,
               "opponent": "Thomas Pavey",
               "opponentFaction": "Imperial Knights",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 19,
+              "opponentScore": 1
             }
           ]
         },
@@ -318,24 +318,24 @@
           "teamId": "clap-or-be-clapped-pssn",
           "teamName": "[C]lap or Be Clapped (PSSN)",
           "opponentTeamName": "Objectives Optional",
-          "teamScore": 20,
-          "opponentTeamScore": 0
+          "teamScore": 57,
+          "opponentTeamScore": 3
         },
         {
           "round": 1,
           "teamId": "shameful-basterds-pssn",
           "teamName": "Shameful [B]asterds (PSSN)",
           "opponentTeamName": "DKQR - Team Alpha Super Awesome Cool Dynamite Wolf Squadron",
-          "teamScore": 0,
-          "opponentTeamScore": 0
+          "teamScore": 7,
+          "opponentTeamScore": 33
         },
         {
           "round": 1,
           "teamId": "the-shameful-suspects-pssn",
           "teamName": "The Sh[a]meful Suspects (PSSN)",
           "opponentTeamName": "Carnage Behemoth",
-          "teamScore": 0,
-          "opponentTeamScore": 0
+          "teamScore": 24,
+          "opponentTeamScore": 56
         }
       ]
     }
