@@ -162,12 +162,11 @@ export function getTeamMatchupsForRound(
     let outcome: TeamMatchupView["outcome"];
     if (teamScore === null || oppScore === null) {
       outcome = event.roundInProgress ? "in_progress" : "upcoming";
-    } else if (teamScore > oppScore) {
-      outcome = "win";
-    } else if (teamScore < oppScore) {
-      outcome = "loss";
     } else {
-      outcome = "draw";
+      const diff = teamScore - oppScore;
+      if (diff >= 10) outcome = "win";
+      else if (diff <= -10) outcome = "loss";
+      else outcome = "draw";
     }
 
     const isCurrentRound = round === event.currentRound;
