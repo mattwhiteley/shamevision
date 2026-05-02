@@ -25,8 +25,7 @@ time against each event's schedule and only scrapes events currently within
 an active window — so it's a no-op most of the day.
 
 Per-round scraping windows (relative to round start time):
-  T+2h30m → T+2h50m   run if ≥5 mins since last scrape
-  T+2h50m → T+3h10m   run if ≥2 mins since last scrape
+  T-45min → T+30min   scrape on every cron tick within this window
   Outside these        skip this event
 
 Usage:
@@ -90,12 +89,8 @@ BCP_HEADERS = {
 # Scheduling constants
 # ---------------------------------------------------------------------------
 
-EARLY_OPEN_MINS   = 100   # T+2h30m  start of scraping window
-LATE_START_MINS   = 170   # T+2h50m  switch to faster cadence
-WINDOW_CLOSE_MINS = 240   # T+4h00m  end of scraping window (extra time for late score entry)
-
-EARLY_CADENCE_MINS = 5
-LATE_CADENCE_MINS  = 2
+WINDOW_OPEN_MINS_BEFORE = 45   # scraping starts 45 min before round start
+WINDOW_CLOSE_MINS_AFTER = 30   # scraping ends 30 min after round start
 
 # ---------------------------------------------------------------------------
 # Data loading
@@ -162,10 +157,11 @@ def find_member(bcp_first: str, bcp_last: str, members: list[dict]) -> dict | No
 # Schedule helpers
 # ---------------------------------------------------------------------------
 
-def get_active_window(event_config: dict) -> tuple[bool, int | None, int]:
+def get_active_window(event_config: dict) -> tuple[bool, int | None, bool]:
     """
-    Returns (should_run, active_round_number, cadence_minutes).
-    Uses the event's own timezone and schedule.
+    Returns (in_window, active_round_number, round_started).
+    in_window  — True when the current time is within the scraping window.
+    round_started — True when the round start time has already passed.
     """
     tz  = ZoneInfo(event_config["timezone"])
     now = datetime.now(tz)
@@ -174,29 +170,10 @@ def get_active_window(event_config: dict) -> tuple[bool, int | None, int]:
         start   = datetime.fromisoformat(entry["start"]).replace(tzinfo=tz)
         elapsed = (now - start).total_seconds() / 60
 
-        if elapsed < EARLY_OPEN_MINS or elapsed > WINDOW_CLOSE_MINS:
-            continue
+        if -WINDOW_OPEN_MINS_BEFORE <= elapsed <= WINDOW_CLOSE_MINS_AFTER:
+            return True, entry["round"], elapsed >= 0
 
-        cadence = LATE_CADENCE_MINS if elapsed >= LATE_START_MINS else EARLY_CADENCE_MINS
-        return True, entry["round"], cadence
-
-        
-    return False, None, 0
-
-
-def minutes_since_last_update(live: dict, event_id: str, tz: ZoneInfo) -> float | None:
-    event = next((e for e in live.get("events", []) if e["id"] == event_id), None)
-    if not event:
-        return None
-    ts = event.get("updated_at")
-    if not ts:
-        return None
-    try:
-        last = datetime.fromisoformat(ts).replace(tzinfo=tz).astimezone(tz)
-        print(last, datetime.now(tz))
-        return (datetime.now(tz) - last).total_seconds() / 60
-    except Exception:
-        return None
+    return False, None, False
 
 
 # ---------------------------------------------------------------------------
@@ -471,18 +448,13 @@ def scrape_event(
     print (f"System time:{datetime.now(tz)}")
            
     if not force:
-        in_window, active_round, cadence = get_active_window(event_config)
+        in_window, active_round, _ = get_active_window(event_config)
 
         if not in_window:
             print(f"  💤 {event_id}: outside scraping window — skipping.")
             return None
 
-        mins_ago = minutes_since_last_update(live, event_id, tz)
-        if mins_ago is not None and mins_ago < cadence:
-            print(f"  ⏭  {event_id}: scraped {mins_ago:.1f}m ago (cadence {cadence}m) — skipping.")
-            return None
-
-        print(f"  🔍 {event_id}: active window, round {active_round}, cadence={cadence}m")
+        print(f"  🔍 {event_id}: active window, round {active_round}")
     else:
         print(f"  ⚡ {event_id}: --force")
 
@@ -537,8 +509,7 @@ def scrape_event(
         print(f"  ❌ {event_id}: no pairing data — skipping.")
         return None
 
-    in_window, _, _ = get_active_window(event_config)
-    round_in_progress = in_window
+    _, _, round_in_progress = get_active_window(event_config)
 
     live_state    = build_live_state(event_config, members, all_rounds, round_in_progress, all_team_pairings)
     found         = len(live_state["players"])
