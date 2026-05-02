@@ -2,9 +2,9 @@
   "events": [
     {
       "id": "hKvul4dpN4Xq",
-      "currentRound": 1,
+      "currentRound": 2,
       "roundInProgress": false,
-      "updated_at": "2026-05-02T12:21:00",
+      "updated_at": "2026-05-02T13:22:27",
       "players": [
         {
           "id": "FaLIU2ySSU7E",
@@ -33,8 +33,8 @@
               "round": 1,
               "opponent": "Blake Purse",
               "opponentFaction": "Adeptus Mechanicus",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 14,
+              "opponentScore": 6
             }
           ]
         },
@@ -49,8 +49,8 @@
               "round": 1,
               "opponent": "Callum Evans",
               "opponentFaction": "Astra Militarum",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 8,
+              "opponentScore": 12
             }
           ]
         },
@@ -65,8 +65,8 @@
               "round": 1,
               "opponent": "Tim Lowes",
               "opponentFaction": "Aeldari",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 6,
+              "opponentScore": 14
             }
           ]
         },
@@ -145,8 +145,8 @@
               "round": 1,
               "opponent": "Matt Pocock",
               "opponentFaction": "Chaos Space Marines",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 10,
+              "opponentScore": 10
             }
           ]
         },
@@ -161,8 +161,8 @@
               "round": 1,
               "opponent": "Ben Martin",
               "opponentFaction": "Necrons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 6,
+              "opponentScore": 14
             }
           ]
         },
@@ -257,8 +257,8 @@
               "round": 1,
               "opponent": "Joe Shaw",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 16,
+              "opponentScore": 4
             }
           ]
         },
@@ -273,8 +273,8 @@
               "round": 1,
               "opponent": "chris greger",
               "opponentFaction": "Thousand Sons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 11,
+              "opponentScore": 9
             }
           ]
         },
@@ -289,8 +289,8 @@
               "round": 1,
               "opponent": "Paolo Santarelli",
               "opponentFaction": "Chaos Knights",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 7,
+              "opponentScore": 13
             }
           ]
         },
@@ -305,8 +305,8 @@
               "round": 1,
               "opponent": "Rob Hassall",
               "opponentFaction": "Adepta Sororitas",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 10,
+              "opponentScore": 10
             }
           ]
         }
@@ -318,24 +318,48 @@
           "teamId": "clap-or-be-clapped-pssn",
           "teamName": "[C]lap or Be Clapped (PSSN)",
           "opponentTeamName": "Objectives Optional",
-          "teamScore": 57,
-          "opponentTeamScore": 3
+          "teamScore": 75,
+          "opponentTeamScore": 25
         },
         {
           "round": 1,
           "teamId": "shameful-basterds-pssn",
           "teamName": "Shameful [B]asterds (PSSN)",
           "opponentTeamName": "DKQR - Team Alpha Super Awesome Cool Dynamite Wolf Squadron",
-          "teamScore": 7,
-          "opponentTeamScore": 33
+          "teamScore": 39,
+          "opponentTeamScore": 61
         },
         {
           "round": 1,
           "teamId": "the-shameful-suspects-pssn",
           "teamName": "The Sh[a]meful Suspects (PSSN)",
           "opponentTeamName": "Carnage Behemoth",
-          "teamScore": 24,
-          "opponentTeamScore": 56
+          "teamScore": 32,
+          "opponentTeamScore": 68
+        },
+        {
+          "round": 2,
+          "teamId": "clap-or-be-clapped-pssn",
+          "teamName": "[C]lap or Be Clapped (PSSN)",
+          "opponentTeamName": "Carnage",
+          "teamScore": null,
+          "opponentTeamScore": null
+        },
+        {
+          "round": 2,
+          "teamId": "shameful-basterds-pssn",
+          "teamName": "Shameful [B]asterds (PSSN)",
+          "opponentTeamName": "The B Staff",
+          "teamScore": null,
+          "opponentTeamScore": null
+        },
+        {
+          "round": 2,
+          "teamId": "the-shameful-suspects-pssn",
+          "teamName": "The Sh[a]meful Suspects (PSSN)",
+          "opponentTeamName": "The Casual Weekenders",
+          "teamScore": null,
+          "opponentTeamScore": null
         }
       ]
     }
