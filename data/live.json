@@ -4,39 +4,71 @@
       "id": "hKvul4dpN4Xq",
       "currentRound": 1,
       "roundInProgress": false,
-      "updated_at": "2026-05-01T00:37:57",
+      "updated_at": "2026-05-02T09:25:37",
       "players": [
         {
-          "id": "cfg-member-alex-ford",
+          "id": "FaLIU2ySSU7E",
           "memberId": "member-alex-ford",
-          "faction": "",
+          "faction": "Drukhari",
           "group": "hall",
-          "teamName": "The Sh[a]meful Suspects (PSSN)",
-          "rounds": []
+          "teamName": "Pile of Shame Support Network",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Jacob Whitehouse",
+              "opponentFaction": "T'au Empire",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-anthony-keen",
+          "id": "MFRfkPpiFktj",
           "memberId": "member-anthony-keen",
-          "faction": "",
+          "faction": "Astra Militarum",
           "group": "hall",
-          "teamName": "The Sh[a]meful Suspects (PSSN)",
-          "rounds": []
+          "teamName": "Pile of Shame Support Network",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Callum Evans",
+              "opponentFaction": "Astra Militarum",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-cayleb-langhals",
+          "id": "EqYzA5swMVmR",
           "memberId": "member-cayleb-langhals",
-          "faction": "",
+          "faction": "Thousand Sons",
           "group": "hall",
-          "teamName": "The Sh[a]meful Suspects (PSSN)",
-          "rounds": []
+          "teamName": "Pile of Shame Support Network",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Kevin Davies",
+              "opponentFaction": "Necrons",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-daniel-green",
+          "id": "88fyYQBdkgWJ",
           "memberId": "member-daniel-green",
-          "faction": "",
+          "faction": "World Eaters",
           "group": "hall",
-          "teamName": "The Sh[a]meful Suspects (PSSN)",
-          "rounds": []
+          "teamName": "Pile of Shame Support Network",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Joe Senior",
+              "opponentFaction": "Chaos Daemons",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
           "id": "cfg-member-harvey-r",
@@ -47,12 +79,36 @@
           "rounds": []
         },
         {
-          "id": "cfg-member-jack-turner",
+          "id": "5dNPSOIujfJN",
           "memberId": "member-jack-turner",
-          "faction": "",
+          "faction": "Thousand Sons",
           "group": "hall",
-          "teamName": "[C]lap or Be Clapped (PSSN)",
-          "rounds": []
+          "teamName": "Pile of Shame Support Network",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Ryan Dewick",
+              "opponentFaction": "Grey Knights",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
+        },
+        {
+          "id": "BLKmtyszcqwY",
+          "memberId": "member-jamie-payton",
+          "faction": "Blood Angels",
+          "group": "hall",
+          "teamName": "Pile of Shame Support Network",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Matt Pocock",
+              "opponentFaction": "Chaos Space Marines",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
           "id": "cfg-member-kareem-hussain",
@@ -71,28 +127,52 @@
           "rounds": []
         },
         {
-          "id": "cfg-member-nathan-sears",
+          "id": "ypdNGuxYC6Sy",
           "memberId": "member-nathan-sears",
-          "faction": "",
+          "faction": "Space Marines (Astartes)",
           "group": "hall",
-          "teamName": "[C]lap or Be Clapped (PSSN)",
-          "rounds": []
+          "teamName": "Pile of Shame Support Network",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "David Treadgold",
+              "opponentFaction": "Necrons",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-nora-tinfou",
+          "id": "JfH4e4bQESYW",
           "memberId": "member-nora-tinfou",
-          "faction": "",
+          "faction": "Adepta Sororitas",
           "group": "hall",
-          "teamName": "The Sh[a]meful Suspects (PSSN)",
-          "rounds": []
+          "teamName": "Pile of Shame Support Network",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Chris Taylor",
+              "opponentFaction": "Blood Angels",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-oliver-jawara",
+          "id": "mxyyxenBMafU",
           "memberId": "member-oliver-jawara",
-          "faction": "",
+          "faction": "Emperor's Children",
           "group": "hall",
-          "teamName": "[C]lap or Be Clapped (PSSN)",
-          "rounds": []
+          "teamName": "Pile of Shame Support Network",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "James Climpson",
+              "opponentFaction": "Blood Angels",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
           "id": "cfg-member-spencer-james",
@@ -103,20 +183,36 @@
           "rounds": []
         },
         {
-          "id": "cfg-member-tim-waters",
+          "id": "CoBzuLO5IUck",
           "memberId": "member-tim-waters",
-          "faction": "",
+          "faction": "Drukhari",
           "group": "hall",
-          "teamName": "[C]lap or Be Clapped (PSSN)",
-          "rounds": []
+          "teamName": "Pile of Shame Support Network",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "chris greger",
+              "opponentFaction": "Thousand Sons",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-tom-durrands",
+          "id": "iHhFbPBSGOBX",
           "memberId": "member-tom-durrands",
-          "faction": "",
+          "faction": "Death Guard",
           "group": "hall",
-          "teamName": "[C]lap or Be Clapped (PSSN)",
-          "rounds": []
+          "teamName": "Pile of Shame Support Network",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Paolo Santarelli",
+              "opponentFaction": "Chaos Knights",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
           "id": "cfg-member-tom-mccaughey",
@@ -134,8 +230,8 @@
           "teamId": "clap-or-be-clapped-pssn",
           "teamName": "[C]lap or Be Clapped (PSSN)",
           "opponentTeamName": "Objectives Optional",
-          "teamScore": null,
-          "opponentTeamScore": null
+          "teamScore": 0,
+          "opponentTeamScore": 0
         },
         {
           "round": 1,
@@ -150,8 +246,8 @@
           "teamId": "the-shameful-suspects-pssn",
           "teamName": "The Sh[a]meful Suspects (PSSN)",
           "opponentTeamName": "Carnage Behemoth",
-          "teamScore": null,
-          "opponentTeamScore": null
+          "teamScore": 0,
+          "opponentTeamScore": 0
         }
       ]
     }
