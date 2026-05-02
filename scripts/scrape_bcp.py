@@ -230,6 +230,7 @@ def build_team_rounds(
     all_team_pairings: dict[int, list],
     all_individual_pairings: dict[int, list],
     teams_config: list[dict],
+    members: list[dict],
 ) -> list[dict]:
     """
     Builds per-team aggregate scores per round for team events.
@@ -240,6 +241,15 @@ def build_team_rounds(
     teams_config: list of { "name": str, "memberIds": [...] } from events.json.
     """
     club_team_names = {t["name"] for t in teams_config}
+
+    # Map memberId → competition team name so we can identify which side of a
+    # game belongs to our team (BCP stores the club name, not the sub-team name,
+    # on individual pairings, so we can't compare team fields directly).
+    member_to_team: dict[str, str] = {
+        mid: t["name"]
+        for t in teams_config
+        for mid in t.get("memberIds", [])
+    }
 
     # Index individual pairings by (round, teamPairingId) for fast lookup
     ind_by_tpid: dict[tuple[int, str], list[dict]] = {}
@@ -261,11 +271,12 @@ def build_team_rounds(
                 if our_name not in club_team_names:
                     continue
 
-                # Sum individual scores for this teamPairingId
-                games       = ind_by_tpid.get((round_num, tp["id"]), [])
-                team_total  = 0
-                opp_total   = 0
-                any_null    = False
+                # Sum individual scores for this teamPairingId.
+                # Treat unfinished games as 0 so a running partial total is
+                # always visible as results come in.
+                games      = ind_by_tpid.get((round_num, tp["id"]), [])
+                team_total = 0
+                opp_total  = 0
 
                 for game in games:
                     p1 = game.get("player1") or {}
@@ -273,26 +284,30 @@ def build_team_rounds(
                     s1 = to_score((game.get("player1Game") or {}).get("points"))
                     s2 = to_score((game.get("player2Game") or {}).get("points"))
 
-                    if p1.get("team") == our_name:
-                        if s1 is None or s2 is None:
-                            any_null = True
-                        else:
-                            team_total += s1
-                            opp_total  += s2
-                    elif p2.get("team") == our_name:
-                        if s1 is None or s2 is None:
-                            any_null = True
-                        else:
-                            team_total += s2
-                            opp_total  += s1
+                    # Identify our side via member registry — BCP stores the
+                    # parent club name on individual pairings, not the
+                    # competition sub-team name, so direct string comparison fails.
+                    p1_user   = p1.get("user", {})
+                    p1_member = find_member(p1_user.get("firstName", ""), p1_user.get("lastName", ""), members)
+                    our_is_p1 = p1_member is not None and member_to_team.get(p1_member["id"]) == our_name
+
+                    if our_is_p1:
+                        team_total += s1 or 0
+                        opp_total  += s2 or 0
+                    else:
+                        p2_user   = p2.get("user", {})
+                        p2_member = find_member(p2_user.get("firstName", ""), p2_user.get("lastName", ""), members)
+                        if p2_member is not None and member_to_team.get(p2_member["id"]) == our_name:
+                            team_total += s2 or 0
+                            opp_total  += s1 or 0
 
                 team_rounds.append({
                     "round":             round_num,
                     "teamId":            slugify(our_name),
                     "teamName":          our_name,
                     "opponentTeamName":  opp_name,
-                    "teamScore":         None if (any_null or not games) else team_total,
-                    "opponentTeamScore": None if (any_null or not games) else opp_total,
+                    "teamScore":         None if not games else team_total,
+                    "opponentTeamScore": None if not games else opp_total,
                 })
 
     return sorted(team_rounds, key=lambda r: (r["round"], r["teamId"]))
@@ -424,6 +439,7 @@ def build_live_state(
             all_team_pairings or {},
             all_rounds_data,
             teams_config,
+            members,
         )
 
     return result

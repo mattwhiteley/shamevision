@@ -4,7 +4,7 @@
       "id": "hKvul4dpN4Xq",
       "currentRound": 1,
       "roundInProgress": false,
-      "updated_at": "2026-05-02T11:35:33",
+      "updated_at": "2026-05-02T11:42:14",
       "players": [
         {
           "id": "FaLIU2ySSU7E",
@@ -318,7 +318,7 @@
           "teamId": "clap-or-be-clapped-pssn",
           "teamName": "[C]lap or Be Clapped (PSSN)",
           "opponentTeamName": "Objectives Optional",
-          "teamScore": 0,
+          "teamScore": 20,
           "opponentTeamScore": 0
         },
         {

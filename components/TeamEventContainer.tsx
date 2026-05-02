@@ -94,6 +94,8 @@ export default function TeamEventContainer({ event, players }: Props) {
             displayRound={selectedRound}
             totalRounds={event.totalRounds}
             roundInProgress={event.roundInProgress && selectedRound === event.currentRound}
+            allTeamRounds={event.teamRounds ?? []}
+            currentRound={event.currentRound}
           />
         ))
       )}

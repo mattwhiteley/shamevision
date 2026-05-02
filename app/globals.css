@@ -808,6 +808,14 @@ body {
 .team-matchup__badge--in_progress { background: var(--live-bg); color: var(--live); border: 1px solid #a0c0e8; }
 .team-matchup__badge--upcoming    { background: var(--surface-2); color: var(--text-3); border: 1px solid var(--border); }
 
+.team-matchup__rounds {
+  display: flex;
+  gap: 6px;
+  padding: 10px 18px;
+  border-bottom: 1.5px solid var(--border);
+  background: var(--surface-2);
+}
+
 .team-matchup__players {
   padding: 14px;
   display: grid;
