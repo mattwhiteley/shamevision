@@ -3,8 +3,8 @@
     {
       "id": "hKvul4dpN4Xq",
       "currentRound": 1,
-      "roundInProgress": true,
-      "updated_at": "2026-05-02T10:00:38",
+      "roundInProgress": false,
+      "updated_at": "2026-05-02T11:35:33",
       "players": [
         {
           "id": "FaLIU2ySSU7E",
@@ -193,8 +193,8 @@
               "round": 1,
               "opponent": "David Treadgold",
               "opponentFaction": "Necrons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 20,
+              "opponentScore": 0
             }
           ]
         },
