@@ -4,7 +4,7 @@
       "id": "hKvul4dpN4Xq",
       "currentRound": 1,
       "roundInProgress": false,
-      "updated_at": "2026-05-02T09:25:37",
+      "updated_at": "2026-05-02T09:54:36",
       "players": [
         {
           "id": "FaLIU2ySSU7E",
@@ -23,6 +23,22 @@
           ]
         },
         {
+          "id": "TCBvwdf3z67a",
+          "memberId": "member-aneurin-brewer",
+          "faction": "Drukhari",
+          "group": "hall",
+          "teamName": "Pile of Shame Support Network",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Blake Purse",
+              "opponentFaction": "Adeptus Mechanicus",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
+        },
+        {
           "id": "MFRfkPpiFktj",
           "memberId": "member-anthony-keen",
           "faction": "Astra Militarum",
@@ -33,6 +49,22 @@
               "round": 1,
               "opponent": "Callum Evans",
               "opponentFaction": "Astra Militarum",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
+        },
+        {
+          "id": "167ccuMnqcRU",
+          "memberId": "member-callum-watts",
+          "faction": "Space Marines (Astartes)",
+          "group": "pile",
+          "teamName": "",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Tim Lowes",
+              "opponentFaction": "Aeldari",
               "playerScore": null,
               "opponentScore": null
             }
@@ -71,12 +103,20 @@
           ]
         },
         {
-          "id": "cfg-member-harvey-r",
+          "id": "DmMjmXUMSeYF",
           "memberId": "member-harvey-r",
-          "faction": "",
+          "faction": "Blood Angels",
           "group": "hall",
-          "teamName": "Shameful [B]asterds (PSSN)",
-          "rounds": []
+          "teamName": "Pile of Shame Support Network",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Philip Higgs",
+              "opponentFaction": "T'au Empire",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
           "id": "5dNPSOIujfJN",
@@ -111,20 +151,36 @@
           ]
         },
         {
-          "id": "cfg-member-kareem-hussain",
+          "id": "v0GugY6r4F7t",
           "memberId": "member-kareem-hussain",
-          "faction": "",
+          "faction": "Chaos Space Marines",
           "group": "hall",
-          "teamName": "Shameful [B]asterds (PSSN)",
-          "rounds": []
+          "teamName": "Pile of Shame Support Network",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Ben Martin",
+              "opponentFaction": "Necrons",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-matthew-yeoh",
+          "id": "wPAytJ46K0iF",
           "memberId": "member-matthew-yeoh",
-          "faction": "",
+          "faction": "Imperial Knights",
           "group": "hall",
-          "teamName": "Shameful [B]asterds (PSSN)",
-          "rounds": []
+          "teamName": "Pile of Shame Support Network",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Sam Dearman",
+              "opponentFaction": "Chaos Space Marines",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
           "id": "ypdNGuxYC6Sy",
@@ -175,12 +231,36 @@
           ]
         },
         {
-          "id": "cfg-member-spencer-james",
+          "id": "qssBJYnucdbC",
+          "memberId": "member-ollie-watts",
+          "faction": "Leagues of Votann",
+          "group": "pile",
+          "teamName": "Tuesday Knights",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Thomas Pavey",
+              "opponentFaction": "Imperial Knights",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
+        },
+        {
+          "id": "8pX0VLqs4yAd",
           "memberId": "member-spencer-james",
-          "faction": "",
+          "faction": "Emperor's Children",
           "group": "hall",
-          "teamName": "Shameful [B]asterds (PSSN)",
-          "rounds": []
+          "teamName": "Pile of Shame Support Network",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Joe Shaw",
+              "opponentFaction": "Space Marines (Astartes)",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
           "id": "CoBzuLO5IUck",
@@ -215,12 +295,20 @@
           ]
         },
         {
-          "id": "cfg-member-tom-mccaughey",
+          "id": "e2E268VABReT",
           "memberId": "member-tom-mccaughey",
-          "faction": "",
+          "faction": "Death Guard",
           "group": "hall",
-          "teamName": "Shameful [B]asterds (PSSN)",
-          "rounds": []
+          "teamName": "Pile of Shame Support Network",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Rob Hassall",
+              "opponentFaction": "Adepta Sororitas",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         }
       ],
       "eventType": "team",
@@ -238,8 +326,8 @@
           "teamId": "shameful-basterds-pssn",
           "teamName": "Shameful [B]asterds (PSSN)",
           "opponentTeamName": "DKQR - Team Alpha Super Awesome Cool Dynamite Wolf Squadron",
-          "teamScore": null,
-          "opponentTeamScore": null
+          "teamScore": 0,
+          "opponentTeamScore": 0
         },
         {
           "round": 1,
