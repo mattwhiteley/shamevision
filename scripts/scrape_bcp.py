@@ -381,7 +381,11 @@ def build_live_state(
                         "rounds":   {},
                     }
                     if is_team:
-                        entry["teamName"] = my_side.get("team", "")
+                        cfg_team = next(
+                            (t for t in teams_config if member["id"] in t.get("memberIds", [])),
+                            None,
+                        )
+                        entry["teamName"] = cfg_team["name"] if cfg_team else my_side.get("team", "")
                     players[pid] = entry
                 elif not players[pid]["faction"] and faction:
                     players[pid]["faction"] = faction
