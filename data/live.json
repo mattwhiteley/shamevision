@@ -4,7 +4,7 @@
       "id": "rCsJBRyzRske",
       "currentRound": 3,
       "roundInProgress": false,
-      "updated_at": "2026-05-23T20:51:07",
+      "updated_at": "2026-05-23T20:53:56",
       "players": [
         {
           "id": "PFlOlKtP7Go3",
@@ -210,31 +210,31 @@
           ]
         },
         {
-          "id": "ID5mttiK1LYn",
-          "memberId": "member-terra-lunamae",
-          "faction": "Aeldari",
+          "id": "00XnNgznfcTy",
+          "memberId": "member-matt-mckinnell",
+          "faction": "Space Wolves",
           "group": "hall",
           "rounds": [
             {
               "round": 1,
-              "opponent": "Ryan Williams",
-              "opponentFaction": "Chaos Knights",
-              "playerScore": 28,
-              "opponentScore": 97
+              "opponent": "James Reece",
+              "opponentFaction": "Tyranids",
+              "playerScore": 50,
+              "opponentScore": 85
             },
             {
               "round": 2,
-              "opponent": "Gary Purchase",
-              "opponentFaction": "World Eaters",
-              "playerScore": 86,
-              "opponentScore": 63
+              "opponent": "Pierre Salama",
+              "opponentFaction": "Leagues of Votann",
+              "playerScore": 80,
+              "opponentScore": 97
             },
             {
               "round": 3,
-              "opponent": "ioannis karmaniolos",
-              "opponentFaction": "World Eaters",
-              "playerScore": 43,
-              "opponentScore": 74
+              "opponent": "Sam Neal-Palin",
+              "opponentFaction": "Aeldari",
+              "playerScore": 42,
+              "opponentScore": 71
             }
           ]
         }
