@@ -3,8 +3,8 @@
     {
       "id": "rCsJBRyzRske",
       "currentRound": 5,
-      "roundInProgress": true,
-      "updated_at": "2026-05-24T13:47:27",
+      "roundInProgress": false,
+      "updated_at": "2026-05-24T17:40:25",
       "players": [
         {
           "id": "PFlOlKtP7Go3",
@@ -44,8 +44,8 @@
               "round": 5,
               "opponent": "Dean Goldhawk",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 93,
+              "opponentScore": 43
             }
           ]
         },
@@ -87,8 +87,8 @@
               "round": 5,
               "opponent": "Joseph Shepherd",
               "opponentFaction": "Emperor's Children",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 69,
+              "opponentScore": 79
             }
           ]
         },
@@ -130,8 +130,8 @@
               "round": 5,
               "opponent": "Sean H-Spark",
               "opponentFaction": "Adeptus Custodes",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 83,
+              "opponentScore": 64
             }
           ]
         },
@@ -173,8 +173,8 @@
               "round": 5,
               "opponent": "Adam Cooper Watson",
               "opponentFaction": "Death Guard",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 65,
+              "opponentScore": 93
             }
           ]
         },
@@ -216,8 +216,8 @@
               "round": 5,
               "opponent": "Jon Farrell",
               "opponentFaction": "Chaos Space Marines",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 57,
+              "opponentScore": 78
             }
           ]
         },
@@ -259,8 +259,8 @@
               "round": 5,
               "opponent": "Andy Quas-Cohen",
               "opponentFaction": "Necrons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 89,
+              "opponentScore": 73
             }
           ]
         },
@@ -302,8 +302,8 @@
               "round": 5,
               "opponent": "Nohj Birkett",
               "opponentFaction": "World Eaters",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 83,
+              "opponentScore": 56
             }
           ]
         },
@@ -345,8 +345,8 @@
               "round": 5,
               "opponent": "Ru Mckay",
               "opponentFaction": "Imperial Agents",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 62,
+              "opponentScore": 95
             }
           ]
         }
