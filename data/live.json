@@ -2,9 +2,9 @@
   "events": [
     {
       "id": "rCsJBRyzRske",
-      "currentRound": 4,
-      "roundInProgress": false,
-      "updated_at": "2026-05-24T09:08:26",
+      "currentRound": 5,
+      "roundInProgress": true,
+      "updated_at": "2026-05-24T13:47:27",
       "players": [
         {
           "id": "PFlOlKtP7Go3",
@@ -37,6 +37,13 @@
               "round": 4,
               "opponent": "Guy Miscampbell",
               "opponentFaction": "Deathwatch",
+              "playerScore": 58,
+              "opponentScore": 72
+            },
+            {
+              "round": 5,
+              "opponent": "Dean Goldhawk",
+              "opponentFaction": "Space Marines (Astartes)",
               "playerScore": null,
               "opponentScore": null
             }
@@ -73,6 +80,13 @@
               "round": 4,
               "opponent": "Michael Sanghera",
               "opponentFaction": "Chaos Daemons",
+              "playerScore": 74,
+              "opponentScore": 63
+            },
+            {
+              "round": 5,
+              "opponent": "Joseph Shepherd",
+              "opponentFaction": "Emperor's Children",
               "playerScore": null,
               "opponentScore": null
             }
@@ -109,6 +123,13 @@
               "round": 4,
               "opponent": "Adam Cooper Watson",
               "opponentFaction": "Death Guard",
+              "playerScore": 34,
+              "opponentScore": 94
+            },
+            {
+              "round": 5,
+              "opponent": "Sean H-Spark",
+              "opponentFaction": "Adeptus Custodes",
               "playerScore": null,
               "opponentScore": null
             }
@@ -145,6 +166,13 @@
               "round": 4,
               "opponent": "Aidan Bell",
               "opponentFaction": "Necrons",
+              "playerScore": 72,
+              "opponentScore": 58
+            },
+            {
+              "round": 5,
+              "opponent": "Adam Cooper Watson",
+              "opponentFaction": "Death Guard",
               "playerScore": null,
               "opponentScore": null
             }
@@ -181,6 +209,13 @@
               "round": 4,
               "opponent": "Jon Minter",
               "opponentFaction": "Necrons",
+              "playerScore": 79,
+              "opponentScore": 52
+            },
+            {
+              "round": 5,
+              "opponent": "Jon Farrell",
+              "opponentFaction": "Chaos Space Marines",
               "playerScore": null,
               "opponentScore": null
             }
@@ -217,6 +252,13 @@
               "round": 4,
               "opponent": "Geoff Legg",
               "opponentFaction": "Adeptus Custodes",
+              "playerScore": 72,
+              "opponentScore": 75
+            },
+            {
+              "round": 5,
+              "opponent": "Andy Quas-Cohen",
+              "opponentFaction": "Necrons",
               "playerScore": null,
               "opponentScore": null
             }
@@ -253,6 +295,13 @@
               "round": 4,
               "opponent": "Ru Mckay",
               "opponentFaction": "Imperial Agents",
+              "playerScore": 97,
+              "opponentScore": 43
+            },
+            {
+              "round": 5,
+              "opponent": "Nohj Birkett",
+              "opponentFaction": "World Eaters",
               "playerScore": null,
               "opponentScore": null
             }
@@ -289,6 +338,13 @@
               "round": 4,
               "opponent": "David Forshaw",
               "opponentFaction": "Adepta Sororitas",
+              "playerScore": 65,
+              "opponentScore": 63
+            },
+            {
+              "round": 5,
+              "opponent": "Ru Mckay",
+              "opponentFaction": "Imperial Agents",
               "playerScore": null,
               "opponentScore": null
             }
