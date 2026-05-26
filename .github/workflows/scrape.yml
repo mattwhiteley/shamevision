@@ -4,7 +4,7 @@ on:
   schedule:
     # Runs every 2 minutes. The scraper itself decides whether to act
     # based on the round schedule in scripts/schedule.json.
-    - cron: "*/2 * * * *"
+    - cron: "*/2 * * * 6,0"
 
   # Allow manual trigger from the Actions tab — useful for testing
   # or forcing a refresh outside the scheduled windows.
