@@ -4,7 +4,7 @@
       "id": "VTvzEqXhlWJK",
       "currentRound": 1,
       "roundInProgress": false,
-      "updated_at": "2026-05-26T21:17:10",
+      "updated_at": "2026-05-26T21:42:13",
       "players": [
         {
           "id": "5NrnN4PnVNiT",
@@ -85,7 +85,7 @@
           "id": "lSVVeVzoIRWD",
           "memberId": "member-callum-watts",
           "faction": "Space Marines (Astartes)",
-          "group": "pile",
+          "group": "hall",
           "rounds": [
             {
               "round": 1,
