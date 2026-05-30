@@ -4,7 +4,7 @@
       "id": "VTvzEqXhlWJK",
       "currentRound": 3,
       "roundInProgress": true,
-      "updated_at": "2026-05-30T18:42:39",
+      "updated_at": "2026-05-30T19:50:57",
       "players": [
         {
           "id": "5NrnN4PnVNiT",
@@ -30,8 +30,8 @@
               "round": 3,
               "opponent": "Paul Looker",
               "opponentFaction": "Tyranids",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 40,
+              "opponentScore": 62
             }
           ]
         },
@@ -59,8 +59,8 @@
               "round": 3,
               "opponent": "Dharminder Dhanda",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 85,
+              "opponentScore": 37
             }
           ]
         },
@@ -117,8 +117,8 @@
               "round": 3,
               "opponent": "Jim Li",
               "opponentFaction": "Adeptus Custodes",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 97,
+              "opponentScore": 49
             }
           ]
         },
@@ -146,8 +146,8 @@
               "round": 3,
               "opponent": "Adam Park",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 62,
+              "opponentScore": 73
             }
           ]
         },
@@ -175,8 +175,8 @@
               "round": 3,
               "opponent": "Jon Goldie",
               "opponentFaction": "Black Templars",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 98,
+              "opponentScore": 53
             }
           ]
         },
@@ -204,8 +204,8 @@
               "round": 3,
               "opponent": "Antonio Aparicio Lopez",
               "opponentFaction": "Aeldari",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 80,
+              "opponentScore": 53
             }
           ]
         },
@@ -233,8 +233,8 @@
               "round": 3,
               "opponent": "Laurence Calvert",
               "opponentFaction": "Grey Knights",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 50,
+              "opponentScore": 80
             }
           ]
         },
@@ -262,8 +262,8 @@
               "round": 3,
               "opponent": "Chris Ward",
               "opponentFaction": "Astra Militarum",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 43,
+              "opponentScore": 96
             }
           ]
         },
@@ -320,8 +320,8 @@
               "round": 3,
               "opponent": "Stratis Limnios",
               "opponentFaction": "Emperor's Children",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 81,
+              "opponentScore": 46
             }
           ]
         },
@@ -378,8 +378,8 @@
               "round": 3,
               "opponent": "Kerry Cella",
               "opponentFaction": "Blood Angels",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 60,
+              "opponentScore": 60
             }
           ]
         },
@@ -407,8 +407,8 @@
               "round": 3,
               "opponent": "Adam Laws",
               "opponentFaction": "Space Wolves",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 62,
+              "opponentScore": 40
             }
           ]
         },
@@ -436,8 +436,8 @@
               "round": 3,
               "opponent": "Ryan Hamilton",
               "opponentFaction": "Drukhari",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 63,
+              "opponentScore": 89
             }
           ]
         },
@@ -465,8 +465,8 @@
               "round": 3,
               "opponent": "Thomas Wong",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 69,
+              "opponentScore": 85
             }
           ]
         }
