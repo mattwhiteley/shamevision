@@ -4,7 +4,7 @@
       "id": "VTvzEqXhlWJK",
       "currentRound": 2,
       "roundInProgress": true,
-      "updated_at": "2026-05-30T15:09:35",
+      "updated_at": "2026-05-30T15:59:13",
       "players": [
         {
           "id": "5NrnN4PnVNiT",
@@ -45,8 +45,8 @@
               "round": 2,
               "opponent": "Azim Mazumder",
               "opponentFaction": "Thousand Sons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 45
             }
           ]
         },
@@ -89,8 +89,8 @@
               "round": 2,
               "opponent": "Cayleb Langhals",
               "opponentFaction": "Thousand Sons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 46,
+              "opponentScore": 90
             }
           ]
         },
@@ -111,8 +111,8 @@
               "round": 2,
               "opponent": "Martyn Lakeland",
               "opponentFaction": "Thousand Sons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 73,
+              "opponentScore": 77
             }
           ]
         },
@@ -155,8 +155,8 @@
               "round": 2,
               "opponent": "Ben Adams",
               "opponentFaction": "Adeptus Custodes",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 90,
+              "opponentScore": 46
             }
           ]
         },
@@ -177,8 +177,8 @@
               "round": 2,
               "opponent": "Sean Seeds",
               "opponentFaction": "Necrons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 69,
+              "opponentScore": 91
             }
           ]
         },
@@ -199,8 +199,8 @@
               "round": 2,
               "opponent": "Edward Hearn",
               "opponentFaction": "Emperor's Children",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 43,
+              "opponentScore": 97
             }
           ]
         },
