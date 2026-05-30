@@ -4,7 +4,7 @@
       "id": "VTvzEqXhlWJK",
       "currentRound": 1,
       "roundInProgress": false,
-      "updated_at": "2026-05-30T11:37:25",
+      "updated_at": "2026-05-30T12:22:37",
       "players": [
         {
           "id": "5NrnN4PnVNiT",
@@ -16,8 +16,8 @@
               "round": 1,
               "opponent": "Aldo Conti",
               "opponentFaction": "Emperor's Children",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 68,
+              "opponentScore": 74
             }
           ]
         },
@@ -46,8 +46,8 @@
               "round": 1,
               "opponent": "Stratis Limnios",
               "opponentFaction": "Emperor's Children",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 32
             }
           ]
         },
@@ -76,8 +76,8 @@
               "round": 1,
               "opponent": "Kerry Cella",
               "opponentFaction": "Blood Angels",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 83,
+              "opponentScore": 76
             }
           ]
         },
@@ -106,8 +106,8 @@
               "round": 1,
               "opponent": "Tim Lowes",
               "opponentFaction": "Aeldari",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 49
             }
           ]
         },
@@ -121,8 +121,8 @@
               "round": 1,
               "opponent": "Panagiotis Bouzianis",
               "opponentFaction": "Tyranids",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 81,
+              "opponentScore": 76
             }
           ]
         },
@@ -166,8 +166,8 @@
               "round": 1,
               "opponent": "Thomas Wong",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 87,
+              "opponentScore": 65
             }
           ]
         },
@@ -181,8 +181,8 @@
               "round": 1,
               "opponent": "Adam Park",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 52
             }
           ]
         },
@@ -196,8 +196,8 @@
               "round": 1,
               "opponent": "Trent Abraham",
               "opponentFaction": "Chaos Knights",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 79,
+              "opponentScore": 82
             }
           ]
         },
@@ -226,8 +226,8 @@
               "round": 1,
               "opponent": "Luke Evans",
               "opponentFaction": "T'au Empire",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 56,
+              "opponentScore": 89
             }
           ]
         },
