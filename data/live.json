@@ -4,7 +4,7 @@
       "id": "VTvzEqXhlWJK",
       "currentRound": 2,
       "roundInProgress": true,
-      "updated_at": "2026-05-30T15:59:13",
+      "updated_at": "2026-05-30T16:22:06",
       "players": [
         {
           "id": "5NrnN4PnVNiT",
@@ -67,8 +67,8 @@
               "round": 2,
               "opponent": "Chris Ward",
               "opponentFaction": "Astra Militarum",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 94,
+              "opponentScore": 62
             }
           ]
         },
@@ -243,8 +243,8 @@
               "round": 2,
               "opponent": "Finn Lindemann",
               "opponentFaction": "Orks",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 45,
+              "opponentScore": 99
             }
           ]
         },
@@ -287,8 +287,8 @@
               "round": 2,
               "opponent": "Panagiotis Bouzianis",
               "opponentFaction": "Tyranids",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 66
             }
           ]
         },
@@ -331,8 +331,8 @@
               "round": 2,
               "opponent": "Kerry Cella",
               "opponentFaction": "Blood Angels",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 63,
+              "opponentScore": 82
             }
           ]
         },
