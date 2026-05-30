@@ -2,9 +2,9 @@
   "events": [
     {
       "id": "VTvzEqXhlWJK",
-      "currentRound": 3,
-      "roundInProgress": true,
-      "updated_at": "2026-05-30T19:50:57",
+      "currentRound": 4,
+      "roundInProgress": false,
+      "updated_at": "2026-05-30T21:45:14",
       "players": [
         {
           "id": "5NrnN4PnVNiT",
@@ -32,6 +32,13 @@
               "opponentFaction": "Tyranids",
               "playerScore": 40,
               "opponentScore": 62
+            },
+            {
+              "round": 4,
+              "opponent": "Jon Goldie",
+              "opponentFaction": "Black Templars",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -61,6 +68,13 @@
               "opponentFaction": "Space Marines (Astartes)",
               "playerScore": 85,
               "opponentScore": 37
+            },
+            {
+              "round": 4,
+              "opponent": "Ben Adams",
+              "opponentFaction": "Adeptus Custodes",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -88,6 +102,13 @@
               "round": 3,
               "opponent": "Christian \"Ryusei\" Bailly",
               "opponentFaction": "Tyranids",
+              "playerScore": 59,
+              "opponentScore": 82
+            },
+            {
+              "round": 4,
+              "opponent": "Antonio Aparicio Lopez",
+              "opponentFaction": "Aeldari",
               "playerScore": null,
               "opponentScore": null
             }
@@ -119,6 +140,13 @@
               "opponentFaction": "Adeptus Custodes",
               "playerScore": 97,
               "opponentScore": 49
+            },
+            {
+              "round": 4,
+              "opponent": "Alex Higgins",
+              "opponentFaction": "Astra Militarum",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -148,6 +176,13 @@
               "opponentFaction": "Space Marines (Astartes)",
               "playerScore": 62,
               "opponentScore": 73
+            },
+            {
+              "round": 4,
+              "opponent": "Panagiotis Bouzianis",
+              "opponentFaction": "Tyranids",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -177,6 +212,13 @@
               "opponentFaction": "Black Templars",
               "playerScore": 98,
               "opponentScore": 53
+            },
+            {
+              "round": 4,
+              "opponent": "Chris Enderby",
+              "opponentFaction": "Necrons",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -206,6 +248,13 @@
               "opponentFaction": "Aeldari",
               "playerScore": 80,
               "opponentScore": 53
+            },
+            {
+              "round": 4,
+              "opponent": "Christian \"Ryusei\" Bailly",
+              "opponentFaction": "Tyranids",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -235,6 +284,13 @@
               "opponentFaction": "Grey Knights",
               "playerScore": 50,
               "opponentScore": 80
+            },
+            {
+              "round": 4,
+              "opponent": "Callum Watts",
+              "opponentFaction": "Space Marines (Astartes)",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -264,6 +320,13 @@
               "opponentFaction": "Astra Militarum",
               "playerScore": 43,
               "opponentScore": 96
+            },
+            {
+              "round": 4,
+              "opponent": "Jack Joyce",
+              "opponentFaction": "Orks",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -291,6 +354,13 @@
               "round": 3,
               "opponent": "Azim Mazumder",
               "opponentFaction": "Thousand Sons",
+              "playerScore": 65,
+              "opponentScore": 70
+            },
+            {
+              "round": 4,
+              "opponent": "Samuel Hardisty",
+              "opponentFaction": "Space Marines (Astartes)",
               "playerScore": null,
               "opponentScore": null
             }
@@ -322,6 +392,13 @@
               "opponentFaction": "Emperor's Children",
               "playerScore": 81,
               "opponentScore": 46
+            },
+            {
+              "round": 4,
+              "opponent": "Oscar Luckin",
+              "opponentFaction": "Emperor's Children",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -349,8 +426,8 @@
               "round": 3,
               "opponent": "Matt Puffett",
               "opponentFaction": "Astra Militarum",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 64,
+              "opponentScore": 60
             }
           ]
         },
@@ -380,6 +457,13 @@
               "opponentFaction": "Blood Angels",
               "playerScore": 60,
               "opponentScore": 60
+            },
+            {
+              "round": 4,
+              "opponent": "Henry Bamford",
+              "opponentFaction": "Orks",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -409,6 +493,13 @@
               "opponentFaction": "Space Wolves",
               "playerScore": 62,
               "opponentScore": 40
+            },
+            {
+              "round": 4,
+              "opponent": "Ryan Hamilton",
+              "opponentFaction": "Drukhari",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -438,6 +529,13 @@
               "opponentFaction": "Drukhari",
               "playerScore": 63,
               "opponentScore": 89
+            },
+            {
+              "round": 4,
+              "opponent": "Fintan Ryan",
+              "opponentFaction": "Orks",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -467,6 +565,13 @@
               "opponentFaction": "Space Marines (Astartes)",
               "playerScore": 69,
               "opponentScore": 85
+            },
+            {
+              "round": 4,
+              "opponent": "Marcus Losty",
+              "opponentFaction": "Leagues of Votann",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         }
