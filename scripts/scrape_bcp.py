@@ -90,7 +90,7 @@ BCP_HEADERS = {
 # ---------------------------------------------------------------------------
 
 WINDOW_OPEN_MINS_BEFORE = 45   # scraping starts 45 min before round start
-WINDOW_CLOSE_MINS_AFTER = 30   # scraping ends 30 min after round start
+WINDOW_CLOSE_MINS_AFTER = 210   # scraping ends 30 min after round start
 
 # ---------------------------------------------------------------------------
 # Data loading
