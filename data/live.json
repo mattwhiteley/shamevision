@@ -2,9 +2,9 @@
   "events": [
     {
       "id": "VTvzEqXhlWJK",
-      "currentRound": 4,
+      "currentRound": 5,
       "roundInProgress": true,
-      "updated_at": "2026-05-31T12:36:58",
+      "updated_at": "2026-05-31T13:51:30",
       "players": [
         {
           "id": "5NrnN4PnVNiT",
@@ -39,6 +39,13 @@
               "opponentFaction": "Black Templars",
               "playerScore": 58,
               "opponentScore": 74
+            },
+            {
+              "round": 5,
+              "opponent": "Paul Whalley",
+              "opponentFaction": "Aeldari",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -75,6 +82,13 @@
               "opponentFaction": "Adeptus Custodes",
               "playerScore": 71,
               "opponentScore": 67
+            },
+            {
+              "round": 5,
+              "opponent": "Trent Abraham",
+              "opponentFaction": "Chaos Knights",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -111,6 +125,13 @@
               "opponentFaction": "Death Guard",
               "playerScore": 92,
               "opponentScore": 44
+            },
+            {
+              "round": 5,
+              "opponent": "Sean Seeds",
+              "opponentFaction": "Necrons",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -147,6 +168,13 @@
               "opponentFaction": "Astra Militarum",
               "playerScore": 67,
               "opponentScore": 71
+            },
+            {
+              "round": 5,
+              "opponent": "Laurence Calvert",
+              "opponentFaction": "Grey Knights",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -183,6 +211,13 @@
               "opponentFaction": "Tyranids",
               "playerScore": 77,
               "opponentScore": 57
+            },
+            {
+              "round": 5,
+              "opponent": "Oscar Luckin",
+              "opponentFaction": "Emperor's Children",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -219,6 +254,13 @@
               "opponentFaction": "Necrons",
               "playerScore": 74,
               "opponentScore": 58
+            },
+            {
+              "round": 5,
+              "opponent": "Paul Looker",
+              "opponentFaction": "Tyranids",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -255,6 +297,13 @@
               "opponentFaction": "Tyranids",
               "playerScore": 50,
               "opponentScore": 91
+            },
+            {
+              "round": 5,
+              "opponent": "Nikhil Talwar",
+              "opponentFaction": "Chaos Space Marines",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -291,6 +340,13 @@
               "opponentFaction": "Space Marines (Astartes)",
               "playerScore": 58,
               "opponentScore": 74
+            },
+            {
+              "round": 5,
+              "opponent": "Fintan Ryan",
+              "opponentFaction": "Orks",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -325,6 +381,13 @@
               "round": 4,
               "opponent": "Jack Joyce",
               "opponentFaction": "Orks",
+              "playerScore": 68,
+              "opponentScore": 64
+            },
+            {
+              "round": 5,
+              "opponent": "Marcus Losty",
+              "opponentFaction": "Leagues of Votann",
               "playerScore": null,
               "opponentScore": null
             }
@@ -363,6 +426,13 @@
               "opponentFaction": "Space Marines (Astartes)",
               "playerScore": 82,
               "opponentScore": 67
+            },
+            {
+              "round": 5,
+              "opponent": "Chris Enderby",
+              "opponentFaction": "Necrons",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -399,6 +469,13 @@
               "opponentFaction": "Emperor's Children",
               "playerScore": 60,
               "opponentScore": 54
+            },
+            {
+              "round": 5,
+              "opponent": "Tiger Ro",
+              "opponentFaction": "Tyranids",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -464,6 +541,13 @@
               "opponentFaction": "Orks",
               "playerScore": 54,
               "opponentScore": 60
+            },
+            {
+              "round": 5,
+              "opponent": "Ben McCarthy",
+              "opponentFaction": "World Eaters",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -500,6 +584,13 @@
               "opponentFaction": "Drukhari",
               "playerScore": 97,
               "opponentScore": 45
+            },
+            {
+              "round": 5,
+              "opponent": "Callum Watts",
+              "opponentFaction": "Space Marines (Astartes)",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -536,6 +627,13 @@
               "opponentFaction": "Orks",
               "playerScore": 67,
               "opponentScore": 82
+            },
+            {
+              "round": 5,
+              "opponent": "Henrico Yuwono",
+              "opponentFaction": "Death Guard",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -572,6 +670,13 @@
               "opponentFaction": "Leagues of Votann",
               "playerScore": 56,
               "opponentScore": 95
+            },
+            {
+              "round": 5,
+              "opponent": "Aldo Conti",
+              "opponentFaction": "Emperor's Children",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         }
