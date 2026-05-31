@@ -4,7 +4,7 @@
       "id": "VTvzEqXhlWJK",
       "currentRound": 4,
       "roundInProgress": true,
-      "updated_at": "2026-05-31T10:21:39",
+      "updated_at": "2026-05-31T12:14:54",
       "players": [
         {
           "id": "5NrnN4PnVNiT",
@@ -109,8 +109,8 @@
               "round": 4,
               "opponent": "Henrico Yuwono",
               "opponentFaction": "Death Guard",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 92,
+              "opponentScore": 44
             }
           ]
         },
@@ -181,8 +181,8 @@
               "round": 4,
               "opponent": "Panagiotis Bouzianis",
               "opponentFaction": "Tyranids",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 77,
+              "opponentScore": 57
             }
           ]
         },
@@ -397,8 +397,8 @@
               "round": 4,
               "opponent": "Oscar Luckin",
               "opponentFaction": "Emperor's Children",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 60,
+              "opponentScore": 54
             }
           ]
         },
@@ -462,8 +462,8 @@
               "round": 4,
               "opponent": "Henry Bamford",
               "opponentFaction": "Orks",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 54,
+              "opponentScore": 60
             }
           ]
         },
@@ -498,8 +498,8 @@
               "round": 4,
               "opponent": "Ryan Hamilton",
               "opponentFaction": "Drukhari",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 97,
+              "opponentScore": 45
             }
           ]
         },
@@ -570,8 +570,8 @@
               "round": 4,
               "opponent": "Marcus Losty",
               "opponentFaction": "Leagues of Votann",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 56,
+              "opponentScore": 95
             }
           ]
         }
