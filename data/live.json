@@ -4,7 +4,7 @@
       "id": "VTvzEqXhlWJK",
       "currentRound": 4,
       "roundInProgress": true,
-      "updated_at": "2026-05-31T12:14:54",
+      "updated_at": "2026-05-31T12:36:58",
       "players": [
         {
           "id": "5NrnN4PnVNiT",
@@ -37,8 +37,8 @@
               "round": 4,
               "opponent": "Jon Goldie",
               "opponentFaction": "Black Templars",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 58,
+              "opponentScore": 74
             }
           ]
         },
@@ -73,8 +73,8 @@
               "round": 4,
               "opponent": "Ben Adams",
               "opponentFaction": "Adeptus Custodes",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 71,
+              "opponentScore": 67
             }
           ]
         },
@@ -145,8 +145,8 @@
               "round": 4,
               "opponent": "Alex Higgins",
               "opponentFaction": "Astra Militarum",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 67,
+              "opponentScore": 71
             }
           ]
         },
@@ -217,8 +217,8 @@
               "round": 4,
               "opponent": "Chris Enderby",
               "opponentFaction": "Necrons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 74,
+              "opponentScore": 58
             }
           ]
         },
@@ -253,8 +253,8 @@
               "round": 4,
               "opponent": "Christian \"Ryusei\" Bailly",
               "opponentFaction": "Tyranids",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 50,
+              "opponentScore": 91
             }
           ]
         },
@@ -289,8 +289,8 @@
               "round": 4,
               "opponent": "Callum Watts",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 58,
+              "opponentScore": 74
             }
           ]
         },
@@ -361,8 +361,8 @@
               "round": 4,
               "opponent": "Samuel Hardisty",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 82,
+              "opponentScore": 67
             }
           ]
         },
@@ -534,8 +534,8 @@
               "round": 4,
               "opponent": "Fintan Ryan",
               "opponentFaction": "Orks",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 67,
+              "opponentScore": 82
             }
           ]
         },
