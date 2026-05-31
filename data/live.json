@@ -3,8 +3,8 @@
     {
       "id": "VTvzEqXhlWJK",
       "currentRound": 4,
-      "roundInProgress": false,
-      "updated_at": "2026-05-30T22:06:29",
+      "roundInProgress": true,
+      "updated_at": "2026-05-31T10:21:39",
       "players": [
         {
           "id": "5NrnN4PnVNiT",
@@ -107,8 +107,8 @@
             },
             {
               "round": 4,
-              "opponent": "Antonio Aparicio Lopez",
-              "opponentFaction": "Aeldari",
+              "opponent": "Henrico Yuwono",
+              "opponentFaction": "Death Guard",
               "playerScore": null,
               "opponentScore": null
             }
