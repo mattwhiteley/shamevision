@@ -2,9 +2,9 @@
   "events": [
     {
       "id": "nxoGV1PSrzij",
-      "currentRound": 2,
+      "currentRound": 3,
       "roundInProgress": true,
-      "updated_at": "2026-07-04T16:19:29",
+      "updated_at": "2026-07-04T17:30:06",
       "players": [
         {
           "id": "JGieZhtnkFg1",
@@ -25,6 +25,13 @@
               "opponentFaction": "Emperor's Children",
               "playerScore": 100,
               "opponentScore": 40
+            },
+            {
+              "round": 3,
+              "opponent": "Anthony McHugh",
+              "opponentFaction": "Aeldari",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -45,6 +52,13 @@
               "round": 2,
               "opponent": "Robert Atkinson",
               "opponentFaction": "Orks",
+              "playerScore": 94,
+              "opponentScore": 80
+            },
+            {
+              "round": 3,
+              "opponent": "Andy Quas-Cohen",
+              "opponentFaction": "Necrons",
               "playerScore": null,
               "opponentScore": null
             }
@@ -67,6 +81,13 @@
               "round": 2,
               "opponent": "Blake Purse",
               "opponentFaction": "Adeptus Mechanicus",
+              "playerScore": 100,
+              "opponentScore": 33
+            },
+            {
+              "round": 3,
+              "opponent": "Ben Jones",
+              "opponentFaction": "Orks",
               "playerScore": null,
               "opponentScore": null
             }
