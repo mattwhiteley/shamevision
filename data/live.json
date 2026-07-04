@@ -4,7 +4,7 @@
       "id": "nxoGV1PSrzij",
       "currentRound": 2,
       "roundInProgress": true,
-      "updated_at": "2026-07-04T15:02:32",
+      "updated_at": "2026-07-04T16:19:29",
       "players": [
         {
           "id": "JGieZhtnkFg1",
@@ -23,8 +23,8 @@
               "round": 2,
               "opponent": "Dean L",
               "opponentFaction": "Emperor's Children",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 40
             }
           ]
         },
