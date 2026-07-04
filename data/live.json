@@ -1,51 +1,74 @@
 {
   "events": [
     {
-      "id": "iMBbr9ru8xr8",
-      "currentRound": 5,
-      "roundInProgress": false,
-      "updated_at": "2026-06-16T10:47:59",
+      "id": "nxoGV1PSrzij",
+      "currentRound": 2,
+      "roundInProgress": true,
+      "updated_at": "2026-07-04T14:26:53",
       "players": [
         {
-          "id": "80pgWBnbkX5t",
-          "memberId": "member-aneurin-brewer",
-          "faction": "Drukhari",
+          "id": "JGieZhtnkFg1",
+          "memberId": "member-aidan-bell",
+          "faction": "Necrons",
           "group": "hall",
           "rounds": [
             {
               "round": 1,
-              "opponent": "Samir Sydykov",
-              "opponentFaction": "Adepta Sororitas",
-              "playerScore": 95,
-              "opponentScore": 49
+              "opponent": "Alan Witherden",
+              "opponentFaction": "Chaos Daemons",
+              "playerScore": 75,
+              "opponentScore": 100
             },
             {
               "round": 2,
-              "opponent": "Matt Puffett",
-              "opponentFaction": "Astra Militarum",
-              "playerScore": 72,
-              "opponentScore": 70
+              "opponent": "Dean L",
+              "opponentFaction": "Emperor's Children",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
+        },
+        {
+          "id": "Zye6jiGHRho9",
+          "memberId": "member-anthony-keen",
+          "faction": "Astra Militarum",
+          "group": "hall",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Robert Newton",
+              "opponentFaction": "T'au Empire",
+              "playerScore": 96,
+              "opponentScore": 66
             },
             {
-              "round": 3,
-              "opponent": "Zan 🔥🎲 Rashid",
-              "opponentFaction": "World Eaters",
-              "playerScore": 75,
-              "opponentScore": 45
+              "round": 2,
+              "opponent": "Robert Atkinson",
+              "opponentFaction": "Orks",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
+        },
+        {
+          "id": "QPh1aZoOBLNw",
+          "memberId": "member-cayleb-langhals",
+          "faction": "Thousand Sons",
+          "group": "hall",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Matiss Krumins",
+              "opponentFaction": "Space Wolves",
+              "playerScore": 73,
+              "opponentScore": 33
             },
             {
-              "round": 4,
-              "opponent": "Chris Arlow",
-              "opponentFaction": "Necrons",
-              "playerScore": 75,
-              "opponentScore": 68
-            },
-            {
-              "round": 5,
-              "opponent": "Matthew Bunker",
-              "opponentFaction": "Chaos Space Marines",
-              "playerScore": 79,
-              "opponentScore": 71
+              "round": 2,
+              "opponent": "Blake Purse",
+              "opponentFaction": "Adeptus Mechanicus",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         }
