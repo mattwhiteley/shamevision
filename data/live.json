@@ -3,8 +3,8 @@
     {
       "id": "nxoGV1PSrzij",
       "currentRound": 4,
-      "roundInProgress": false,
-      "updated_at": "2026-07-05T09:18:44",
+      "roundInProgress": true,
+      "updated_at": "2026-07-05T11:32:41",
       "players": [
         {
           "id": "JGieZhtnkFg1",
@@ -71,8 +71,8 @@
             },
             {
               "round": 4,
-              "opponent": "Paul Willstead",
-              "opponentFaction": "Adeptus Custodes",
+              "opponent": "Jack Chapman",
+              "opponentFaction": "T'au Empire",
               "playerScore": null,
               "opponentScore": null
             }
@@ -109,8 +109,8 @@
               "round": 4,
               "opponent": "Luke Townsend",
               "opponentFaction": "Emperor's Children",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 16,
+              "opponentScore": 100
             }
           ]
         }
