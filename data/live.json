@@ -3,8 +3,8 @@
     {
       "id": "nxoGV1PSrzij",
       "currentRound": 4,
-      "roundInProgress": true,
-      "updated_at": "2026-07-05T11:32:41",
+      "roundInProgress": false,
+      "updated_at": "2026-07-05T13:00:40",
       "players": [
         {
           "id": "JGieZhtnkFg1",
@@ -37,8 +37,8 @@
               "round": 4,
               "opponent": "Byron 🔥🎲 Sidhu",
               "opponentFaction": "Chaos Daemons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 85,
+              "opponentScore": 84
             }
           ]
         },
@@ -73,8 +73,8 @@
               "round": 4,
               "opponent": "Jack Chapman",
               "opponentFaction": "T'au Empire",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 90,
+              "opponentScore": 79
             }
           ]
         },
