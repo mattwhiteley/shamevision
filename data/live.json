@@ -2,9 +2,9 @@
   "events": [
     {
       "id": "nxoGV1PSrzij",
-      "currentRound": 3,
-      "roundInProgress": true,
-      "updated_at": "2026-07-04T19:41:17",
+      "currentRound": 4,
+      "roundInProgress": false,
+      "updated_at": "2026-07-05T08:43:46",
       "players": [
         {
           "id": "JGieZhtnkFg1",
@@ -30,6 +30,13 @@
               "round": 3,
               "opponent": "Anthony McHugh",
               "opponentFaction": "Aeldari",
+              "playerScore": 100,
+              "opponentScore": 64
+            },
+            {
+              "round": 4,
+              "opponent": "Byron 🔥🎲 Sidhu",
+              "opponentFaction": "Chaos Daemons",
               "playerScore": null,
               "opponentScore": null
             }
@@ -59,6 +66,13 @@
               "round": 3,
               "opponent": "Andy Quas-Cohen",
               "opponentFaction": "Necrons",
+              "playerScore": 29,
+              "opponentScore": 100
+            },
+            {
+              "round": 4,
+              "opponent": "Paul Willstead",
+              "opponentFaction": "Adeptus Custodes",
               "playerScore": null,
               "opponentScore": null
             }
@@ -88,6 +102,13 @@
               "round": 3,
               "opponent": "Ben Jones",
               "opponentFaction": "Orks",
+              "playerScore": 82,
+              "opponentScore": 77
+            },
+            {
+              "round": 4,
+              "opponent": "Luke Townsend",
+              "opponentFaction": "Emperor's Children",
               "playerScore": null,
               "opponentScore": null
             }
