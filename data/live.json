@@ -4,7 +4,7 @@
       "id": "nxoGV1PSrzij",
       "currentRound": 5,
       "roundInProgress": true,
-      "updated_at": "2026-07-05T16:33:30",
+      "updated_at": "2026-07-05T16:52:44",
       "players": [
         {
           "id": "JGieZhtnkFg1",
@@ -87,8 +87,8 @@
               "round": 5,
               "opponent": "Jack Watkins",
               "opponentFaction": "Blood Angels",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 81,
+              "opponentScore": 81
             }
           ]
         },
