@@ -4,7 +4,7 @@
       "id": "nxoGV1PSrzij",
       "currentRound": 5,
       "roundInProgress": true,
-      "updated_at": "2026-07-05T15:02:33",
+      "updated_at": "2026-07-05T16:33:30",
       "players": [
         {
           "id": "JGieZhtnkFg1",
@@ -44,8 +44,8 @@
               "round": 5,
               "opponent": "Thomas Pagen",
               "opponentFaction": "Adeptus Custodes",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 59
             }
           ]
         },
@@ -130,8 +130,8 @@
               "round": 5,
               "opponent": "Ben Martin",
               "opponentFaction": "Necrons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 73,
+              "opponentScore": 83
             }
           ]
         }
