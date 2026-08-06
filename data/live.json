@@ -4,14 +4,14 @@
       "id": "8G5SizDp632n",
       "currentRound": 1,
       "roundInProgress": false,
-      "updated_at": "2026-08-06T22:51:43",
+      "updated_at": "2026-08-06T22:56:07",
       "players": [
         {
           "id": "cfg-member-alex-ford",
           "memberId": "member-alex-ford",
           "faction": "",
           "group": "hall",
-          "teamName": "The Sh[a]meful Suspects (PSSN)",
+          "teamName": "The Sh[a]meful Suspects - PSSN",
           "rounds": []
         },
         {
@@ -27,7 +27,7 @@
           "memberId": "member-anthony-keen",
           "faction": "",
           "group": "hall",
-          "teamName": "The Sh[a]meful Suspects (PSSN)",
+          "teamName": "The Sh[a]meful Suspects - PSSN",
           "rounds": []
         },
         {
@@ -51,7 +51,7 @@
           "memberId": "member-cayleb-langhals",
           "faction": "",
           "group": "hall",
-          "teamName": "The Sh[a]meful Suspects (PSSN)",
+          "teamName": "The Sh[a]meful Suspects - PSSN",
           "rounds": []
         },
         {
@@ -75,7 +75,7 @@
           "memberId": "member-daniel-green",
           "faction": "",
           "group": "hall",
-          "teamName": "The Sh[a]meful Suspects (PSSN)",
+          "teamName": "The Sh[a]meful Suspects - PSSN",
           "rounds": []
         },
         {
@@ -115,7 +115,7 @@
           "memberId": "member-matt-whiteley",
           "faction": "",
           "group": "hall",
-          "teamName": "The Sh[a]meful Suspects (PSSN)",
+          "teamName": "The Sh[a]meful Suspects - PSSN",
           "rounds": []
         },
         {
@@ -182,6 +182,14 @@
           "teamId": "pssn-the-wizards-of-odds",
           "teamName": "PSSN: The Wizards of Odds",
           "opponentTeamName": "The Minutemen 2",
+          "teamScore": null,
+          "opponentTeamScore": null
+        },
+        {
+          "round": 1,
+          "teamId": "the-shameful-suspects---pssn",
+          "teamName": "The Sh[a]meful Suspects - PSSN",
+          "opponentTeamName": "Low Rollers",
           "teamScore": null,
           "opponentTeamScore": null
         }
