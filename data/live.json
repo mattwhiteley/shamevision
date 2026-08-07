@@ -4,7 +4,7 @@
       "id": "8G5SizDp632n",
       "currentRound": 1,
       "roundInProgress": false,
-      "updated_at": "2026-08-06T22:56:07",
+      "updated_at": "2026-08-08T00:10:10",
       "players": [
         {
           "id": "cfg-member-alex-ford",
@@ -28,6 +28,14 @@
           "faction": "",
           "group": "hall",
           "teamName": "The Sh[a]meful Suspects - PSSN",
+          "rounds": []
+        },
+        {
+          "id": "cfg-member-artur-tokarski",
+          "memberId": "member-artur-tokarski",
+          "faction": "",
+          "group": "hall",
+          "teamName": "PSSN: The Wizards of Odds",
           "rounds": []
         },
         {
