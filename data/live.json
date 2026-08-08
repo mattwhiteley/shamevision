@@ -4,7 +4,7 @@
       "id": "8G5SizDp632n",
       "currentRound": 1,
       "roundInProgress": true,
-      "updated_at": "2026-08-08T12:33:15",
+      "updated_at": "2026-08-08T12:56:48",
       "players": [
         {
           "id": "H4ARB01FhFts",
@@ -89,8 +89,8 @@
               "round": 1,
               "opponent": "Josiah Tejeda",
               "opponentFaction": "Emperor's Children",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 86,
+              "opponentScore": 58
             }
           ]
         },
@@ -121,8 +121,8 @@
               "round": 1,
               "opponent": "Francisco Marquesini",
               "opponentFaction": "Grey Knights",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 61,
+              "opponentScore": 100
             }
           ]
         },
@@ -137,8 +137,8 @@
               "round": 1,
               "opponent": "Ryan Rowe",
               "opponentFaction": "World Eaters",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 93,
+              "opponentScore": 92
             }
           ]
         },
@@ -169,8 +169,8 @@
               "round": 1,
               "opponent": "shawn Dominy",
               "opponentFaction": "Orks",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 87
             }
           ]
         },
@@ -233,8 +233,8 @@
               "round": 1,
               "opponent": "Dom Maidlow",
               "opponentFaction": "Adeptus Custodes",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 81
             }
           ]
         },
@@ -281,8 +281,8 @@
               "round": 1,
               "opponent": "Christopher Axe",
               "opponentFaction": "Chaos Space Marines",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 97,
+              "opponentScore": 85
             }
           ]
         },
@@ -313,8 +313,8 @@
               "round": 1,
               "opponent": "Cameron Clack",
               "opponentFaction": "Dark Angels",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 99,
+              "opponentScore": 73
             }
           ]
         },
@@ -342,24 +342,24 @@
           "teamId": "pssn-looming-table-flip",
           "teamName": "PSSN: [L]ooming Table Flip",
           "opponentTeamName": "Globo Gym",
-          "teamScore": 230,
-          "opponentTeamScore": 223
+          "teamScore": 423,
+          "opponentTeamScore": 402
         },
         {
           "round": 1,
           "teamId": "pssn-pile-of-shame-x-lwg",
           "teamName": "PSSN: Pile of Shame x LWG",
           "opponentTeamName": "Blackwater Vikings Black",
-          "teamScore": 156,
-          "opponentTeamScore": 189
+          "teamScore": 413,
+          "opponentTeamScore": 447
         },
         {
           "round": 1,
           "teamId": "pssn-the-wizards-of-odds",
           "teamName": "PSSN: The Wizards of Odds",
           "opponentTeamName": "The Minutemen 2",
-          "teamScore": 283,
-          "opponentTeamScore": 151
+          "teamScore": 369,
+          "opponentTeamScore": 209
         },
         {
           "round": 1,
