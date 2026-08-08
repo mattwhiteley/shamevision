@@ -2,9 +2,9 @@
   "events": [
     {
       "id": "8G5SizDp632n",
-      "currentRound": 2,
+      "currentRound": 3,
       "roundInProgress": true,
-      "updated_at": "2026-08-08T17:11:04",
+      "updated_at": "2026-08-08T17:53:56",
       "players": [
         {
           "id": "H4ARB01FhFts",
@@ -47,8 +47,8 @@
               "round": 2,
               "opponent": "Callum Byers",
               "opponentFaction": "Chaos Knights",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 10,
+              "opponentScore": 10
             }
           ]
         },
@@ -70,8 +70,8 @@
               "round": 2,
               "opponent": "Tom Briggs",
               "opponentFaction": "Chaos Space Marines",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 20,
+              "opponentScore": 0
             }
           ]
         },
@@ -93,8 +93,8 @@
               "round": 2,
               "opponent": "Sam Parker-Hully",
               "opponentFaction": "Genestealer Cult",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 4,
+              "opponentScore": 16
             }
           ]
         },
@@ -116,8 +116,8 @@
               "round": 2,
               "opponent": "Connor Hulme",
               "opponentFaction": "Chaos Space Marines",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 14,
+              "opponentScore": 6
             }
           ]
         },
@@ -139,8 +139,8 @@
               "round": 2,
               "opponent": "Alex Walker",
               "opponentFaction": "Chaos Daemons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 7,
+              "opponentScore": 13
             }
           ]
         },
@@ -162,8 +162,8 @@
               "round": 2,
               "opponent": "Dean Goldhawk",
               "opponentFaction": "Blood Angels",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 14,
+              "opponentScore": 6
             }
           ]
         },
@@ -185,8 +185,8 @@
               "round": 2,
               "opponent": "Sudan  Mcdade",
               "opponentFaction": "Space Wolves",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 5,
+              "opponentScore": 15
             }
           ]
         },
@@ -208,8 +208,8 @@
               "round": 2,
               "opponent": "Olly Hayter",
               "opponentFaction": "Adeptus Custodes",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 11,
+              "opponentScore": 9
             }
           ]
         },
@@ -231,8 +231,8 @@
               "round": 2,
               "opponent": "Ross James",
               "opponentFaction": "Aeldari",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 17,
+              "opponentScore": 3
             }
           ]
         },
@@ -254,8 +254,8 @@
               "round": 2,
               "opponent": "Max Darby",
               "opponentFaction": "Death Guard",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 10,
+              "opponentScore": 10
             }
           ]
         },
@@ -300,8 +300,8 @@
               "round": 2,
               "opponent": "George Leathley",
               "opponentFaction": "Emperor's Children",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 13,
+              "opponentScore": 7
             }
           ]
         },
@@ -323,8 +323,8 @@
               "round": 2,
               "opponent": "Nyran Grey",
               "opponentFaction": "T'au Empire",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 10,
+              "opponentScore": 10
             }
           ]
         },
@@ -346,8 +346,8 @@
               "round": 2,
               "opponent": "George Smith",
               "opponentFaction": "Emperor's Children",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 8,
+              "opponentScore": 12
             }
           ]
         },
@@ -369,8 +369,8 @@
               "round": 2,
               "opponent": "Lewis Ferrari",
               "opponentFaction": "Orks",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 8,
+              "opponentScore": 12
             }
           ]
         },
@@ -415,8 +415,8 @@
               "round": 2,
               "opponent": "Jamie Fowler",
               "opponentFaction": "Leagues of Votann",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 18,
+              "opponentScore": 2
             }
           ]
         },
@@ -438,8 +438,8 @@
               "round": 2,
               "opponent": "Thomas Welsh",
               "opponentFaction": "Tyranids",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 13,
+              "opponentScore": 7
             }
           ]
         },
@@ -484,8 +484,8 @@
               "round": 2,
               "opponent": "Christopher Ridgers",
               "opponentFaction": "Dark Angels",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 9,
+              "opponentScore": 11
             }
           ]
         }
@@ -529,32 +529,64 @@
           "teamId": "pssn-looming-table-flip",
           "teamName": "PSSN: [L]ooming Table Flip",
           "opponentTeamName": "Zero On Primary",
-          "teamScore": 20,
-          "opponentTeamScore": 0
+          "teamScore": 64,
+          "opponentTeamScore": 36
         },
         {
           "round": 2,
           "teamId": "pssn-pile-of-shame-x-lwg",
           "teamName": "PSSN: Pile of Shame x LWG",
           "opponentTeamName": "Krump or Dice Tryin' B Team",
-          "teamScore": 2,
-          "opponentTeamScore": 38
+          "teamScore": 35,
+          "opponentTeamScore": 65
         },
         {
           "round": 2,
           "teamId": "pssn-the-wizards-of-odds",
           "teamName": "PSSN: The Wizards of Odds",
           "opponentTeamName": "Sanguine Spanners",
-          "teamScore": 0,
-          "opponentTeamScore": 0
+          "teamScore": 47,
+          "opponentTeamScore": 53
         },
         {
           "round": 2,
           "teamId": "the-shameful-suspects---pssn",
           "teamName": "The Sh[a]meful Suspects - PSSN",
           "opponentTeamName": "Krump or Dice Tryin'",
-          "teamScore": 3,
-          "opponentTeamScore": 17
+          "teamScore": 62,
+          "opponentTeamScore": 38
+        },
+        {
+          "round": 3,
+          "teamId": "pssn-looming-table-flip",
+          "teamName": "PSSN: [L]ooming Table Flip",
+          "opponentTeamName": "DeadRedGaming",
+          "teamScore": null,
+          "opponentTeamScore": null
+        },
+        {
+          "round": 3,
+          "teamId": "pssn-pile-of-shame-x-lwg",
+          "teamName": "PSSN: Pile of Shame x LWG",
+          "opponentTeamName": "Sofa Meta",
+          "teamScore": null,
+          "opponentTeamScore": null
+        },
+        {
+          "round": 3,
+          "teamId": "pssn-the-wizards-of-odds",
+          "teamName": "PSSN: The Wizards of Odds",
+          "opponentTeamName": "Shut up Kyle",
+          "teamScore": null,
+          "opponentTeamScore": null
+        },
+        {
+          "round": 3,
+          "teamId": "the-shameful-suspects---pssn",
+          "teamName": "The Sh[a]meful Suspects - PSSN",
+          "opponentTeamName": "Phoenix40k - Drooling Creatures",
+          "teamScore": null,
+          "opponentTeamScore": null
         }
       ]
     }
