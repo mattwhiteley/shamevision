@@ -4,7 +4,7 @@
       "id": "8G5SizDp632n",
       "currentRound": 2,
       "roundInProgress": true,
-      "updated_at": "2026-08-08T16:41:22",
+      "updated_at": "2026-08-08T17:11:04",
       "players": [
         {
           "id": "H4ARB01FhFts",
@@ -24,8 +24,8 @@
               "round": 2,
               "opponent": "Jack JC Chapman",
               "opponentFaction": "Grey Knights",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 3,
+              "opponentScore": 17
             }
           ]
         },
@@ -277,8 +277,8 @@
               "round": 2,
               "opponent": "Dan Ford",
               "opponentFaction": "Orks",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 1,
+              "opponentScore": 19
             }
           ]
         },
@@ -461,8 +461,8 @@
               "round": 2,
               "opponent": "Karl Sumner",
               "opponentFaction": "Adeptus Custodes",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 1,
+              "opponentScore": 19
             }
           ]
         },
@@ -537,8 +537,8 @@
           "teamId": "pssn-pile-of-shame-x-lwg",
           "teamName": "PSSN: Pile of Shame x LWG",
           "opponentTeamName": "Krump or Dice Tryin' B Team",
-          "teamScore": 0,
-          "opponentTeamScore": 0
+          "teamScore": 2,
+          "opponentTeamScore": 38
         },
         {
           "round": 2,
@@ -553,8 +553,8 @@
           "teamId": "the-shameful-suspects---pssn",
           "teamName": "The Sh[a]meful Suspects - PSSN",
           "opponentTeamName": "Krump or Dice Tryin'",
-          "teamScore": 0,
-          "opponentTeamScore": 0
+          "teamScore": 3,
+          "opponentTeamScore": 17
         }
       ]
     }
