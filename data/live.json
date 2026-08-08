@@ -4,7 +4,7 @@
       "id": "8G5SizDp632n",
       "currentRound": 1,
       "roundInProgress": true,
-      "updated_at": "2026-08-08T11:15:29",
+      "updated_at": "2026-08-08T11:55:09",
       "players": [
         {
           "id": "cfg-member-alex-ford",
@@ -47,12 +47,20 @@
           "rounds": []
         },
         {
-          "id": "cfg-member-ben-mccarthy",
+          "id": "5rhrltL5NUy8",
           "memberId": "member-ben-mccarthy",
-          "faction": "",
+          "faction": "World Eaters",
           "group": "hall",
           "teamName": "PSSN: [L]ooming Table Flip",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Luke Armstrong",
+              "opponentFaction": "Necrons",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
           "id": "z7u5L7hySmvu",
@@ -95,12 +103,20 @@
           ]
         },
         {
-          "id": "cfg-member-dan-whitfield",
+          "id": "LTBCTrKKZIHl",
           "memberId": "member-dan-whitfield",
-          "faction": "",
+          "faction": "Aeldari",
           "group": "hall",
           "teamName": "PSSN: [L]ooming Table Flip",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Ryan Rowe",
+              "opponentFaction": "World Eaters",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
           "id": "cfg-member-daniel-green",
@@ -111,12 +127,20 @@
           "rounds": []
         },
         {
-          "id": "cfg-member-fintan-ryan",
+          "id": "hEKyFwITyUds",
           "memberId": "member-fintan-ryan",
-          "faction": "",
+          "faction": "Orks",
           "group": "hall",
           "teamName": "PSSN: [L]ooming Table Flip",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "shawn Dominy",
+              "opponentFaction": "Orks",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
           "id": "03xfUsLGQrNS",
@@ -191,12 +215,20 @@
           "rounds": []
         },
         {
-          "id": "cfg-member-matthew-yeoh",
+          "id": "eXhsbvDb251T",
           "memberId": "member-matthew-yeoh",
-          "faction": "",
+          "faction": "Imperial Knights",
           "group": "hall",
           "teamName": "PSSN: [L]ooming Table Flip",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Kyle Beauly",
+              "opponentFaction": "Adeptus Mechanicus",
+              "playerScore": 100,
+              "opponentScore": 23
+            }
+          ]
         },
         {
           "id": "vXS7JR1Uqc7z",
@@ -247,12 +279,20 @@
           ]
         },
         {
-          "id": "cfg-member-will-gilbert",
+          "id": "yk1fOnwNijLp",
           "memberId": "member-will-gilbert",
-          "faction": "",
+          "faction": "Astra Militarum",
           "group": "hall",
           "teamName": "PSSN: [L]ooming Table Flip",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Luke Harris",
+              "opponentFaction": "Emperor's Children",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         }
       ],
       "eventType": "team",
@@ -262,8 +302,8 @@
           "teamId": "pssn-looming-table-flip",
           "teamName": "PSSN: [L]ooming Table Flip",
           "opponentTeamName": "Globo Gym",
-          "teamScore": null,
-          "opponentTeamScore": null
+          "teamScore": 100,
+          "opponentTeamScore": 23
         },
         {
           "round": 1,
