@@ -4,7 +4,7 @@
       "id": "8G5SizDp632n",
       "currentRound": 2,
       "roundInProgress": true,
-      "updated_at": "2026-08-08T15:36:20",
+      "updated_at": "2026-08-08T16:02:21",
       "players": [
         {
           "id": "H4ARB01FhFts",
@@ -392,8 +392,8 @@
               "round": 2,
               "opponent": "Matthew Wilson",
               "opponentFaction": "Tyranids",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 20,
+              "opponentScore": 0
             }
           ]
         },
@@ -529,7 +529,7 @@
           "teamId": "pssn-looming-table-flip",
           "teamName": "PSSN: [L]ooming Table Flip",
           "opponentTeamName": "Zero On Primary",
-          "teamScore": 0,
+          "teamScore": 20,
           "opponentTeamScore": 0
         },
         {
