@@ -4,15 +4,23 @@
       "id": "8G5SizDp632n",
       "currentRound": 1,
       "roundInProgress": true,
-      "updated_at": "2026-08-08T11:55:09",
+      "updated_at": "2026-08-08T12:33:15",
       "players": [
         {
-          "id": "cfg-member-alex-ford",
+          "id": "H4ARB01FhFts",
           "memberId": "member-alex-ford",
-          "faction": "",
+          "faction": "Drukhari",
           "group": "hall",
           "teamName": "The Sh[a]meful Suspects - PSSN",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Benjamin Crowther",
+              "opponentFaction": "Orks",
+              "playerScore": 100,
+              "opponentScore": 68
+            }
+          ]
         },
         {
           "id": "AfOJDW83sgWQ",
@@ -25,18 +33,26 @@
               "round": 1,
               "opponent": "John Schmidt",
               "opponentFaction": "Adeptus Custodes",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 86,
+              "opponentScore": 66
             }
           ]
         },
         {
-          "id": "cfg-member-anthony-keen",
+          "id": "HHSXOO1dM3tx",
           "memberId": "member-anthony-keen",
-          "faction": "",
+          "faction": "Orks",
           "group": "hall",
           "teamName": "The Sh[a]meful Suspects - PSSN",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Douglas Fairfield",
+              "opponentFaction": "Emperor's Children",
+              "playerScore": 100,
+              "opponentScore": 29
+            }
+          ]
         },
         {
           "id": "cfg-member-artur-tokarski",
@@ -57,8 +73,8 @@
               "round": 1,
               "opponent": "Luke Armstrong",
               "opponentFaction": "Necrons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 55,
+              "opponentScore": 100
             }
           ]
         },
@@ -79,12 +95,20 @@
           ]
         },
         {
-          "id": "cfg-member-cayleb-langhals",
+          "id": "DMxeS9GCMPL3",
           "memberId": "member-cayleb-langhals",
-          "faction": "",
+          "faction": "Thousand Sons",
           "group": "hall",
           "teamName": "The Sh[a]meful Suspects - PSSN",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Jack Harrison",
+              "opponentFaction": "Chaos Daemons",
+              "playerScore": 29,
+              "opponentScore": 97
+            }
+          ]
         },
         {
           "id": "n5JJ6H4JvWNT",
@@ -119,12 +143,20 @@
           ]
         },
         {
-          "id": "cfg-member-daniel-green",
+          "id": "CG9Dgs45eHzg",
           "memberId": "member-daniel-green",
-          "faction": "",
+          "faction": "World Eaters",
           "group": "hall",
           "teamName": "The Sh[a]meful Suspects - PSSN",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Rob Willars",
+              "opponentFaction": "Adeptus Custodes",
+              "playerScore": 59,
+              "opponentScore": 99
+            }
+          ]
         },
         {
           "id": "hEKyFwITyUds",
@@ -153,8 +185,8 @@
               "round": 1,
               "opponent": "Daniel Berris",
               "opponentFaction": "World Eaters",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 75,
+              "opponentScore": 96
             }
           ]
         },
@@ -169,8 +201,8 @@
               "round": 1,
               "opponent": "Blaise Galbraith",
               "opponentFaction": "Chaos Knights",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 22
             }
           ]
         },
@@ -185,8 +217,8 @@
               "round": 1,
               "opponent": "Rob McAllister",
               "opponentFaction": "Tyranids",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 81,
+              "opponentScore": 93
             }
           ]
         },
@@ -207,12 +239,20 @@
           ]
         },
         {
-          "id": "cfg-member-matt-whiteley",
+          "id": "5tbwMsGv6YMw",
           "memberId": "member-matt-whiteley",
-          "faction": "",
+          "faction": "Space Marines (Astartes)",
           "group": "hall",
           "teamName": "The Sh[a]meful Suspects - PSSN",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Tymon Jozefowski",
+              "opponentFaction": "Drukhari",
+              "playerScore": 36,
+              "opponentScore": 100
+            }
+          ]
         },
         {
           "id": "eXhsbvDb251T",
@@ -257,8 +297,8 @@
               "round": 1,
               "opponent": "Michael Westfall",
               "opponentFaction": "Grey Knights",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 97,
+              "opponentScore": 63
             }
           ]
         },
@@ -289,8 +329,8 @@
               "round": 1,
               "opponent": "Luke Harris",
               "opponentFaction": "Emperor's Children",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 75,
+              "opponentScore": 100
             }
           ]
         }
@@ -302,32 +342,32 @@
           "teamId": "pssn-looming-table-flip",
           "teamName": "PSSN: [L]ooming Table Flip",
           "opponentTeamName": "Globo Gym",
-          "teamScore": 100,
-          "opponentTeamScore": 23
+          "teamScore": 230,
+          "opponentTeamScore": 223
         },
         {
           "round": 1,
           "teamId": "pssn-pile-of-shame-x-lwg",
           "teamName": "PSSN: Pile of Shame x LWG",
           "opponentTeamName": "Blackwater Vikings Black",
-          "teamScore": 0,
-          "opponentTeamScore": 0
+          "teamScore": 156,
+          "opponentTeamScore": 189
         },
         {
           "round": 1,
           "teamId": "pssn-the-wizards-of-odds",
           "teamName": "PSSN: The Wizards of Odds",
           "opponentTeamName": "The Minutemen 2",
-          "teamScore": 0,
-          "opponentTeamScore": 0
+          "teamScore": 283,
+          "opponentTeamScore": 151
         },
         {
           "round": 1,
           "teamId": "the-shameful-suspects---pssn",
           "teamName": "The Sh[a]meful Suspects - PSSN",
           "opponentTeamName": "Low Rollers",
-          "teamScore": null,
-          "opponentTeamScore": null
+          "teamScore": 324,
+          "opponentTeamScore": 393
         }
       ]
     }
