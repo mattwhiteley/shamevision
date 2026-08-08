@@ -3,8 +3,8 @@
     {
       "id": "8G5SizDp632n",
       "currentRound": 1,
-      "roundInProgress": false,
-      "updated_at": "2026-08-08T09:03:44",
+      "roundInProgress": true,
+      "updated_at": "2026-08-08T09:55:53",
       "players": [
         {
           "id": "cfg-member-alex-ford",
@@ -15,12 +15,20 @@
           "rounds": []
         },
         {
-          "id": "cfg-member-aneurin-brewer",
+          "id": "AfOJDW83sgWQ",
           "memberId": "member-aneurin-brewer",
-          "faction": "",
+          "faction": "Drukhari",
           "group": "hall",
           "teamName": "PSSN: The Wizards of Odds",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "John Schmidt",
+              "opponentFaction": "Adeptus Custodes",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
           "id": "cfg-member-anthony-keen",
@@ -47,12 +55,20 @@
           "rounds": []
         },
         {
-          "id": "cfg-member-callum-watts",
+          "id": "z7u5L7hySmvu",
           "memberId": "member-callum-watts",
-          "faction": "",
+          "faction": "Tyranids",
           "group": "hall",
           "teamName": "PSSN: The Wizards of Odds",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Josiah Tejeda",
+              "opponentFaction": "Emperor's Children",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
           "id": "cfg-member-cayleb-langhals",
@@ -63,12 +79,20 @@
           "rounds": []
         },
         {
-          "id": "cfg-member-chris-enderby",
+          "id": "n5JJ6H4JvWNT",
           "memberId": "member-chris-enderby",
-          "faction": "",
+          "faction": "Chaos Space Marines",
           "group": "hall",
           "teamName": "PSSN: Pile of Shame x LWG",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Francisco Marquesini",
+              "opponentFaction": "Grey Knights",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
           "id": "cfg-member-dan-whitfield",
@@ -95,28 +119,68 @@
           "rounds": []
         },
         {
-          "id": "cfg-member-francisco-parga",
+          "id": "03xfUsLGQrNS",
           "memberId": "member-francisco-parga",
-          "faction": "",
+          "faction": "World Eaters",
           "group": "pile",
           "teamName": "PSSN: Pile of Shame x LWG",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Daniel Berris",
+              "opponentFaction": "World Eaters",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-guy-miscampbell",
+          "id": "gyZg0mkbNPv7",
           "memberId": "member-guy-miscampbell",
-          "faction": "",
+          "faction": "Deathwatch",
           "group": "hall",
           "teamName": "PSSN: The Wizards of Odds",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Blaise Galbraith",
+              "opponentFaction": "Chaos Knights",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-jamie-payton",
+          "id": "TZntndkitVAj",
           "memberId": "member-jamie-payton",
-          "faction": "",
+          "faction": "Blood Angels",
           "group": "hall",
           "teamName": "PSSN: Pile of Shame x LWG",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Rob McAllister",
+              "opponentFaction": "Tyranids",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
+        },
+        {
+          "id": "3S1qfRPa0XEM",
+          "memberId": "member-jordan-penning",
+          "faction": "Grey Knights",
+          "group": "pile",
+          "teamName": "Tuesday Knights",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Dom Maidlow",
+              "opponentFaction": "Adeptus Custodes",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
           "id": "cfg-member-matt-whiteley",
@@ -135,28 +199,52 @@
           "rounds": []
         },
         {
-          "id": "cfg-member-nikhil-talwar",
+          "id": "vXS7JR1Uqc7z",
           "memberId": "member-nikhil-talwar",
-          "faction": "",
+          "faction": "Emperor's Children",
           "group": "pile",
           "teamName": "PSSN: Pile of Shame x LWG",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Christopher Axe",
+              "opponentFaction": "Chaos Space Marines",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-ollie-watts",
+          "id": "dSsd9SZmchLA",
           "memberId": "member-ollie-watts",
-          "faction": "",
+          "faction": "Leagues of Votann",
           "group": "hall",
           "teamName": "PSSN: The Wizards of Odds",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Michael Westfall",
+              "opponentFaction": "Grey Knights",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-oscar-luckin",
+          "id": "OcTXnSZQhTBM",
           "memberId": "member-oscar-luckin",
-          "faction": "",
+          "faction": "Tyranids",
           "group": "hall",
           "teamName": "PSSN: Pile of Shame x LWG",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Cameron Clack",
+              "opponentFaction": "Dark Angels",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
           "id": "cfg-member-will-gilbert",
@@ -182,16 +270,16 @@
           "teamId": "pssn-pile-of-shame-x-lwg",
           "teamName": "PSSN: Pile of Shame x LWG",
           "opponentTeamName": "Blackwater Vikings Black",
-          "teamScore": null,
-          "opponentTeamScore": null
+          "teamScore": 0,
+          "opponentTeamScore": 0
         },
         {
           "round": 1,
           "teamId": "pssn-the-wizards-of-odds",
           "teamName": "PSSN: The Wizards of Odds",
           "opponentTeamName": "The Minutemen 2",
-          "teamScore": null,
-          "opponentTeamScore": null
+          "teamScore": 0,
+          "opponentTeamScore": 0
         },
         {
           "round": 1,
