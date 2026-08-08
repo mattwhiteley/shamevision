@@ -4,7 +4,7 @@
       "id": "8G5SizDp632n",
       "currentRound": 3,
       "roundInProgress": true,
-      "updated_at": "2026-08-08T19:53:08",
+      "updated_at": "2026-08-08T20:28:24",
       "players": [
         {
           "id": "H4ARB01FhFts",
@@ -31,8 +31,8 @@
               "round": 3,
               "opponent": "Mark Sheard",
               "opponentFaction": "Chaos Knights",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 10,
+              "opponentScore": 10
             }
           ]
         },
@@ -151,8 +151,8 @@
               "round": 3,
               "opponent": "Ratnu Vaidya",
               "opponentFaction": "Chaos Knights",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 0,
+              "opponentScore": 20
             }
           ]
         },
@@ -331,8 +331,8 @@
               "round": 3,
               "opponent": "Stephen Platten",
               "opponentFaction": "Adeptus Mechanicus",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 0,
+              "opponentScore": 20
             }
           ]
         },
@@ -361,8 +361,8 @@
               "round": 3,
               "opponent": "George Smith",
               "opponentFaction": "Emperor's Children",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 9,
+              "opponentScore": 11
             }
           ]
         },
@@ -421,8 +421,8 @@
               "round": 3,
               "opponent": "Daniel Lipscombe",
               "opponentFaction": "Tyranids",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 0,
+              "opponentScore": 20
             }
           ]
         },
@@ -451,8 +451,8 @@
               "round": 3,
               "opponent": "Thomas Lumb",
               "opponentFaction": "Necrons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 15,
+              "opponentScore": 5
             }
           ]
         },
@@ -511,8 +511,8 @@
               "round": 3,
               "opponent": "James Webster",
               "opponentFaction": "Thousand Sons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 10,
+              "opponentScore": 10
             }
           ]
         },
@@ -708,16 +708,16 @@
           "teamId": "pssn-looming-table-flip",
           "teamName": "PSSN: [L]ooming Table Flip",
           "opponentTeamName": "DeadRedGaming",
-          "teamScore": 0,
-          "opponentTeamScore": 0
+          "teamScore": 10,
+          "opponentTeamScore": 50
         },
         {
           "round": 3,
           "teamId": "pssn-pile-of-shame-x-lwg",
           "teamName": "PSSN: Pile of Shame x LWG",
           "opponentTeamName": "Sofa Meta",
-          "teamScore": 0,
-          "opponentTeamScore": 0
+          "teamScore": 9,
+          "opponentTeamScore": 31
         },
         {
           "round": 3,
@@ -732,8 +732,8 @@
           "teamId": "the-shameful-suspects---pssn",
           "teamName": "The Sh[a]meful Suspects - PSSN",
           "opponentTeamName": "Phoenix40k - Drooling Creatures",
-          "teamScore": 0,
-          "opponentTeamScore": 0
+          "teamScore": 10,
+          "opponentTeamScore": 10
         }
       ]
     }
