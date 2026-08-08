@@ -3,8 +3,8 @@
     {
       "id": "8G5SizDp632n",
       "currentRound": 1,
-      "roundInProgress": true,
-      "updated_at": "2026-08-08T12:59:07",
+      "roundInProgress": false,
+      "updated_at": "2026-08-08T13:07:54",
       "players": [
         {
           "id": "H4ARB01FhFts",
@@ -55,12 +55,20 @@
           ]
         },
         {
-          "id": "cfg-member-artur-tokarski",
+          "id": "Q3zokKBAlOoG",
           "memberId": "member-artur-tokarski",
-          "faction": "",
+          "faction": "Death Guard",
           "group": "hall",
           "teamName": "PSSN: The Wizards of Odds",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Jonathan Causey",
+              "opponentFaction": "Thousand Sons",
+              "playerScore": 100,
+              "opponentScore": 0
+            }
+          ]
         },
         {
           "id": "5rhrltL5NUy8",
@@ -358,7 +366,7 @@
           "teamId": "pssn-the-wizards-of-odds",
           "teamName": "PSSN: The Wizards of Odds",
           "opponentTeamName": "The Minutemen 2",
-          "teamScore": 369,
+          "teamScore": 469,
           "opponentTeamScore": 209
         },
         {
