@@ -3,8 +3,8 @@
     {
       "id": "8G5SizDp632n",
       "currentRound": 4,
-      "roundInProgress": false,
-      "updated_at": "2026-08-09T09:21:03",
+      "roundInProgress": true,
+      "updated_at": "2026-08-09T10:09:48",
       "players": [
         {
           "id": "H4ARB01FhFts",
@@ -63,6 +63,13 @@
               "opponentFaction": "Orks",
               "playerScore": 0,
               "opponentScore": 20
+            },
+            {
+              "round": 4,
+              "opponent": "Rohan Tesh",
+              "opponentFaction": "Space Marines (Astartes)",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -123,6 +130,13 @@
               "opponentFaction": "Space Marines (Astartes)",
               "playerScore": 8,
               "opponentScore": 12
+            },
+            {
+              "round": 4,
+              "opponent": "Bill Marvin",
+              "opponentFaction": "Leagues of Votann",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -183,6 +197,13 @@
               "opponentFaction": "Adeptus Mechanicus",
               "playerScore": 0,
               "opponentScore": 20
+            },
+            {
+              "round": 4,
+              "opponent": "Chris Boulton",
+              "opponentFaction": "Adeptus Custodes",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -243,6 +264,13 @@
               "opponentFaction": "Blood Angels",
               "playerScore": 7,
               "opponentScore": 13
+            },
+            {
+              "round": 4,
+              "opponent": "Martin Freeman",
+              "opponentFaction": "Tyranids",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -363,6 +391,13 @@
               "opponentFaction": "Emperor's Children",
               "playerScore": 9,
               "opponentScore": 11
+            },
+            {
+              "round": 4,
+              "opponent": "Oliver Steer",
+              "opponentFaction": "Adeptus Custodes",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -393,6 +428,13 @@
               "opponentFaction": "Emperor's Children",
               "playerScore": 12,
               "opponentScore": 8
+            },
+            {
+              "round": 4,
+              "opponent": "Stephen Deare",
+              "opponentFaction": "Chaos Daemons",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -423,6 +465,13 @@
               "opponentFaction": "Tyranids",
               "playerScore": 0,
               "opponentScore": 20
+            },
+            {
+              "round": 4,
+              "opponent": "Nathan Gubbins",
+              "opponentFaction": "Space Marines (Astartes)",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -453,6 +502,13 @@
               "opponentFaction": "Necrons",
               "playerScore": 15,
               "opponentScore": 5
+            },
+            {
+              "round": 4,
+              "opponent": "George Ford",
+              "opponentFaction": "Adeptus Custodes",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -543,6 +599,13 @@
               "opponentFaction": "Adepta Sororitas",
               "playerScore": 15,
               "opponentScore": 5
+            },
+            {
+              "round": 4,
+              "opponent": "Joe Shaw",
+              "opponentFaction": "Grey Knights",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -573,6 +636,13 @@
               "opponentFaction": "T'au Empire",
               "playerScore": 11,
               "opponentScore": 9
+            },
+            {
+              "round": 4,
+              "opponent": "Finn Carter-Marsh",
+              "opponentFaction": "Imperial Knights",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -603,6 +673,13 @@
               "opponentFaction": "Grey Knights",
               "playerScore": 10,
               "opponentScore": 10
+            },
+            {
+              "round": 4,
+              "opponent": "Richard Pharoah",
+              "opponentFaction": "Adeptus Mechanicus",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -748,16 +825,16 @@
           "teamId": "pssn-pile-of-shame-x-lwg",
           "teamName": "PSSN: Pile of Shame x LWG",
           "opponentTeamName": "Death Korps of Queens Road - Orca Squadron",
-          "teamScore": null,
-          "opponentTeamScore": null
+          "teamScore": 0,
+          "opponentTeamScore": 0
         },
         {
           "round": 4,
           "teamId": "pssn-the-wizards-of-odds",
           "teamName": "PSSN: The Wizards of Odds",
           "opponentTeamName": "DKQR - Frog",
-          "teamScore": null,
-          "opponentTeamScore": null
+          "teamScore": 0,
+          "opponentTeamScore": 0
         },
         {
           "round": 4,
