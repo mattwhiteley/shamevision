@@ -4,7 +4,7 @@
       "id": "8G5SizDp632n",
       "currentRound": 4,
       "roundInProgress": true,
-      "updated_at": "2026-08-09T11:44:03",
+      "updated_at": "2026-08-09T12:14:41",
       "players": [
         {
           "id": "H4ARB01FhFts",
@@ -290,8 +290,8 @@
               "round": 4,
               "opponent": "Martin Freeman",
               "opponentFaction": "Tyranids",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 9,
+              "opponentScore": 11
             }
           ]
         },
@@ -424,8 +424,8 @@
               "round": 4,
               "opponent": "Oliver Steer",
               "opponentFaction": "Adeptus Custodes",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 4,
+              "opponentScore": 16
             }
           ]
         },
@@ -498,8 +498,8 @@
               "round": 4,
               "opponent": "Nathan Gubbins",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 19,
+              "opponentScore": 1
             }
           ]
         },
@@ -646,8 +646,8 @@
               "round": 4,
               "opponent": "Joe Shaw",
               "opponentFaction": "Grey Knights",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 16,
+              "opponentScore": 4
             }
           ]
         },
@@ -867,8 +867,8 @@
           "teamId": "pssn-pile-of-shame-x-lwg",
           "teamName": "PSSN: Pile of Shame x LWG",
           "opponentTeamName": "Death Korps of Queens Road - Orca Squadron",
-          "teamScore": 0,
-          "opponentTeamScore": 0
+          "teamScore": 48,
+          "opponentTeamScore": 32
         },
         {
           "round": 4,
