@@ -4,7 +4,7 @@
       "id": "8G5SizDp632n",
       "currentRound": 5,
       "roundInProgress": true,
-      "updated_at": "2026-08-09T15:56:43",
+      "updated_at": "2026-08-09T16:39:17",
       "players": [
         {
           "id": "H4ARB01FhFts",
@@ -45,8 +45,8 @@
               "round": 5,
               "opponent": "Thomas Welsh",
               "opponentFaction": "Tyranids",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 7,
+              "opponentScore": 13
             }
           ]
         },
@@ -216,6 +216,13 @@
               "opponentFaction": "Grey Knights",
               "playerScore": 10,
               "opponentScore": 10
+            },
+            {
+              "round": 5,
+              "opponent": "Jack JC Chapman",
+              "opponentFaction": "Grey Knights",
+              "playerScore": 12,
+              "opponentScore": 8
             }
           ]
         },
@@ -341,6 +348,13 @@
               "opponentFaction": "Tyranids",
               "playerScore": 9,
               "opponentScore": 11
+            },
+            {
+              "round": 5,
+              "opponent": "Matt Puffett",
+              "opponentFaction": "Adepta Sororitas",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -420,8 +434,8 @@
               "round": 5,
               "opponent": "Sam Parker-Hully",
               "opponentFaction": "Genestealer Cult",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 6,
+              "opponentScore": 14
             }
           ]
         },
@@ -496,6 +510,13 @@
               "opponentFaction": "Adeptus Custodes",
               "playerScore": 4,
               "opponentScore": 16
+            },
+            {
+              "round": 5,
+              "opponent": "Chong Liu",
+              "opponentFaction": "Adeptus Custodes",
+              "playerScore": 10,
+              "opponentScore": 10
             }
           ]
         },
@@ -577,6 +598,13 @@
               "opponentFaction": "Space Marines (Astartes)",
               "playerScore": 19,
               "opponentScore": 1
+            },
+            {
+              "round": 5,
+              "opponent": "Edward Perry",
+              "opponentFaction": "Grey Knights",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -739,6 +767,13 @@
               "opponentFaction": "Grey Knights",
               "playerScore": 16,
               "opponentScore": 4
+            },
+            {
+              "round": 5,
+              "opponent": "Dharminder Dhanda",
+              "opponentFaction": "Space Marines (Astartes)",
+              "playerScore": 20,
+              "opponentScore": 0
             }
           ]
         },
@@ -820,6 +855,13 @@
               "opponentFaction": "Adeptus Mechanicus",
               "playerScore": 10,
               "opponentScore": 10
+            },
+            {
+              "round": 5,
+              "opponent": "Marcus Losty",
+              "opponentFaction": "Leagues of Votann",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -996,16 +1038,16 @@
           "teamId": "pssn-looming-table-flip",
           "teamName": "PSSN: [L]ooming Table Flip",
           "opponentTeamName": "Krump or Dice Tryin'",
-          "teamScore": null,
-          "opponentTeamScore": null
+          "teamScore": 12,
+          "opponentTeamScore": 8
         },
         {
           "round": 5,
           "teamId": "pssn-pile-of-shame-x-lwg",
           "teamName": "PSSN: Pile of Shame x LWG",
           "opponentTeamName": "Tuesday Wizards",
-          "teamScore": null,
-          "opponentTeamScore": null
+          "teamScore": 30,
+          "opponentTeamScore": 10
         },
         {
           "round": 5,
@@ -1020,8 +1062,8 @@
           "teamId": "the-shameful-suspects---pssn",
           "teamName": "The Sh[a]meful Suspects - PSSN",
           "opponentTeamName": "Sanguine Spanners",
-          "teamScore": 0,
-          "opponentTeamScore": 0
+          "teamScore": 13,
+          "opponentTeamScore": 27
         }
       ]
     }
