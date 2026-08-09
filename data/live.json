@@ -4,7 +4,7 @@
       "id": "8G5SizDp632n",
       "currentRound": 4,
       "roundInProgress": true,
-      "updated_at": "2026-08-09T10:57:12",
+      "updated_at": "2026-08-09T11:44:03",
       "players": [
         {
           "id": "H4ARB01FhFts",
@@ -33,6 +33,13 @@
               "opponentFaction": "Chaos Knights",
               "playerScore": 10,
               "opponentScore": 10
+            },
+            {
+              "round": 4,
+              "opponent": "Joshua Wood",
+              "opponentFaction": "Astra Militarum",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -100,6 +107,13 @@
               "opponentFaction": "Thousand Sons",
               "playerScore": 6,
               "opponentScore": 14
+            },
+            {
+              "round": 4,
+              "opponent": "Callum Evans",
+              "opponentFaction": "Thousand Sons",
+              "playerScore": 20,
+              "opponentScore": 0
             }
           ]
         },
@@ -234,6 +248,13 @@
               "opponentFaction": "Aeldari",
               "playerScore": 20,
               "opponentScore": 0
+            },
+            {
+              "round": 4,
+              "opponent": "Nathan Snelson",
+              "opponentFaction": "Leagues of Votann",
+              "playerScore": 19,
+              "opponentScore": 1
             }
           ]
         },
@@ -331,6 +352,13 @@
               "opponentFaction": "Necrons",
               "playerScore": 18,
               "opponentScore": 2
+            },
+            {
+              "round": 4,
+              "opponent": "Brant Wilson",
+              "opponentFaction": "Genestealer Cult",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -539,6 +567,13 @@
               "opponentFaction": "Black Templars",
               "playerScore": 14,
               "opponentScore": 6
+            },
+            {
+              "round": 4,
+              "opponent": "Ashley Farn",
+              "opponentFaction": "Dark Angels",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -569,6 +604,13 @@
               "opponentFaction": "Thousand Sons",
               "playerScore": 10,
               "opponentScore": 10
+            },
+            {
+              "round": 4,
+              "opponent": "Rob McAllister",
+              "opponentFaction": "Tyranids",
+              "playerScore": 20,
+              "opponentScore": 0
             }
           ]
         },
@@ -817,8 +859,8 @@
           "teamId": "pssn-looming-table-flip",
           "teamName": "PSSN: [L]ooming Table Flip",
           "opponentTeamName": "Blackwater Vikings Black",
-          "teamScore": null,
-          "opponentTeamScore": null
+          "teamScore": 20,
+          "opponentTeamScore": 0
         },
         {
           "round": 4,
@@ -841,8 +883,8 @@
           "teamId": "the-shameful-suspects---pssn",
           "teamName": "The Sh[a]meful Suspects - PSSN",
           "opponentTeamName": "Trash Wargaming",
-          "teamScore": null,
-          "opponentTeamScore": null
+          "teamScore": 39,
+          "opponentTeamScore": 1
         }
       ]
     }
