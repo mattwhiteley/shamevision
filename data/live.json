@@ -4,7 +4,7 @@
       "id": "7xL8OYDImHJs",
       "currentRound": 2,
       "roundInProgress": true,
-      "updated_at": "2026-08-22T17:15:07",
+      "updated_at": "2026-08-22T17:44:27",
       "players": [
         {
           "id": "WBKvvPZvVUHh",
@@ -111,8 +111,8 @@
               "round": 2,
               "opponent": "Panagiotis Bouzianis",
               "opponentFaction": "Tyranids",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 60,
+              "opponentScore": 88
             }
           ]
         },
@@ -133,8 +133,8 @@
               "round": 2,
               "opponent": "Oliver Jawara",
               "opponentFaction": "Emperor's Children",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 60,
+              "opponentScore": 79
             }
           ]
         },
@@ -155,8 +155,8 @@
               "round": 2,
               "opponent": "Jack Turner",
               "opponentFaction": "Thousand Sons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 80,
+              "opponentScore": 92
             }
           ]
         },
@@ -265,8 +265,8 @@
               "round": 2,
               "opponent": "Christian Thomson",
               "opponentFaction": "Blood Angels",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 92,
+              "opponentScore": 80
             }
           ]
         },
@@ -287,8 +287,8 @@
               "round": 2,
               "opponent": "Tom Durrands",
               "opponentFaction": "Orks",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 50,
+              "opponentScore": 100
             }
           ]
         },
@@ -397,8 +397,8 @@
               "round": 2,
               "opponent": "Ben Partington",
               "opponentFaction": "Tyranids",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 79,
+              "opponentScore": 60
             }
           ]
         },
@@ -441,8 +441,8 @@
               "round": 2,
               "opponent": "Ben McCarthy",
               "opponentFaction": "Emperor's Children",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 88,
+              "opponentScore": 60
             }
           ]
         },
@@ -529,8 +529,8 @@
               "round": 2,
               "opponent": "Kareem Hussain",
               "opponentFaction": "Chaos Space Marines",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 50
             }
           ]
         }
