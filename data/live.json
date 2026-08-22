@@ -3,8 +3,8 @@
     {
       "id": "7xL8OYDImHJs",
       "currentRound": 3,
-      "roundInProgress": true,
-      "updated_at": "2026-08-22T20:51:33",
+      "roundInProgress": false,
+      "updated_at": "2026-08-22T23:11:50",
       "players": [
         {
           "id": "WBKvvPZvVUHh",
@@ -118,7 +118,7 @@
               "opponent": "Ryan Hamilton",
               "opponentFaction": "Drukhari",
               "playerScore": 87,
-              "opponentScore": 95
+              "opponentScore": 100
             }
           ]
         },
@@ -175,8 +175,8 @@
               "round": 3,
               "opponent": "Matt McKinnell",
               "opponentFaction": "Leagues of Votann",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 60,
+              "opponentScore": 45
             }
           ]
         },
@@ -233,8 +233,8 @@
               "round": 3,
               "opponent": "Jack Turner",
               "opponentFaction": "Thousand Sons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 71,
+              "opponentScore": 93
             }
           ]
         },
@@ -262,8 +262,8 @@
               "round": 3,
               "opponent": "Sam P",
               "opponentFaction": "Necrons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 26,
+              "opponentScore": 100
             }
           ]
         },
@@ -291,8 +291,8 @@
               "round": 3,
               "opponent": "Tom Durrands",
               "opponentFaction": "Orks",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 35,
+              "opponentScore": 99
             }
           ]
         },
@@ -320,8 +320,8 @@
               "round": 3,
               "opponent": "Samuel Hardisty",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 80,
+              "opponentScore": 59
             }
           ]
         },
@@ -349,8 +349,8 @@
               "round": 3,
               "opponent": "Daniel Green",
               "opponentFaction": "World Eaters",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 93,
+              "opponentScore": 71
             }
           ]
         },
@@ -378,8 +378,8 @@
               "round": 3,
               "opponent": "Mikey Herbert",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 70
             }
           ]
         },
@@ -407,8 +407,8 @@
               "round": 3,
               "opponent": "Ben Partington",
               "opponentFaction": "Tyranids",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 45,
+              "opponentScore": 60
             }
           ]
         },
@@ -465,8 +465,8 @@
               "round": 3,
               "opponent": "Kareem Hussain",
               "opponentFaction": "Chaos Space Marines",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 70,
+              "opponentScore": 100
             }
           ]
         },
@@ -494,8 +494,8 @@
               "round": 3,
               "opponent": "Panagiotis Bouzianis",
               "opponentFaction": "Tyranids",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 67
             }
           ]
         },
@@ -523,8 +523,8 @@
               "round": 3,
               "opponent": "Ollie Smith",
               "opponentFaction": "",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 87,
+              "opponentScore": 75
             }
           ]
         },
@@ -552,8 +552,8 @@
               "round": 3,
               "opponent": "Oliver Jawara",
               "opponentFaction": "Emperor's Children",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 75,
+              "opponentScore": 87
             }
           ]
         },
@@ -581,8 +581,8 @@
               "round": 3,
               "opponent": "Nathan Sears",
               "opponentFaction": "Dark Angels",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 67,
+              "opponentScore": 100
             }
           ]
         },
@@ -610,7 +610,7 @@
               "round": 3,
               "opponent": "Ben Adams",
               "opponentFaction": "Adeptus Custodes",
-              "playerScore": 95,
+              "playerScore": 100,
               "opponentScore": 87
             }
           ]
@@ -639,8 +639,8 @@
               "round": 3,
               "opponent": "Fintan Ryan",
               "opponentFaction": "Orks",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 26
             }
           ]
         },
@@ -668,8 +668,8 @@
               "round": 3,
               "opponent": "Harvey R",
               "opponentFaction": "Emperor's Children",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 59,
+              "opponentScore": 80
             }
           ]
         },
@@ -697,8 +697,8 @@
               "round": 3,
               "opponent": "Guy Miscampbell",
               "opponentFaction": "Deathwatch",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 99,
+              "opponentScore": 35
             }
           ]
         }
