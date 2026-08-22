@@ -1,39 +1,19 @@
 {
   "events": [
     {
-      "id": "8G5SizDp632n",
-      "shortName": "Summer ITT",
-      "eventName": "The UKTC Summer I. T. T",
-      "bcpUrl": "https://www.bestcoastpairings.com/event/8G5SizDp632n",
-      "eventType": "team",
+      "id": "7xL8OYDImHJs",
+      "shortName": "ShameRTT",
+      "eventName": "Sunshame RTT",
+      "bcpUrl": "https://www.bestcoastpairings.com/event/7xL8OYDImHJs",
+      "eventType": "singles",
       "teamSize": 5,
-      "totalRounds": 5,
+      "totalRounds": 3,
       "timezone": "Europe/London",
       "roundDurationMinutes": 180,
-      "teams": [
-        {
-          "name": "PSSN: [L]ooming Table Flip",
-          "memberIds": ["member-ben-mccarthy", "member-dan-whitfield", "member-fintan-ryan", "member-matthew-yeoh", "member-will-gilbert"]
-        },
-        {
-          "name": "PSSN: Pile of Shame x LWG",
-          "memberIds": ["member-oscar-luckin", "member-chris-enderby", "member-nikhil-talwar", "member-jamie-payton", "member-francisco-parga"]
-        },
-        {
-          "name": "The Sh[a]meful Suspects - PSSN",
-          "memberIds": ["member-alex-ford", "member-anthony-keen", "member-cayleb-langhals", "member-daniel-green", "member-matt-whiteley"]
-        },
-        {
-          "name": "PSSN: The Wizards of Odds",
-          "memberIds": ["member-aneurin-brewer", "member-ollie-watts", "member-callum-watts", "member-guy-miscampbell","member-artur-tokarski"]
-        }
-      ],
       "schedule": [
-        { "round": 1, "start": "2026-08-08T09:30:00" },
-        { "round": 2, "start": "2026-08-08T14:00:00" },
-        { "round": 3, "start": "2026-08-08T17:45:00" },
-        { "round": 4, "start": "2026-08-09T09:30:00" },
-        { "round": 5, "start": "2026-08-09T14:00:00" }
+        { "round": 1, "start": "2026-08-08T10:30:00" },
+        { "round": 2, "start": "2026-08-08T14:15:00" },
+        { "round": 3, "start": "2026-08-08T17:45:00" }
       ]
     }
   ]
