@@ -10,9 +10,9 @@
       "timezone": "Europe/London",
       "roundDurationMinutes": 180,
       "schedule": [
-        { "round": 1, "start": "2026-08-08T10:30:00" },
-        { "round": 2, "start": "2026-08-08T14:15:00" },
-        { "round": 3, "start": "2026-08-08T17:45:00" }
+        { "round": 1, "start": "2026-08-22T10:30:00" },
+        { "round": 2, "start": "2026-08-22T14:15:00" },
+        { "round": 3, "start": "2026-08-22T17:45:00" }
       ]
     }
   ]
