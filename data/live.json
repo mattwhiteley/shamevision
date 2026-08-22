@@ -4,7 +4,7 @@
       "id": "7xL8OYDImHJs",
       "currentRound": 2,
       "roundInProgress": true,
-      "updated_at": "2026-08-22T16:50:52",
+      "updated_at": "2026-08-22T17:15:07",
       "players": [
         {
           "id": "WBKvvPZvVUHh",
@@ -67,8 +67,8 @@
               "round": 2,
               "opponent": "Ben Adams",
               "opponentFaction": "Adeptus Custodes",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 77,
+              "opponentScore": 51
             }
           ]
         },
@@ -89,8 +89,8 @@
               "round": 2,
               "opponent": "Anthony Keen",
               "opponentFaction": "Orks",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 51,
+              "opponentScore": 77
             }
           ]
         },
@@ -221,8 +221,8 @@
               "round": 2,
               "opponent": "Mikey Herbert",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 89,
+              "opponentScore": 84
             }
           ]
         },
@@ -353,8 +353,8 @@
               "round": 2,
               "opponent": "Guy Miscampbell",
               "opponentFaction": "Deathwatch",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 84,
+              "opponentScore": 89
             }
           ]
         },
