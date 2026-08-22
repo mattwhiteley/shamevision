@@ -4,7 +4,7 @@
       "id": "7xL8OYDImHJs",
       "currentRound": 2,
       "roundInProgress": true,
-      "updated_at": "2026-08-22T15:11:45",
+      "updated_at": "2026-08-22T15:15:32",
       "players": [
         {
           "id": "WBKvvPZvVUHh",
@@ -221,6 +221,28 @@
               "round": 2,
               "opponent": "Mikey Herbert",
               "opponentFaction": "Space Marines (Astartes)",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
+        },
+        {
+          "id": "sA24X8RSjmre",
+          "memberId": "member-harvey-r",
+          "faction": "Emperor's Children",
+          "group": "hall",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Ryan Hamilton",
+              "opponentFaction": "Drukhari",
+              "playerScore": 77,
+              "opponentScore": 94
+            },
+            {
+              "round": 2,
+              "opponent": "Fintan Ryan",
+              "opponentFaction": "Orks",
               "playerScore": null,
               "opponentScore": null
             }
