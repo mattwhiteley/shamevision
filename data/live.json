@@ -4,7 +4,7 @@
       "id": "7xL8OYDImHJs",
       "currentRound": 2,
       "roundInProgress": true,
-      "updated_at": "2026-08-22T16:28:41",
+      "updated_at": "2026-08-22T16:50:52",
       "players": [
         {
           "id": "WBKvvPZvVUHh",
@@ -23,8 +23,8 @@
               "round": 2,
               "opponent": "Daniel Green",
               "opponentFaction": "World Eaters",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 79,
+              "opponentScore": 93
             }
           ]
         },
@@ -177,8 +177,8 @@
               "round": 2,
               "opponent": "Alex Ford",
               "opponentFaction": "Aeldari",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 93,
+              "opponentScore": 79
             }
           ]
         },
@@ -331,8 +331,8 @@
               "round": 2,
               "opponent": "Ryan Hamilton",
               "opponentFaction": "Drukhari",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 91,
+              "opponentScore": 89
             }
           ]
         },
@@ -463,8 +463,8 @@
               "round": 2,
               "opponent": "Matthew Yeoh",
               "opponentFaction": "Imperial Knights",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 89,
+              "opponentScore": 91
             }
           ]
         },
