@@ -4,7 +4,7 @@
       "id": "7xL8OYDImHJs",
       "currentRound": 2,
       "roundInProgress": true,
-      "updated_at": "2026-08-22T15:04:37",
+      "updated_at": "2026-08-22T15:11:45",
       "players": [
         {
           "id": "WBKvvPZvVUHh",
@@ -315,6 +315,28 @@
           ]
         },
         {
+          "id": "JB6IDZUK0MLi",
+          "memberId": "member-mikey-herbert",
+          "faction": "Space Marines (Astartes)",
+          "group": "hall",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Ben McCarthy",
+              "opponentFaction": "Emperor's Children",
+              "playerScore": 100,
+              "opponentScore": 46
+            },
+            {
+              "round": 2,
+              "opponent": "Guy Miscampbell",
+              "opponentFaction": "Deathwatch",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
+        },
+        {
           "id": "tGFjRybZnJT8",
           "memberId": "member-nathan-sears",
           "faction": "Dark Angels",
@@ -375,6 +397,72 @@
               "round": 2,
               "opponent": "Matt McKinnell",
               "opponentFaction": "Leagues of Votann",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
+        },
+        {
+          "id": "ycl0g0fl0Rxz",
+          "memberId": "member-panagiotis-bouzianis",
+          "faction": "Tyranids",
+          "group": "hall",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Alex Ford",
+              "opponentFaction": "Aeldari",
+              "playerScore": 89,
+              "opponentScore": 97
+            },
+            {
+              "round": 2,
+              "opponent": "Ben McCarthy",
+              "opponentFaction": "Emperor's Children",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
+        },
+        {
+          "id": "yRkE13bi9wm9",
+          "memberId": "member-ryan-hamilton",
+          "faction": "Drukhari",
+          "group": "hall",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Harvey R",
+              "opponentFaction": "Emperor's Children",
+              "playerScore": 94,
+              "opponentScore": 77
+            },
+            {
+              "round": 2,
+              "opponent": "Matthew Yeoh",
+              "opponentFaction": "Imperial Knights",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
+        },
+        {
+          "id": "dZcpH7ROvsVe",
+          "memberId": "member-sam-p",
+          "faction": "Necrons",
+          "group": "hall",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Anthony Keen",
+              "opponentFaction": "Orks",
+              "playerScore": 40,
+              "opponentScore": 100
+            },
+            {
+              "round": 2,
+              "opponent": "Samuel Hardisty",
+              "opponentFaction": "Space Marines (Astartes)",
               "playerScore": null,
               "opponentScore": null
             }
