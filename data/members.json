@@ -54,6 +54,10 @@
     { "id": "member-tim-waters",       "name": "Tim Waters",       "shortName": "Tim",       "tier": "hall-of-shame" },
     { "id": "member-dan-whitfield",       "name": "Dan Whitfield",       "shortName": "DanW",       "tier": "hall-of-shame" },
     { "id": "member-nikhil-talwar",       "name": "Nikhil Talwar",       "shortName": "Nikhil",       "tier": "friends" },
-    { "id": "member-francisco-parga",       "name": "Francisco Parga",       "shortName": "Cisco",       "tier": "friends" }
+    { "id": "member-francisco-parga",       "name": "Francisco Parga",       "shortName": "Cisco",       "tier": "friends" },
+    { "id": "member-mikey-herbert",       "name": "Mikey Herbert",       "shortName": "Mikey",       "tier": "hall-of-shame" },
+    { "id": "member-panagiotis-bouzianis",       "name": "Panagiotis Bouzianis",       "shortName": "Panagiotis",       "tier": "hall-of-shame" },
+    { "id": "member-ryan-hamilton",       "name": "Ryan Hamilton",       "shortName": "Ryan",       "tier": "hall-of-shame" },
+    { "id": "member-sam-p",       "name": "Sam P",       "shortName": "SamP",       "tier": "hall-of-shame" },
   ]
 }
