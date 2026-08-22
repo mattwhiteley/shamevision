@@ -4,7 +4,7 @@
       "id": "7xL8OYDImHJs",
       "currentRound": 3,
       "roundInProgress": true,
-      "updated_at": "2026-08-22T20:30:48",
+      "updated_at": "2026-08-22T20:51:33",
       "players": [
         {
           "id": "WBKvvPZvVUHh",
@@ -117,8 +117,8 @@
               "round": 3,
               "opponent": "Ryan Hamilton",
               "opponentFaction": "Drukhari",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 87,
+              "opponentScore": 95
             }
           ]
         },
@@ -610,8 +610,8 @@
               "round": 3,
               "opponent": "Ben Adams",
               "opponentFaction": "Adeptus Custodes",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 95,
+              "opponentScore": 87
             }
           ]
         },
