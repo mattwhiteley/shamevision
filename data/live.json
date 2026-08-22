@@ -4,7 +4,7 @@
       "id": "7xL8OYDImHJs",
       "currentRound": 3,
       "roundInProgress": true,
-      "updated_at": "2026-08-22T20:01:33",
+      "updated_at": "2026-08-22T20:30:48",
       "players": [
         {
           "id": "WBKvvPZvVUHh",
@@ -30,8 +30,8 @@
               "round": 3,
               "opponent": "Christian Thomson",
               "opponentFaction": "Blood Angels",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 23,
+              "opponentScore": 98
             }
           ]
         },
@@ -59,8 +59,8 @@
               "round": 3,
               "opponent": "Ben McCarthy",
               "opponentFaction": "Emperor's Children",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 86,
+              "opponentScore": 69
             }
           ]
         },
@@ -88,8 +88,8 @@
               "round": 3,
               "opponent": "Matthew Yeoh",
               "opponentFaction": "Imperial Knights",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 19
             }
           ]
         },
@@ -146,8 +146,8 @@
               "round": 3,
               "opponent": "Alex Higgins",
               "opponentFaction": "Astra Militarum",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 69,
+              "opponentScore": 86
             }
           ]
         },
@@ -204,8 +204,8 @@
               "round": 3,
               "opponent": "Alex Ford",
               "opponentFaction": "Aeldari",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 98,
+              "opponentScore": 23
             }
           ]
         },
@@ -436,8 +436,8 @@
               "round": 3,
               "opponent": "Anthony Keen",
               "opponentFaction": "Orks",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 19,
+              "opponentScore": 100
             }
           ]
         },
