@@ -58,6 +58,6 @@
     { "id": "member-mikey-herbert",       "name": "Mikey Herbert",       "shortName": "Mikey",       "tier": "hall-of-shame" },
     { "id": "member-panagiotis-bouzianis",       "name": "Panagiotis Bouzianis",       "shortName": "Panagiotis",       "tier": "hall-of-shame" },
     { "id": "member-ryan-hamilton",       "name": "Ryan Hamilton",       "shortName": "Ryan",       "tier": "hall-of-shame" },
-    { "id": "member-sam-p",       "name": "Sam P",       "shortName": "SamP",       "tier": "hall-of-shame" },
+    { "id": "member-sam-p",       "name": "Sam P",       "shortName": "SamP",       "tier": "hall-of-shame" }
   ]
 }
