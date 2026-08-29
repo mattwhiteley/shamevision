@@ -1,18 +1,20 @@
 {
   "events": [
     {
-      "id": "7xL8OYDImHJs",
-      "shortName": "ShameRTT",
-      "eventName": "Sunshame RTT",
-      "bcpUrl": "https://www.bestcoastpairings.com/event/7xL8OYDImHJs",
+      "id": "644ESl9h7o4p",
+      "shortName": "DSGT",
+      "eventName": "September DSGT",
+      "bcpUrl": "https://www.bestcoastpairings.com/event/644ESl9h7o4p",
       "eventType": "singles",
-      "totalRounds": 3,
+      "totalRounds": 5,
       "timezone": "Europe/London",
       "roundDurationMinutes": 180,
       "schedule": [
-        { "round": 1, "start": "2026-08-22T10:30:00" },
-        { "round": 2, "start": "2026-08-22T14:15:00" },
-        { "round": 3, "start": "2026-08-22T17:45:00" }
+        { "round": 1, "start": "2026-08-29T09:30:00" },
+        { "round": 2, "start": "2026-08-29T14:00:00" },
+        { "round": 3, "start": "2026-08-29T17:30:00" },
+        { "round": 4, "start": "2026-08-30T09:30:00" },
+        { "round": 5, "start": "2026-08-30T14:15:00" }
       ]
     }
   ]
