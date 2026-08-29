@@ -4,7 +4,7 @@
       "id": "9GP9bFD1dpNq",
       "currentRound": 3,
       "roundInProgress": true,
-      "updated_at": "2026-08-29T20:11:07",
+      "updated_at": "2026-08-29T20:38:12",
       "players": [
         {
           "id": "S0jpOgNxL2Oh",
@@ -30,8 +30,8 @@
               "round": 3,
               "opponent": "Tom Clark",
               "opponentFaction": "Deathwatch",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 72,
+              "opponentScore": 64
             }
           ]
         },
@@ -59,8 +59,8 @@
               "round": 3,
               "opponent": "Nicolas Verdino",
               "opponentFaction": "Blood Angels",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 71,
+              "opponentScore": 76
             }
           ]
         },
@@ -88,8 +88,8 @@
               "round": 3,
               "opponent": "Mark Smith",
               "opponentFaction": "Imperial Knights",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 68,
+              "opponentScore": 87
             }
           ]
         },
@@ -117,8 +117,8 @@
               "round": 3,
               "opponent": "Azim Mazumder",
               "opponentFaction": "Thousand Sons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 46
             }
           ]
         },
@@ -146,8 +146,8 @@
               "round": 3,
               "opponent": "Ben Taylor",
               "opponentFaction": "Adeptus Custodes",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 63,
+              "opponentScore": 100
             }
           ]
         }
@@ -157,7 +157,7 @@
       "id": "mdlAgHSPHDyD",
       "currentRound": 3,
       "roundInProgress": true,
-      "updated_at": "2026-08-29T20:11:09",
+      "updated_at": "2026-08-29T20:38:13",
       "players": [
         {
           "id": "O5SbfFY5VZAH",
@@ -212,8 +212,8 @@
               "round": 3,
               "opponent": "Steve Gadd",
               "opponentFaction": "Tyranids",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 79,
+              "opponentScore": 93
             }
           ]
         },
