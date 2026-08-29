@@ -2,9 +2,9 @@
   "events": [
     {
       "id": "9GP9bFD1dpNq",
-      "currentRound": 1,
-      "roundInProgress": true,
-      "updated_at": "2026-08-29T12:25:23",
+      "currentRound": 2,
+      "roundInProgress": false,
+      "updated_at": "2026-08-29T13:44:38",
       "players": [
         {
           "id": "S0jpOgNxL2Oh",
@@ -16,6 +16,13 @@
               "round": 1,
               "opponent": "Mark Smith",
               "opponentFaction": "Imperial Knights",
+              "playerScore": 58,
+              "opponentScore": 90
+            },
+            {
+              "round": 2,
+              "opponent": "Olivier Guerra",
+              "opponentFaction": "Blood Angels",
               "playerScore": null,
               "opponentScore": null
             }
@@ -31,6 +38,13 @@
               "round": 1,
               "opponent": "Tom Clark",
               "opponentFaction": "Deathwatch",
+              "playerScore": 95,
+              "opponentScore": 32
+            },
+            {
+              "round": 2,
+              "opponent": "Nikhil Talwar",
+              "opponentFaction": "Emperor's Children",
               "playerScore": null,
               "opponentScore": null
             }
@@ -48,6 +62,13 @@
               "opponentFaction": "Space Marines (Astartes)",
               "playerScore": 100,
               "opponentScore": 40
+            },
+            {
+              "round": 2,
+              "opponent": "Michael Maris",
+              "opponentFaction": "Adeptus Custodes",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -60,6 +81,13 @@
             {
               "round": 1,
               "opponent": "James Neale",
+              "opponentFaction": "Adepta Sororitas",
+              "playerScore": 100,
+              "opponentScore": 82
+            },
+            {
+              "round": 2,
+              "opponent": "Aidan Brocklehurst",
               "opponentFaction": "Adepta Sororitas",
               "playerScore": null,
               "opponentScore": null
@@ -76,6 +104,13 @@
               "round": 1,
               "opponent": "Jeroen Ubbink",
               "opponentFaction": "Xenos",
+              "playerScore": 87,
+              "opponentScore": 64
+            },
+            {
+              "round": 2,
+              "opponent": "Nicolas Verdino",
+              "opponentFaction": "Blood Angels",
               "playerScore": null,
               "opponentScore": null
             }
@@ -85,9 +120,9 @@
     },
     {
       "id": "mdlAgHSPHDyD",
-      "currentRound": 1,
-      "roundInProgress": true,
-      "updated_at": "2026-08-29T12:25:24",
+      "currentRound": 2,
+      "roundInProgress": false,
+      "updated_at": "2026-08-29T13:44:39",
       "players": [
         {
           "id": "O5SbfFY5VZAH",
@@ -101,6 +136,13 @@
               "opponentFaction": "Leagues of Votann",
               "playerScore": 99,
               "opponentScore": 32
+            },
+            {
+              "round": 2,
+              "opponent": "Patrick Harrison",
+              "opponentFaction": "Drukhari",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -114,6 +156,13 @@
               "round": 1,
               "opponent": "Ed Whittingham",
               "opponentFaction": "Space Wolves",
+              "playerScore": 100,
+              "opponentScore": 64
+            },
+            {
+              "round": 2,
+              "opponent": "Rory Andrew",
+              "opponentFaction": "Emperor's Children",
               "playerScore": null,
               "opponentScore": null
             }
@@ -131,6 +180,13 @@
               "opponentFaction": "Drukhari",
               "playerScore": 58,
               "opponentScore": 98
+            },
+            {
+              "round": 2,
+              "opponent": "Alex Charlesworth",
+              "opponentFaction": "Adeptus Mechanicus",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         }
