@@ -2,9 +2,9 @@
   "events": [
     {
       "id": "9GP9bFD1dpNq",
-      "currentRound": 2,
+      "currentRound": 3,
       "roundInProgress": true,
-      "updated_at": "2026-08-29T16:59:54",
+      "updated_at": "2026-08-29T17:21:45",
       "players": [
         {
           "id": "S0jpOgNxL2Oh",
@@ -25,6 +25,13 @@
               "opponentFaction": "Blood Angels",
               "playerScore": 86,
               "opponentScore": 53
+            },
+            {
+              "round": 3,
+              "opponent": "Tom Clark",
+              "opponentFaction": "Deathwatch",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -47,6 +54,13 @@
               "opponentFaction": "Emperor's Children",
               "playerScore": 62,
               "opponentScore": 98
+            },
+            {
+              "round": 3,
+              "opponent": "Nicolas Verdino",
+              "opponentFaction": "Blood Angels",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -69,6 +83,13 @@
               "opponentFaction": "Adeptus Custodes",
               "playerScore": 98,
               "opponentScore": 62
+            },
+            {
+              "round": 3,
+              "opponent": "Mark Smith",
+              "opponentFaction": "Imperial Knights",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -91,6 +112,13 @@
               "opponentFaction": "Adepta Sororitas",
               "playerScore": 90,
               "opponentScore": 90
+            },
+            {
+              "round": 3,
+              "opponent": "Azim Mazumder",
+              "opponentFaction": "Thousand Sons",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -111,6 +139,13 @@
               "round": 2,
               "opponent": "Nicolas Verdino",
               "opponentFaction": "Blood Angels",
+              "playerScore": 85,
+              "opponentScore": 72
+            },
+            {
+              "round": 3,
+              "opponent": "Ben Taylor",
+              "opponentFaction": "Adeptus Custodes",
               "playerScore": null,
               "opponentScore": null
             }
@@ -120,9 +155,9 @@
     },
     {
       "id": "mdlAgHSPHDyD",
-      "currentRound": 2,
+      "currentRound": 3,
       "roundInProgress": true,
-      "updated_at": "2026-08-29T16:59:55",
+      "updated_at": "2026-08-29T17:21:48",
       "players": [
         {
           "id": "O5SbfFY5VZAH",
@@ -143,6 +178,13 @@
               "opponentFaction": "Drukhari",
               "playerScore": 53,
               "opponentScore": 100
+            },
+            {
+              "round": 3,
+              "opponent": "Haad Hussain",
+              "opponentFaction": "Space Marines (Astartes)",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -165,6 +207,13 @@
               "opponentFaction": "Emperor's Children",
               "playerScore": 45,
               "opponentScore": 99
+            },
+            {
+              "round": 3,
+              "opponent": "Steve Gadd",
+              "opponentFaction": "Tyranids",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -187,6 +236,13 @@
               "opponentFaction": "Adeptus Mechanicus",
               "playerScore": 52,
               "opponentScore": 98
+            },
+            {
+              "round": 3,
+              "opponent": "Cameron Williams",
+              "opponentFaction": "Space Wolves",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         }
