@@ -4,7 +4,7 @@
       "id": "9GP9bFD1dpNq",
       "currentRound": 1,
       "roundInProgress": true,
-      "updated_at": "2026-08-29T10:11:20",
+      "updated_at": "2026-08-29T12:25:23",
       "players": [
         {
           "id": "S0jpOgNxL2Oh",
@@ -46,8 +46,8 @@
               "round": 1,
               "opponent": "James Gregory",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 40
             }
           ]
         },
@@ -87,7 +87,7 @@
       "id": "mdlAgHSPHDyD",
       "currentRound": 1,
       "roundInProgress": true,
-      "updated_at": "2026-08-29T10:11:21",
+      "updated_at": "2026-08-29T12:25:24",
       "players": [
         {
           "id": "O5SbfFY5VZAH",
@@ -99,8 +99,8 @@
               "round": 1,
               "opponent": "Sean Barber",
               "opponentFaction": "Leagues of Votann",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 99,
+              "opponentScore": 32
             }
           ]
         },
@@ -129,8 +129,8 @@
               "round": 1,
               "opponent": "Tom Hamshire",
               "opponentFaction": "Drukhari",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 58,
+              "opponentScore": 98
             }
           ]
         }
