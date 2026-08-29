@@ -3,8 +3,8 @@
     {
       "id": "9GP9bFD1dpNq",
       "currentRound": 2,
-      "roundInProgress": false,
-      "updated_at": "2026-08-29T13:49:32",
+      "roundInProgress": true,
+      "updated_at": "2026-08-29T16:59:54",
       "players": [
         {
           "id": "S0jpOgNxL2Oh",
@@ -23,8 +23,8 @@
               "round": 2,
               "opponent": "Olivier Guerra",
               "opponentFaction": "Blood Angels",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 86,
+              "opponentScore": 53
             }
           ]
         },
@@ -45,8 +45,8 @@
               "round": 2,
               "opponent": "Nikhil Talwar",
               "opponentFaction": "Emperor's Children",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 62,
+              "opponentScore": 98
             }
           ]
         },
@@ -67,8 +67,8 @@
               "round": 2,
               "opponent": "Michael Maris",
               "opponentFaction": "Adeptus Custodes",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 98,
+              "opponentScore": 62
             }
           ]
         },
@@ -89,8 +89,8 @@
               "round": 2,
               "opponent": "Aidan Brocklehurst",
               "opponentFaction": "Adepta Sororitas",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 90,
+              "opponentScore": 90
             }
           ]
         },
@@ -122,7 +122,7 @@
       "id": "mdlAgHSPHDyD",
       "currentRound": 2,
       "roundInProgress": true,
-      "updated_at": "2026-08-29T13:49:34",
+      "updated_at": "2026-08-29T16:59:55",
       "players": [
         {
           "id": "O5SbfFY5VZAH",
@@ -141,8 +141,8 @@
               "round": 2,
               "opponent": "Patrick Harrison",
               "opponentFaction": "Drukhari",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 53,
+              "opponentScore": 100
             }
           ]
         },
@@ -163,8 +163,8 @@
               "round": 2,
               "opponent": "Rory Andrew",
               "opponentFaction": "Emperor's Children",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 45,
+              "opponentScore": 99
             }
           ]
         },
@@ -185,8 +185,8 @@
               "round": 2,
               "opponent": "Alex Charlesworth",
               "opponentFaction": "Adeptus Mechanicus",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 52,
+              "opponentScore": 98
             }
           ]
         }
