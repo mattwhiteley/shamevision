@@ -3,8 +3,8 @@
     {
       "id": "9GP9bFD1dpNq",
       "currentRound": 1,
-      "roundInProgress": false,
-      "updated_at": "2026-08-29T09:27:28",
+      "roundInProgress": true,
+      "updated_at": "2026-08-29T10:07:28",
       "players": [
         {
           "id": "S0jpOgNxL2Oh",
@@ -91,6 +91,59 @@
               "round": 1,
               "opponent": "Anthony W",
               "opponentFaction": "Tyranids",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mdlAgHSPHDyD",
+      "currentRound": 1,
+      "roundInProgress": true,
+      "updated_at": "2026-08-29T10:07:28",
+      "players": [
+        {
+          "id": "O5SbfFY5VZAH",
+          "memberId": "member-ben-adams",
+          "faction": "Adeptus Custodes",
+          "group": "hall",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Sean Barber",
+              "opponentFaction": "Leagues of Votann",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
+        },
+        {
+          "id": "oszXh0Kn7njN",
+          "memberId": "member-jordan-penning",
+          "faction": "Grey Knights",
+          "group": "pile",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Ed Whittingham",
+              "opponentFaction": "Space Wolves",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
+        },
+        {
+          "id": "Njy9kJKcr5cz",
+          "memberId": "member-kareem-hussain",
+          "faction": "Chaos Space Marines",
+          "group": "hall",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Tom Hamshire",
+              "opponentFaction": "Drukhari",
               "playerScore": null,
               "opponentScore": null
             }
