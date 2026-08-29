@@ -80,21 +80,6 @@
               "opponentScore": null
             }
           ]
-        },
-        {
-          "id": "7TRGUBoF6hv8",
-          "memberId": "member-tim-waters",
-          "faction": "Drukhari",
-          "group": "hall",
-          "rounds": [
-            {
-              "round": 1,
-              "opponent": "Anthony W",
-              "opponentFaction": "Tyranids",
-              "playerScore": null,
-              "opponentScore": null
-            }
-          ]
         }
       ]
     },
