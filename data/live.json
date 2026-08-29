@@ -4,7 +4,7 @@
       "id": "9GP9bFD1dpNq",
       "currentRound": 2,
       "roundInProgress": false,
-      "updated_at": "2026-08-29T13:44:38",
+      "updated_at": "2026-08-29T13:49:32",
       "players": [
         {
           "id": "S0jpOgNxL2Oh",
@@ -121,8 +121,8 @@
     {
       "id": "mdlAgHSPHDyD",
       "currentRound": 2,
-      "roundInProgress": false,
-      "updated_at": "2026-08-29T13:44:39",
+      "roundInProgress": true,
+      "updated_at": "2026-08-29T13:49:34",
       "players": [
         {
           "id": "O5SbfFY5VZAH",
