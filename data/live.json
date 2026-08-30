@@ -156,8 +156,8 @@
     {
       "id": "mdlAgHSPHDyD",
       "currentRound": 4,
-      "roundInProgress": false,
-      "updated_at": "2026-08-30T08:31:44",
+      "roundInProgress": true,
+      "updated_at": "2026-08-30T11:35:38",
       "players": [
         {
           "id": "O5SbfFY5VZAH",
@@ -226,8 +226,8 @@
               "round": 4,
               "opponent": "Tom Pedley",
               "opponentFaction": "Emperor's Children",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 34
             }
           ]
         },
