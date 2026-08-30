@@ -3,8 +3,8 @@
     {
       "id": "9GP9bFD1dpNq",
       "currentRound": 3,
-      "roundInProgress": true,
-      "updated_at": "2026-08-29T20:38:12",
+      "roundInProgress": false,
+      "updated_at": "2026-08-30T08:31:41",
       "players": [
         {
           "id": "S0jpOgNxL2Oh",
@@ -155,9 +155,9 @@
     },
     {
       "id": "mdlAgHSPHDyD",
-      "currentRound": 3,
-      "roundInProgress": true,
-      "updated_at": "2026-08-29T20:38:13",
+      "currentRound": 4,
+      "roundInProgress": false,
+      "updated_at": "2026-08-30T08:31:44",
       "players": [
         {
           "id": "O5SbfFY5VZAH",
@@ -185,6 +185,13 @@
               "opponentFaction": "Space Marines (Astartes)",
               "playerScore": 93,
               "opponentScore": 62
+            },
+            {
+              "round": 4,
+              "opponent": "Adam Battle",
+              "opponentFaction": "Tyranids",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -214,6 +221,13 @@
               "opponentFaction": "Tyranids",
               "playerScore": 79,
               "opponentScore": 93
+            },
+            {
+              "round": 4,
+              "opponent": "Tom Pedley",
+              "opponentFaction": "Emperor's Children",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -243,6 +257,13 @@
               "opponentFaction": "Space Wolves",
               "playerScore": 100,
               "opponentScore": 37
+            },
+            {
+              "round": 4,
+              "opponent": "Ross B",
+              "opponentFaction": "Adeptus Mechanicus",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         }
