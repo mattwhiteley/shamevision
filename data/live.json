@@ -4,7 +4,7 @@
       "id": "9GP9bFD1dpNq",
       "currentRound": 3,
       "roundInProgress": false,
-      "updated_at": "2026-08-30T08:31:41",
+      "updated_at": "2026-08-30T13:00:09",
       "players": [
         {
           "id": "S0jpOgNxL2Oh",
@@ -156,8 +156,8 @@
     {
       "id": "mdlAgHSPHDyD",
       "currentRound": 4,
-      "roundInProgress": true,
-      "updated_at": "2026-08-30T11:35:38",
+      "roundInProgress": false,
+      "updated_at": "2026-08-30T13:00:12",
       "players": [
         {
           "id": "O5SbfFY5VZAH",
@@ -190,8 +190,8 @@
               "round": 4,
               "opponent": "Adam Battle",
               "opponentFaction": "Tyranids",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 63,
+              "opponentScore": 100
             }
           ]
         },
@@ -262,8 +262,8 @@
               "round": 4,
               "opponent": "Ross B",
               "opponentFaction": "Adeptus Mechanicus",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 75,
+              "opponentScore": 84
             }
           ]
         }
