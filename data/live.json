@@ -157,7 +157,7 @@
       "id": "mdlAgHSPHDyD",
       "currentRound": 5,
       "roundInProgress": true,
-      "updated_at": "2026-08-30T16:25:13",
+      "updated_at": "2026-08-30T16:48:05",
       "players": [
         {
           "id": "O5SbfFY5VZAH",
@@ -240,8 +240,8 @@
               "round": 5,
               "opponent": "Geoff Legg",
               "opponentFaction": "Adeptus Custodes",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 66,
+              "opponentScore": 96
             }
           ]
         },
