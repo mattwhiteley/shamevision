@@ -4,7 +4,7 @@
       "id": "644ESl9h7o4p",
       "currentRound": 3,
       "roundInProgress": true,
-      "updated_at": "2026-09-05T19:36:26",
+      "updated_at": "2026-09-05T20:28:31",
       "players": [
         {
           "id": "euUbXns75mGq",
@@ -59,8 +59,8 @@
               "round": 3,
               "opponent": "Matthew Bunker",
               "opponentFaction": "",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 73,
+              "opponentScore": 86
             }
           ]
         },
@@ -88,8 +88,8 @@
               "round": 3,
               "opponent": "Mashaad Coomaraswamy",
               "opponentFaction": "Imperial Knights",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 93
             }
           ]
         },
@@ -146,8 +146,8 @@
               "round": 3,
               "opponent": "Jim 🔥🎲 Allan",
               "opponentFaction": "T'au Empire",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 63
             }
           ]
         },
@@ -204,8 +204,8 @@
               "round": 3,
               "opponent": "Douglas Durie",
               "opponentFaction": "Emperor's Children",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 96,
+              "opponentScore": 30
             }
           ]
         },
@@ -233,8 +233,8 @@
               "round": 3,
               "opponent": "Ryan Hamilton",
               "opponentFaction": "Drukhari",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 90,
+              "opponentScore": 89
             }
           ]
         },
@@ -262,8 +262,8 @@
               "round": 3,
               "opponent": "Hugo Cooper",
               "opponentFaction": "Adeptus Mechanicus",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 65
             }
           ]
         },
@@ -291,8 +291,8 @@
               "round": 3,
               "opponent": "Panagiotis Bouzianis",
               "opponentFaction": "Tyranids",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 89,
+              "opponentScore": 90
             }
           ]
         },
@@ -320,8 +320,8 @@
               "round": 3,
               "opponent": "Jeroen Ubbink",
               "opponentFaction": "Tyranids",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 59,
+              "opponentScore": 50
             }
           ]
         }
