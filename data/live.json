@@ -4,7 +4,7 @@
       "id": "644ESl9h7o4p",
       "currentRound": 1,
       "roundInProgress": false,
-      "updated_at": "2026-09-05T08:32:26",
+      "updated_at": "2026-09-05T09:01:24",
       "players": [
         {
           "id": "euUbXns75mGq",
@@ -149,8 +149,8 @@
           "rounds": [
             {
               "round": 1,
-              "opponent": "Callum Williams",
-              "opponentFaction": "Leagues of Votann",
+              "opponent": "BYE",
+              "opponentFaction": "",
               "playerScore": null,
               "opponentScore": null
             }
