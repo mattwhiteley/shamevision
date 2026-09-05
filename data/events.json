@@ -1,35 +1,20 @@
 {
   "events": [
     {
-      "id": "9GP9bFD1dpNq",
-      "shortName": "BMC RTT",
-      "eventName": "Bad Moon Cafe August RTT",
-      "bcpUrl": "https://www.bestcoastpairings.com/event/9GP9bFD1dpNq",
-      "eventType": "singles",
-      "totalRounds": 3,
-      "timezone": "Europe/London",
-      "roundDurationMinutes": 180,
-      "schedule": [
-        { "round": 1, "start": "2026-08-29T09:30:00" },
-        { "round": 2, "start": "2026-08-29T14:00:00" },
-        { "round": 3, "start": "2026-08-29T17:30:00" }
-      ]
-    },
-    {
-      "id": "mdlAgHSPHDyD",
-      "shortName": "Manc GT",
-      "eventName": "MANCHESTER 40k SUPER-MAJOR - SUMMER",
-      "bcpUrl": "https://www.bestcoastpairings.com/event/mdlAgHSPHDyD",
+      "id": "644ESl9h7o4p",
+      "shortName": "DSGT",
+      "eventName": "September DSGT",
+      "bcpUrl": "https://www.bestcoastpairings.com/event/644ESl9h7o4p",
       "eventType": "singles",
       "totalRounds": 5,
       "timezone": "Europe/London",
       "roundDurationMinutes": 180,
       "schedule": [
-        { "round": 1, "start": "2026-08-29T09:30:00" },
-        { "round": 2, "start": "2026-08-29T13:45:00" },
-        { "round": 3, "start": "2026-08-29T17:15:00" },
-        { "round": 4, "start": "2026-08-30T09:30:00" },
-        { "round": 5, "start": "2026-08-30T13:45:00" }
+        { "round": 1, "start": "2026-09-05T09:30:00" },
+        { "round": 2, "start": "2026-09-05T14:00:00" },
+        { "round": 3, "start": "2026-09-05T17:30:00" },
+        { "round": 4, "start": "2026-09-06T09:30:00" },
+        { "round": 5, "start": "2026-09-06T14:15:00" }
       ]
     }
   ]
