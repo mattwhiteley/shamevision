@@ -4,7 +4,7 @@
       "id": "644ESl9h7o4p",
       "currentRound": 1,
       "roundInProgress": true,
-      "updated_at": "2026-09-05T11:12:24",
+      "updated_at": "2026-09-05T12:19:41",
       "players": [
         {
           "id": "euUbXns75mGq",
@@ -16,8 +16,8 @@
               "round": 1,
               "opponent": "Ben Keeling",
               "opponentFaction": "Aeldari",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 39
             }
           ]
         },
@@ -46,8 +46,8 @@
               "round": 1,
               "opponent": "Jim 🔥🎲 Allan",
               "opponentFaction": "T'au Empire",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 71,
+              "opponentScore": 100
             }
           ]
         },
@@ -61,8 +61,8 @@
               "round": 1,
               "opponent": "Samuel Molina",
               "opponentFaction": "Space Wolves",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 97,
+              "opponentScore": 91
             }
           ]
         },
@@ -91,8 +91,8 @@
               "round": 1,
               "opponent": "Dharminder Dhanda",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 51
             }
           ]
         },
