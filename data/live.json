@@ -2,9 +2,9 @@
   "events": [
     {
       "id": "644ESl9h7o4p",
-      "currentRound": 2,
+      "currentRound": 3,
       "roundInProgress": true,
-      "updated_at": "2026-09-05T16:26:07",
+      "updated_at": "2026-09-05T17:47:21",
       "players": [
         {
           "id": "euUbXns75mGq",
@@ -25,6 +25,13 @@
               "opponentFaction": "Emperor's Children",
               "playerScore": 91,
               "opponentScore": 42
+            },
+            {
+              "round": 3,
+              "opponent": "Matthew Yeoh",
+              "opponentFaction": "Chaos Knights",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -45,6 +52,13 @@
               "round": 2,
               "opponent": "Paul Looker",
               "opponentFaction": "Tyranids",
+              "playerScore": 40,
+              "opponentScore": 40
+            },
+            {
+              "round": 3,
+              "opponent": "Matthew Bunker",
+              "opponentFaction": "",
               "playerScore": null,
               "opponentScore": null
             }
@@ -69,6 +83,13 @@
               "opponentFaction": "Space Wolves",
               "playerScore": 100,
               "opponentScore": 22
+            },
+            {
+              "round": 3,
+              "opponent": "Mashaad Coomaraswamy",
+              "opponentFaction": "Imperial Knights",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -91,6 +112,13 @@
               "opponentFaction": "Leagues of Votann",
               "playerScore": 100,
               "opponentScore": 38
+            },
+            {
+              "round": 3,
+              "opponent": "Ben McCarthy",
+              "opponentFaction": "World Eaters",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -111,6 +139,13 @@
               "round": 2,
               "opponent": "Oliver Jawara",
               "opponentFaction": "Emperor's Children",
+              "playerScore": 75,
+              "opponentScore": 60
+            },
+            {
+              "round": 3,
+              "opponent": "Jim 🔥🎲 Allan",
+              "opponentFaction": "T'au Empire",
               "playerScore": null,
               "opponentScore": null
             }
@@ -133,6 +168,13 @@
               "round": 2,
               "opponent": "Nathan Sears",
               "opponentFaction": "Dark Angels",
+              "playerScore": 60,
+              "opponentScore": 75
+            },
+            {
+              "round": 3,
+              "opponent": "Kian Tan",
+              "opponentFaction": "Adepta Sororitas",
               "playerScore": null,
               "opponentScore": null
             }
@@ -155,6 +197,13 @@
               "round": 2,
               "opponent": "Sean McQuaid",
               "opponentFaction": "Genestealer Cult",
+              "playerScore": 83,
+              "opponentScore": 97
+            },
+            {
+              "round": 3,
+              "opponent": "Douglas Durie",
+              "opponentFaction": "Emperor's Children",
               "playerScore": null,
               "opponentScore": null
             }
@@ -177,6 +226,13 @@
               "round": 2,
               "opponent": "Kian Tan",
               "opponentFaction": "Adepta Sororitas",
+              "playerScore": 47,
+              "opponentScore": 100
+            },
+            {
+              "round": 3,
+              "opponent": "Ryan Hamilton",
+              "opponentFaction": "Drukhari",
               "playerScore": null,
               "opponentScore": null
             }
@@ -199,6 +255,13 @@
               "round": 2,
               "opponent": "Christian Thomson",
               "opponentFaction": "Blood Angels",
+              "playerScore": 40,
+              "opponentScore": 40
+            },
+            {
+              "round": 3,
+              "opponent": "Hugo Cooper",
+              "opponentFaction": "Adeptus Mechanicus",
               "playerScore": null,
               "opponentScore": null
             }
@@ -221,6 +284,13 @@
               "round": 2,
               "opponent": "Tim Lowes",
               "opponentFaction": "Aeldari",
+              "playerScore": 57,
+              "opponentScore": 100
+            },
+            {
+              "round": 3,
+              "opponent": "Panagiotis Bouzianis",
+              "opponentFaction": "Tyranids",
               "playerScore": null,
               "opponentScore": null
             }
@@ -245,6 +315,13 @@
               "opponentFaction": "Chaos Knights",
               "playerScore": 38,
               "opponentScore": 100
+            },
+            {
+              "round": 3,
+              "opponent": "Jeroen Ubbink",
+              "opponentFaction": "Tyranids",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         }
