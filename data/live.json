@@ -2,9 +2,9 @@
   "events": [
     {
       "id": "644ESl9h7o4p",
-      "currentRound": 1,
+      "currentRound": 2,
       "roundInProgress": true,
-      "updated_at": "2026-09-05T12:19:41",
+      "updated_at": "2026-09-05T12:46:08",
       "players": [
         {
           "id": "euUbXns75mGq",
@@ -18,6 +18,13 @@
               "opponentFaction": "Aeldari",
               "playerScore": 100,
               "opponentScore": 39
+            },
+            {
+              "round": 2,
+              "opponent": "Douglas Durie",
+              "opponentFaction": "Emperor's Children",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -31,6 +38,13 @@
               "round": 1,
               "opponent": "Kian Tan",
               "opponentFaction": "Adepta Sororitas",
+              "playerScore": 66,
+              "opponentScore": 99
+            },
+            {
+              "round": 2,
+              "opponent": "Paul Looker",
+              "opponentFaction": "Tyranids",
               "playerScore": null,
               "opponentScore": null
             }
@@ -48,6 +62,13 @@
               "opponentFaction": "T'au Empire",
               "playerScore": 71,
               "opponentScore": 100
+            },
+            {
+              "round": 2,
+              "opponent": "Samuel Molina",
+              "opponentFaction": "Space Wolves",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -63,6 +84,13 @@
               "opponentFaction": "Space Wolves",
               "playerScore": 97,
               "opponentScore": 91
+            },
+            {
+              "round": 2,
+              "opponent": "Sean Preston",
+              "opponentFaction": "Leagues of Votann",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -76,6 +104,13 @@
               "round": 1,
               "opponent": "Alex Beaumont",
               "opponentFaction": "Adeptus Custodes",
+              "playerScore": 96,
+              "opponentScore": 80
+            },
+            {
+              "round": 2,
+              "opponent": "Oliver Jawara",
+              "opponentFaction": "Emperor's Children",
               "playerScore": null,
               "opponentScore": null
             }
@@ -93,6 +128,13 @@
               "opponentFaction": "Space Marines (Astartes)",
               "playerScore": 100,
               "opponentScore": 51
+            },
+            {
+              "round": 2,
+              "opponent": "Nathan Sears",
+              "opponentFaction": "Dark Angels",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -106,6 +148,13 @@
               "round": 1,
               "opponent": "Mike Stead",
               "opponentFaction": "Space Wolves",
+              "playerScore": 97,
+              "opponentScore": 45
+            },
+            {
+              "round": 2,
+              "opponent": "Sean McQuaid",
+              "opponentFaction": "Genestealer Cult",
               "playerScore": null,
               "opponentScore": null
             }
@@ -121,6 +170,13 @@
               "round": 1,
               "opponent": "sean m",
               "opponentFaction": "Orks",
+              "playerScore": 100,
+              "opponentScore": 0
+            },
+            {
+              "round": 2,
+              "opponent": "Kian Tan",
+              "opponentFaction": "Adepta Sororitas",
               "playerScore": null,
               "opponentScore": null
             }
@@ -136,6 +192,13 @@
               "round": 1,
               "opponent": "Tim Lowes",
               "opponentFaction": "Aeldari",
+              "playerScore": 45,
+              "opponentScore": 95
+            },
+            {
+              "round": 2,
+              "opponent": "Christian Thomson",
+              "opponentFaction": "Blood Angels",
               "playerScore": null,
               "opponentScore": null
             }
@@ -151,6 +214,13 @@
               "round": 1,
               "opponent": "Daniel Brewster",
               "opponentFaction": "Astra Militarum",
+              "playerScore": 100,
+              "opponentScore": 49
+            },
+            {
+              "round": 2,
+              "opponent": "Tim Lowes",
+              "opponentFaction": "Aeldari",
               "playerScore": null,
               "opponentScore": null
             }
@@ -166,6 +236,13 @@
               "round": 1,
               "opponent": "Matthew Bunker",
               "opponentFaction": "",
+              "playerScore": 90,
+              "opponentScore": 89
+            },
+            {
+              "round": 2,
+              "opponent": "Matthew Yeoh",
+              "opponentFaction": "Chaos Knights",
               "playerScore": null,
               "opponentScore": null
             }
