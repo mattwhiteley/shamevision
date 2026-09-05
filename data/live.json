@@ -4,7 +4,7 @@
       "id": "644ESl9h7o4p",
       "currentRound": 3,
       "roundInProgress": true,
-      "updated_at": "2026-09-05T17:51:18",
+      "updated_at": "2026-09-05T19:36:02",
       "players": [
         {
           "id": "euUbXns75mGq",
@@ -30,8 +30,8 @@
               "round": 3,
               "opponent": "Matthew Yeoh",
               "opponentFaction": "Chaos Knights",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 67,
+              "opponentScore": 97
             }
           ]
         },
@@ -117,8 +117,8 @@
               "round": 3,
               "opponent": "Ben McCarthy",
               "opponentFaction": "World Eaters",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 97,
+              "opponentScore": 67
             }
           ]
         },
@@ -175,8 +175,8 @@
               "round": 3,
               "opponent": "Kian Tan",
               "opponentFaction": "Adepta Sororitas",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 37,
+              "opponentScore": 100
             }
           ]
         },
