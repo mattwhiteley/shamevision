@@ -2,9 +2,9 @@
   "events": [
     {
       "id": "644ESl9h7o4p",
-      "currentRound": 3,
-      "roundInProgress": true,
-      "updated_at": "2026-09-05T20:28:31",
+      "currentRound": 4,
+      "roundInProgress": false,
+      "updated_at": "2026-09-05T21:43:09",
       "players": [
         {
           "id": "euUbXns75mGq",
@@ -32,6 +32,13 @@
               "opponentFaction": "Chaos Knights",
               "playerScore": 67,
               "opponentScore": 97
+            },
+            {
+              "round": 4,
+              "opponent": "Sean McQuaid",
+              "opponentFaction": "Genestealer Cult",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -61,6 +68,13 @@
               "opponentFaction": "",
               "playerScore": 73,
               "opponentScore": 86
+            },
+            {
+              "round": 4,
+              "opponent": "Mike Stead",
+              "opponentFaction": "Space Wolves",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -90,6 +104,13 @@
               "opponentFaction": "Imperial Knights",
               "playerScore": 100,
               "opponentScore": 93
+            },
+            {
+              "round": 4,
+              "opponent": "sean m",
+              "opponentFaction": "Orks",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -119,6 +140,13 @@
               "opponentFaction": "World Eaters",
               "playerScore": 97,
               "opponentScore": 67
+            },
+            {
+              "round": 4,
+              "opponent": "Tim Lowes",
+              "opponentFaction": "Aeldari",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -177,6 +205,13 @@
               "opponentFaction": "Adepta Sororitas",
               "playerScore": 37,
               "opponentScore": 100
+            },
+            {
+              "round": 4,
+              "opponent": "Jeroen Ubbink",
+              "opponentFaction": "Tyranids",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -206,6 +241,13 @@
               "opponentFaction": "Emperor's Children",
               "playerScore": 96,
               "opponentScore": 30
+            },
+            {
+              "round": 4,
+              "opponent": "Sean Preston",
+              "opponentFaction": "Leagues of Votann",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -235,6 +277,13 @@
               "opponentFaction": "Drukhari",
               "playerScore": 90,
               "opponentScore": 89
+            },
+            {
+              "round": 4,
+              "opponent": "Nicholas Barnes",
+              "opponentFaction": "Necrons",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -264,6 +313,13 @@
               "opponentFaction": "Adeptus Mechanicus",
               "playerScore": 100,
               "opponentScore": 65
+            },
+            {
+              "round": 4,
+              "opponent": "Daniel Brewster",
+              "opponentFaction": "Astra Militarum",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -293,6 +349,13 @@
               "opponentFaction": "Tyranids",
               "playerScore": 89,
               "opponentScore": 90
+            },
+            {
+              "round": 4,
+              "opponent": "Douglas Durie",
+              "opponentFaction": "Emperor's Children",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -322,6 +385,13 @@
               "opponentFaction": "Tyranids",
               "playerScore": 59,
               "opponentScore": 50
+            },
+            {
+              "round": 4,
+              "opponent": "Ollie Watts",
+              "opponentFaction": "Leagues of Votann",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         }
