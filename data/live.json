@@ -4,7 +4,7 @@
       "id": "644ESl9h7o4p",
       "currentRound": 1,
       "roundInProgress": false,
-      "updated_at": "2026-09-05T07:55:59",
+      "updated_at": "2026-09-05T08:32:26",
       "players": [
         {
           "id": "euUbXns75mGq",
@@ -31,6 +31,21 @@
               "round": 1,
               "opponent": "Kian Tan",
               "opponentFaction": "Adepta Sororitas",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
+        },
+        {
+          "id": "enZCs07je2UP",
+          "memberId": "member-marko-preocanin",
+          "faction": "Dark Angels",
+          "group": "hall",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Jim 🔥🎲 Allan",
+              "opponentFaction": "T'au Empire",
               "playerScore": null,
               "opponentScore": null
             }
