@@ -4,7 +4,7 @@
       "id": "644ESl9h7o4p",
       "currentRound": 2,
       "roundInProgress": true,
-      "updated_at": "2026-09-05T15:01:49",
+      "updated_at": "2026-09-05T16:26:07",
       "players": [
         {
           "id": "euUbXns75mGq",
@@ -23,8 +23,8 @@
               "round": 2,
               "opponent": "Douglas Durie",
               "opponentFaction": "Emperor's Children",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 91,
+              "opponentScore": 42
             }
           ]
         },
@@ -67,8 +67,8 @@
               "round": 2,
               "opponent": "Samuel Molina",
               "opponentFaction": "Space Wolves",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 22
             }
           ]
         },
@@ -89,8 +89,8 @@
               "round": 2,
               "opponent": "Sean Preston",
               "opponentFaction": "Leagues of Votann",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 38
             }
           ]
         },
@@ -243,8 +243,8 @@
               "round": 2,
               "opponent": "Matthew Yeoh",
               "opponentFaction": "Chaos Knights",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 38,
+              "opponentScore": 100
             }
           ]
         }
