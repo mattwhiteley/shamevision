@@ -3,8 +3,8 @@
     {
       "id": "644ESl9h7o4p",
       "currentRound": 4,
-      "roundInProgress": false,
-      "updated_at": "2026-09-05T21:43:09",
+      "roundInProgress": true,
+      "updated_at": "2026-09-06T09:52:03",
       "players": [
         {
           "id": "euUbXns75mGq",
@@ -107,8 +107,8 @@
             },
             {
               "round": 4,
-              "opponent": "sean m",
-              "opponentFaction": "Orks",
+              "opponent": "BYE",
+              "opponentFaction": "",
               "playerScore": null,
               "opponentScore": null
             }
