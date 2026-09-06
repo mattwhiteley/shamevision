@@ -4,7 +4,7 @@
       "id": "644ESl9h7o4p",
       "currentRound": 4,
       "roundInProgress": true,
-      "updated_at": "2026-09-06T11:21:47",
+      "updated_at": "2026-09-06T12:15:24",
       "players": [
         {
           "id": "euUbXns75mGq",
@@ -109,7 +109,7 @@
               "round": 4,
               "opponent": "BYE",
               "opponentFaction": "",
-              "playerScore": null,
+              "playerScore": 100,
               "opponentScore": null
             }
           ]
@@ -354,8 +354,8 @@
               "round": 4,
               "opponent": "Douglas Durie",
               "opponentFaction": "Emperor's Children",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 84
             }
           ]
         },
