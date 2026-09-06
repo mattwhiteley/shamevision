@@ -2,9 +2,9 @@
   "events": [
     {
       "id": "644ESl9h7o4p",
-      "currentRound": 4,
+      "currentRound": 5,
       "roundInProgress": true,
-      "updated_at": "2026-09-06T12:15:24",
+      "updated_at": "2026-09-06T12:48:23",
       "players": [
         {
           "id": "euUbXns75mGq",
@@ -37,6 +37,13 @@
               "round": 4,
               "opponent": "Sean McQuaid",
               "opponentFaction": "Genestealer Cult",
+              "playerScore": 85,
+              "opponentScore": 85
+            },
+            {
+              "round": 5,
+              "opponent": "Paul Looker",
+              "opponentFaction": "Tyranids",
               "playerScore": null,
               "opponentScore": null
             }
@@ -73,6 +80,13 @@
               "round": 4,
               "opponent": "Mike Stead",
               "opponentFaction": "Space Wolves",
+              "playerScore": 91,
+              "opponentScore": 66
+            },
+            {
+              "round": 5,
+              "opponent": "Jeroen Ubbink",
+              "opponentFaction": "Tyranids",
               "playerScore": null,
               "opponentScore": null
             }
@@ -111,6 +125,13 @@
               "opponentFaction": "",
               "playerScore": 100,
               "opponentScore": null
+            },
+            {
+              "round": 5,
+              "opponent": "Panagiotis Bouzianis",
+              "opponentFaction": "Tyranids",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -145,6 +166,13 @@
               "round": 4,
               "opponent": "Tim Lowes",
               "opponentFaction": "Aeldari",
+              "playerScore": 76,
+              "opponentScore": 94
+            },
+            {
+              "round": 5,
+              "opponent": "Ollie Watts",
+              "opponentFaction": "Leagues of Votann",
               "playerScore": null,
               "opponentScore": null
             }
@@ -210,6 +238,13 @@
               "round": 4,
               "opponent": "Jeroen Ubbink",
               "opponentFaction": "Tyranids",
+              "playerScore": 92,
+              "opponentScore": 64
+            },
+            {
+              "round": 5,
+              "opponent": "Ryan Hamilton",
+              "opponentFaction": "Drukhari",
               "playerScore": null,
               "opponentScore": null
             }
@@ -246,6 +281,13 @@
               "round": 4,
               "opponent": "Sean Preston",
               "opponentFaction": "Leagues of Votann",
+              "playerScore": 100,
+              "opponentScore": 56
+            },
+            {
+              "round": 5,
+              "opponent": "Matthew Yeoh",
+              "opponentFaction": "Chaos Knights",
               "playerScore": null,
               "opponentScore": null
             }
@@ -282,6 +324,13 @@
               "round": 4,
               "opponent": "Nicholas Barnes",
               "opponentFaction": "Necrons",
+              "playerScore": 97,
+              "opponentScore": 91
+            },
+            {
+              "round": 5,
+              "opponent": "Marko Preocanin",
+              "opponentFaction": "Dark Angels",
               "playerScore": null,
               "opponentScore": null
             }
@@ -318,6 +367,13 @@
               "round": 4,
               "opponent": "Daniel Brewster",
               "opponentFaction": "Astra Militarum",
+              "playerScore": 94,
+              "opponentScore": 76
+            },
+            {
+              "round": 5,
+              "opponent": "Ben McCarthy",
+              "opponentFaction": "World Eaters",
               "playerScore": null,
               "opponentScore": null
             }
@@ -356,6 +412,13 @@
               "opponentFaction": "Emperor's Children",
               "playerScore": 100,
               "opponentScore": 84
+            },
+            {
+              "round": 5,
+              "opponent": "Oliver Jawara",
+              "opponentFaction": "Emperor's Children",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -390,6 +453,13 @@
               "round": 4,
               "opponent": "Ollie Watts",
               "opponentFaction": "Leagues of Votann",
+              "playerScore": 56,
+              "opponentScore": 100
+            },
+            {
+              "round": 5,
+              "opponent": "Nicholas Barnes",
+              "opponentFaction": "Necrons",
               "playerScore": null,
               "opponentScore": null
             }
