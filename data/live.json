@@ -3,8 +3,8 @@
     {
       "id": "644ESl9h7o4p",
       "currentRound": 5,
-      "roundInProgress": true,
-      "updated_at": "2026-09-06T12:48:23",
+      "roundInProgress": false,
+      "updated_at": "2026-09-06T13:17:13",
       "players": [
         {
           "id": "euUbXns75mGq",
@@ -85,8 +85,8 @@
             },
             {
               "round": 5,
-              "opponent": "Jeroen Ubbink",
-              "opponentFaction": "Tyranids",
+              "opponent": "Ben Keeling",
+              "opponentFaction": "Aeldari",
               "playerScore": null,
               "opponentScore": null
             }
