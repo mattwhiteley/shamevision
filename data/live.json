@@ -4,7 +4,7 @@
       "id": "Qoo5xijz0CIv",
       "currentRound": 1,
       "roundInProgress": true,
-      "updated_at": "2026-09-26T10:29:03",
+      "updated_at": "2026-09-26T12:49:23",
       "players": [
         {
           "id": "4i0nMgN9DSFb",
@@ -16,8 +16,8 @@
               "round": 1,
               "opponent": "Lee Hall",
               "opponentFaction": "Necrons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 95,
+              "opponentScore": 71
             }
           ]
         },
@@ -31,8 +31,8 @@
               "round": 1,
               "opponent": "Andy Moore",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 48,
+              "opponentScore": 90
             }
           ]
         },
@@ -46,8 +46,8 @@
               "round": 1,
               "opponent": "Matt Puffett",
               "opponentFaction": "Adepta Sororitas",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 85,
+              "opponentScore": 83
             }
           ]
         },
@@ -61,8 +61,8 @@
               "round": 1,
               "opponent": "Jordan Bishop",
               "opponentFaction": "Thousand Sons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 87,
+              "opponentScore": 55
             }
           ]
         },
@@ -76,8 +76,8 @@
               "round": 1,
               "opponent": "Julian Bradley",
               "opponentFaction": "Space Wolves",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 45
             }
           ]
         },
@@ -91,8 +91,8 @@
               "round": 1,
               "opponent": "Kyle Shannon",
               "opponentFaction": "Aeldari",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 89,
+              "opponentScore": 91
             }
           ]
         },
@@ -106,8 +106,8 @@
               "round": 1,
               "opponent": "Connor Beattie",
               "opponentFaction": "Leagues of Votann",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 74,
+              "opponentScore": 100
             }
           ]
         },
@@ -121,8 +121,8 @@
               "round": 1,
               "opponent": "Anita Tomaszewska",
               "opponentFaction": "Chaos Daemons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 99,
+              "opponentScore": 30
             }
           ]
         },
@@ -136,8 +136,8 @@
               "round": 1,
               "opponent": "Jonathan Muttock",
               "opponentFaction": "Adeptus Custodes",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 94,
+              "opponentScore": 54
             }
           ]
         },
@@ -151,8 +151,8 @@
               "round": 1,
               "opponent": "Cameron Clack",
               "opponentFaction": "Dark Angels",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 93,
+              "opponentScore": 54
             }
           ]
         },
@@ -166,8 +166,8 @@
               "round": 1,
               "opponent": "Jack Coulstock",
               "opponentFaction": "Orks",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 63,
+              "opponentScore": 100
             }
           ]
         },
@@ -181,8 +181,8 @@
               "round": 1,
               "opponent": "Michael McDonnell",
               "opponentFaction": "Aeldari",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 85,
+              "opponentScore": 87
             }
           ]
         },
@@ -196,8 +196,8 @@
               "round": 1,
               "opponent": "Will Gilbert",
               "opponentFaction": "Drukhari",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 94,
+              "opponentScore": 67
             }
           ]
         },
@@ -211,8 +211,8 @@
               "round": 1,
               "opponent": "Rob Cox",
               "opponentFaction": "Black Templars",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 96,
+              "opponentScore": 64
             }
           ]
         },
@@ -226,8 +226,8 @@
               "round": 1,
               "opponent": "Connor O’Neill",
               "opponentFaction": "Orks",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 50
             }
           ]
         },
@@ -241,8 +241,8 @@
               "round": 1,
               "opponent": "Mark Bray",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 90,
+              "opponentScore": 77
             }
           ]
         },
@@ -256,8 +256,8 @@
               "round": 1,
               "opponent": "Timothy Alofs",
               "opponentFaction": "Tyranids",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 85,
+              "opponentScore": 88
             }
           ]
         },
@@ -271,8 +271,8 @@
               "round": 1,
               "opponent": "Bradyn Bailey",
               "opponentFaction": "Chaos Daemons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 97,
+              "opponentScore": 71
             }
           ]
         },
@@ -286,8 +286,8 @@
               "round": 1,
               "opponent": "Robin Donoghue",
               "opponentFaction": "Tyranids",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 74,
+              "opponentScore": 72
             }
           ]
         },
@@ -301,8 +301,8 @@
               "round": 1,
               "opponent": "Joshua A Bradwell",
               "opponentFaction": "Tyranids",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 67,
+              "opponentScore": 90
             }
           ]
         },
@@ -316,8 +316,8 @@
               "round": 1,
               "opponent": "Denis  🤖 🦾 Naberezhnykh",
               "opponentFaction": "Necrons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 95,
+              "opponentScore": 87
             }
           ]
         },
@@ -331,8 +331,8 @@
               "round": 1,
               "opponent": "Jack Hulme",
               "opponentFaction": "World Eaters",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 21
             }
           ]
         },
@@ -346,8 +346,8 @@
               "round": 1,
               "opponent": "Diane Brock",
               "opponentFaction": "Tyranids",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 93,
+              "opponentScore": 71
             }
           ]
         },
@@ -361,8 +361,8 @@
               "round": 1,
               "opponent": "Oscar Malmgren",
               "opponentFaction": "Emperor's Children",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 68
             }
           ]
         },
@@ -376,8 +376,8 @@
               "round": 1,
               "opponent": "Eoin O'Connell",
               "opponentFaction": "Chaos Space Marines",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 57
             }
           ]
         },
@@ -391,8 +391,8 @@
               "round": 1,
               "opponent": "Kyle O'Reilly",
               "opponentFaction": "Imperial Knights",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 75,
+              "opponentScore": 94
             }
           ]
         },
@@ -406,8 +406,8 @@
               "round": 1,
               "opponent": "Joseph storey-stamp",
               "opponentFaction": "Adeptus Custodes",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 78,
+              "opponentScore": 93
             }
           ]
         },
@@ -421,8 +421,8 @@
               "round": 1,
               "opponent": "Kyle Grundy",
               "opponentFaction": "T'au Empire",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 64,
+              "opponentScore": 100
             }
           ]
         },
@@ -436,8 +436,8 @@
               "round": 1,
               "opponent": "Simon Warren",
               "opponentFaction": "Genestealer Cult",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 99,
+              "opponentScore": 97
             }
           ]
         },
@@ -451,8 +451,8 @@
               "round": 1,
               "opponent": "Luke Robinson",
               "opponentFaction": "Blood Angels",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 94,
+              "opponentScore": 93
             }
           ]
         },
@@ -466,8 +466,8 @@
               "round": 1,
               "opponent": "Joel Cox",
               "opponentFaction": "Imperial Agents",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 74,
+              "opponentScore": 100
             }
           ]
         },
@@ -481,8 +481,8 @@
               "round": 1,
               "opponent": "Ryan Patchett",
               "opponentFaction": "Aeldari",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 27
             }
           ]
         },
@@ -496,8 +496,8 @@
               "round": 1,
               "opponent": "James Brown",
               "opponentFaction": "Thousand Sons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 67,
+              "opponentScore": 94
             }
           ]
         }
