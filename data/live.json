@@ -3,8 +3,8 @@
     {
       "id": "Qoo5xijz0CIv",
       "currentRound": 4,
-      "roundInProgress": false,
-      "updated_at": "2026-09-26T21:40:40",
+      "roundInProgress": true,
+      "updated_at": "2026-09-27T12:58:58",
       "players": [
         {
           "id": "4i0nMgN9DSFb",
@@ -37,8 +37,8 @@
               "round": 4,
               "opponent": "Cayleb Langhals",
               "opponentFaction": "Thousand Sons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 82,
+              "opponentScore": 98
             }
           ]
         },
@@ -73,8 +73,8 @@
               "round": 4,
               "opponent": "Andy Pemberton",
               "opponentFaction": "Adeptus Custodes",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 87,
+              "opponentScore": 75
             }
           ]
         },
@@ -109,8 +109,8 @@
               "round": 4,
               "opponent": "Ash Power",
               "opponentFaction": "Grey Knights",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 92,
+              "opponentScore": 89
             }
           ]
         },
@@ -145,8 +145,8 @@
               "round": 4,
               "opponent": "Dan W",
               "opponentFaction": "Aeldari",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 55
             }
           ]
         },
@@ -181,8 +181,8 @@
               "round": 4,
               "opponent": "Ashley Brown",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 33,
+              "opponentScore": 100
             }
           ]
         },
@@ -217,8 +217,8 @@
               "round": 4,
               "opponent": "Stratis Limnios",
               "opponentFaction": "Emperor's Children",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 49,
+              "opponentScore": 100
             }
           ]
         },
@@ -253,8 +253,8 @@
               "round": 4,
               "opponent": "Geoff Legg",
               "opponentFaction": "Adeptus Custodes",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 53,
+              "opponentScore": 95
             }
           ]
         },
@@ -289,8 +289,8 @@
               "round": 4,
               "opponent": "Aidan Bell",
               "opponentFaction": "Necrons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 98,
+              "opponentScore": 82
             }
           ]
         },
@@ -325,8 +325,8 @@
               "round": 4,
               "opponent": "Alex McPeake",
               "opponentFaction": "Orks",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 96,
+              "opponentScore": 88
             }
           ]
         },
@@ -361,8 +361,8 @@
               "round": 4,
               "opponent": "Louis Ballington",
               "opponentFaction": "Dark Angels",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 20,
+              "opponentScore": 100
             }
           ]
         },
@@ -397,8 +397,8 @@
               "round": 4,
               "opponent": "Paul Looker",
               "opponentFaction": "Drukhari",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 63
             }
           ]
         },
@@ -433,8 +433,8 @@
               "round": 4,
               "opponent": "Jack Farnell",
               "opponentFaction": "Grey Knights",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 82,
+              "opponentScore": 82
             }
           ]
         },
@@ -469,8 +469,8 @@
               "round": 4,
               "opponent": "Oli Benton",
               "opponentFaction": "Chaos Space Marines",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 68,
+              "opponentScore": 77
             }
           ]
         },
@@ -505,8 +505,8 @@
               "round": 4,
               "opponent": "Luke Simon",
               "opponentFaction": "Dark Angels",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 92
             }
           ]
         },
@@ -541,8 +541,8 @@
               "round": 4,
               "opponent": "Sokol Berisha",
               "opponentFaction": "Chaos Knights",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 69,
+              "opponentScore": 100
             }
           ]
         },
@@ -577,8 +577,8 @@
               "round": 4,
               "opponent": "Jack Watkins",
               "opponentFaction": "Blood Angels",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 60,
+              "opponentScore": 100
             }
           ]
         },
@@ -613,8 +613,8 @@
               "round": 4,
               "opponent": "Jack Hicks",
               "opponentFaction": "Astra Militarum",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 51
             }
           ]
         },
@@ -649,8 +649,8 @@
               "round": 4,
               "opponent": "Kyle Grundy",
               "opponentFaction": "T'au Empire",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 61,
+              "opponentScore": 100
             }
           ]
         },
@@ -685,8 +685,8 @@
               "round": 4,
               "opponent": "Mark Waterhouse",
               "opponentFaction": "Orks",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 99,
+              "opponentScore": 60
             }
           ]
         },
@@ -721,8 +721,8 @@
               "round": 4,
               "opponent": "Barry White",
               "opponentFaction": "Adeptus Custodes",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 58,
+              "opponentScore": 99
             }
           ]
         },
@@ -757,8 +757,8 @@
               "round": 4,
               "opponent": "Ben Cartmell",
               "opponentFaction": "Leagues of Votann",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 91,
+              "opponentScore": 79
             }
           ]
         },
@@ -793,8 +793,8 @@
               "round": 4,
               "opponent": "Edward Diamond",
               "opponentFaction": "Adeptus Custodes",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 83,
+              "opponentScore": 97
             }
           ]
         },
@@ -827,10 +827,10 @@
             },
             {
               "round": 4,
-              "opponent": "Brent Madore",
-              "opponentFaction": "Blood Angels",
-              "playerScore": null,
-              "opponentScore": null
+              "opponent": "John Black",
+              "opponentFaction": "Chaos Space Marines",
+              "playerScore": 72,
+              "opponentScore": 57
             }
           ]
         },
@@ -865,8 +865,8 @@
               "round": 4,
               "opponent": "Adam Gill",
               "opponentFaction": "Aeldari",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 55,
+              "opponentScore": 100
             }
           ]
         },
@@ -901,8 +901,8 @@
               "round": 4,
               "opponent": "Henry Percival",
               "opponentFaction": "Dark Angels",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 45
             }
           ]
         },
@@ -937,8 +937,8 @@
               "round": 4,
               "opponent": "Matt Steele",
               "opponentFaction": "Necrons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 67,
+              "opponentScore": 98
             }
           ]
         },
@@ -973,8 +973,8 @@
               "round": 4,
               "opponent": "Guy Miscampbell",
               "opponentFaction": "Deathwatch",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 63,
+              "opponentScore": 100
             }
           ]
         },
@@ -1009,8 +1009,8 @@
               "round": 4,
               "opponent": "Julien PLANTET",
               "opponentFaction": "Emperor's Children",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 99,
+              "opponentScore": 50
             }
           ]
         },
@@ -1045,8 +1045,8 @@
               "round": 4,
               "opponent": "Nick Watkins",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 95,
+              "opponentScore": 88
             }
           ]
         },
@@ -1081,8 +1081,8 @@
               "round": 4,
               "opponent": "Dave Rodger",
               "opponentFaction": "Emperor's Children",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 81,
+              "opponentScore": 83
             }
           ]
         },
@@ -1117,8 +1117,8 @@
               "round": 4,
               "opponent": "Peter Hodson",
               "opponentFaction": "Chaos Knights",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 92,
+              "opponentScore": 76
             }
           ]
         },
@@ -1153,8 +1153,8 @@
               "round": 4,
               "opponent": "David Gaylard",
               "opponentFaction": "Chaos Daemons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 75,
+              "opponentScore": 74
             }
           ]
         },
@@ -1189,8 +1189,8 @@
               "round": 4,
               "opponent": "Robert Younger",
               "opponentFaction": "Death Guard",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 95,
+              "opponentScore": 66
             }
           ]
         }
