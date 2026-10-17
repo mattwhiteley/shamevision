@@ -4,7 +4,7 @@
       "id": "wPEgUdgCtxbv",
       "currentRound": 2,
       "roundInProgress": true,
-      "updated_at": "2026-10-17T16:17:18",
+      "updated_at": "2026-10-17T16:18:01",
       "players": [
         {
           "id": "kBd7PeFobK2c",
@@ -45,8 +45,8 @@
               "round": 2,
               "opponent": "Arun Millar",
               "opponentFaction": "Astra Militarum",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 92,
+              "opponentScore": 86
             }
           ]
         },
@@ -364,7 +364,7 @@
       "id": "9uuPrQl6mF3k",
       "currentRound": 3,
       "roundInProgress": true,
-      "updated_at": "2026-10-17T16:17:19",
+      "updated_at": "2026-10-17T16:18:03",
       "players": [
         {
           "id": "Z3GjX3clxtFG",
