@@ -4,7 +4,7 @@
       "id": "wPEgUdgCtxbv",
       "currentRound": 2,
       "roundInProgress": true,
-      "updated_at": "2026-10-17T16:18:01",
+      "updated_at": "2026-10-17T16:27:53",
       "players": [
         {
           "id": "kBd7PeFobK2c",
@@ -197,9 +197,9 @@
             },
             {
               "round": 2,
-              "opponent": "Andrew Wrigg",
-              "opponentFaction": "Tyranids",
-              "playerScore": null,
+              "opponent": "BYE",
+              "opponentFaction": "",
+              "playerScore": 100,
               "opponentScore": null
             }
           ]
@@ -243,8 +243,8 @@
               "round": 2,
               "opponent": "Anita Tomaszewska",
               "opponentFaction": "Chaos Daemons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 89,
+              "opponentScore": 71
             }
           ]
         },
@@ -309,8 +309,8 @@
               "round": 2,
               "opponent": "Andrew Hope",
               "opponentFaction": "Chaos Daemons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 57,
+              "opponentScore": 87
             }
           ]
         },
@@ -331,8 +331,8 @@
               "round": 2,
               "opponent": "Gabriel Bosque",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 80,
+              "opponentScore": 100
             }
           ]
         },
@@ -353,8 +353,8 @@
               "round": 2,
               "opponent": "Matthew Stevens",
               "opponentFaction": "Necrons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 90,
+              "opponentScore": 75
             }
           ]
         }
@@ -364,7 +364,7 @@
       "id": "9uuPrQl6mF3k",
       "currentRound": 3,
       "roundInProgress": true,
-      "updated_at": "2026-10-17T16:18:03",
+      "updated_at": "2026-10-17T16:27:54",
       "players": [
         {
           "id": "Z3GjX3clxtFG",
