@@ -4,38 +4,8 @@
       "id": "wPEgUdgCtxbv",
       "currentRound": 1,
       "roundInProgress": false,
-      "updated_at": "2026-10-13T13:17:19",
+      "updated_at": "2026-10-17T09:07:57",
       "players": [
-        {
-          "id": "BrU6PEzZJGE4",
-          "memberId": "member-adam-laws",
-          "faction": "Space Wolves",
-          "group": "hall",
-          "rounds": [
-            {
-              "round": 1,
-              "opponent": "Teodor Ontanu",
-              "opponentFaction": "Adeptus Custodes",
-              "playerScore": null,
-              "opponentScore": null
-            }
-          ]
-        },
-        {
-          "id": "T3w5yIyLdggJ",
-          "memberId": "member-alex-ford",
-          "faction": "Drukhari",
-          "group": "hall",
-          "rounds": [
-            {
-              "round": 1,
-              "opponent": "Oliver Wheeler",
-              "opponentFaction": "Aeldari",
-              "playerScore": null,
-              "opponentScore": null
-            }
-          ]
-        },
         {
           "id": "kBd7PeFobK2c",
           "memberId": "member-anthony-keen",
@@ -181,6 +151,21 @@
               "round": 1,
               "opponent": "Mashaad Coomaraswamy",
               "opponentFaction": "Imperial Knights",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
+        },
+        {
+          "id": "OqMOXunhJV6r",
+          "memberId": "member-nikhil-talwar",
+          "faction": "Death Guard",
+          "group": "pile",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Oliver Wheeler",
+              "opponentFaction": "Aeldari",
               "playerScore": null,
               "opponentScore": null
             }
