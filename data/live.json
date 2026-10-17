@@ -4,7 +4,7 @@
       "id": "wPEgUdgCtxbv",
       "currentRound": 2,
       "roundInProgress": true,
-      "updated_at": "2026-10-17T16:09:57",
+      "updated_at": "2026-10-17T16:17:18",
       "players": [
         {
           "id": "kBd7PeFobK2c",
@@ -362,9 +362,9 @@
     },
     {
       "id": "9uuPrQl6mF3k",
-      "currentRound": 2,
+      "currentRound": 3,
       "roundInProgress": true,
-      "updated_at": "2026-10-17T16:09:58",
+      "updated_at": "2026-10-17T16:17:19",
       "players": [
         {
           "id": "Z3GjX3clxtFG",
@@ -385,6 +385,13 @@
               "opponentFaction": "Emperor's Children",
               "playerScore": 97,
               "opponentScore": 75
+            },
+            {
+              "round": 3,
+              "opponent": "Lorenzo Schiazza",
+              "opponentFaction": "Dark Angels",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -407,6 +414,13 @@
               "opponentFaction": "Aeldari",
               "playerScore": 75,
               "opponentScore": 97
+            },
+            {
+              "round": 3,
+              "opponent": "Brad Ahmet",
+              "opponentFaction": "Adeptus Custodes",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         }
