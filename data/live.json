@@ -3,8 +3,8 @@
     {
       "id": "wPEgUdgCtxbv",
       "currentRound": 3,
-      "roundInProgress": true,
-      "updated_at": "2026-10-17T18:56:56",
+      "roundInProgress": false,
+      "updated_at": "2026-10-17T22:18:27",
       "players": [
         {
           "id": "kBd7PeFobK2c",
@@ -30,8 +30,8 @@
               "round": 3,
               "opponent": "Jordan Penning",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 63,
+              "opponentScore": 92
             }
           ]
         },
@@ -59,8 +59,8 @@
               "round": 3,
               "opponent": "Sean McQuaid",
               "opponentFaction": "Genestealer Cult",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 94,
+              "opponentScore": 100
             }
           ]
         },
@@ -88,8 +88,8 @@
               "round": 3,
               "opponent": "Oscar Luckin",
               "opponentFaction": "Emperor's Children",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 92,
+              "opponentScore": 85
             }
           ]
         },
@@ -146,8 +146,8 @@
               "round": 3,
               "opponent": "Chris Brookes",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 94,
+              "opponentScore": 68
             }
           ]
         },
@@ -204,8 +204,8 @@
               "round": 3,
               "opponent": "Anthony Keen",
               "opponentFaction": "Orks",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 92,
+              "opponentScore": 63
             }
           ]
         },
@@ -233,8 +233,8 @@
               "round": 3,
               "opponent": "Paul Looker",
               "opponentFaction": "Black Templars",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 66
             }
           ]
         },
@@ -291,8 +291,8 @@
               "round": 3,
               "opponent": "Kerry Cella",
               "opponentFaction": "Blood Angels",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 49,
+              "opponentScore": 95
             }
           ]
         },
@@ -320,8 +320,8 @@
               "round": 3,
               "opponent": "Mashaad Coomaraswamy",
               "opponentFaction": "Imperial Knights",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 95,
+              "opponentScore": 45
             }
           ]
         },
@@ -349,8 +349,8 @@
               "round": 3,
               "opponent": "Cayleb Langhals",
               "opponentFaction": "Death Guard",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 85,
+              "opponentScore": 92
             }
           ]
         },
@@ -378,8 +378,8 @@
               "round": 3,
               "opponent": "Mike Stead",
               "opponentFaction": "Space Wolves",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 87,
+              "opponentScore": 79
             }
           ]
         },
@@ -407,8 +407,8 @@
               "round": 3,
               "opponent": "Marko Preocanin",
               "opponentFaction": "Dark Angels",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 66,
+              "opponentScore": 100
             }
           ]
         },
@@ -436,8 +436,8 @@
               "round": 3,
               "opponent": "Ethan Cook",
               "opponentFaction": "Necrons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 96,
+              "opponentScore": 40
             }
           ]
         },
@@ -465,8 +465,8 @@
               "round": 3,
               "opponent": "Paul Jeffries",
               "opponentFaction": "Tyranids",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 81
             }
           ]
         }
@@ -474,9 +474,9 @@
     },
     {
       "id": "9uuPrQl6mF3k",
-      "currentRound": 3,
-      "roundInProgress": true,
-      "updated_at": "2026-10-17T18:56:57",
+      "currentRound": 4,
+      "roundInProgress": false,
+      "updated_at": "2026-10-17T22:18:28",
       "players": [
         {
           "id": "Z3GjX3clxtFG",
@@ -502,6 +502,13 @@
               "round": 3,
               "opponent": "Lorenzo Schiazza",
               "opponentFaction": "Dark Angels",
+              "playerScore": 96,
+              "opponentScore": 69
+            },
+            {
+              "round": 4,
+              "opponent": "Steve Scott",
+              "opponentFaction": "Necrons",
               "playerScore": null,
               "opponentScore": null
             }
@@ -533,6 +540,13 @@
               "opponentFaction": "Adeptus Custodes",
               "playerScore": 100,
               "opponentScore": 60
+            },
+            {
+              "round": 4,
+              "opponent": "Quentin Lecerf",
+              "opponentFaction": "Adeptus Custodes",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         }
