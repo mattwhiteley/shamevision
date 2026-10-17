@@ -4,7 +4,7 @@
       "id": "wPEgUdgCtxbv",
       "currentRound": 2,
       "roundInProgress": true,
-      "updated_at": "2026-10-17T16:27:53",
+      "updated_at": "2026-10-17T16:39:06",
       "players": [
         {
           "id": "kBd7PeFobK2c",
@@ -23,8 +23,8 @@
               "round": 2,
               "opponent": "Jim 🔥🎲 Allan",
               "opponentFaction": "Adeptus Mechanicus",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 93,
+              "opponentScore": 61
             }
           ]
         },
@@ -67,8 +67,8 @@
               "round": 2,
               "opponent": "Jack Turner",
               "opponentFaction": "Orks",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 97,
+              "opponentScore": 78
             }
           ]
         },
@@ -133,8 +133,8 @@
               "round": 2,
               "opponent": "Cayleb Langhals",
               "opponentFaction": "Death Guard",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 78,
+              "opponentScore": 97
             }
           ]
         },
@@ -265,8 +265,8 @@
               "round": 2,
               "opponent": "Tom Bolton",
               "opponentFaction": "Death Guard",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 89,
+              "opponentScore": 82
             }
           ]
         },
@@ -364,7 +364,7 @@
       "id": "9uuPrQl6mF3k",
       "currentRound": 3,
       "roundInProgress": true,
-      "updated_at": "2026-10-17T16:27:54",
+      "updated_at": "2026-10-17T16:39:06",
       "players": [
         {
           "id": "Z3GjX3clxtFG",
