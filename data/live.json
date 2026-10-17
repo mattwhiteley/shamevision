@@ -3,8 +3,8 @@
     {
       "id": "wPEgUdgCtxbv",
       "currentRound": 1,
-      "roundInProgress": false,
-      "updated_at": "2026-10-17T09:07:57",
+      "roundInProgress": true,
+      "updated_at": "2026-10-17T11:10:59",
       "players": [
         {
           "id": "kBd7PeFobK2c",
@@ -31,8 +31,8 @@
               "round": 1,
               "opponent": "Ben Varney",
               "opponentFaction": "Aeldari",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 18
             }
           ]
         },
