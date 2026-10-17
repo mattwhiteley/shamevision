@@ -4,7 +4,7 @@
       "id": "wPEgUdgCtxbv",
       "currentRound": 1,
       "roundInProgress": true,
-      "updated_at": "2026-10-17T11:10:59",
+      "updated_at": "2026-10-17T11:47:15",
       "players": [
         {
           "id": "kBd7PeFobK2c",
@@ -16,8 +16,8 @@
               "round": 1,
               "opponent": "Numair Yaqoob",
               "opponentFaction": "Thousand Sons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 41
             }
           ]
         },
@@ -61,8 +61,8 @@
               "round": 1,
               "opponent": "Robert Michell",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 90,
+              "opponentScore": 100
             }
           ]
         },
@@ -241,6 +241,29 @@
               "round": 1,
               "opponent": "Arun Millar",
               "opponentFaction": "Astra Militarum",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9uuPrQl6mF3k",
+      "currentRound": 1,
+      "roundInProgress": true,
+      "updated_at": "2026-10-17T11:47:16",
+      "players": [
+        {
+          "id": "FSCSDqoRF7bk",
+          "memberId": "member-oliver-jawara",
+          "faction": "Emperor's Children",
+          "group": "hall",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Owen Hughes",
+              "opponentFaction": "Orks",
               "playerScore": null,
               "opponentScore": null
             }
