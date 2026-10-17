@@ -4,7 +4,7 @@
       "id": "wPEgUdgCtxbv",
       "currentRound": 3,
       "roundInProgress": true,
-      "updated_at": "2026-10-17T17:29:49",
+      "updated_at": "2026-10-17T18:56:56",
       "players": [
         {
           "id": "kBd7PeFobK2c",
@@ -117,8 +117,8 @@
               "round": 3,
               "opponent": "Matthew Yeoh",
               "opponentFaction": "Imperial Knights",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 43,
+              "opponentScore": 95
             }
           ]
         },
@@ -175,8 +175,8 @@
               "round": 3,
               "opponent": "Tom Bolton",
               "opponentFaction": "Death Guard",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 23
             }
           ]
         },
@@ -262,8 +262,8 @@
               "round": 3,
               "opponent": "Chris Enderby",
               "opponentFaction": "Death Guard",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 95,
+              "opponentScore": 43
             }
           ]
         },
@@ -476,7 +476,7 @@
       "id": "9uuPrQl6mF3k",
       "currentRound": 3,
       "roundInProgress": true,
-      "updated_at": "2026-10-17T17:29:50",
+      "updated_at": "2026-10-17T18:56:57",
       "players": [
         {
           "id": "Z3GjX3clxtFG",
@@ -531,8 +531,8 @@
               "round": 3,
               "opponent": "Brad Ahmet",
               "opponentFaction": "Adeptus Custodes",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 100,
+              "opponentScore": 60
             }
           ]
         }
