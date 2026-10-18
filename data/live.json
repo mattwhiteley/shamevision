@@ -4,7 +4,7 @@
       "id": "wPEgUdgCtxbv",
       "currentRound": 3,
       "roundInProgress": false,
-      "updated_at": "2026-10-18T13:21:54",
+      "updated_at": "2026-10-18T15:18:47",
       "players": [
         {
           "id": "kBd7PeFobK2c",
@@ -476,7 +476,7 @@
       "id": "9uuPrQl6mF3k",
       "currentRound": 5,
       "roundInProgress": true,
-      "updated_at": "2026-10-18T14:20:57",
+      "updated_at": "2026-10-18T15:18:47",
       "players": [
         {
           "id": "Z3GjX3clxtFG",
@@ -559,8 +559,8 @@
               "round": 5,
               "opponent": "Harry Foreman",
               "opponentFaction": "Chaos Knights",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 97,
+              "opponentScore": 28
             }
           ]
         }
