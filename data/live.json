@@ -475,8 +475,8 @@
     {
       "id": "9uuPrQl6mF3k",
       "currentRound": 5,
-      "roundInProgress": false,
-      "updated_at": "2026-10-18T13:21:54",
+      "roundInProgress": true,
+      "updated_at": "2026-10-18T13:56:01",
       "players": [
         {
           "id": "Z3GjX3clxtFG",
