@@ -4,7 +4,7 @@
       "id": "wPEgUdgCtxbv",
       "currentRound": 3,
       "roundInProgress": false,
-      "updated_at": "2026-10-17T22:18:27",
+      "updated_at": "2026-10-18T12:35:34",
       "players": [
         {
           "id": "kBd7PeFobK2c",
@@ -476,7 +476,7 @@
       "id": "9uuPrQl6mF3k",
       "currentRound": 4,
       "roundInProgress": true,
-      "updated_at": "2026-10-18T12:20:14",
+      "updated_at": "2026-10-18T12:35:36",
       "players": [
         {
           "id": "Z3GjX3clxtFG",
@@ -509,8 +509,8 @@
               "round": 4,
               "opponent": "Steve Scott",
               "opponentFaction": "Necrons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 73,
+              "opponentScore": 97
             }
           ]
         },
