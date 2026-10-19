@@ -4,7 +4,7 @@
       "id": "wPEgUdgCtxbv",
       "currentRound": 3,
       "roundInProgress": false,
-      "updated_at": "2026-10-18T15:18:47",
+      "updated_at": "2026-10-19T17:45:39",
       "players": [
         {
           "id": "kBd7PeFobK2c",
@@ -475,8 +475,8 @@
     {
       "id": "9uuPrQl6mF3k",
       "currentRound": 5,
-      "roundInProgress": true,
-      "updated_at": "2026-10-18T15:18:47",
+      "roundInProgress": false,
+      "updated_at": "2026-10-19T17:45:41",
       "players": [
         {
           "id": "Z3GjX3clxtFG",
@@ -516,8 +516,8 @@
               "round": 5,
               "opponent": "Matthew Stredwick",
               "opponentFaction": "Death Guard",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 52,
+              "opponentScore": 100
             }
           ]
         },
