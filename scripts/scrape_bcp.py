@@ -240,7 +240,11 @@ def build_team_rounds(
 
     teams_config: list of { "name": str, "memberIds": [...] } from events.json.
     """
-    club_team_names = {t["name"] for t in teams_config}
+    # Map normalised BCP name → canonical events.json name for fuzzy matching.
+    # BCP sometimes returns names with trailing whitespace or inconsistent casing.
+    club_team_names_norm: dict[str, str] = {
+        normalise_name(t["name"]): t["name"] for t in teams_config
+    }
 
     # Map memberId → competition team name so we can identify which side of a
     # game belongs to our team (BCP stores the club name, not the sub-team name,
@@ -263,13 +267,17 @@ def build_team_rounds(
 
     for round_num, team_pairings in all_team_pairings.items():
         for tp in team_pairings:
-            t1_name = (tp.get("teamPlayer1") or {}).get("name", "")
-            t2_name = (tp.get("teamPlayer2") or {}).get("name", "")
+            t1_name = ((tp.get("teamPlayer1") or {}).get("name") or "").strip()
+            t2_name = ((tp.get("teamPlayer2") or {}).get("name") or "").strip()
 
-            # Identify which side (if any) is a club team
-            for our_name, opp_name in [(t1_name, t2_name), (t2_name, t1_name)]:
-                if our_name not in club_team_names:
+            # Identify which side (if any) is a club team.
+            # Use normalised matching so BCP names with trailing whitespace or
+            # inconsistent casing still resolve to the canonical events.json name.
+            for raw_our, raw_opp in [(t1_name, t2_name), (t2_name, t1_name)]:
+                our_name = club_team_names_norm.get(normalise_name(raw_our))
+                if our_name is None:
                     continue
+                opp_name = club_team_names_norm.get(normalise_name(raw_opp)) or raw_opp
 
                 # Sum individual scores for this teamPairingId.
                 # Treat unfinished games as 0 so a running partial total is
