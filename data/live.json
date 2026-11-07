@@ -4,7 +4,7 @@
       "id": "RtCVWgRAXhkT",
       "currentRound": 1,
       "roundInProgress": true,
-      "updated_at": "2026-11-07T11:23:25",
+      "updated_at": "2026-11-07T11:24:49",
       "players": [
         {
           "id": "mR11AJt6oOkO",
@@ -157,7 +157,7 @@
           "round": 1,
           "teamId": "do-you-like-4s",
           "teamName": "Do you like 4++s?",
-          "opponentTeamName": "Two Superhumans and a Fish ",
+          "opponentTeamName": "Two Superhumans and a Fish",
           "teamScore": 0,
           "opponentTeamScore": 0
         },
@@ -168,6 +168,14 @@
           "opponentTeamName": "DoG the old ones",
           "teamScore": 0,
           "opponentTeamScore": 0
+        },
+        {
+          "round": 1,
+          "teamId": "two-superhumans-and-a-fish",
+          "teamName": "Two Superhumans and a Fish",
+          "opponentTeamName": "Do you like 4++s?",
+          "teamScore": 0,
+          "opponentTeamScore": 0
         }
       ]
     },
@@ -175,7 +183,7 @@
       "id": "BPYv9LhsFzwU",
       "currentRound": 1,
       "roundInProgress": true,
-      "updated_at": "2026-11-07T11:23:26",
+      "updated_at": "2026-11-07T11:24:50",
       "players": [
         {
           "id": "nXH3inwLqdfz",
