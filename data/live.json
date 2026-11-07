@@ -4,7 +4,7 @@
       "id": "RtCVWgRAXhkT",
       "currentRound": 3,
       "roundInProgress": true,
-      "updated_at": "2026-11-07T21:03:17",
+      "updated_at": "2026-11-07T21:08:44",
       "players": [
         {
           "id": "mR11AJt6oOkO",
@@ -241,8 +241,8 @@
               "round": 3,
               "opponent": "Tom Holmes",
               "opponentFaction": "Dark Angels",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 4,
+              "opponentScore": 16
             }
           ]
         },
@@ -332,8 +332,8 @@
           "teamId": "do-you-like-4s",
           "teamName": "Do you like 4++s?",
           "opponentTeamName": "Deal No Pain",
-          "teamScore": 3,
-          "opponentTeamScore": 37
+          "teamScore": 7,
+          "opponentTeamScore": 53
         },
         {
           "round": 3,
@@ -356,8 +356,8 @@
     {
       "id": "BPYv9LhsFzwU",
       "currentRound": 3,
-      "roundInProgress": true,
-      "updated_at": "2026-11-07T20:14:59",
+      "roundInProgress": false,
+      "updated_at": "2026-11-07T21:08:46",
       "players": [
         {
           "id": "nXH3inwLqdfz",
@@ -379,6 +379,13 @@
               "opponentFaction": "Dark Angels",
               "playerScore": 10,
               "opponentScore": 10
+            },
+            {
+              "round": 3,
+              "opponent": "Mark Jarvis",
+              "opponentFaction": "Death Guard",
+              "playerScore": 12,
+              "opponentScore": 8
             }
           ]
         },
@@ -400,6 +407,13 @@
               "round": 2,
               "opponent": "Dave Mannering",
               "opponentFaction": "Orks",
+              "playerScore": 11,
+              "opponentScore": 9
+            },
+            {
+              "round": 3,
+              "opponent": "Marco Cattorini",
+              "opponentFaction": "Necrons",
               "playerScore": 11,
               "opponentScore": 9
             }
@@ -430,8 +444,8 @@
               "round": 3,
               "opponent": "Joe Cosgrove",
               "opponentFaction": "Aeldari",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 18,
+              "opponentScore": 2
             }
           ]
         },
@@ -515,6 +529,13 @@
               "opponentFaction": "Leagues of Votann",
               "playerScore": 3,
               "opponentScore": 17
+            },
+            {
+              "round": 3,
+              "opponent": "Michael Tuffen",
+              "opponentFaction": "World Eaters",
+              "playerScore": 8,
+              "opponentScore": 12
             }
           ]
         },
@@ -543,8 +564,8 @@
               "round": 3,
               "opponent": "Luke Barrs",
               "opponentFaction": "Dark Angels",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 10,
+              "opponentScore": 10
             }
           ]
         },
@@ -598,6 +619,13 @@
               "opponentFaction": "Death Guard",
               "playerScore": 0,
               "opponentScore": 20
+            },
+            {
+              "round": 3,
+              "opponent": "Ryan Solly",
+              "opponentFaction": "Thousand Sons",
+              "playerScore": 20,
+              "opponentScore": 0
             }
           ]
         },
@@ -651,6 +679,13 @@
               "opponentFaction": "Tyranids",
               "playerScore": 2,
               "opponentScore": 18
+            },
+            {
+              "round": 3,
+              "opponent": "Graham Radden",
+              "opponentFaction": "Chaos Daemons",
+              "playerScore": 7,
+              "opponentScore": 13
             }
           ]
         }
@@ -694,16 +729,16 @@
           "teamId": "pile-of-vagabonds-support-network",
           "teamName": "Pile of Vagabonds Support Network",
           "opponentTeamName": "Kent Knights - Who say \"Ni!\"",
-          "teamScore": 52,
-          "opponentTeamScore": 8
+          "teamScore": 80,
+          "opponentTeamScore": 20
         },
         {
           "round": 3,
           "teamId": "vees-vagabonds---get-veekt",
           "teamName": "Vee's Vagabonds - Get Veekt",
           "opponentTeamName": "Kent Knights - Business",
-          "teamScore": null,
-          "opponentTeamScore": null
+          "teamScore": 58,
+          "opponentTeamScore": 42
         }
       ]
     }
