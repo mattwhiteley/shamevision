@@ -1,36 +1,62 @@
 {
   "events": [
     {
-      "id": "wPEgUdgCtxbv",
-      "shortName": "DS RTT",
-      "eventName": "Dark Sphere October RTT",
-      "bcpUrl": "https://www.bestcoastpairings.com/event/wPEgUdgCtxbv",
-      "eventType": "singles",
+      "id": "RtCVWgRAXhkT",
+      "shortName": "BMC 3-man",
+      "eventName": "BMC 40K TEAMS - BOROUGH",
+      "bcpUrl": "https://www.bestcoastpairings.com/event/RtCVWgRAXhkT",
+      "eventType": "team",
+      "teamSize": 3,
       "totalRounds": 3,
       "timezone": "Europe/London",
       "roundDurationMinutes": 180,
+      "teams": [
+        {
+          "name": "The Three Shamigos",
+          "memberIds": ["member-anthony-keen", "member-cayleb-langhals","member-daniel-green"]
+        },
+		{
+          "name": "Do you like 4++s?",
+          "memberIds": ["member-kareem-hussain", "member-matt-mckinnell","member-ricky-noton"]
+        },
+		{
+          "name": "Two Superhumans and a Fish",
+          "memberIds": ["member-samuel-hardisty", "member-ollie-smith","member-mark-gaukrodger"]
+        }
+      ],
       "schedule": [
-        { "round": 1, "start": "2026-10-17T09:30:00" },
-        { "round": 2, "start": "2026-10-17T13:30:00" },
-        { "round": 3, "start": "2026-10-17T17:00:00" }
+        { "round": 1, "start": "2026-11-07T10:30:00" },
+        { "round": 2, "start": "2026-11-07T14:30:00" },
+        { "round": 3, "start": "2026-11-07T18:05:00" }
       ]
     },
-   {
-      "id": "9uuPrQl6mF3k",
-      "shortName": "Canterbury GT",
-      "eventName": "Gothic Games October GT",
-      "bcpUrl": "https://www.bestcoastpairings.com/event/9uuPrQl6mF3k",
-      "eventType": "singles",
+	{
+      "id": "BPYv9LhsFzwU",
+      "shortName": "Kent Teams",
+      "eventName": "The Kent Teams November 2026",
+      "bcpUrl": "https://www.bestcoastpairings.com/event/BPYv9LhsFzwU",
+      "eventType": "team",
+      "teamSize": 5,
       "totalRounds": 5,
       "timezone": "Europe/London",
       "roundDurationMinutes": 180,
+      "teams": [
+        {
+          "name": "Pile of Vagabonds Support Network",
+          "memberIds": ["member-dan-whitfield", "member-tim-waters","member-oliver-jawara","member-jack-watkinson","member-ryan-garner"]
+        },
+		{
+          "name": "Vee's Vagabonds - Get Veekt",
+          "memberIds": ["member-callum-watts", "member-andrew-chesworth","member-philip-davies","member-veevek-doolbah","member-simon-hicks"]
+        }
+      ],
       "schedule": [
-        { "round": 1, "start": "2026-10-17T09:30:00" },
-        { "round": 2, "start": "2026-10-17T13:30:00" },
-        { "round": 3, "start": "2026-10-17T17:00:00" },
-        { "round": 4, "start": "2026-10-18T09:30:00" },
-        { "round": 5, "start": "2026-10-18T13:30:00" }
+        { "round": 1, "start": "2026-11-07T09:30:00" },
+        { "round": 2, "start": "2026-11-07T14:00:00" },
+        { "round": 3, "start": "2026-11-07T17:30:00" },
+		{ "round": 4, "start": "2026-11-08T09:30:00" },
+        { "round": 5, "start": "2026-11-08T14:00:00" }
       ]
-    } 
+    }
   ]
 }
