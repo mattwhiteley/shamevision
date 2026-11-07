@@ -4,7 +4,7 @@
       "id": "RtCVWgRAXhkT",
       "currentRound": 1,
       "roundInProgress": true,
-      "updated_at": "2026-11-07T11:29:16",
+      "updated_at": "2026-11-07T11:53:25",
       "players": [
         {
           "id": "mR11AJt6oOkO",
@@ -183,7 +183,7 @@
       "id": "BPYv9LhsFzwU",
       "currentRound": 1,
       "roundInProgress": true,
-      "updated_at": "2026-11-07T11:29:17",
+      "updated_at": "2026-11-07T11:53:26",
       "players": [
         {
           "id": "nXH3inwLqdfz",
@@ -212,8 +212,8 @@
               "round": 1,
               "opponent": "Adam Brown",
               "opponentFaction": "Adeptus Custodes",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 20,
+              "opponentScore": 0
             }
           ]
         },
@@ -308,8 +308,8 @@
               "round": 1,
               "opponent": "Euan Bedford-Cooper",
               "opponentFaction": "Chaos Space Marines",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 2,
+              "opponentScore": 18
             }
           ]
         },
@@ -377,7 +377,7 @@
           "teamId": "vees-vagabonds---get-veekt",
           "teamName": "Vee's Vagabonds - Get Veekt",
           "opponentTeamName": "The Lion, the Wych and the Custode",
-          "teamScore": 0,
+          "teamScore": 20,
           "opponentTeamScore": 0
         }
       ]
