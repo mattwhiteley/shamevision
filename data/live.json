@@ -4,7 +4,7 @@
       "id": "RtCVWgRAXhkT",
       "currentRound": 2,
       "roundInProgress": false,
-      "updated_at": "2026-11-07T14:02:40",
+      "updated_at": "2026-11-07T14:19:03",
       "players": [
         {
           "id": "mR11AJt6oOkO",
@@ -19,6 +19,13 @@
               "opponentFaction": "Dark Angels",
               "playerScore": 9,
               "opponentScore": 11
+            },
+            {
+              "round": 2,
+              "opponent": "Matt Puffett",
+              "opponentFaction": "Adepta Sororitas",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -35,6 +42,13 @@
               "opponentFaction": "Adepta Sororitas",
               "playerScore": 20,
               "opponentScore": 0
+            },
+            {
+              "round": 2,
+              "opponent": "Patrick Farmbrough",
+              "opponentFaction": "T'au Empire",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -51,6 +65,13 @@
               "opponentFaction": "T'au Empire",
               "playerScore": 15,
               "opponentScore": 5
+            },
+            {
+              "round": 2,
+              "opponent": "Tom Holmes",
+              "opponentFaction": "Dark Angels",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -190,8 +211,8 @@
           "teamId": "the-three-shamigos",
           "teamName": "The Three Shamigos",
           "opponentTeamName": "Deal No Pain",
-          "teamScore": null,
-          "opponentTeamScore": null
+          "teamScore": 0,
+          "opponentTeamScore": 0
         },
         {
           "round": 2,
@@ -207,7 +228,7 @@
       "id": "BPYv9LhsFzwU",
       "currentRound": 2,
       "roundInProgress": true,
-      "updated_at": "2026-11-07T14:02:42",
+      "updated_at": "2026-11-07T14:19:04",
       "players": [
         {
           "id": "nXH3inwLqdfz",
