@@ -4,7 +4,7 @@
       "id": "RtCVWgRAXhkT",
       "currentRound": 2,
       "roundInProgress": true,
-      "updated_at": "2026-11-07T16:34:53",
+      "updated_at": "2026-11-07T16:44:41",
       "players": [
         {
           "id": "mR11AJt6oOkO",
@@ -270,7 +270,7 @@
       "id": "BPYv9LhsFzwU",
       "currentRound": 2,
       "roundInProgress": true,
-      "updated_at": "2026-11-07T16:34:55",
+      "updated_at": "2026-11-07T16:44:43",
       "players": [
         {
           "id": "nXH3inwLqdfz",
@@ -497,8 +497,8 @@
               "round": 2,
               "opponent": "Sam Bratley",
               "opponentFaction": "Death Guard",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 9,
+              "opponentScore": 11
             }
           ]
         },
@@ -549,8 +549,8 @@
           "teamId": "pile-of-vagabonds-support-network",
           "teamName": "Pile of Vagabonds Support Network",
           "opponentTeamName": "Get Vekt - SUPERFREAK",
-          "teamScore": 20,
-          "opponentTeamScore": 0
+          "teamScore": 29,
+          "opponentTeamScore": 11
         },
         {
           "round": 2,
