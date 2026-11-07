@@ -4,7 +4,7 @@
       "id": "RtCVWgRAXhkT",
       "currentRound": 3,
       "roundInProgress": true,
-      "updated_at": "2026-11-07T17:40:06",
+      "updated_at": "2026-11-07T17:53:12",
       "players": [
         {
           "id": "mR11AJt6oOkO",
@@ -95,6 +95,13 @@
               "opponentFaction": "Astra Militarum",
               "playerScore": 18,
               "opponentScore": 2
+            },
+            {
+              "round": 3,
+              "opponent": "Matt Puffett",
+              "opponentFaction": "Adepta Sororitas",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -141,6 +148,13 @@
               "opponentFaction": "Imperial Knights",
               "playerScore": 14,
               "opponentScore": 6
+            },
+            {
+              "round": 3,
+              "opponent": "Patrick Farmbrough",
+              "opponentFaction": "T'au Empire",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -187,6 +201,13 @@
               "opponentFaction": "Emperor's Children",
               "playerScore": 10,
               "opponentScore": 10
+            },
+            {
+              "round": 3,
+              "opponent": "Tom Holmes",
+              "opponentFaction": "Dark Angels",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -269,8 +290,8 @@
           "teamId": "do-you-like-4s",
           "teamName": "Do you like 4++s?",
           "opponentTeamName": "Deal No Pain",
-          "teamScore": null,
-          "opponentTeamScore": null
+          "teamScore": 0,
+          "opponentTeamScore": 0
         },
         {
           "round": 3,
@@ -294,7 +315,7 @@
       "id": "BPYv9LhsFzwU",
       "currentRound": 3,
       "roundInProgress": true,
-      "updated_at": "2026-11-07T17:40:08",
+      "updated_at": "2026-11-07T17:53:14",
       "players": [
         {
           "id": "nXH3inwLqdfz",
@@ -477,6 +498,13 @@
               "opponentFaction": "Tyranids",
               "playerScore": 20,
               "opponentScore": 0
+            },
+            {
+              "round": 3,
+              "opponent": "Dylan Doyle",
+              "opponentFaction": "Adeptus Custodes",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
