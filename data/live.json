@@ -3,8 +3,8 @@
     {
       "id": "RtCVWgRAXhkT",
       "currentRound": 2,
-      "roundInProgress": false,
-      "updated_at": "2026-11-07T14:19:03",
+      "roundInProgress": true,
+      "updated_at": "2026-11-07T14:31:47",
       "players": [
         {
           "id": "mR11AJt6oOkO",
@@ -88,6 +88,13 @@
               "opponentFaction": "Space Marines (Astartes)",
               "playerScore": 16,
               "opponentScore": 4
+            },
+            {
+              "round": 2,
+              "opponent": "David Williams",
+              "opponentFaction": "Astra Militarum",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -104,6 +111,13 @@
               "opponentFaction": "Necrons",
               "playerScore": 10,
               "opponentScore": 10
+            },
+            {
+              "round": 2,
+              "opponent": "Alex Basi",
+              "opponentFaction": "Adeptus Custodes",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -120,6 +134,13 @@
               "opponentFaction": "Adeptus Custodes",
               "playerScore": 10,
               "opponentScore": 10
+            },
+            {
+              "round": 2,
+              "opponent": "Tom Thorn",
+              "opponentFaction": "Imperial Knights",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -136,6 +157,13 @@
               "opponentFaction": "Chaos Space Marines",
               "playerScore": 4,
               "opponentScore": 16
+            },
+            {
+              "round": 2,
+              "opponent": "Rhys Melhado-Thompson",
+              "opponentFaction": "World Eaters",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -152,6 +180,13 @@
               "opponentFaction": "T'au Empire",
               "playerScore": 10,
               "opponentScore": 10
+            },
+            {
+              "round": 2,
+              "opponent": "Connor Jones",
+              "opponentFaction": "Emperor's Children",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -168,6 +203,13 @@
               "opponentFaction": "Adeptus Custodes",
               "playerScore": 10,
               "opponentScore": 10
+            },
+            {
+              "round": 2,
+              "opponent": "George Duggins",
+              "opponentFaction": "Drukhari",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         }
@@ -203,8 +245,8 @@
           "teamId": "do-you-like-4s",
           "teamName": "Do you like 4++s?",
           "opponentTeamName": "Glue sommeliers",
-          "teamScore": null,
-          "opponentTeamScore": null
+          "teamScore": 0,
+          "opponentTeamScore": 0
         },
         {
           "round": 2,
@@ -219,8 +261,8 @@
           "teamId": "two-superhumans-and-a-fish",
           "teamName": "Two Superhumans and a Fish",
           "opponentTeamName": "DoG but not old",
-          "teamScore": null,
-          "opponentTeamScore": null
+          "teamScore": 0,
+          "opponentTeamScore": 0
         }
       ]
     },
@@ -228,7 +270,7 @@
       "id": "BPYv9LhsFzwU",
       "currentRound": 2,
       "roundInProgress": true,
-      "updated_at": "2026-11-07T14:19:04",
+      "updated_at": "2026-11-07T14:31:50",
       "players": [
         {
           "id": "nXH3inwLqdfz",
