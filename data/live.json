@@ -4,7 +4,7 @@
       "id": "RtCVWgRAXhkT",
       "currentRound": 1,
       "roundInProgress": true,
-      "updated_at": "2026-11-07T11:12:40",
+      "updated_at": "2026-11-07T11:13:58",
       "players": [
         {
           "id": "mR11AJt6oOkO",
@@ -175,7 +175,7 @@
       "id": "BPYv9LhsFzwU",
       "currentRound": 1,
       "roundInProgress": true,
-      "updated_at": "2026-11-07T11:12:41",
+      "updated_at": "2026-11-07T11:13:59",
       "players": [
         {
           "id": "nXH3inwLqdfz",
@@ -300,6 +300,22 @@
               "round": 1,
               "opponent": "Euan Bedford-Cooper",
               "opponentFaction": "Chaos Space Marines",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
+        },
+        {
+          "id": "cBYjIbDbqQ9Q",
+          "memberId": "member-tim-waters",
+          "faction": "Space Marines (Astartes)",
+          "group": "hall",
+          "teamName": "Pile of Vagabonds Support Network",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Mark Jarvis",
+              "opponentFaction": "Death Guard",
               "playerScore": null,
               "opponentScore": null
             }
