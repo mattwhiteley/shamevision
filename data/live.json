@@ -2,9 +2,9 @@
   "events": [
     {
       "id": "RtCVWgRAXhkT",
-      "currentRound": 1,
-      "roundInProgress": true,
-      "updated_at": "2026-11-07T13:36:18",
+      "currentRound": 2,
+      "roundInProgress": false,
+      "updated_at": "2026-11-07T14:02:40",
       "players": [
         {
           "id": "mR11AJt6oOkO",
@@ -49,8 +49,8 @@
               "round": 1,
               "opponent": "Mike Marlow",
               "opponentFaction": "T'au Empire",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 15,
+              "opponentScore": 5
             }
           ]
         },
@@ -65,8 +65,8 @@
               "round": 1,
               "opponent": "Ollie Smith",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 16,
+              "opponentScore": 4
             }
           ]
         },
@@ -113,8 +113,8 @@
               "round": 1,
               "opponent": "Kareem Hussain",
               "opponentFaction": "Chaos Space Marines",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 4,
+              "opponentScore": 16
             }
           ]
         },
@@ -158,32 +158,56 @@
           "teamId": "do-you-like-4s",
           "teamName": "Do you like 4++s?",
           "opponentTeamName": "Two Superhumans and a Fish",
-          "teamScore": 20,
-          "opponentTeamScore": 20
+          "teamScore": 36,
+          "opponentTeamScore": 24
         },
         {
           "round": 1,
           "teamId": "the-three-shamigos",
           "teamName": "The Three Shamigos",
           "opponentTeamName": "DoG the old ones",
-          "teamScore": 29,
-          "opponentTeamScore": 11
+          "teamScore": 44,
+          "opponentTeamScore": 16
         },
         {
           "round": 1,
           "teamId": "two-superhumans-and-a-fish",
           "teamName": "Two Superhumans and a Fish",
           "opponentTeamName": "Do you like 4++s?",
-          "teamScore": 20,
-          "opponentTeamScore": 20
+          "teamScore": 24,
+          "opponentTeamScore": 36
+        },
+        {
+          "round": 2,
+          "teamId": "do-you-like-4s",
+          "teamName": "Do you like 4++s?",
+          "opponentTeamName": "Glue sommeliers",
+          "teamScore": null,
+          "opponentTeamScore": null
+        },
+        {
+          "round": 2,
+          "teamId": "the-three-shamigos",
+          "teamName": "The Three Shamigos",
+          "opponentTeamName": "Deal No Pain",
+          "teamScore": null,
+          "opponentTeamScore": null
+        },
+        {
+          "round": 2,
+          "teamId": "two-superhumans-and-a-fish",
+          "teamName": "Two Superhumans and a Fish",
+          "opponentTeamName": "DoG but not old",
+          "teamScore": null,
+          "opponentTeamScore": null
         }
       ]
     },
     {
       "id": "BPYv9LhsFzwU",
       "currentRound": 2,
-      "roundInProgress": false,
-      "updated_at": "2026-11-07T13:36:20",
+      "roundInProgress": true,
+      "updated_at": "2026-11-07T14:02:42",
       "players": [
         {
           "id": "nXH3inwLqdfz",
@@ -198,6 +222,13 @@
               "opponentFaction": "Adeptus Mechanicus",
               "playerScore": 14,
               "opponentScore": 6
+            },
+            {
+              "round": 2,
+              "opponent": "Matt Barney",
+              "opponentFaction": "Dark Angels",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -214,6 +245,13 @@
               "opponentFaction": "Adeptus Custodes",
               "playerScore": 20,
               "opponentScore": 0
+            },
+            {
+              "round": 2,
+              "opponent": "Dave Mannering",
+              "opponentFaction": "Orks",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -230,6 +268,13 @@
               "opponentFaction": "Necrons",
               "playerScore": 12,
               "opponentScore": 8
+            },
+            {
+              "round": 2,
+              "opponent": "Benjamin Crowe",
+              "opponentFaction": "Aeldari",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -246,6 +291,13 @@
               "opponentFaction": "Chaos Daemons",
               "playerScore": 19,
               "opponentScore": 1
+            },
+            {
+              "round": 2,
+              "opponent": "Joe Crook",
+              "opponentFaction": "T'au Empire",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -262,6 +314,13 @@
               "opponentFaction": "World Eaters",
               "playerScore": 18,
               "opponentScore": 2
+            },
+            {
+              "round": 2,
+              "opponent": "Frank Martin",
+              "opponentFaction": "Chaos Space Marines",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -278,6 +337,13 @@
               "opponentFaction": "Emperor's Children",
               "playerScore": 19,
               "opponentScore": 1
+            },
+            {
+              "round": 2,
+              "opponent": "Dominic Mathews",
+              "opponentFaction": "Leagues of Votann",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -294,6 +360,13 @@
               "opponentFaction": "Thousand Sons",
               "playerScore": 13,
               "opponentScore": 7
+            },
+            {
+              "round": 2,
+              "opponent": "Charlie Leigh",
+              "opponentFaction": "Adeptus Mechanicus",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -310,6 +383,13 @@
               "opponentFaction": "Chaos Space Marines",
               "playerScore": 2,
               "opponentScore": 18
+            },
+            {
+              "round": 2,
+              "opponent": "Ben Hammond",
+              "opponentFaction": "Tyranids",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -326,6 +406,13 @@
               "opponentFaction": "Dark Angels",
               "playerScore": 9,
               "opponentScore": 11
+            },
+            {
+              "round": 2,
+              "opponent": "Mark Beaumont",
+              "opponentFaction": "Death Guard",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -342,6 +429,13 @@
               "opponentFaction": "Death Guard",
               "playerScore": 20,
               "opponentScore": 0
+            },
+            {
+              "round": 2,
+              "opponent": "Sam Bratley",
+              "opponentFaction": "Death Guard",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -358,6 +452,13 @@
               "opponentFaction": "Drukhari",
               "playerScore": 11,
               "opponentScore": 9
+            },
+            {
+              "round": 2,
+              "opponent": "Ryan Osborn",
+              "opponentFaction": "Tyranids",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         }
@@ -385,16 +486,16 @@
           "teamId": "pile-of-vagabonds-support-network",
           "teamName": "Pile of Vagabonds Support Network",
           "opponentTeamName": "Get Vekt - SUPERFREAK",
-          "teamScore": null,
-          "opponentTeamScore": null
+          "teamScore": 0,
+          "opponentTeamScore": 0
         },
         {
           "round": 2,
           "teamId": "vees-vagabonds---get-veekt",
           "teamName": "Vee's Vagabonds - Get Veekt",
           "opponentTeamName": "THM: We’re not angry …",
-          "teamScore": null,
-          "opponentTeamScore": null
+          "teamScore": 0,
+          "opponentTeamScore": 0
         }
       ]
     }
