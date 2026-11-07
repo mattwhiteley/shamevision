@@ -4,7 +4,7 @@
       "id": "RtCVWgRAXhkT",
       "currentRound": 3,
       "roundInProgress": true,
-      "updated_at": "2026-11-07T19:22:56",
+      "updated_at": "2026-11-07T19:35:22",
       "players": [
         {
           "id": "mR11AJt6oOkO",
@@ -315,7 +315,7 @@
       "id": "BPYv9LhsFzwU",
       "currentRound": 3,
       "roundInProgress": true,
-      "updated_at": "2026-11-07T19:22:57",
+      "updated_at": "2026-11-07T19:35:24",
       "players": [
         {
           "id": "nXH3inwLqdfz",
@@ -383,6 +383,13 @@
               "opponentFaction": "Aeldari",
               "playerScore": 13,
               "opponentScore": 7
+            },
+            {
+              "round": 3,
+              "opponent": "Joe Cosgrove",
+              "opponentFaction": "Aeldari",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -406,6 +413,13 @@
               "opponentFaction": "T'au Empire",
               "playerScore": 10,
               "opponentScore": 10
+            },
+            {
+              "round": 3,
+              "opponent": "Josh Dolman",
+              "opponentFaction": "World Eaters",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -429,6 +443,13 @@
               "opponentFaction": "Chaos Space Marines",
               "playerScore": 20,
               "opponentScore": 0
+            },
+            {
+              "round": 3,
+              "opponent": "Shaun O'Neill",
+              "opponentFaction": "Adeptus Custodes",
+              "playerScore": 18,
+              "opponentScore": 2
             }
           ]
         },
@@ -475,6 +496,13 @@
               "opponentFaction": "Adeptus Mechanicus",
               "playerScore": 4,
               "opponentScore": 16
+            },
+            {
+              "round": 3,
+              "opponent": "Luke Barrs",
+              "opponentFaction": "Dark Angels",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -551,6 +579,13 @@
               "opponentFaction": "Death Guard",
               "playerScore": 9,
               "opponentScore": 11
+            },
+            {
+              "round": 3,
+              "opponent": "Stephen Geer",
+              "opponentFaction": "Adepta Sororitas",
+              "playerScore": 20,
+              "opponentScore": 0
             }
           ]
         },
@@ -617,8 +652,8 @@
           "teamId": "pile-of-vagabonds-support-network",
           "teamName": "Pile of Vagabonds Support Network",
           "opponentTeamName": "Kent Knights - Who say \"Ni!\"",
-          "teamScore": null,
-          "opponentTeamScore": null
+          "teamScore": 38,
+          "opponentTeamScore": 2
         },
         {
           "round": 3,
