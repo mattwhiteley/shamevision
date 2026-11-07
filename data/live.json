@@ -4,7 +4,7 @@
       "id": "RtCVWgRAXhkT",
       "currentRound": 3,
       "roundInProgress": true,
-      "updated_at": "2026-11-07T20:14:57",
+      "updated_at": "2026-11-07T21:03:17",
       "players": [
         {
           "id": "mR11AJt6oOkO",
@@ -31,8 +31,8 @@
               "round": 3,
               "opponent": "Mark Gaukrodger",
               "opponentFaction": "T'au Empire",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 20,
+              "opponentScore": 0
             }
           ]
         },
@@ -61,8 +61,8 @@
               "round": 3,
               "opponent": "Samuel Hardisty",
               "opponentFaction": "Adeptus Custodes",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 17,
+              "opponentScore": 3
             }
           ]
         },
@@ -91,8 +91,8 @@
               "round": 3,
               "opponent": "Ollie Smith",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 7,
+              "opponentScore": 13
             }
           ]
         },
@@ -121,8 +121,8 @@
               "round": 3,
               "opponent": "Matt Puffett",
               "opponentFaction": "Adepta Sororitas",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 3,
+              "opponentScore": 17
             }
           ]
         },
@@ -151,8 +151,8 @@
               "round": 3,
               "opponent": "Anthony Keen",
               "opponentFaction": "Orks",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 0,
+              "opponentScore": 20
             }
           ]
         },
@@ -181,8 +181,8 @@
               "round": 3,
               "opponent": "Patrick Farmbrough",
               "opponentFaction": "T'au Empire",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 0,
+              "opponentScore": 20
             }
           ]
         },
@@ -211,8 +211,8 @@
               "round": 3,
               "opponent": "Daniel Green",
               "opponentFaction": "World Eaters",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 13,
+              "opponentScore": 7
             }
           ]
         },
@@ -271,8 +271,8 @@
               "round": 3,
               "opponent": "Cayleb Langhals",
               "opponentFaction": "Death Guard",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 3,
+              "opponentScore": 17
             }
           ]
         }
@@ -332,24 +332,24 @@
           "teamId": "do-you-like-4s",
           "teamName": "Do you like 4++s?",
           "opponentTeamName": "Deal No Pain",
-          "teamScore": 0,
-          "opponentTeamScore": 0
+          "teamScore": 3,
+          "opponentTeamScore": 37
         },
         {
           "round": 3,
           "teamId": "the-three-shamigos",
           "teamName": "The Three Shamigos",
           "opponentTeamName": "Two Superhumans and a Fish",
-          "teamScore": 0,
-          "opponentTeamScore": 0
+          "teamScore": 44,
+          "opponentTeamScore": 16
         },
         {
           "round": 3,
           "teamId": "two-superhumans-and-a-fish",
           "teamName": "Two Superhumans and a Fish",
           "opponentTeamName": "The Three Shamigos",
-          "teamScore": 0,
-          "opponentTeamScore": 0
+          "teamScore": 16,
+          "opponentTeamScore": 44
         }
       ]
     },
