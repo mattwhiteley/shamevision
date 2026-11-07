@@ -4,7 +4,7 @@
       "id": "RtCVWgRAXhkT",
       "currentRound": 2,
       "roundInProgress": true,
-      "updated_at": "2026-11-07T16:44:41",
+      "updated_at": "2026-11-07T17:14:29",
       "players": [
         {
           "id": "mR11AJt6oOkO",
@@ -139,8 +139,8 @@
               "round": 2,
               "opponent": "Tom Thorn",
               "opponentFaction": "Imperial Knights",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 14,
+              "opponentScore": 6
             }
           ]
         },
@@ -162,8 +162,8 @@
               "round": 2,
               "opponent": "Rhys Melhado-Thompson",
               "opponentFaction": "World Eaters",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 16,
+              "opponentScore": 4
             }
           ]
         },
@@ -245,8 +245,8 @@
           "teamId": "do-you-like-4s",
           "teamName": "Do you like 4++s?",
           "opponentTeamName": "Glue sommeliers",
-          "teamScore": 0,
-          "opponentTeamScore": 0
+          "teamScore": 14,
+          "opponentTeamScore": 6
         },
         {
           "round": 2,
@@ -261,8 +261,8 @@
           "teamId": "two-superhumans-and-a-fish",
           "teamName": "Two Superhumans and a Fish",
           "opponentTeamName": "DoG but not old",
-          "teamScore": 0,
-          "opponentTeamScore": 0
+          "teamScore": 16,
+          "opponentTeamScore": 4
         }
       ]
     },
@@ -270,7 +270,7 @@
       "id": "BPYv9LhsFzwU",
       "currentRound": 2,
       "roundInProgress": true,
-      "updated_at": "2026-11-07T16:44:43",
+      "updated_at": "2026-11-07T17:14:30",
       "players": [
         {
           "id": "nXH3inwLqdfz",
@@ -290,8 +290,8 @@
               "round": 2,
               "opponent": "Matt Barney",
               "opponentFaction": "Dark Angels",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 10,
+              "opponentScore": 10
             }
           ]
         },
@@ -313,8 +313,8 @@
               "round": 2,
               "opponent": "Dave Mannering",
               "opponentFaction": "Orks",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 11,
+              "opponentScore": 9
             }
           ]
         },
@@ -336,8 +336,8 @@
               "round": 2,
               "opponent": "Benjamin Crowe",
               "opponentFaction": "Aeldari",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 13,
+              "opponentScore": 7
             }
           ]
         },
@@ -359,8 +359,8 @@
               "round": 2,
               "opponent": "Joe Crook",
               "opponentFaction": "T'au Empire",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 10,
+              "opponentScore": 10
             }
           ]
         },
@@ -428,8 +428,8 @@
               "round": 2,
               "opponent": "Charlie Leigh",
               "opponentFaction": "Adeptus Mechanicus",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 4,
+              "opponentScore": 16
             }
           ]
         },
@@ -474,8 +474,8 @@
               "round": 2,
               "opponent": "Mark Beaumont",
               "opponentFaction": "Death Guard",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 0,
+              "opponentScore": 20
             }
           ]
         },
@@ -520,8 +520,8 @@
               "round": 2,
               "opponent": "Ryan Osborn",
               "opponentFaction": "Tyranids",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 2,
+              "opponentScore": 18
             }
           ]
         }
@@ -549,16 +549,16 @@
           "teamId": "pile-of-vagabonds-support-network",
           "teamName": "Pile of Vagabonds Support Network",
           "opponentTeamName": "Get Vekt - SUPERFREAK",
-          "teamScore": 29,
-          "opponentTeamScore": 11
+          "teamScore": 56,
+          "opponentTeamScore": 44
         },
         {
           "round": 2,
           "teamId": "vees-vagabonds---get-veekt",
           "teamName": "Vee's Vagabonds - Get Veekt",
           "opponentTeamName": "THM: We’re not angry …",
-          "teamScore": 3,
-          "opponentTeamScore": 17
+          "teamScore": 26,
+          "opponentTeamScore": 74
         }
       ]
     }
