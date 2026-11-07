@@ -4,7 +4,7 @@
       "id": "RtCVWgRAXhkT",
       "currentRound": 1,
       "roundInProgress": true,
-      "updated_at": "2026-11-07T11:53:25",
+      "updated_at": "2026-11-07T12:41:59",
       "players": [
         {
           "id": "mR11AJt6oOkO",
@@ -183,7 +183,7 @@
       "id": "BPYv9LhsFzwU",
       "currentRound": 1,
       "roundInProgress": true,
-      "updated_at": "2026-11-07T11:53:26",
+      "updated_at": "2026-11-07T12:42:00",
       "players": [
         {
           "id": "nXH3inwLqdfz",
@@ -196,8 +196,8 @@
               "round": 1,
               "opponent": "Josh Hignett",
               "opponentFaction": "Adeptus Mechanicus",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 14,
+              "opponentScore": 6
             }
           ]
         },
@@ -228,8 +228,8 @@
               "round": 1,
               "opponent": "Marco Cattorini",
               "opponentFaction": "Necrons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 12,
+              "opponentScore": 8
             }
           ]
         },
@@ -244,8 +244,8 @@
               "round": 1,
               "opponent": "Graham Radden",
               "opponentFaction": "Chaos Daemons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 19,
+              "opponentScore": 1
             }
           ]
         },
@@ -260,8 +260,8 @@
               "round": 1,
               "opponent": "Michael Tuffen",
               "opponentFaction": "World Eaters",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 18,
+              "opponentScore": 2
             }
           ]
         },
@@ -276,8 +276,8 @@
               "round": 1,
               "opponent": "Tim Jones",
               "opponentFaction": "Emperor's Children",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 19,
+              "opponentScore": 1
             }
           ]
         },
@@ -292,8 +292,8 @@
               "round": 1,
               "opponent": "Ryan Solly",
               "opponentFaction": "Thousand Sons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 13,
+              "opponentScore": 7
             }
           ]
         },
@@ -324,8 +324,8 @@
               "round": 1,
               "opponent": "Joe Targan",
               "opponentFaction": "Dark Angels",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 9,
+              "opponentScore": 11
             }
           ]
         },
@@ -340,8 +340,8 @@
               "round": 1,
               "opponent": "Mark Jarvis",
               "opponentFaction": "Death Guard",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 20,
+              "opponentScore": 0
             }
           ]
         },
@@ -356,8 +356,8 @@
               "round": 1,
               "opponent": "Patrick O'Dell",
               "opponentFaction": "Drukhari",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 11,
+              "opponentScore": 9
             }
           ]
         }
@@ -369,16 +369,16 @@
           "teamId": "pile-of-vagabonds-support-network",
           "teamName": "Pile of Vagabonds Support Network",
           "opponentTeamName": "Kent Knights - Business",
-          "teamScore": 0,
-          "opponentTeamScore": 0
+          "teamScore": 82,
+          "opponentTeamScore": 18
         },
         {
           "round": 1,
           "teamId": "vees-vagabonds---get-veekt",
           "teamName": "Vee's Vagabonds - Get Veekt",
           "opponentTeamName": "The Lion, the Wych and the Custode",
-          "teamScore": 20,
-          "opponentTeamScore": 0
+          "teamScore": 73,
+          "opponentTeamScore": 27
         }
       ]
     }
