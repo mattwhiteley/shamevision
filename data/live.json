@@ -4,7 +4,7 @@
       "id": "RtCVWgRAXhkT",
       "currentRound": 2,
       "roundInProgress": true,
-      "updated_at": "2026-11-07T17:14:29",
+      "updated_at": "2026-11-07T17:29:38",
       "players": [
         {
           "id": "mR11AJt6oOkO",
@@ -24,8 +24,8 @@
               "round": 2,
               "opponent": "Matt Puffett",
               "opponentFaction": "Adepta Sororitas",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 1,
+              "opponentScore": 19
             }
           ]
         },
@@ -47,8 +47,8 @@
               "round": 2,
               "opponent": "Patrick Farmbrough",
               "opponentFaction": "T'au Empire",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 18,
+              "opponentScore": 2
             }
           ]
         },
@@ -93,8 +93,8 @@
               "round": 2,
               "opponent": "David Williams",
               "opponentFaction": "Astra Militarum",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 18,
+              "opponentScore": 2
             }
           ]
         },
@@ -245,16 +245,16 @@
           "teamId": "do-you-like-4s",
           "teamName": "Do you like 4++s?",
           "opponentTeamName": "Glue sommeliers",
-          "teamScore": 14,
-          "opponentTeamScore": 6
+          "teamScore": 32,
+          "opponentTeamScore": 8
         },
         {
           "round": 2,
           "teamId": "the-three-shamigos",
           "teamName": "The Three Shamigos",
           "opponentTeamName": "Deal No Pain",
-          "teamScore": 0,
-          "opponentTeamScore": 0
+          "teamScore": 19,
+          "opponentTeamScore": 21
         },
         {
           "round": 2,
@@ -268,9 +268,9 @@
     },
     {
       "id": "BPYv9LhsFzwU",
-      "currentRound": 2,
+      "currentRound": 3,
       "roundInProgress": true,
-      "updated_at": "2026-11-07T17:14:30",
+      "updated_at": "2026-11-07T17:29:39",
       "players": [
         {
           "id": "nXH3inwLqdfz",
@@ -559,6 +559,22 @@
           "opponentTeamName": "THM: We’re not angry …",
           "teamScore": 26,
           "opponentTeamScore": 74
+        },
+        {
+          "round": 3,
+          "teamId": "pile-of-vagabonds-support-network",
+          "teamName": "Pile of Vagabonds Support Network",
+          "opponentTeamName": "Kent Knights - Who say \"Ni!\"",
+          "teamScore": null,
+          "opponentTeamScore": null
+        },
+        {
+          "round": 3,
+          "teamId": "vees-vagabonds---get-veekt",
+          "teamName": "Vee's Vagabonds - Get Veekt",
+          "opponentTeamName": "Kent Knights - Business",
+          "teamScore": null,
+          "opponentTeamScore": null
         }
       ]
     }
