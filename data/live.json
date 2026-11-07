@@ -4,7 +4,7 @@
       "id": "RtCVWgRAXhkT",
       "currentRound": 3,
       "roundInProgress": true,
-      "updated_at": "2026-11-07T19:35:22",
+      "updated_at": "2026-11-07T19:51:49",
       "players": [
         {
           "id": "mR11AJt6oOkO",
@@ -26,6 +26,13 @@
               "opponentFaction": "Adepta Sororitas",
               "playerScore": 1,
               "opponentScore": 19
+            },
+            {
+              "round": 3,
+              "opponent": "Mark Gaukrodger",
+              "opponentFaction": "T'au Empire",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -49,6 +56,13 @@
               "opponentFaction": "T'au Empire",
               "playerScore": 18,
               "opponentScore": 2
+            },
+            {
+              "round": 3,
+              "opponent": "Samuel Hardisty",
+              "opponentFaction": "Adeptus Custodes",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -72,6 +86,13 @@
               "opponentFaction": "Dark Angels",
               "playerScore": 15,
               "opponentScore": 5
+            },
+            {
+              "round": 3,
+              "opponent": "Ollie Smith",
+              "opponentFaction": "Space Marines (Astartes)",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -125,6 +146,13 @@
               "opponentFaction": "Adeptus Custodes",
               "playerScore": 8,
               "opponentScore": 12
+            },
+            {
+              "round": 3,
+              "opponent": "Anthony Keen",
+              "opponentFaction": "Orks",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -178,6 +206,13 @@
               "opponentFaction": "World Eaters",
               "playerScore": 16,
               "opponentScore": 4
+            },
+            {
+              "round": 3,
+              "opponent": "Daniel Green",
+              "opponentFaction": "World Eaters",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -231,6 +266,13 @@
               "opponentFaction": "Drukhari",
               "playerScore": 12,
               "opponentScore": 8
+            },
+            {
+              "round": 3,
+              "opponent": "Cayleb Langhals",
+              "opponentFaction": "Death Guard",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         }
@@ -298,16 +340,16 @@
           "teamId": "the-three-shamigos",
           "teamName": "The Three Shamigos",
           "opponentTeamName": "Two Superhumans and a Fish",
-          "teamScore": null,
-          "opponentTeamScore": null
+          "teamScore": 0,
+          "opponentTeamScore": 0
         },
         {
           "round": 3,
           "teamId": "two-superhumans-and-a-fish",
           "teamName": "Two Superhumans and a Fish",
           "opponentTeamName": "The Three Shamigos",
-          "teamScore": null,
-          "opponentTeamScore": null
+          "teamScore": 0,
+          "opponentTeamScore": 0
         }
       ]
     },
@@ -315,7 +357,7 @@
       "id": "BPYv9LhsFzwU",
       "currentRound": 3,
       "roundInProgress": true,
-      "updated_at": "2026-11-07T19:35:24",
+      "updated_at": "2026-11-07T19:51:52",
       "players": [
         {
           "id": "nXH3inwLqdfz",
@@ -418,8 +460,8 @@
               "round": 3,
               "opponent": "Josh Dolman",
               "opponentFaction": "World Eaters",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 14,
+              "opponentScore": 6
             }
           ]
         },
@@ -531,8 +573,8 @@
               "round": 3,
               "opponent": "Dylan Doyle",
               "opponentFaction": "Adeptus Custodes",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 20,
+              "opponentScore": 0
             }
           ]
         },
@@ -652,8 +694,8 @@
           "teamId": "pile-of-vagabonds-support-network",
           "teamName": "Pile of Vagabonds Support Network",
           "opponentTeamName": "Kent Knights - Who say \"Ni!\"",
-          "teamScore": 38,
-          "opponentTeamScore": 2
+          "teamScore": 52,
+          "opponentTeamScore": 8
         },
         {
           "round": 3,
