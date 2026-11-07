@@ -2,9 +2,9 @@
   "events": [
     {
       "id": "RtCVWgRAXhkT",
-      "currentRound": 2,
+      "currentRound": 3,
       "roundInProgress": true,
-      "updated_at": "2026-11-07T17:29:38",
+      "updated_at": "2026-11-07T17:40:06",
       "players": [
         {
           "id": "mR11AJt6oOkO",
@@ -70,8 +70,8 @@
               "round": 2,
               "opponent": "Tom Holmes",
               "opponentFaction": "Dark Angels",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 15,
+              "opponentScore": 5
             }
           ]
         },
@@ -116,8 +116,8 @@
               "round": 2,
               "opponent": "Alex Basi",
               "opponentFaction": "Adeptus Custodes",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 8,
+              "opponentScore": 12
             }
           ]
         },
@@ -185,8 +185,8 @@
               "round": 2,
               "opponent": "Connor Jones",
               "opponentFaction": "Emperor's Children",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 10,
+              "opponentScore": 10
             }
           ]
         },
@@ -208,8 +208,8 @@
               "round": 2,
               "opponent": "George Duggins",
               "opponentFaction": "Drukhari",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 12,
+              "opponentScore": 8
             }
           ]
         }
@@ -245,24 +245,48 @@
           "teamId": "do-you-like-4s",
           "teamName": "Do you like 4++s?",
           "opponentTeamName": "Glue sommeliers",
-          "teamScore": 32,
-          "opponentTeamScore": 8
+          "teamScore": 42,
+          "opponentTeamScore": 18
         },
         {
           "round": 2,
           "teamId": "the-three-shamigos",
           "teamName": "The Three Shamigos",
           "opponentTeamName": "Deal No Pain",
-          "teamScore": 19,
-          "opponentTeamScore": 21
+          "teamScore": 34,
+          "opponentTeamScore": 26
         },
         {
           "round": 2,
           "teamId": "two-superhumans-and-a-fish",
           "teamName": "Two Superhumans and a Fish",
           "opponentTeamName": "DoG but not old",
-          "teamScore": 16,
-          "opponentTeamScore": 4
+          "teamScore": 36,
+          "opponentTeamScore": 24
+        },
+        {
+          "round": 3,
+          "teamId": "do-you-like-4s",
+          "teamName": "Do you like 4++s?",
+          "opponentTeamName": "Deal No Pain",
+          "teamScore": null,
+          "opponentTeamScore": null
+        },
+        {
+          "round": 3,
+          "teamId": "the-three-shamigos",
+          "teamName": "The Three Shamigos",
+          "opponentTeamName": "Two Superhumans and a Fish",
+          "teamScore": null,
+          "opponentTeamScore": null
+        },
+        {
+          "round": 3,
+          "teamId": "two-superhumans-and-a-fish",
+          "teamName": "Two Superhumans and a Fish",
+          "opponentTeamName": "The Three Shamigos",
+          "teamScore": null,
+          "opponentTeamScore": null
         }
       ]
     },
@@ -270,7 +294,7 @@
       "id": "BPYv9LhsFzwU",
       "currentRound": 3,
       "roundInProgress": true,
-      "updated_at": "2026-11-07T17:29:39",
+      "updated_at": "2026-11-07T17:40:08",
       "players": [
         {
           "id": "nXH3inwLqdfz",
