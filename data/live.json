@@ -4,7 +4,7 @@
       "id": "RtCVWgRAXhkT",
       "currentRound": 1,
       "roundInProgress": true,
-      "updated_at": "2026-11-07T11:13:58",
+      "updated_at": "2026-11-07T11:20:23",
       "players": [
         {
           "id": "mR11AJt6oOkO",
@@ -175,7 +175,7 @@
       "id": "BPYv9LhsFzwU",
       "currentRound": 1,
       "roundInProgress": true,
-      "updated_at": "2026-11-07T11:13:59",
+      "updated_at": "2026-11-07T11:20:24",
       "players": [
         {
           "id": "nXH3inwLqdfz",
@@ -306,6 +306,22 @@
           ]
         },
         {
+          "id": "6GqgFbGpDKkt",
+          "memberId": "member-simon-hicks",
+          "faction": "World Eaters",
+          "group": "pile",
+          "teamName": "Vee's Vagabonds - Get Veekt",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Joe Targan",
+              "opponentFaction": "Dark Angels",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
+        },
+        {
           "id": "cBYjIbDbqQ9Q",
           "memberId": "member-tim-waters",
           "faction": "Space Marines (Astartes)",
@@ -322,12 +338,20 @@
           ]
         },
         {
-          "id": "cfg-member-veevek-doolbah",
-          "memberId": "member-veevek-doolbah",
-          "faction": "",
+          "id": "kj3WWG9S4cZg",
+          "memberId": "member-veevek-doolabh",
+          "faction": "Drukhari",
           "group": "pile",
-          "teamName": "Vee's Vagabonds - Get Veekt",
-          "rounds": []
+          "teamName": "Vee's Vagabonds",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Patrick O'Dell",
+              "opponentFaction": "Drukhari",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         }
       ],
       "eventType": "team",
