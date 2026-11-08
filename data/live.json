@@ -4,7 +4,7 @@
       "id": "RtCVWgRAXhkT",
       "currentRound": 3,
       "roundInProgress": false,
-      "updated_at": "2026-11-08T09:12:32",
+      "updated_at": "2026-11-08T12:36:54",
       "players": [
         {
           "id": "mR11AJt6oOkO",
@@ -356,8 +356,8 @@
     {
       "id": "BPYv9LhsFzwU",
       "currentRound": 4,
-      "roundInProgress": false,
-      "updated_at": "2026-11-08T09:12:36",
+      "roundInProgress": true,
+      "updated_at": "2026-11-08T12:36:57",
       "players": [
         {
           "id": "nXH3inwLqdfz",
@@ -386,6 +386,13 @@
               "opponentFaction": "Death Guard",
               "playerScore": 12,
               "opponentScore": 8
+            },
+            {
+              "round": 4,
+              "opponent": "Seb Spencer",
+              "opponentFaction": "Death Guard",
+              "playerScore": 10,
+              "opponentScore": 10
             }
           ]
         },
@@ -416,6 +423,13 @@
               "opponentFaction": "Necrons",
               "playerScore": 11,
               "opponentScore": 9
+            },
+            {
+              "round": 4,
+              "opponent": "James Seager",
+              "opponentFaction": "Chaos Space Marines",
+              "playerScore": 20,
+              "opponentScore": 0
             }
           ]
         },
@@ -446,6 +460,13 @@
               "opponentFaction": "Aeldari",
               "playerScore": 18,
               "opponentScore": 2
+            },
+            {
+              "round": 4,
+              "opponent": "Jack Coulstock",
+              "opponentFaction": "Leagues of Votann",
+              "playerScore": 5,
+              "opponentScore": 15
             }
           ]
         },
@@ -476,6 +497,13 @@
               "opponentFaction": "World Eaters",
               "playerScore": 14,
               "opponentScore": 6
+            },
+            {
+              "round": 4,
+              "opponent": "Luke Grant",
+              "opponentFaction": "Adepta Sororitas",
+              "playerScore": 4,
+              "opponentScore": 16
             }
           ]
         },
@@ -506,6 +534,13 @@
               "opponentFaction": "Adeptus Custodes",
               "playerScore": 18,
               "opponentScore": 2
+            },
+            {
+              "round": 4,
+              "opponent": "Byron 🔥🎲 Sidhu",
+              "opponentFaction": "Chaos Daemons",
+              "playerScore": 0,
+              "opponentScore": 20
             }
           ]
         },
@@ -536,6 +571,13 @@
               "opponentFaction": "World Eaters",
               "playerScore": 8,
               "opponentScore": 12
+            },
+            {
+              "round": 4,
+              "opponent": "Edmund Dymott",
+              "opponentFaction": "Orks",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -566,6 +608,13 @@
               "opponentFaction": "Dark Angels",
               "playerScore": 10,
               "opponentScore": 10
+            },
+            {
+              "round": 4,
+              "opponent": "Euan Bedford-Cooper",
+              "opponentFaction": "Chaos Space Marines",
+              "playerScore": 0,
+              "opponentScore": 20
             }
           ]
         },
@@ -596,6 +645,13 @@
               "opponentFaction": "Adeptus Custodes",
               "playerScore": 20,
               "opponentScore": 0
+            },
+            {
+              "round": 4,
+              "opponent": "Adam J E Smith",
+              "opponentFaction": "Necrons",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -626,6 +682,13 @@
               "opponentFaction": "Thousand Sons",
               "playerScore": 20,
               "opponentScore": 0
+            },
+            {
+              "round": 4,
+              "opponent": "Alex Neale",
+              "opponentFaction": "Necrons",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -656,6 +719,13 @@
               "opponentFaction": "Adepta Sororitas",
               "playerScore": 20,
               "opponentScore": 0
+            },
+            {
+              "round": 4,
+              "opponent": "Zan 🔥🎲 Rashid",
+              "opponentFaction": "World Eaters",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -686,6 +756,13 @@
               "opponentFaction": "Chaos Daemons",
               "playerScore": 7,
               "opponentScore": 13
+            },
+            {
+              "round": 4,
+              "opponent": "Christopher Houlston",
+              "opponentFaction": "Space Marines (Astartes)",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         }
@@ -745,16 +822,16 @@
           "teamId": "pile-of-vagabonds-support-network",
           "teamName": "Pile of Vagabonds Support Network",
           "opponentTeamName": "Tunbridge Wells Wargaming - Fire and Hydra",
-          "teamScore": null,
-          "opponentTeamScore": null
+          "teamScore": 9,
+          "opponentTeamScore": 71
         },
         {
           "round": 4,
           "teamId": "vees-vagabonds---get-veekt",
           "teamName": "Vee's Vagabonds - Get Veekt",
           "opponentTeamName": "Shedhammer",
-          "teamScore": null,
-          "opponentTeamScore": null
+          "teamScore": 30,
+          "opponentTeamScore": 10
         }
       ]
     }
