@@ -355,9 +355,9 @@
     },
     {
       "id": "BPYv9LhsFzwU",
-      "currentRound": 4,
-      "roundInProgress": true,
-      "updated_at": "2026-11-08T12:36:57",
+      "currentRound": 5,
+      "roundInProgress": false,
+      "updated_at": "2026-11-08T13:52:20",
       "players": [
         {
           "id": "nXH3inwLqdfz",
@@ -467,6 +467,13 @@
               "opponentFaction": "Leagues of Votann",
               "playerScore": 5,
               "opponentScore": 15
+            },
+            {
+              "round": 5,
+              "opponent": "Martyn Lakeland",
+              "opponentFaction": "Adeptus Mechanicus",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -504,6 +511,13 @@
               "opponentFaction": "Adepta Sororitas",
               "playerScore": 4,
               "opponentScore": 16
+            },
+            {
+              "round": 5,
+              "opponent": "James Hussein",
+              "opponentFaction": "Chaos Space Marines",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -541,6 +555,13 @@
               "opponentFaction": "Chaos Daemons",
               "playerScore": 0,
               "opponentScore": 20
+            },
+            {
+              "round": 5,
+              "opponent": "Tom Madden",
+              "opponentFaction": "Death Guard",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -576,8 +597,8 @@
               "round": 4,
               "opponent": "Edmund Dymott",
               "opponentFaction": "Orks",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 0,
+              "opponentScore": 20
             }
           ]
         },
@@ -615,6 +636,13 @@
               "opponentFaction": "Chaos Space Marines",
               "playerScore": 0,
               "opponentScore": 20
+            },
+            {
+              "round": 5,
+              "opponent": "Alex Ede",
+              "opponentFaction": "Space Marines (Astartes)",
+              "playerScore": null,
+              "opponentScore": null
             }
           ]
         },
@@ -650,6 +678,13 @@
               "round": 4,
               "opponent": "Adam J E Smith",
               "opponentFaction": "Necrons",
+              "playerScore": 10,
+              "opponentScore": 10
+            },
+            {
+              "round": 5,
+              "opponent": "Benjamin Crowe",
+              "opponentFaction": "Aeldari",
               "playerScore": null,
               "opponentScore": null
             }
@@ -687,8 +722,8 @@
               "round": 4,
               "opponent": "Alex Neale",
               "opponentFaction": "Necrons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 6,
+              "opponentScore": 14
             }
           ]
         },
@@ -724,6 +759,13 @@
               "round": 4,
               "opponent": "Zan 🔥🎲 Rashid",
               "opponentFaction": "World Eaters",
+              "playerScore": 13,
+              "opponentScore": 7
+            },
+            {
+              "round": 5,
+              "opponent": "Cameron Archbold",
+              "opponentFaction": "Tyranids",
               "playerScore": null,
               "opponentScore": null
             }
@@ -761,8 +803,8 @@
               "round": 4,
               "opponent": "Christopher Houlston",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 10,
+              "opponentScore": 10
             }
           ]
         }
@@ -822,16 +864,32 @@
           "teamId": "pile-of-vagabonds-support-network",
           "teamName": "Pile of Vagabonds Support Network",
           "opponentTeamName": "Tunbridge Wells Wargaming - Fire and Hydra",
-          "teamScore": 9,
-          "opponentTeamScore": 71
+          "teamScore": 22,
+          "opponentTeamScore": 78
         },
         {
           "round": 4,
           "teamId": "vees-vagabonds---get-veekt",
           "teamName": "Vee's Vagabonds - Get Veekt",
           "opponentTeamName": "Shedhammer",
-          "teamScore": 30,
-          "opponentTeamScore": 10
+          "teamScore": 46,
+          "opponentTeamScore": 54
+        },
+        {
+          "round": 5,
+          "teamId": "pile-of-vagabonds-support-network",
+          "teamName": "Pile of Vagabonds Support Network",
+          "opponentTeamName": "South London Legion",
+          "teamScore": 0,
+          "opponentTeamScore": 0
+        },
+        {
+          "round": 5,
+          "teamId": "vees-vagabonds---get-veekt",
+          "teamName": "Vee's Vagabonds - Get Veekt",
+          "opponentTeamName": "Camelot Team Galahad",
+          "teamScore": null,
+          "opponentTeamScore": null
         }
       ]
     }
