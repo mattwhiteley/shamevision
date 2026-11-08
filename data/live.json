@@ -4,7 +4,7 @@
       "id": "RtCVWgRAXhkT",
       "currentRound": 3,
       "roundInProgress": false,
-      "updated_at": "2026-11-07T22:37:19",
+      "updated_at": "2026-11-08T09:12:32",
       "players": [
         {
           "id": "mR11AJt6oOkO",
@@ -355,9 +355,9 @@
     },
     {
       "id": "BPYv9LhsFzwU",
-      "currentRound": 3,
+      "currentRound": 4,
       "roundInProgress": false,
-      "updated_at": "2026-11-07T22:37:21",
+      "updated_at": "2026-11-08T09:12:36",
       "players": [
         {
           "id": "nXH3inwLqdfz",
@@ -739,6 +739,22 @@
           "opponentTeamName": "Kent Knights - Business",
           "teamScore": 58,
           "opponentTeamScore": 42
+        },
+        {
+          "round": 4,
+          "teamId": "pile-of-vagabonds-support-network",
+          "teamName": "Pile of Vagabonds Support Network",
+          "opponentTeamName": "Tunbridge Wells Wargaming - Fire and Hydra",
+          "teamScore": null,
+          "opponentTeamScore": null
+        },
+        {
+          "round": 4,
+          "teamId": "vees-vagabonds---get-veekt",
+          "teamName": "Vee's Vagabonds - Get Veekt",
+          "opponentTeamName": "Shedhammer",
+          "teamScore": null,
+          "opponentTeamScore": null
         }
       ]
     }
