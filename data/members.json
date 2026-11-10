@@ -15,7 +15,7 @@
     { "id": "member-callum-stayton",   "name": "Callum Stayton",   "shortName": "CallumS",   "tier": "hall-of-shame" },
     { "id": "member-cayleb-langhals",  "name": "Cayleb Langhals",  "shortName": "Cayleb",    "tier": "hall-of-shame" },
     { "id": "member-chris-enderby",    "name": "Chris Enderby",    "shortName": "Chris",     "tier": "hall-of-shame" },
-    { "id": "member-christian-thomson","name": "Christian Thomson","shortName": "Christian", "tier": "hall-of-shame" },
+    { "id": "member-christian-thomson","name": "Christian Thomson","shortName": "ChristianT", "tier": "hall-of-shame" },
     { "id": "member-daniel-green",     "name": "Daniel Green",     "shortName": "Daniel",    "tier": "hall-of-shame" },
     { "id": "member-fintan-ryan",       "name": "Fintan Ryan",     "shortName": "Fintan",    "tier": "hall-of-shame" },
     { "id": "member-gabriel-evans",    "name": "Gabriel Evans",    "shortName": "Gabe",      "tier": "hall-of-shame" },
@@ -43,7 +43,7 @@
     { "id": "member-robert-briden",   "name": "Robert Briden",    "shortName": "RobB",      "tier": "hall-of-shame" },
     { "id": "member-samuel-francis",   "name": "Samuel Francis",   "shortName": "SamuelF",   "tier": "hall-of-shame" },
     { "id": "member-spencer-james",    "name": "Spencer James",    "shortName": "Spencer",   "tier": "hall-of-shame" },
-    { "id": "member-ollie-smith",      "name": "Ollie Smith",      "shortName": "Ollie",     "tier": "hall-of-shame" },
+    { "id": "member-ollie-smith",      "name": "Ollie Smith",      "shortName": "OllieS",     "tier": "hall-of-shame" },
     { "id": "member-samuel-hardisty",  "name": "Samuel Hardisty",  "shortName": "Sam H",     "tier": "hall-of-shame" },
     { "id": "member-james-brown",      "name": "James Brown",      "shortName": "James",     "tier": "friends" },
     { "id": "member-jordan-penning",   "name": "Jordan Penning",   "shortName": "Jordan",    "tier": "friends" },
@@ -66,6 +66,10 @@
     { "id": "member-mark-gaukrodger",       "name": "Mark Gaukrodger",       "shortName": "MarkG",       "tier": "friends" },
     { "id": "member-jack-watkinson",       "name": "Jack Watkinson",       "shortName": "JackW",       "tier": "friends" },
     {"id": "member-ryan-garner",       "name": "Ryan Garner",       "shortName": "Ryan",       "tier": "friends" },
-    { "id": "member-simon-hicks",       "name": "Simon Hicks",       "shortName": "Simon",       "tier": "friends" }
+    { "id": "member-simon-hicks",       "name": "Simon Hicks",       "shortName": "Simon",       "tier": "friends" },
+      { "id": "member-george-hau",       "name": "George Hau",       "shortName": "George",       "tier": "hall-of-shame" },
+    { "id": "member-john-hamer",       "name": "John Hamer",       "shortName": "John",       "tier": "hall-of-shame" },
+    { "id": "member-stratis-limnios",       "name": "Stratis Limnios",       "shortName": "Stratis",       "tier": "hall-of-shame" },
+    { "id": "member-christian-bailly",       "name": "Christian \"Ryusei\" Bailly",       "shortName": "ChristianB",       "tier": "friends" }
   ]
 }
