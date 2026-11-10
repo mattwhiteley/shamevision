@@ -1,40 +1,10 @@
 {
   "events": [
-    {
-      "id": "RtCVWgRAXhkT",
-      "shortName": "BMC 3-man",
-      "eventName": "BMC 40K TEAMS - BOROUGH",
-      "bcpUrl": "https://www.bestcoastpairings.com/event/RtCVWgRAXhkT",
-      "eventType": "team",
-      "teamSize": 3,
-      "totalRounds": 3,
-      "timezone": "Europe/London",
-      "roundDurationMinutes": 180,
-      "teams": [
         {
-          "name": "The Three Shamigos",
-          "memberIds": ["member-anthony-keen", "member-cayleb-langhals","member-daniel-green"]
-        },
-		{
-          "name": "Do you like 4++s?",
-          "memberIds": ["member-kareem-hussain", "member-matt-mckinnell","member-ricky-noton"]
-        },
-		{
-          "name": "Two Superhumans and a Fish",
-          "memberIds": ["member-samuel-hardisty", "member-ollie-smith","member-mark-gaukrodger"]
-        }
-      ],
-      "schedule": [
-        { "round": 1, "start": "2026-11-07T10:30:00" },
-        { "round": 2, "start": "2026-11-07T14:30:00" },
-        { "round": 3, "start": "2026-11-07T18:05:00" }
-      ]
-    },
-	{
-      "id": "BPYv9LhsFzwU",
-      "shortName": "Kent Teams",
-      "eventName": "The Kent Teams November 2026",
-      "bcpUrl": "https://www.bestcoastpairings.com/event/BPYv9LhsFzwU",
+      "id": "cIkmaPfe2nHG",
+      "shortName": "Autumn ITT",
+      "eventName": "The Autumn I. T. T. - INTERNATIONAL TEAM TOURNAMENT - November",
+      "bcpUrl": "https://www.bestcoastpairings.com/event/cIkmaPfe2nHG",
       "eventType": "team",
       "teamSize": 5,
       "totalRounds": 5,
@@ -42,20 +12,40 @@
       "roundDurationMinutes": 180,
       "teams": [
         {
-          "name": "Pile of Vagabonds Support Network",
-          "memberIds": ["member-dan-whitfield", "member-tim-waters","member-oliver-jawara","member-jack-watkinson","member-ryan-garner"]
+          "name": "PSSN - [B]last Template Enjoyers",
+          "memberIds": ["member-harvey-r", "member-henry-bamford", "member-kareem-hussain", "member-samuel-hardisty", "member-tom-mccaughey"]
         },
-		{
-          "name": "Vee's Vagabonds - Get Veekt",
-          "memberIds": ["member-callum-watts", "member-andrew-chesworth","member-philip-davies","member-veevek-doolabh","member-simon-hicks"]
+        {
+          "name": "PSSN - [C]lap or Be Clapped",
+          "memberIds": ["member-gabriel-evans", "member-jack-turner", "member-nathan-sears", "member-tim-waters", "member-tom-durrands"]
+        },
+        {
+          "name": "PSSN - [G]its",
+          "memberIds": ["member-ben-mccarthy", "member-chris-enderby", "member-paul-looker", "member-robert-briden", "member-will-gilbert"]
+        },
+        {
+          "name": "PSSN - Coinflip appreciation society",
+          "memberIds": ["member-ben-adams", "member-guy-miscampbell", "member-matthew-yeoh", "member-nora-tinfou", "member-spencer-james"]
+        },
+        {
+          "name": "PSSN - Full Metal Shame",
+          "memberIds": ["member-alex-ford", "member-anthony-keen", "member-cayleb-langhals", "member-daniel-green", "member-matt-whiteley"]
+        },
+        {
+          "name": "PSSN - T[h]e Captain Off",
+          "memberIds": ["member-alex-higgins", "member-george-hau", "member-john-hamer", "member-marko-preocanin", "member-ryan-hamilton"]
+        },
+        {
+          "name": "PSSN: Wizard of Odds",
+          "memberIds": ["member-aneurin-brewer", "member-callum-watts", "member-christian-bailly", "member-oscar-luckin", "member-stratis-limnios"]
         }
       ],
       "schedule": [
-        { "round": 1, "start": "2026-11-07T09:30:00" },
-        { "round": 2, "start": "2026-11-07T14:00:00" },
-        { "round": 3, "start": "2026-11-07T17:30:00" },
-		{ "round": 4, "start": "2026-11-08T09:30:00" },
-        { "round": 5, "start": "2026-11-08T14:00:00" }
+        { "round": 1, "start": "2026-11-14T09:30:00" },
+        { "round": 2, "start": "2026-11-14T14:00:00" },
+        { "round": 3, "start": "2026-11-14T17:45:00" },
+        { "round": 4, "start": "2026-11-15T09:30:00" },
+        { "round": 5, "start": "2026-11-15T14:00:00" }
       ]
     }
   ]
