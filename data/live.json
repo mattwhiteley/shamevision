@@ -4,7 +4,7 @@
       "id": "cIkmaPfe2nHG",
       "currentRound": 1,
       "roundInProgress": true,
-      "updated_at": "2026-11-14T12:32:30",
+      "updated_at": "2026-11-14T12:45:09",
       "players": [
         {
           "id": "RWmKgz4nR6I6",
@@ -49,8 +49,8 @@
               "round": 1,
               "opponent": "Matthew Truell",
               "opponentFaction": "Astra Militarum",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 9,
+              "opponentScore": 11
             }
           ]
         },
@@ -209,8 +209,8 @@
               "round": 1,
               "opponent": "Steve Boothroyd",
               "opponentFaction": "Adeptus Mechanicus",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 9,
+              "opponentScore": 11
             }
           ]
         },
@@ -273,8 +273,8 @@
               "round": 1,
               "opponent": "Nicholas Jennings",
               "opponentFaction": "Emperor's Children",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 14,
+              "opponentScore": 6
             }
           ]
         },
@@ -305,8 +305,8 @@
               "round": 1,
               "opponent": "Jack Green",
               "opponentFaction": "Necrons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 11,
+              "opponentScore": 9
             }
           ]
         },
@@ -385,8 +385,8 @@
               "round": 1,
               "opponent": "Alex Fowler",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 10,
+              "opponentScore": 10
             }
           ]
         },
@@ -433,8 +433,8 @@
               "round": 1,
               "opponent": "Kevin Davies",
               "opponentFaction": "Death Guard",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 5,
+              "opponentScore": 15
             }
           ]
         },
@@ -465,8 +465,8 @@
               "round": 1,
               "opponent": "Aaron Donaldson",
               "opponentFaction": "Death Guard",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 10,
+              "opponentScore": 10
             }
           ]
         },
@@ -529,8 +529,8 @@
               "round": 1,
               "opponent": "Wilym St John",
               "opponentFaction": "Orks",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 12,
+              "opponentScore": 8
             }
           ]
         },
@@ -593,8 +593,8 @@
               "round": 1,
               "opponent": "Alex Powell",
               "opponentFaction": "Aeldari",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 8,
+              "opponentScore": 12
             }
           ]
         },
@@ -657,8 +657,8 @@
               "round": 1,
               "opponent": "Adam Kent",
               "opponentFaction": "Imperial Knights",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 10,
+              "opponentScore": 10
             }
           ]
         }
@@ -670,40 +670,40 @@
           "teamId": "pssn---blast-template-enjoyers",
           "teamName": "PSSN - [B]last Template Enjoyers",
           "opponentTeamName": "LWG: 5 years of consistent regression",
-          "teamScore": 41,
-          "opponentTeamScore": 39
+          "teamScore": 52,
+          "opponentTeamScore": 48
         },
         {
           "round": 1,
           "teamId": "pssn---clap-or-be-clapped",
           "teamName": "PSSN - [C]lap or Be Clapped",
           "opponentTeamName": "Zagrius Crusade",
-          "teamScore": 54,
-          "opponentTeamScore": 26
+          "teamScore": 64,
+          "opponentTeamScore": 36
         },
         {
           "round": 1,
           "teamId": "pssn---coinflip-appreciation-society",
           "teamName": "PSSN - Coinflip appreciation society",
           "opponentTeamName": "Friendly Fire",
-          "teamScore": 44,
-          "opponentTeamScore": 36
+          "teamScore": 58,
+          "opponentTeamScore": 42
         },
         {
           "round": 1,
           "teamId": "pssn---full-metal-shame",
           "teamName": "PSSN - Full Metal Shame",
           "opponentTeamName": "Carnage Behemoth",
-          "teamScore": 30,
-          "opponentTeamScore": 30
+          "teamScore": 44,
+          "opponentTeamScore": 56
         },
         {
           "round": 1,
           "teamId": "pssn---gits",
           "teamName": "PSSN - [G]its",
           "opponentTeamName": "Dad(dy) Moon Brawlers",
-          "teamScore": 24,
-          "opponentTeamScore": 36
+          "teamScore": 46,
+          "opponentTeamScore": 54
         },
         {
           "round": 1,
@@ -718,8 +718,8 @@
           "teamId": "pssn-wizard-of-odds",
           "teamName": "PSSN: Wizard of Odds",
           "opponentTeamName": "Sofa Meta Renegades",
-          "teamScore": 56,
-          "opponentTeamScore": 4
+          "teamScore": 73,
+          "opponentTeamScore": 27
         }
       ]
     }
