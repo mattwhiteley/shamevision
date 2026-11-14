@@ -2,9 +2,9 @@
   "events": [
     {
       "id": "cIkmaPfe2nHG",
-      "currentRound": 1,
-      "roundInProgress": true,
-      "updated_at": "2026-11-14T12:45:09",
+      "currentRound": 2,
+      "roundInProgress": false,
+      "updated_at": "2026-11-14T13:38:29",
       "players": [
         {
           "id": "RWmKgz4nR6I6",
@@ -720,6 +720,62 @@
           "opponentTeamName": "Sofa Meta Renegades",
           "teamScore": 73,
           "opponentTeamScore": 27
+        },
+        {
+          "round": 2,
+          "teamId": "pssn---blast-template-enjoyers",
+          "teamName": "PSSN - [B]last Template Enjoyers",
+          "opponentTeamName": "Objectives Optional",
+          "teamScore": null,
+          "opponentTeamScore": null
+        },
+        {
+          "round": 2,
+          "teamId": "pssn---clap-or-be-clapped",
+          "teamName": "PSSN - [C]lap or Be Clapped",
+          "opponentTeamName": "4TK - Fast March to Nowhere",
+          "teamScore": null,
+          "opponentTeamScore": null
+        },
+        {
+          "round": 2,
+          "teamId": "pssn---coinflip-appreciation-society",
+          "teamName": "PSSN - Coinflip appreciation society",
+          "opponentTeamName": "TFG Gaming",
+          "teamScore": null,
+          "opponentTeamScore": null
+        },
+        {
+          "round": 2,
+          "teamId": "pssn---full-metal-shame",
+          "teamName": "PSSN - Full Metal Shame",
+          "opponentTeamName": "Fire & Dice - Big Chompa's Balls",
+          "teamScore": null,
+          "opponentTeamScore": null
+        },
+        {
+          "round": 2,
+          "teamId": "pssn---gits",
+          "teamName": "PSSN - [G]its",
+          "opponentTeamName": "LWG: 5 years of consistent regression",
+          "teamScore": null,
+          "opponentTeamScore": null
+        },
+        {
+          "round": 2,
+          "teamId": "pssn---the-captain-off",
+          "teamName": "PSSN - T[h]e Captain Off",
+          "opponentTeamName": "Shadowkeepers :: The Chill",
+          "teamScore": null,
+          "opponentTeamScore": null
+        },
+        {
+          "round": 2,
+          "teamId": "pssn-wizard-of-odds",
+          "teamName": "PSSN: Wizard of Odds",
+          "opponentTeamName": "Sigil",
+          "teamScore": null,
+          "opponentTeamScore": null
         }
       ]
     }
