@@ -3,288 +3,664 @@
     {
       "id": "cIkmaPfe2nHG",
       "currentRound": 1,
-      "roundInProgress": false,
-      "updated_at": "2026-11-11T14:02:32",
+      "roundInProgress": true,
+      "updated_at": "2026-11-14T10:20:26",
       "players": [
         {
-          "id": "cfg-member-alex-ford",
+          "id": "RWmKgz4nR6I6",
           "memberId": "member-alex-ford",
-          "faction": "",
+          "faction": "Aeldari",
           "group": "hall",
           "teamName": "PSSN - Full Metal Shame",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "James Sykes",
+              "opponentFaction": "Adeptus Custodes",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-alex-higgins",
+          "id": "bGDIgPXI68q9",
           "memberId": "member-alex-higgins",
-          "faction": "",
+          "faction": "Adeptus Custodes",
           "group": "hall",
           "teamName": "PSSN - T[h]e Captain Off",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Adrian Leszczynski",
+              "opponentFaction": "Space Marines (Astartes)",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-aneurin-brewer",
+          "id": "e63ZnTtSC5g6",
           "memberId": "member-aneurin-brewer",
-          "faction": "",
+          "faction": "Drukhari",
           "group": "hall",
           "teamName": "PSSN: Wizard of Odds",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Matthew Truell",
+              "opponentFaction": "Astra Militarum",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-anthony-keen",
+          "id": "OFD1g8yZkJed",
           "memberId": "member-anthony-keen",
-          "faction": "",
+          "faction": "Orks",
           "group": "hall",
           "teamName": "PSSN - Full Metal Shame",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Joe Senior",
+              "opponentFaction": "World Eaters",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-ben-adams",
+          "id": "rdnuPGyQ7rHt",
           "memberId": "member-ben-adams",
-          "faction": "",
+          "faction": "Adeptus Custodes",
           "group": "hall",
           "teamName": "PSSN - Coinflip appreciation society",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "James Brown",
+              "opponentFaction": "Adeptus Custodes",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-ben-mccarthy",
+          "id": "fcYx1G2cvqd2",
           "memberId": "member-ben-mccarthy",
-          "faction": "",
+          "faction": "World Eaters",
           "group": "hall",
           "teamName": "PSSN - [G]its",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Rory Roberts",
+              "opponentFaction": "Adeptus Custodes",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-callum-watts",
+          "id": "3lCCd2dK8k4R",
           "memberId": "member-callum-watts",
-          "faction": "",
+          "faction": "Dark Angels",
           "group": "hall",
           "teamName": "PSSN: Wizard of Odds",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Aiden Reid",
+              "opponentFaction": "Death Guard",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-cayleb-langhals",
+          "id": "BPKSyrdQlWp2",
           "memberId": "member-cayleb-langhals",
-          "faction": "",
+          "faction": "Death Guard",
           "group": "hall",
           "teamName": "PSSN - Full Metal Shame",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Chris Taylor",
+              "opponentFaction": "Dark Angels",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-chris-enderby",
+          "id": "TfVt5MYVuKoZ",
           "memberId": "member-chris-enderby",
-          "faction": "",
+          "faction": "Death Guard",
           "group": "hall",
           "teamName": "PSSN - [G]its",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Mark Smith",
+              "opponentFaction": "Blood Angels",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-christian-bailly",
+          "id": "Am36e6uoB0oS",
           "memberId": "member-christian-bailly",
-          "faction": "",
+          "faction": "Tyranids",
           "group": "pile",
           "teamName": "PSSN: Wizard of Odds",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Chris Rolls-Drew",
+              "opponentFaction": "Adeptus Custodes",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-daniel-green",
+          "id": "3oGGaeZOgEh6",
+          "memberId": "member-dan-whitfield",
+          "faction": "Aeldari",
+          "group": "hall",
+          "teamName": "Pile of Shame Support Network",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Mitchell Challen",
+              "opponentFaction": "Orks",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
+        },
+        {
+          "id": "AXCJ235r2xlS",
+          "memberId": "member-dan-whitfield",
+          "faction": "Adeptus Custodes",
+          "group": "hall",
+          "teamName": "Egg Fried Dice",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Ed Paszek",
+              "opponentFaction": "Death Guard",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
+        },
+        {
+          "id": "fpkcZ6tlttsu",
           "memberId": "member-daniel-green",
-          "faction": "",
+          "faction": "World Eaters",
           "group": "hall",
           "teamName": "PSSN - Full Metal Shame",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Steve Boothroyd",
+              "opponentFaction": "Adeptus Mechanicus",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-gabriel-evans",
+          "id": "119a32jsZ0aF",
+          "memberId": "member-francisco-parga",
+          "faction": "Adeptus Custodes",
+          "group": "pile",
+          "teamName": "London Wargaming Guild",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Tom McCaughey",
+              "opponentFaction": "Death Guard",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
+        },
+        {
+          "id": "QiluN7DDM5el",
           "memberId": "member-gabriel-evans",
-          "faction": "",
+          "faction": "Necrons",
           "group": "hall",
           "teamName": "PSSN - [C]lap or Be Clapped",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "James Read",
+              "opponentFaction": "Necrons",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-george-hau",
+          "id": "p2FekaZtRSVm",
           "memberId": "member-george-hau",
-          "faction": "",
+          "faction": "Death Guard",
           "group": "hall",
           "teamName": "PSSN - T[h]e Captain Off",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Reece Knight",
+              "opponentFaction": "Aeldari",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-guy-miscampbell",
+          "id": "AbiaVMsIhZlK",
           "memberId": "member-guy-miscampbell",
-          "faction": "",
+          "faction": "Deathwatch",
           "group": "hall",
           "teamName": "PSSN - Coinflip appreciation society",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Nicholas Jennings",
+              "opponentFaction": "Emperor's Children",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-harvey-r",
+          "id": "2jznGbnVUPwR",
           "memberId": "member-harvey-r",
-          "faction": "",
+          "faction": "Blood Angels",
           "group": "hall",
           "teamName": "PSSN - [B]last Template Enjoyers",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Alex Ede",
+              "opponentFaction": "World Eaters",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-henry-bamford",
+          "id": "DZ4XW933GXHb",
           "memberId": "member-henry-bamford",
-          "faction": "",
+          "faction": "Orks",
           "group": "hall",
           "teamName": "PSSN - [B]last Template Enjoyers",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Jack Green",
+              "opponentFaction": "Necrons",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-jack-turner",
+          "id": "GpKZFKJgpcRP",
           "memberId": "member-jack-turner",
-          "faction": "",
+          "faction": "Orks",
           "group": "hall",
           "teamName": "PSSN - [C]lap or Be Clapped",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "James Leaper",
+              "opponentFaction": "World Eaters",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-john-hamer",
+          "id": "1U8Y74fnAHvV",
+          "memberId": "member-james-brown",
+          "faction": "Adeptus Custodes",
+          "group": "pile",
+          "teamName": "Friendly Fire",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Ben Adams",
+              "opponentFaction": "Adeptus Custodes",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
+        },
+        {
+          "id": "7p7VJ0OSerzW",
+          "memberId": "member-jamie-payton",
+          "faction": "Blood Angels",
+          "group": "hall",
+          "teamName": "Pile of Shame Support Network",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Samuel Hardisty",
+              "opponentFaction": "Adeptus Custodes",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
+        },
+        {
+          "id": "RsEFYUAgn3A4",
           "memberId": "member-john-hamer",
-          "faction": "",
+          "faction": "Leagues of Votann",
           "group": "hall",
           "teamName": "PSSN - T[h]e Captain Off",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Jack Wolthers",
+              "opponentFaction": "Adeptus Custodes",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-kareem-hussain",
+          "id": "FBZTeVScrQ36",
+          "memberId": "member-jordan-penning",
+          "faction": "Space Marines (Astartes)",
+          "group": "pile",
+          "teamName": "Tuesday Knights",
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Alex Fowler",
+              "opponentFaction": "Space Marines (Astartes)",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
+        },
+        {
+          "id": "VLdiYcqgzpjz",
           "memberId": "member-kareem-hussain",
-          "faction": "",
+          "faction": "Chaos Space Marines",
           "group": "hall",
           "teamName": "PSSN - [B]last Template Enjoyers",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Alex Wilkins",
+              "opponentFaction": "T'au Empire",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-marko-preocanin",
+          "id": "4MidAjoYGB55",
           "memberId": "member-marko-preocanin",
-          "faction": "",
+          "faction": "Dark Angels",
           "group": "hall",
           "teamName": "PSSN - T[h]e Captain Off",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Ed Cartwright",
+              "opponentFaction": "Death Guard",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-matt-whiteley",
+          "id": "2dJsxX0Fv7LQ",
           "memberId": "member-matt-whiteley",
-          "faction": "",
+          "faction": "Space Marines (Astartes)",
           "group": "hall",
           "teamName": "PSSN - Full Metal Shame",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Kevin Davies",
+              "opponentFaction": "Death Guard",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-matthew-yeoh",
+          "id": "ZbKAKw0H4bH4",
           "memberId": "member-matthew-yeoh",
-          "faction": "",
+          "faction": "Imperial Knights",
           "group": "hall",
           "teamName": "PSSN - Coinflip appreciation society",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Aidan Sutherley-Gilmour",
+              "opponentFaction": "World Eaters",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-nathan-sears",
+          "id": "AKAn2tP2ZwKe",
           "memberId": "member-nathan-sears",
-          "faction": "",
+          "faction": "Space Marines (Astartes)",
           "group": "hall",
           "teamName": "PSSN - [C]lap or Be Clapped",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Aaron Donaldson",
+              "opponentFaction": "Death Guard",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-nora-tinfou",
+          "id": "eweg8VWQoQLB",
           "memberId": "member-nora-tinfou",
-          "faction": "",
+          "faction": "Adepta Sororitas",
           "group": "hall",
           "teamName": "PSSN - Coinflip appreciation society",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Dave Hillier",
+              "opponentFaction": "Chaos Daemons",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-oscar-luckin",
+          "id": "vk52l7cS61qD",
           "memberId": "member-oscar-luckin",
-          "faction": "",
+          "faction": "Emperor's Children",
           "group": "hall",
           "teamName": "PSSN: Wizard of Odds",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Andrew Newman",
+              "opponentFaction": "Necrons",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-paul-looker",
+          "id": "TqyhK24Qnt1N",
           "memberId": "member-paul-looker",
-          "faction": "",
+          "faction": "Tyranids",
           "group": "hall",
           "teamName": "PSSN - [G]its",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Joe Iley",
+              "opponentFaction": "World Eaters",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-robert-briden",
+          "id": "5L0vy8zywK0t",
           "memberId": "member-robert-briden",
-          "faction": "",
+          "faction": "Dark Angels",
           "group": "hall",
           "teamName": "PSSN - [G]its",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Wilym St John",
+              "opponentFaction": "Orks",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-ryan-hamilton",
+          "id": "yA5xUAF8aMII",
           "memberId": "member-ryan-hamilton",
-          "faction": "",
+          "faction": "Drukhari",
           "group": "hall",
           "teamName": "PSSN - T[h]e Captain Off",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Joe Kay",
+              "opponentFaction": "Leagues of Votann",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-samuel-hardisty",
+          "id": "Dujq6aPPGAw9",
           "memberId": "member-samuel-hardisty",
-          "faction": "",
+          "faction": "Adeptus Custodes",
           "group": "hall",
           "teamName": "PSSN - [B]last Template Enjoyers",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Jamie Payton",
+              "opponentFaction": "Blood Angels",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-spencer-james",
+          "id": "4ZURKS1Bh25U",
           "memberId": "member-spencer-james",
-          "faction": "",
+          "faction": "Emperor's Children",
           "group": "hall",
           "teamName": "PSSN - Coinflip appreciation society",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Florence Maunders",
+              "opponentFaction": "Tyranids",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-stratis-limnios",
+          "id": "iVROs7XfcaL2",
           "memberId": "member-stratis-limnios",
-          "faction": "",
+          "faction": "Grey Knights",
           "group": "hall",
           "teamName": "PSSN: Wizard of Odds",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Alex Powell",
+              "opponentFaction": "Aeldari",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-tim-waters",
+          "id": "X0t9cCGHxEcJ",
           "memberId": "member-tim-waters",
-          "faction": "",
+          "faction": "Chaos Knights",
           "group": "hall",
           "teamName": "PSSN - [C]lap or Be Clapped",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Robert Leaper",
+              "opponentFaction": "Dark Angels",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-tom-durrands",
+          "id": "AXJOZi2cTlWo",
           "memberId": "member-tom-durrands",
-          "faction": "",
+          "faction": "Death Guard",
           "group": "hall",
           "teamName": "PSSN - [C]lap or Be Clapped",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Alex Nicholls",
+              "opponentFaction": "Adepta Sororitas",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-tom-mccaughey",
+          "id": "zUlsHCZNoxFB",
           "memberId": "member-tom-mccaughey",
-          "faction": "",
+          "faction": "Death Guard",
           "group": "hall",
           "teamName": "PSSN - [B]last Template Enjoyers",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Francisco Parga",
+              "opponentFaction": "Adeptus Custodes",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         },
         {
-          "id": "cfg-member-will-gilbert",
+          "id": "LBAnHTdkxsIM",
           "memberId": "member-will-gilbert",
-          "faction": "",
+          "faction": "Drukhari",
           "group": "hall",
           "teamName": "PSSN - [G]its",
-          "rounds": []
+          "rounds": [
+            {
+              "round": 1,
+              "opponent": "Adam Kent",
+              "opponentFaction": "Imperial Knights",
+              "playerScore": null,
+              "opponentScore": null
+            }
+          ]
         }
       ],
       "eventType": "team",
@@ -294,56 +670,56 @@
           "teamId": "pssn---blast-template-enjoyers",
           "teamName": "PSSN - [B]last Template Enjoyers",
           "opponentTeamName": "LWG: 5 years of consistent regression",
-          "teamScore": null,
-          "opponentTeamScore": null
+          "teamScore": 0,
+          "opponentTeamScore": 0
         },
         {
           "round": 1,
           "teamId": "pssn---clap-or-be-clapped",
           "teamName": "PSSN - [C]lap or Be Clapped",
           "opponentTeamName": "Zagrius Crusade",
-          "teamScore": null,
-          "opponentTeamScore": null
+          "teamScore": 0,
+          "opponentTeamScore": 0
         },
         {
           "round": 1,
           "teamId": "pssn---coinflip-appreciation-society",
           "teamName": "PSSN - Coinflip appreciation society",
           "opponentTeamName": "Friendly Fire",
-          "teamScore": null,
-          "opponentTeamScore": null
+          "teamScore": 0,
+          "opponentTeamScore": 0
         },
         {
           "round": 1,
           "teamId": "pssn---full-metal-shame",
           "teamName": "PSSN - Full Metal Shame",
           "opponentTeamName": "Carnage Behemoth",
-          "teamScore": null,
-          "opponentTeamScore": null
+          "teamScore": 0,
+          "opponentTeamScore": 0
         },
         {
           "round": 1,
           "teamId": "pssn---gits",
           "teamName": "PSSN - [G]its",
           "opponentTeamName": "Dad(dy) Moon Brawlers",
-          "teamScore": null,
-          "opponentTeamScore": null
+          "teamScore": 0,
+          "opponentTeamScore": 0
         },
         {
           "round": 1,
           "teamId": "pssn---the-captain-off",
           "teamName": "PSSN - T[h]e Captain Off",
           "opponentTeamName": "Objectives Optional",
-          "teamScore": null,
-          "opponentTeamScore": null
+          "teamScore": 0,
+          "opponentTeamScore": 0
         },
         {
           "round": 1,
           "teamId": "pssn-wizard-of-odds",
           "teamName": "PSSN: Wizard of Odds",
           "opponentTeamName": "Sofa Meta Renegades",
-          "teamScore": null,
-          "opponentTeamScore": null
+          "teamScore": 0,
+          "opponentTeamScore": 0
         }
       ]
     }
