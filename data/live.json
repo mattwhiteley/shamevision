@@ -4,7 +4,7 @@
       "id": "cIkmaPfe2nHG",
       "currentRound": 5,
       "roundInProgress": true,
-      "updated_at": "2026-11-15T16:32:09",
+      "updated_at": "2026-11-15T17:17:05",
       "players": [
         {
           "id": "RWmKgz4nR6I6",
@@ -133,8 +133,8 @@
               "round": 5,
               "opponent": "Chris Taylor",
               "opponentFaction": "Dark Angels",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 10,
+              "opponentScore": 10
             }
           ]
         },
@@ -221,8 +221,8 @@
               "round": 5,
               "opponent": "Charlie Hermans",
               "opponentFaction": "Adeptus Custodes",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 15,
+              "opponentScore": 5
             }
           ]
         },
@@ -309,8 +309,8 @@
               "round": 5,
               "opponent": "Kevin Davies",
               "opponentFaction": "Death Guard",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 6,
+              "opponentScore": 14
             }
           ]
         },
@@ -353,8 +353,8 @@
               "round": 5,
               "opponent": "Mark Davies",
               "opponentFaction": "World Eaters",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 20,
+              "opponentScore": 0
             }
           ]
         },
@@ -441,8 +441,8 @@
               "round": 5,
               "opponent": "Joe Senior",
               "opponentFaction": "World Eaters",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 11,
+              "opponentScore": 9
             }
           ]
         },
@@ -485,8 +485,8 @@
               "round": 5,
               "opponent": "Robbie Davies",
               "opponentFaction": "Adepta Sororitas",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 13,
+              "opponentScore": 7
             }
           ]
         },
@@ -529,8 +529,8 @@
               "round": 5,
               "opponent": "Ciaran Keen",
               "opponentFaction": "Leagues of Votann",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 18,
+              "opponentScore": 2
             }
           ]
         },
@@ -573,8 +573,8 @@
               "round": 5,
               "opponent": "Si Bishop",
               "opponentFaction": "Imperial Agents",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 11,
+              "opponentScore": 9
             }
           ]
         },
@@ -661,8 +661,8 @@
               "round": 5,
               "opponent": "Darren Corp",
               "opponentFaction": "Tyranids",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 19,
+              "opponentScore": 1
             }
           ]
         },
@@ -705,8 +705,8 @@
               "round": 5,
               "opponent": "Jack Sharratt",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 9,
+              "opponentScore": 11
             }
           ]
         },
@@ -749,8 +749,8 @@
               "round": 5,
               "opponent": "Kieron Saunders",
               "opponentFaction": "Necrons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 20,
+              "opponentScore": 0
             }
           ]
         },
@@ -793,8 +793,8 @@
               "round": 5,
               "opponent": "Ashley Farn",
               "opponentFaction": "World Eaters",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 2,
+              "opponentScore": 18
             }
           ]
         },
@@ -837,8 +837,8 @@
               "round": 5,
               "opponent": "Callum Evans",
               "opponentFaction": "Adepta Sororitas",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 9,
+              "opponentScore": 11
             }
           ]
         },
@@ -881,8 +881,8 @@
               "round": 5,
               "opponent": "Ryan McMullan",
               "opponentFaction": "World Eaters",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 18,
+              "opponentScore": 2
             }
           ]
         },
@@ -925,8 +925,8 @@
               "round": 5,
               "opponent": "Adam Kent",
               "opponentFaction": "Imperial Knights",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 9,
+              "opponentScore": 11
             }
           ]
         },
@@ -1013,8 +1013,8 @@
               "round": 5,
               "opponent": "Dave Parker",
               "opponentFaction": "Adeptus Custodes",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 12,
+              "opponentScore": 8
             }
           ]
         },
@@ -1101,8 +1101,8 @@
               "round": 5,
               "opponent": "Max DeBarr",
               "opponentFaction": "Space Marines (Astartes)",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 0,
+              "opponentScore": 20
             }
           ]
         },
@@ -1145,8 +1145,8 @@
               "round": 5,
               "opponent": "Sam Fisher",
               "opponentFaction": "Adeptus Mechanicus",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 10,
+              "opponentScore": 10
             }
           ]
         },
@@ -1189,8 +1189,8 @@
               "round": 5,
               "opponent": "Dario Splendido",
               "opponentFaction": "Necrons",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 18,
+              "opponentScore": 2
             }
           ]
         },
@@ -1233,8 +1233,8 @@
               "round": 5,
               "opponent": "Henry B",
               "opponentFaction": "Astra Militarum",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 20,
+              "opponentScore": 0
             }
           ]
         },
@@ -1277,8 +1277,8 @@
               "round": 5,
               "opponent": "Matthew Norris",
               "opponentFaction": "Chaos Knights",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 18,
+              "opponentScore": 2
             }
           ]
         },
@@ -1365,8 +1365,8 @@
               "round": 5,
               "opponent": "Steve Boothroyd",
               "opponentFaction": "Adeptus Mechanicus",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 12,
+              "opponentScore": 8
             }
           ]
         },
@@ -1409,8 +1409,8 @@
               "round": 5,
               "opponent": "Thomas Taylor",
               "opponentFaction": "Chaos Knights",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 11,
+              "opponentScore": 9
             }
           ]
         },
@@ -1453,8 +1453,8 @@
               "round": 5,
               "opponent": "Mateusz Kuzon",
               "opponentFaction": "Adeptus Custodes",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 20,
+              "opponentScore": 0
             }
           ]
         },
@@ -1497,8 +1497,8 @@
               "round": 5,
               "opponent": "Alex Parnall",
               "opponentFaction": "World Eaters",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 0,
+              "opponentScore": 20
             }
           ]
         },
@@ -1541,8 +1541,8 @@
               "round": 5,
               "opponent": "Glenn Connolly",
               "opponentFaction": "Orks",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 9,
+              "opponentScore": 11
             }
           ]
         },
@@ -1585,8 +1585,8 @@
               "round": 5,
               "opponent": "Alex Willson",
               "opponentFaction": "Tyranids",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 0,
+              "opponentScore": 20
             }
           ]
         },
@@ -1629,8 +1629,8 @@
               "round": 5,
               "opponent": "James Sykes",
               "opponentFaction": "Adeptus Custodes",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 7,
+              "opponentScore": 13
             }
           ]
         },
@@ -1673,8 +1673,8 @@
               "round": 5,
               "opponent": "Jacob Wells",
               "opponentFaction": "Grey Knights",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 9,
+              "opponentScore": 11
             }
           ]
         },
@@ -1717,8 +1717,8 @@
               "round": 5,
               "opponent": "Andy Plummer",
               "opponentFaction": "Dark Angels",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 19,
+              "opponentScore": 1
             }
           ]
         },
@@ -1761,8 +1761,8 @@
               "round": 5,
               "opponent": "Nathan Snelson",
               "opponentFaction": "Leagues of Votann",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 10,
+              "opponentScore": 10
             }
           ]
         },
@@ -1805,8 +1805,8 @@
               "round": 5,
               "opponent": "Nick McLean",
               "opponentFaction": "Leagues of Votann",
-              "playerScore": null,
-              "opponentScore": null
+              "playerScore": 8,
+              "opponentScore": 12
             }
           ]
         }
@@ -2042,56 +2042,56 @@
           "teamId": "pssn---blast-template-enjoyers",
           "teamName": "PSSN - [B]last Template Enjoyers",
           "opponentTeamName": "Trash Wargaming",
-          "teamScore": 0,
-          "opponentTeamScore": 0
+          "teamScore": 30,
+          "opponentTeamScore": 70
         },
         {
           "round": 5,
           "teamId": "pssn---clap-or-be-clapped",
           "teamName": "PSSN - [C]lap or Be Clapped",
           "opponentTeamName": "Carnage Chaos",
-          "teamScore": 0,
-          "opponentTeamScore": 0
+          "teamScore": 83,
+          "opponentTeamScore": 17
         },
         {
           "round": 5,
           "teamId": "pssn---coinflip-appreciation-society",
           "teamName": "PSSN - Coinflip appreciation society",
           "opponentTeamName": "Charlie's (Biblically Accurate) Angels",
-          "teamScore": 16,
-          "opponentTeamScore": 4
+          "teamScore": 71,
+          "opponentTeamScore": 29
         },
         {
           "round": 5,
           "teamId": "pssn---full-metal-shame",
           "teamName": "PSSN - Full Metal Shame",
           "opponentTeamName": "Zagrius Crusade: Simonion Heresy",
-          "teamScore": 20,
-          "opponentTeamScore": 20
+          "teamScore": 69,
+          "opponentTeamScore": 31
         },
         {
           "round": 5,
           "teamId": "pssn---gits",
           "teamName": "PSSN - [G]its",
           "opponentTeamName": "Hallam Heroes",
-          "teamScore": 21,
-          "opponentTeamScore": 19
+          "teamScore": 60,
+          "opponentTeamScore": 40
         },
         {
           "round": 5,
           "teamId": "pssn---the-captain-off",
           "teamName": "PSSN - T[h]e Captain Off",
           "opponentTeamName": "Manaforge games",
-          "teamScore": 15,
-          "opponentTeamScore": 5
+          "teamScore": 46,
+          "opponentTeamScore": 54
         },
         {
           "round": 5,
           "teamId": "pssn-wizard-of-odds",
           "teamName": "PSSN: Wizard of Odds",
           "opponentTeamName": "Carnage Behemoth",
-          "teamScore": 0,
-          "opponentTeamScore": 0
+          "teamScore": 46,
+          "opponentTeamScore": 54
         }
       ]
     }
